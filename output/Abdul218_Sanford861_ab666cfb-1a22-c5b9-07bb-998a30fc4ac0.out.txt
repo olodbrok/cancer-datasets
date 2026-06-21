@@ -1,14 +1,18 @@
 age	age < 50
+cancer_drugs	oxaliplatin
 cancers	Colon Cancer
 clinical_conditions	BMI high
-lab_values	albumin normal
+drug_classes	chemotherapy
+drug_classes	platinum agents
 lab_values	HCT low
 lab_values	leukocytes low
 lab_values	platelet count normal
-organ_function	no hypertension
+lines_of_therapy	first line (calculated)
 organ_function	inadequate glomerular filtration rate GFR
 sex	male
-therapies	biopsy
-therapies	surgery partial resection
 therapies	chemotherapy
+therapies	platinum therapy
 therapies	radiation therapy
+therapies	surgery
+therapies	surgery partial resection
+therapies	systemic therapy

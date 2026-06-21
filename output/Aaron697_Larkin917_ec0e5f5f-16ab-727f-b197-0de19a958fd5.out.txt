@@ -1,21 +1,30 @@
-age	age < 50
+age	70 <= age < 80
 cancer_drugs	cisplatin
-cancer_drugs	paclitaxel
+cancer_drugs	docetaxel
+cancer_drugs	etoposide
+cancer_drugs	leuprolide
+cancers	Breast Cancer
 cancers	Lung Cancer
-cancers	Non-Small Cell Lung Cancer
+cancers	Prostate Cancer
+cancers	Small Cell Lung Cancer
 clinical_conditions	BMI high
 disease_extent	early stage
+disease_extent	in situ
+disease_progression	partial disease response
 drug_classes	chemotherapy
+drug_classes	hormonal therapy
 drug_classes	microtubule inhibitors
 drug_classes	platinum agents
-lab_values	albumin normal
-lab_values	leukocytes low
-lab_values	platelet count normal
+drug_classes	topoisomerase inhibitors
 lab_values	urine protein high
 lines_of_therapy	first line (calculated)
+lines_of_therapy	second line (calculated)
+organ_function	hypertension
 organ_function	inadequate glomerular filtration rate GFR
 sex	male
+therapies	biopsy
 therapies	chemotherapy
+therapies	endocrine therapy
 therapies	hospice care
 therapies	platinum therapy
 therapies	radiation therapy

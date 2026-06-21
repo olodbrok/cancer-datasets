@@ -1,15 +1,24 @@
 age	age >= 80
+cancer_drugs	docetaxel
+cancer_drugs	leuprolide
 cancers	Prostate Cancer
 clinical_conditions	BMI high
 disease_extent	in situ
-lab_values	PSA normal
+drug_classes	chemotherapy
+drug_classes	hormonal therapy
+drug_classes	microtubule inhibitors
+lab_values	leukocytes low
 lab_values	platelet count normal
 lab_values	PSA high
-lab_values	leukocytes low
+lab_values	PSA normal
 lab_values	urine protein high
-organ_function	no hypertension
+lines_of_therapy	first line (calculated)
 organ_function	inadequate glomerular filtration rate GFR
 sex	male
 therapies	biopsy
-therapies	surgery
+therapies	chemotherapy
+therapies	endocrine therapy
 therapies	hospice care
+therapies	resection
+therapies	surgery
+therapies	systemic therapy

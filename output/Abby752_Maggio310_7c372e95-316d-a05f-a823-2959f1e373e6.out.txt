@@ -3,25 +3,35 @@ ajcc_m	cM0
 ajcc_n	cN0
 ajcc_t	cT2
 biomarkers	ER negative
-biomarkers	HER2 negative
+biomarkers	HER2 status negative
 biomarkers	PR positive
+cancer_drugs	oxaliplatin
+cancer_drugs	tamoxifen
+cancers	Breast Cancer
 cancers	Colon Cancer
-cancers	Breast Cancer (BC)
 clinical_conditions	BMI high
 disease_extent	no micrometastases
 disease_progression	partial disease response
+drug_classes	chemotherapy
+drug_classes	hormonal therapy
+drug_classes	platinum agents
+drug_classes	SERMs
+drug_classes	targeted therapy
 lab_values	HCT low
-lab_values	albumin normal
 lab_values	leukocytes low
-lab_values	bilirubin normal
 lab_values	platelet count normal
-organ_function	no hypertension
+lines_of_therapy	first line (calculated)
+lines_of_therapy	second line (calculated)
 organ_function	inadequate glomerular filtration rate GFR
 sex	female
 stages	Stage II
 stages	Stage IIA
 therapies	biopsy
-therapies	surgery partial resection
 therapies	chemotherapy
+therapies	endocrine therapy
+therapies	platinum therapy
 therapies	radiation therapy
 therapies	surgery
+therapies	surgery partial resection
+therapies	systemic therapy
+therapies	targeted therapy

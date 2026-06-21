@@ -2,27 +2,22 @@ age	50 <= age < 60
 cancer_drugs	cisplatin
 cancer_drugs	etoposide
 cancers	Lung Cancer
-cancers	Small Cell Lung Cancer (SCLC)
+cancers	Small Cell Lung Cancer
+clinical_conditions	BMI high
+disease_extent	early stage
 drug_classes	chemotherapy
 drug_classes	platinum agents
 drug_classes	topoisomerase inhibitors
-lab_values	platelet count normal
 lab_values	albumin normal
-lab_values	urine protein high
-lab_values	urine protein normal
-lab_values	bilirubin normal
 lab_values	leukocytes low
-lab_values	HCT normal
+lab_values	platelet count normal
+lab_values	urine protein high
 lines_of_therapy	first line (calculated)
 organ_function	hypertension
-organ_function	no hypertension
 organ_function	inadequate glomerular filtration rate GFR
-pathologies	small cell
 sex	male
-stages	Stage I
 therapies	chemotherapy
+therapies	hospice care
 therapies	platinum therapy
 therapies	radiation therapy
 therapies	systemic therapy
-therapies	biopsy
-therapies	hospice care

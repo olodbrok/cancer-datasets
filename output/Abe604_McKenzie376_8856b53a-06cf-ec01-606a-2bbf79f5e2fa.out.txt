@@ -4,6 +4,6 @@ clinical_conditions	BMI high
 lab_values	platelet count normal
 organ_function	hypertension
 sex	male
-therapies	biopsy
-therapies	surgery partial resection
 therapies	hospice care
+therapies	surgery
+therapies	surgery partial resection

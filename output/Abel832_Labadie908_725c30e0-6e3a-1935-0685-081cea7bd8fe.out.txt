@@ -1,10 +1,8 @@
 age	70 <= age < 80
 cancers	Colon Cancer
 clinical_conditions	BMI high
-lab_values	leukocytes normal
-lab_values	platelet count normal
-organ_function	no hypertension
 sex	male
 therapies	biopsy
-therapies	surgery partial resection
 therapies	hospice care
+therapies	surgery
+therapies	surgery partial resection

@@ -1,21 +1,35 @@
 age	70 <= age < 80
-cancers	Prostate Cancer
+cancer_drugs	cisplatin
+cancer_drugs	docetaxel
+cancer_drugs	etoposide
+cancer_drugs	leuprolide
 cancers	Lung Cancer
-cancers	Small Cell Lung Cancer (SCLC)
+cancers	Prostate Cancer
+cancers	Small Cell Lung Cancer
+clinical_conditions	BMI high
+disease_extent	early stage
 disease_extent	in situ
+drug_classes	chemotherapy
+drug_classes	hormonal therapy
+drug_classes	microtubule inhibitors
+drug_classes	platinum agents
+drug_classes	topoisomerase inhibitors
+lab_values	leukocytes low
+lab_values	platelet count normal
 lab_values	PSA high
 lab_values	PSA normal
 lab_values	urine protein high
-lab_values	bilirubin normal
-lab_values	leukocytes low
-lab_values	platelet count normal
+lines_of_therapy	first line (calculated)
+lines_of_therapy	second line (calculated)
 organ_function	inadequate glomerular filtration rate GFR
-organ_function	no hypertension
-pathologies	small cell
+organ_function	ischemic heart disease
 sex	male
-stages	Stage I
 therapies	biopsy
-therapies	surgery
 therapies	chemotherapy
-therapies	radiation therapy
+therapies	endocrine therapy
 therapies	hospice care
+therapies	platinum therapy
+therapies	radiation therapy
+therapies	resection
+therapies	surgery
+therapies	systemic therapy
