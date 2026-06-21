@@ -6,6 +6,8 @@ Curated links to public and semi-public datasets, registries, terminology system
 
 This repository does not redistribute restricted datasets. It provides links, descriptions, access notes, and licensing/use constraints.
 
+All sample and test data is synthetically generated.
+
 ## OncoParser Test Data
 
 Minimal Common Oncology Data Elements (mCode):
