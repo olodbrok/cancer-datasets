@@ -12,7 +12,7 @@ All sample and test data in this repo is synthetically generated. See the T&Cs f
 
 Minimal Common Oncology Data Elements (mCode):
 https://confluence.hl7.org/spaces/COD/pages/80119851/mCODE+Test+Data
-https://mitre.box.com/shared/static/7k7lk7wmza4m17916xnvc2uszidyv6vm.zip
+Ten years of medical history: https://mitre.box.com/shared/static/7k7lk7wmza4m17916xnvc2uszidyv6vm.zip
 
 Synthetically generated plain text clinical notes in cancer-datasets/textfiles.
 
