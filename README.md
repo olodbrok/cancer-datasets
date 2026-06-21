@@ -6,7 +6,7 @@ Curated links to public and semi-public datasets, registries, terminology system
 
 This repository does not redistribute restricted datasets. It provides links, descriptions, access notes, and licensing/use constraints.
 
-All sample and test data is synthetically generated.
+All sample and test data in this repo is synthetically generated. See the T&Cs for external links.
 
 ## OncoParser Test Data
 
