@@ -1,0 +1,21 @@
+age	70 <= age < 80
+cancers	Prostate Cancer
+cancers	Lung Cancer
+cancers	Small Cell Lung Cancer (SCLC)
+disease_extent	in situ
+lab_values	PSA high
+lab_values	PSA normal
+lab_values	urine protein high
+lab_values	bilirubin normal
+lab_values	leukocytes low
+lab_values	platelet count normal
+organ_function	inadequate glomerular filtration rate GFR
+organ_function	no hypertension
+pathologies	small cell
+sex	male
+stages	Stage I
+therapies	biopsy
+therapies	surgery
+therapies	chemotherapy
+therapies	radiation therapy
+therapies	hospice care

@@ -1,0 +1,59 @@
+age	60 <= age < 70
+biomarkers	CD20 positive
+cancer_drugs	bendamustine
+cancer_drugs	cyclophosphamide
+cancer_drugs	doxorubicin
+cancer_drugs	lenalidomide
+cancer_drugs	obinutuzumab
+cancer_drugs	rituximab
+cancer_drugs	vincristine
+cancers	Follicular Lymphoma
+cancers	Lymphoma
+cancers	Non-Hodgkin Lymphoma
+clinical_conditions	CAR T eligible
+clinical_conditions	postmenopausal
+disease_extent	advanced
+disease_extent	bulky disease
+disease_extent	late stage
+disease_extent	lymph node metastases
+disease_extent	residual disease
+disease_extent	visceral metastases
+disease_progression	complete disease response
+disease_progression	disease progression
+disease_progression	partial disease response
+disease_progression	recurrent or relapsed disease
+drug_classes	alkylating agents
+drug_classes	anti-CD20
+drug_classes	antitumor antibiotics
+drug_classes	chemotherapy
+drug_classes	immunomodulatory drugs
+drug_classes	immunotherapy
+drug_classes	microtubule inhibitors
+drug_classes	monoclonal antibodies
+drug_classes	targeted therapy
+ecog	ECOG 1
+lab_values	ANC low
+lab_values	LDH high
+lab_values	platelet count low
+lab_values	WBC low
+lines_of_therapy	first line (calculated)
+lines_of_therapy	first line (documented)
+lines_of_therapy	second line (calculated)
+lines_of_therapy	second line (documented)
+lines_of_therapy	third line (calculated)
+lines_of_therapy	third line (documented)
+organ_function	adequate renal function
+organ_function	hypertension
+organ_function	inadequate bone marrow function
+organ_function	inadequate hematologic function
+pathologies	follicular
+regimens	BR
+regimens	R-CHOP
+sex	female
+stages	Stage IV
+therapies	biopsy
+therapies	chemotherapy
+therapies	immunotherapy
+therapies	maintenance therapy
+therapies	systemic therapy
+therapies	targeted therapy

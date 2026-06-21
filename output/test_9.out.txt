@@ -1,0 +1,20 @@
+age	70 <= age < 80
+ajcc_m	cM0
+ajcc_n	cN0
+ajcc_t	cT3b
+cancers	Prostate Cancer
+disease_extent	locally advanced
+disease_extent	no lymph node metastases
+disease_extent	no metastases
+ecog	ECOG 0
+lab_values	PSA high
+lines_of_therapy	untreated (documented)
+organ_function	adequate renal function
+pathologies	adenocarcinoma
+pathologies	total Gleason score >=8
+planned_therapies	curative intent
+planned_therapies	endocrine therapy planned
+planned_therapies	radiation therapy planned
+planned_therapies	systemic therapy planned
+sex	male
+therapies	biopsy

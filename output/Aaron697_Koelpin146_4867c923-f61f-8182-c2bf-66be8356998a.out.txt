@@ -1,0 +1,15 @@
+age	age >= 80
+cancers	Prostate Cancer
+clinical_conditions	BMI high
+disease_extent	in situ
+lab_values	PSA normal
+lab_values	platelet count normal
+lab_values	PSA high
+lab_values	leukocytes low
+lab_values	urine protein high
+organ_function	no hypertension
+organ_function	inadequate glomerular filtration rate GFR
+sex	male
+therapies	biopsy
+therapies	surgery
+therapies	hospice care

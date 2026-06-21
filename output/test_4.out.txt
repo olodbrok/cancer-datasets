@@ -1,0 +1,46 @@
+age	50 <= age < 60
+biomarkers	CD20 positive
+biomarkers	Ki-67 expression high
+cancer_drugs	cyclophosphamide
+cancer_drugs	doxorubicin
+cancer_drugs	rituximab
+cancer_drugs	vincristine
+cancers	Diffuse Large B-Cell Lymphoma
+cancers	Lymphoma
+cancers	Non-Hodgkin Lymphoma
+clinical_conditions	CAR T eligible
+clinical_conditions	stem cell transplant eligible
+disease_extent	advanced
+disease_extent	late stage
+disease_extent	lymph node metastases
+disease_extent	visceral metastases
+disease_progression	complete disease response
+disease_progression	disease progression
+disease_progression	recurrent or relapsed disease
+disease_progression	refractory disease
+drug_classes	alkylating agents
+drug_classes	anti-CD20
+drug_classes	antitumor antibiotics
+drug_classes	CAR-T therapy
+drug_classes	cellular therapy
+drug_classes	chemotherapy
+drug_classes	immunotherapy
+drug_classes	microtubule inhibitors
+drug_classes	monoclonal antibodies
+drug_classes	targeted therapy
+ecog	ECOG 1
+lab_values	ANC low
+lab_values	LDH high
+lab_values	RBC low
+lines_of_therapy	first line (documented)
+pathologies	large-cell
+planned_therapies	salvage therapy planned
+planned_therapies	systemic therapy planned
+regimens	R-CHOP
+sex	female
+stages	Stage IIIS
+therapies	biopsy
+therapies	chemotherapy
+therapies	immunotherapy
+therapies	systemic therapy
+therapies	targeted therapy

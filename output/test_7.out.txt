@@ -1,0 +1,44 @@
+age	60 <= age < 70
+ajcc_m	cM0
+ajcc_n	pN1b
+ajcc_t	pT3
+biomarkers	KRAS mutation detected
+biomarkers	MSS or MSI-L
+biomarkers	No BRAF mutation detected
+biomarkers	No NRAS mutation detected
+cancer_drugs	fluorouracil
+cancer_drugs	leucovorin
+cancer_drugs	oxaliplatin
+cancers	Colon Cancer
+cancers	Colorectal Cancer
+disease_extent	liver metastases
+disease_extent	metastatic
+disease_extent	no residual disease
+disease_extent	pulmonary metastases
+disease_extent	regional
+disease_extent	unresectable
+disease_extent	visceral metastases
+disease_progression	disease free
+disease_progression	disease progression
+disease_progression	recurrent or relapsed disease
+drug_classes	antimetabolites
+drug_classes	chemotherapy
+drug_classes	platinum agents
+ecog	ECOG 1
+lab_values	ALT high
+lab_values	AST high
+lab_values	RBC low
+lines_of_therapy	first line (documented)
+lines_of_therapy	second line (inferred)
+pathologies	adenocarcinoma
+planned_therapies	curative intent
+regimens	FOLFOX
+sex	male
+stages	Stage IIIB
+therapies	adjuvant
+therapies	chemotherapy
+therapies	platinum therapy
+therapies	R0 resection
+therapies	resection
+therapies	surgery
+therapies	systemic therapy

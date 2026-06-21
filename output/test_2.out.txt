@@ -1,0 +1,40 @@
+age	70 <= age < 80
+biomarkers	BRCA mutation detected
+biomarkers	BRCA2 mutation detected
+cancer_drugs	abiraterone
+cancer_drugs	cabazitaxel
+cancer_drugs	docetaxel
+cancer_drugs	enzalutamide
+cancer_drugs	leuprolide
+cancer_drugs	olaparib
+cancers	Prostate Cancer
+clinical_conditions	castration-resistant prostate cancer
+disease_extent	bone metastases
+disease_extent	late stage
+disease_extent	lymph node metastases
+disease_extent	metastatic
+disease_extent	no visceral metastases
+disease_progression	disease progression
+disease_progression	partial disease response
+disease_progression	stable disease
+drug_classes	androgen receptor inhibitors
+drug_classes	chemotherapy
+drug_classes	hormonal therapy
+drug_classes	microtubule inhibitors
+drug_classes	PARP inhibitors
+drug_classes	targeted therapy
+ecog	ECOG 1
+lab_values	PSA high
+lines_of_therapy	fifth line or later (documented)
+lines_of_therapy	first line (documented)
+lines_of_therapy	fourth line (documented)
+lines_of_therapy	second line (documented)
+lines_of_therapy	third line (documented)
+pathologies	adenocarcinoma
+pathologies	total Gleason score >=8
+sex	male
+stages	Stage IV
+therapies	chemotherapy
+therapies	endocrine therapy
+therapies	systemic therapy
+therapies	targeted therapy

@@ -1,0 +1,29 @@
+age	50 <= age < 60
+cancer_drugs	cisplatin
+cancer_drugs	paclitaxel
+cancers	Lung Cancer
+cancers	Non-Small Cell Lung Cancer (NSCLC)
+clinical_conditions	BMI high
+drug_classes	chemotherapy
+drug_classes	microtubule inhibitors
+drug_classes	platinum agents
+lab_values	platelet count normal
+lab_values	bilirubin normal
+lab_values	leukocytes low
+lab_values	urine protein high
+lab_values	urine protein normal
+lab_values	albumin normal
+lab_values	HCT low
+lines_of_therapy	first line (calculated)
+organ_function	no hypertension
+organ_function	hypertension
+organ_function	inadequate glomerular filtration rate GFR
+pathologies	non-small cell
+sex	female
+stages	Stage I
+therapies	chemotherapy
+therapies	platinum therapy
+therapies	radiation therapy
+therapies	systemic therapy
+therapies	biopsy
+therapies	hospice care

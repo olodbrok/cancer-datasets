@@ -1,0 +1,15 @@
+age	age < 50
+cancers	Colon Cancer
+clinical_conditions	BMI high
+lab_values	platelet count normal
+lab_values	HCT low
+lab_values	leukocytes low
+lab_values	albumin normal
+organ_function	no hypertension
+organ_function	inadequate glomerular filtration rate GFR
+sex	female
+therapies	biopsy
+therapies	surgery partial resection
+therapies	chemotherapy
+therapies	radiation therapy
+therapies	hospice care

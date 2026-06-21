@@ -1,0 +1,27 @@
+age	50 <= age < 60
+ajcc_m	cM0
+ajcc_n	cN1
+ajcc_t	cT4b
+ajcc_t	cT4d
+biomarkers	ER positive
+biomarkers	HER2 status negative
+biomarkers	HR positive
+biomarkers	Ki-67 expression high
+biomarkers	No HER2 amplification detected
+biomarkers	PR positive
+cancers	Breast Cancer
+disease_extent	invasive
+disease_extent	locally advanced
+disease_extent	lymph node metastases
+disease_extent	no metastases
+ecog	ECOG 1
+lab_values	platelet count normal
+lab_values	WBC normal
+lines_of_therapy	untreated (documented)
+organ_function	adequate organ function
+pathologies	other cancer pathology
+planned_therapies	neoadjuvant planned
+planned_therapies	systemic therapy planned
+sex	female
+stages	Stage IIIB
+therapies	biopsy

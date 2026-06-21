@@ -1,0 +1,47 @@
+age	50 <= age < 60
+ajcc_m	M0
+ajcc_n	pN2a
+ajcc_t	pT3
+biomarkers	HER2 status negative
+biomarkers	KRAS mutation detected
+biomarkers	MSS or MSI-L
+biomarkers	No BRAF V600E mutation detected
+biomarkers	No NRAS mutation detected
+biomarkers	pMMR
+cancer_drugs	capecitabine
+cancer_drugs	oxaliplatin
+cancers	Colon Cancer
+cancers	Colorectal Cancer
+disease_extent	advanced
+disease_extent	invasive
+disease_extent	late stage
+disease_extent	liver metastases
+disease_extent	lymph node metastases
+disease_extent	metastatic
+disease_extent	no metastases
+disease_extent	no residual disease
+disease_progression	disease free
+disease_progression	disease progression
+disease_progression	recurrent or relapsed disease
+disease_progression	refractory disease
+drug_classes	antimetabolites
+drug_classes	chemotherapy
+drug_classes	platinum agents
+lines_of_therapy	first line (documented)
+lines_of_therapy	first line (inferred)
+pathologies	adenocarcinoma
+planned_therapies	curative intent
+planned_therapies	systemic therapy planned
+regimens	CAPOX
+sex	male
+stages	Stage IIIB
+stages	Stage IV
+therapies	adjuvant
+therapies	biopsy
+therapies	chemotherapy
+therapies	platinum therapy
+therapies	R0 resection
+therapies	resection
+therapies	surgery
+therapies	surgery complete resection
+therapies	systemic therapy

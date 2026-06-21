@@ -1,0 +1,62 @@
+age	50 <= age < 60
+ajcc_n	pN2a
+ajcc_t	pT3
+biomarkers	HER2 status negative
+biomarkers	HR positive
+cancer_drugs	bevacizumab
+cancer_drugs	cyclophosphamide
+cancer_drugs	docetaxel
+cancer_drugs	fluorouracil
+cancer_drugs	irinotecan
+cancer_drugs	leucovorin
+cancer_drugs	oxaliplatin
+cancers	Breast Cancer
+cancers	Colon Cancer
+cancers	Colorectal Cancer
+disease_extent	early stage
+disease_extent	invasive
+disease_extent	late stage
+disease_extent	liver metastases
+disease_extent	localized
+disease_extent	lymph node metastases
+disease_extent	metastatic
+disease_extent	no metastases
+disease_extent	no residual disease
+disease_extent	operable
+disease_extent	pulmonary metastases
+disease_extent	resectable
+disease_extent	visceral metastases
+disease_progression	disease free
+disease_progression	disease progression
+disease_progression	recurrent or relapsed disease
+drug_classes	alkylating agents
+drug_classes	anti-VEGF
+drug_classes	antimetabolites
+drug_classes	chemotherapy
+drug_classes	hormonal therapy
+drug_classes	immunotherapy
+drug_classes	microtubule inhibitors
+drug_classes	monoclonal antibodies
+drug_classes	platinum agents
+drug_classes	targeted therapy
+drug_classes	topoisomerase inhibitors
+ecog	ECOG 1
+lines_of_therapy	first line (documented)
+lines_of_therapy	second line (documented)
+pathologies	adenocarcinoma
+pathologies	other cancer pathology
+regimens	FOLFIRI
+regimens	FOLFOX
+regimens	TC
+sex	female
+stages	Stage IIA
+therapies	adjuvant
+therapies	biopsy
+therapies	chemotherapy
+therapies	endocrine therapy
+therapies	immunotherapy
+therapies	platinum therapy
+therapies	resection
+therapies	surgery
+therapies	systemic therapy
+therapies	targeted therapy

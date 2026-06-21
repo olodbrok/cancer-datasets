@@ -1,0 +1,35 @@
+age	60 <= age < 70
+biomarkers	EGFR exon 19 deletion detected
+biomarkers	EGFR mutation detected
+biomarkers	No ALK fusion detected
+biomarkers	No ROS1 fusion detected
+biomarkers	PD-L1 TPS >= 1% and < 50%
+cancer_drugs	osimertinib
+cancers	Lung Cancer
+cancers	Non-Small Cell Lung Cancer
+disease_extent	advanced
+disease_extent	bone metastases
+disease_extent	late stage
+disease_extent	liver metastases
+disease_extent	metastatic
+disease_extent	pulmonary metastases
+disease_extent	visceral metastases
+disease_progression	disease progression
+disease_progression	partial disease response
+disease_progression	stable disease
+drug_classes	EGFR inhibitors
+drug_classes	targeted therapy
+ecog	ECOG 1
+lab_values	LDH high
+lab_values	RBC low
+lines_of_therapy	first line (documented)
+lines_of_therapy	first line (inferred)
+organ_function	inadequate hepatic function
+pathologies	adenocarcinoma
+pathologies	non-small cell
+pathologies	non-squamous
+planned_therapies	systemic therapy planned
+sex	male
+stages	Stage IV
+therapies	systemic therapy
+therapies	targeted therapy

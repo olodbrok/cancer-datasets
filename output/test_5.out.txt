@@ -1,0 +1,64 @@
+age	50 <= age < 60
+biomarkers	ER negative
+biomarkers	HER2 expression zero
+biomarkers	HER2 status negative
+biomarkers	HR negative
+biomarkers	PD-L1 CPS >= 1 and < 5
+biomarkers	PR negative
+cancer_drugs	capecitabine
+cancer_drugs	cyclophosphamide
+cancer_drugs	doxorubicin
+cancer_drugs	paclitaxel
+cancers	Breast Cancer
+disease_extent	advanced
+disease_extent	bone metastases
+disease_extent	invasive
+disease_extent	late stage
+disease_extent	liver metastases
+disease_extent	locally advanced
+disease_extent	lymph node metastases
+disease_extent	metastatic
+disease_extent	no brain metastases
+disease_extent	no CNS metastases
+disease_extent	pulmonary metastases
+disease_extent	residual disease
+disease_extent	visceral metastases
+disease_progression	disease free
+disease_progression	disease progression
+disease_progression	recurrent or relapsed disease
+drug_classes	ADC
+drug_classes	alkylating agents
+drug_classes	antimetabolites
+drug_classes	antitumor antibiotics
+drug_classes	chemotherapy
+drug_classes	microtubule inhibitors
+drug_classes	Trop-2 ADC
+ecog	ECOG 1
+lab_values	ALT high
+lab_values	AST high
+lab_values	bilirubin normal
+lab_values	platelet count normal
+lab_values	WBC normal
+lines_of_therapy	first line (documented)
+lines_of_therapy	first line (inferred)
+organ_function	adequate bone marrow function
+organ_function	adequate hematologic function
+organ_function	adequate hepatic function
+organ_function	adequate renal function
+organ_function	hypertension
+pathologies	other cancer pathology
+planned_therapies	adjuvant planned
+planned_therapies	chemotherapy planned
+planned_therapies	radiation therapy planned
+planned_therapies	systemic therapy planned
+regimens	ddAC-T
+sex	female
+stages	Stage IIIB
+stages	Stage IV
+therapies	adjuvant
+therapies	chemotherapy
+therapies	neoadjuvant
+therapies	radiation therapy
+therapies	resection
+therapies	surgery
+therapies	systemic therapy

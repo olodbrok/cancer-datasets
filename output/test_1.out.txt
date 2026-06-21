@@ -1,0 +1,30 @@
+age	70 <= age < 80
+cancers	Lung Cancer
+cancers	Non-Small Cell Lung Cancer
+disease_extent	locoregional
+disease_extent	no brain metastases
+disease_extent	no metastases
+disease_extent	no residual disease
+disease_extent	operable
+disease_extent	resectable
+disease_progression	disease free
+lab_values	platelet count normal
+lab_values	WBC normal
+lines_of_therapy	untreated (inferred)
+organ_function	adequate hepatic function
+organ_function	adequate organ function
+organ_function	adequate pulmonary function
+organ_function	adequate renal function
+pathologies	non-small cell
+pathologies	squamous
+planned_therapies	adjuvant planned
+planned_therapies	curative intent
+planned_therapies	immunotherapy planned
+planned_therapies	systemic therapy planned
+sex	male
+stages	Stage IIB
+therapies	adjuvant
+therapies	R0 resection
+therapies	resection
+therapies	surgery
+therapies	surgery complete resection

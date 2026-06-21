@@ -1,0 +1,9 @@
+age	60 <= age < 70
+cancers	Colon Cancer
+clinical_conditions	BMI high
+lab_values	platelet count normal
+organ_function	hypertension
+sex	male
+therapies	biopsy
+therapies	surgery partial resection
+therapies	hospice care
