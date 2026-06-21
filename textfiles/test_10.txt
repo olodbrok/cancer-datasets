@@ -1,0 +1,135 @@
+Patient Demographics
+Name: Jane Mitchell
+Age: 63
+Sex: Female
+DOB: 14 Feb 1963
+MRN: DEMO-483920
+Primary Oncologist: Dr. R. Singh
+ECOG Performance Status: 1
+
+Hematologic Malignancy History
+
+Initial Diagnosis
+March 2018
+
+Patient presented with progressive cervical and axillary
+lymphadenopathy, fatigue, and intermittent night sweats.
+
+Diagnostic Workup
+Excisional lymph node biopsy showed follicular lymphoma grade
+1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.
+
+Bone marrow biopsy showed 20% marrow involvement.
+
+PET/CT demonstrated diffuse nodal disease above and below the
+diaphragm with splenic involvement.
+
+Stage
+Ann Arbor Stage IV
+FLIPI score: High risk
+
+First-Line Therapy
+
+April 2018 – October 2018
+
+Bendamustine + Rituximab (BR)
+6 cycles administered.
+Complications included grade 2 neutropenia and mild infusion
+reaction to rituximab.
+
+Response
+PET/CT November 2018 showed complete metabolic response
+(Deauville 2).
+
+Maintenance
+Rituximab maintenance every 8 weeks continued until December
+2020.
+
+First Relapse
+
+June 2021
+
+Patient developed enlarging inguinal lymph nodes, fatigue, and
+recurrent night sweats.
+
+PET/CT demonstrated hypermetabolic pelvic and retroperitoneal
+adenopathy.
+
+Biopsy confirmed recurrent follicular lymphoma grade 2 without
+evidence of transformation.
+
+Second-Line Therapy
+
+July 2021 – January 2022
+
+R-CHOP
+6 cycles completed.
+
+Complications included febrile neutropenia after cycle 3,
+grade 1 peripheral neuropathy, and anemia requiring transfusion
+support.
+
+Response
+PET/CT February 2022 demonstrated partial response with
+residual mesenteric disease.
+
+Second Relapse / Progression
+
+October 2023
+
+Symptoms included worsening abdominal fullness, 8-kg
+unintentional weight loss, and drenching night sweats.
+
+PET/CT demonstrated bulky mesenteric mass and new mediastinal
+adenopathy with SUV concerning for transformation.
+
+Repeat biopsy showed follicular lymphoma grade 3A without
+evidence of diffuse large B-cell lymphoma transformation.
+
+Current Status — Third-Line FL
+
+Current therapy initiated January 2024.
+
+Regimen
+Obinutuzumab + Lenalidomide.
+
+Alternative consideration:
+CAR-T evaluation underway.
+
+Current Disease Status
+Mixed response after 4 cycles with persistent abdominal
+disease and ongoing fatigue.
+
+Relevant Past Medical History
+Hypertension
+Type 2 diabetes mellitus
+Chronic kidney disease stage 2
+Remote smoking history
+
+Current Medications
+Acyclovir prophylaxis
+TMP-SMX prophylaxis
+Metformin
+Lisinopril
+Aspirin 81 mg
+Ondansetron PRN
+
+Recent Laboratory Findings
+Hemoglobin: 10.4 g/dL
+WBC: 3.2 x10^9/L
+ANC: 1.4 x10^9/L
+Platelets: 118 x10^9/L
+LDH: Mildly elevated
+Creatinine: 1.1 mg/dL
+
+Current Assessment
+63-year-old female with multiply relapsed follicular lymphoma
+now receiving third-line systemic therapy following
+progression after BR and R-CHOP. Disease remains indolent but
+clinically progressive with persistent symptomatic abdominal
+adenopathy. Patient under consideration for cellular therapy
+versus bispecific antibody therapy depending on next response
+assessment.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

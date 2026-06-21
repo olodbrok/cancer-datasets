@@ -1,0 +1,59 @@
+A 50-year-old female patient was diagnosed with diffuse large
+B-cell lymphoma after presenting with several months of
+progressive cervical lymphadenopathy, fatigue, drenching
+night sweats, intermittent fevers, and unintentional
+weight loss. Physical examination revealed enlarged left
+cervical and supraclavicular lymph nodes. Excisional node
+biopsy confirmed diffuse large B-cell lymphoma. Baseline
+PET/CT demonstrated hypermetabolic lymphadenopathy above
+and below the diaphragm with splenic involvement.
+
+
+Bone marrow biopsy showed no evidence of marrow
+infiltration. Laboratory studies at diagnosis revealed
+elevated lactate dehydrogenase and mild normocytic anemia.
+ECOG performance status was 1. Based on Ann Arbor staging
+criteria, the patient was classified as Stage IIIS
+disease. International Prognostic Index assessment placed
+the patient in an intermediate-risk category due to stage,
+elevated LDH, and extranodal splenic involvement.
+
+Histopathology demonstrated sheets of large atypical
+lymphoid cells positive for CD20, CD79a, BCL6, and MUM1.
+Ki-67 proliferation index was approximately 80 percent.
+The immunophenotype was most consistent with activated
+B-cell subtype by Hans algorithm. FISH testing was
+negative for MYC, BCL2, and BCL6 rearrangements, with no
+evidence of double-hit or triple-hit lymphoma. EBV testing
+was negative.
+
+The patient received standard first-line immunochemotherapy
+with six cycles of R-CHOP followed by end-of-treatment
+PET/CT assessment. Treatment was completed with manageable
+toxicities including transient neutropenia, fatigue, and
+mild peripheral neuropathy. Interim imaging showed marked
+response, and end-of-therapy PET demonstrated complete
+metabolic remission.
+
+Approximately eleven months after completion of therapy,
+the patient developed recurrent fatigue, enlarging right
+axillary lymph nodes, and rising LDH. Repeat PET/CT showed
+new hypermetabolic nodal disease in the axillary,
+mediastinal, and abdominal regions. Core biopsy of an
+axillary node confirmed relapsed diffuse large B-cell
+lymphoma with morphology and phenotype consistent with the
+original diagnosis.
+
+The patient is therefore assessed as having relapsed
+diffuse large B-cell lymphoma after prior first-line
+R-CHOP therapy. Current disease status is consistent with
+refractory or early relapsing aggressive B-cell lymphoma.
+The patient remains a candidate for salvage systemic
+therapy, with typical options including R-ICE or R-DHAP
+followed by autologous stem cell transplantation in a
+chemosensitive setting, or CAR T-cell therapy depending
+on treatment response, eligibility, and multidisciplinary
+review.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

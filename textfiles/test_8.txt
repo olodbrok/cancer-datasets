@@ -1,0 +1,20 @@
+This is a 68-year-old male, former smoker with a 40 pack-year history, diagnosed 
+with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. 
+At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases. 
+His ECOG performance status is currently 1.
+Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion. 
+PD-L1 expression was 20%, with negative testing for ALK and ROS1 rearrangements. He was started on first-line osimertinib, achieving a good partial response that lasted approximately 10 months.
+He now presents with increasing dyspnea, fatigue, and mild bone pain. 
+Recent CT imaging demonstrates progression of the primary right upper lobe tumor, 
+now measuring 4.5 cm, progression of pulmonary metastases, and the appearance 
+of new liver lesions up to 2.0 cm. Known bone metastases appear stable.
+Laboratory evaluation shows mild anemia, elevated LDH, and mildly abnormal liver 
+enzymes. No repeat molecular testing has yet been performed at the time of 
+progression.
+Given disease progression on first-line EGFR-targeted therapy, we are referring 
+the patient for further evaluation, including repeat molecular profiling to assess 
+for resistance mechanisms and determination of appropriate second-line systemic 
+therapy, as well as consideration of clinical trial participation.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

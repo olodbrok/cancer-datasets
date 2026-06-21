@@ -1,0 +1,20 @@
+This is a 72-year-old male who presented with lower urinary tract symptoms 
+including urinary frequency and nocturia. His ECOG performance status is 0. 
+Initial laboratory evaluation revealed a PSA level of 48 ng/mL.
+Multiparametric MRI of the prostate demonstrated a large tumor involving 
+both lobes with extracapsular extension and seminal vesicle invasion. 
+Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores, 
+with a Gleason score of 4+5=9 (Grade Group 5). PSMA PET-CT showed no evidence 
+of distant metastatic disease or definitive nodal involvement.
+Routine laboratory values, including renal function and testosterone levels, 
+are within normal limits. No germline or somatic molecular testing has been 
+performed.
+The patient has not received any prior oncologic treatment. 
+In view of high-risk, locally advanced prostate cancer (cT3b cN0 cM0), 
+we are referring him for multidisciplinary evaluation and initiation of 
+definitive therapy, including consideration of radiotherapy combined with 
+long-term androgen deprivation therapy and potential systemic treatment 
+intensification.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

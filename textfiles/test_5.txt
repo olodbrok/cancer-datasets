@@ -1,0 +1,182 @@
+Oncology Follow-Up Note
+
+Patient Name: Jane Doe
+MRN: 4582197
+DOB: 03/14/1972
+Date of Service: 05/14/2026
+Provider: Dr. Sarah Mitchell, MD
+Clinic: Medical Oncology
+
+Chief Complaint
+
+Follow-up for metastatic triple-negative breast cancer with recent
+progression.
+
+History of Present Illness
+
+Ms. Doe is a 54-year-old female with a history of stage IIIB
+triple-negative invasive ductal carcinoma of the left breast diagnosed in
+2023.
+Initial treatment included neoadjuvant dose-dense AC-T chemotherapy
+followed by left modified radical mastectomy with axillary lymph node
+dissection in 01/2024. Surgical pathology demonstrated residual invasive
+disease measuring 2.8 cm with 4/16 positive lymph nodes. She subsequently
+completed adjuvant radiation therapy to the chest wall and regional
+lymphatics in 04/2024 and received adjuvant capecitabine.
+
+The patient remained without evidence of disease until approximately 3
+months ago when she began developing persistent dry cough, fatigue, right
+upper quadrant discomfort, and unintentional weight loss of approximately
+6 kg.
+
+Recent PET/CT from 05/02/2026 demonstrated multiple FDG-avid hepatic
+lesions, bilateral pulmonary nodules, mediastinal adenopathy, and osseous
+metastases involving the thoracic spine. Liver biopsy performed on
+05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent
+with breast primary. Repeat receptor testing remains ER negative (<1%), PR
+negative (<1%), and HER2 negative (IHC 0), consistent with metastatic
+triple-negative breast cancer.
+
+Patient presents today to discuss second-line systemic therapy options
+after progression following prior anthracycline-, taxane-, and
+capecitabine-based treatment.
+
+She reports worsening fatigue and intermittent pleuritic chest discomfort
+but remains independent in activities of daily living.
+
+Review of Systems
+
+* Constitutional: Fatigue, decreased appetite, weight loss
+* Respiratory: Dry cough, mild exertional dyspnea
+* Cardiovascular: No palpitations
+* GI: Intermittent nausea, RUQ discomfort
+* Musculoskeletal: Mid-back pain
+* Neurologic: No focal deficits
+* All other systems reviewed and negative
+
+Past Medical History
+
+* Triple-negative breast cancer
+* Hypertension
+* GERD
+
+Past Surgical History
+
+* Left modified radical mastectomy (2024)
+* Port placement
+
+Medications
+
+* Lisinopril 10 mg daily
+* Omeprazole 20 mg daily
+* Oxycodone 5 mg PRN pain
+* Ondansetron PRN nausea
+
+Allergies
+
+* NKDA
+
+Social History
+
+* Former smoker, quit 2018
+* Occasional alcohol use
+* Lives with spouse
+* Previously employed as school administrator
+
+Family History
+
+* Mother with ovarian cancer
+* Maternal aunt with breast cancer
+
+Physical Examination
+
+Vital Signs:
+BP 126/78, HR 88, Temp 36.8°C, RR 16, SpO2 97% RA
+
+General: Alert, fatigued appearing, no acute distress
+
+HEENT: No scleral icterus
+
+Neck: No cervical lymphadenopathy
+
+Lungs: Mild decreased breath sounds at bilateral bases
+
+Cardiac: Regular rate and rhythm
+
+Abdomen: Mild RUQ tenderness, hepatomegaly palpable 2 cm below costal
+margin
+
+Extremities: No edema
+
+Neuro: Nonfocal
+
+Laboratory Data
+
+* WBC: 5.8
+* Hgb: 10.4
+* Platelets: 242
+* AST: 68
+* ALT: 72
+* Alk Phos: 214
+* Total bilirubin: 1.1
+* Creatinine: 0.8
+
+Imaging
+
+PET/CT 05/02/2026:
+
+* Multiple hypermetabolic liver lesions
+* Bilateral pulmonary metastatic nodules
+* Mediastinal adenopathy
+* T7 and T9 osseous metastatic lesions
+
+MRI brain 05/10/2026:
+
+* No intracranial metastatic disease
+
+Pathology
+
+Liver biopsy:
+
+* Metastatic poorly differentiated carcinoma compatible with breast primary
+* ER negative
+* PR negative
+* HER2 negative (IHC 0)
+* PD-L1 CPS: 3
+
+Assessment
+
+54-year-old woman with metastatic triple-negative breast cancer involving
+liver, lungs, mediastinal nodes, and bone following prior multimodality
+treatment including chemotherapy, surgery, radiation, and adjuvant
+capecitabine.
+
+Disease recurrence confirmed by biopsy. ECOG performance status currently
+1.
+
+Plan
+
+1. Initiate second-line systemic therapy with sacituzumab govitecan.
+2. Discuss risks including neutropenia, diarrhea, alopecia, fatigue, and
+infection.
+3. Obtain baseline CT chest/abdomen/pelvis prior to treatment initiation.
+4. Refer to radiation oncology for evaluation of painful thoracic spine
+lesions if symptoms worsen.
+5. Start zoledronic acid every 4 weeks for bone metastases after dental
+clearance.
+6. Continue supportive care measures including antiemetics and pain
+management.
+7. Germline BRCA testing ordered given family history and triple-negative
+phenotype.
+8. Follow CBC/CMP prior to each cycle.
+9. Return to clinic in 2 weeks for treatment initiation and chemotherapy
+education.
+
+ECOG Performance Status: 1
+
+Signed:
+Sarah Mitchell, MD
+Medical Oncology
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

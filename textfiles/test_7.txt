@@ -1,0 +1,19 @@
+This is a 64-year-old male with a history of sigmoid colon adenocarcinoma 
+initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). 
+He underwent curative-intent resection with negative margins followed 
+by adjuvant FOLFOX chemotherapy. He remained disease-free for 
+approximately 18 months.
+He now presents with fatigue and mild right upper quadrant discomfort. 
+His performance status is ECOG 1. Recent imaging with CT of the chest, 
+abdomen, and pelvis demonstrates multiple bilobar liver metastases, the 
+largest measuring 3.2 cm, as well as two small pulmonary nodules suspicious 
+for metastatic disease. There is no evidence of local recurrence at the 
+anastomotic site. Liver MRI confirms metastatic involvement not clearly 
+amenable to resection at this stage.
+Laboratory evaluation shows a markedly elevated CEA of 145 ng/mL, with 
+mild elevations in liver enzymes and a mild normocytic anemia. 
+Molecular profiling of the primary tumor revealed a KRAS mutation (G12D), 
+with NRAS and BRAF wild-type status and microsatellite stable disease.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

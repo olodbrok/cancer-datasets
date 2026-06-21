@@ -1,0 +1,58 @@
+A 54-year-old male, with colorectal
+adenocarcinoma, after presenting with several months of
+altered bowel habits, intermittent rectal bleeding,
+abdominal discomfort, and unintentional weight loss.
+Colonoscopy identified a partially obstructing sigmoid
+colon mass, and biopsy confirmed moderately differentiated
+adenocarcinoma. Initial staging with CT imaging of the
+chest, abdomen, and pelvis demonstrated no evidence of
+distant metastatic disease.
+
+The patient subsequently underwent laparoscopic sigmoid
+colectomy with regional lymphadenectomy. Final surgical
+pathology showed a tumor invading through the muscularis
+propria into the pericolorectal tissues, consistent with
+pT3 disease. Four of nineteen examined regional lymph
+nodes were positive for metastatic carcinoma,
+corresponding to pN2a status. No distant metastases were
+identified (M0).
+
+Additional pathologic evaluation demonstrated moderately
+differentiated histology with lymphovascular invasion
+present. Surgical margins were negative, indicating an R0
+resection. Molecular profiling showed the tumor to be
+mismatch repair proficient / microsatellite stable
+(pMMR/MSS). Genomic testing identified a KRAS G12D
+mutation, while NRAS remained wild type and BRAF V600E
+was not detected. HER2 testing was negative. Baseline
+carcinoembryonic antigen (CEA) at diagnosis was elevated
+at 8.6 ng/mL.
+
+Following recovery from surgery, the patient received
+standard first-line adjuvant chemotherapy with CAPOX
+(capecitabine plus oxaliplatin) for six months.
+Treatment was completed with manageable toxicities
+including mild peripheral neuropathy and intermittent
+gastrointestinal side effects.
+
+During routine surveillance approximately nine months
+after completion of adjuvant therapy, serial laboratory
+monitoring demonstrated a progressive rise in CEA to
+17.4 ng/mL. Restaging CT imaging revealed multiple new
+hepatic lesions and enlarged retroperitoneal lymph nodes
+suspicious for recurrent metastatic disease. Image-guided
+biopsy of a liver lesion confirmed metastatic colorectal
+adenocarcinoma consistent with the known primary tumor.
+
+The patient is therefore assessed as having recurrent
+metastatic colorectal cancer that has relapsed after
+curative-intent surgery and prior oxaliplatin-based
+adjuvant chemotherapy. Current disease status is
+consistent with chemotherapy-refractory progression
+following first-line adjuvant treatment in the setting of
+MSS, KRAS-mutated colorectal cancer. The patient is a
+candidate for second-line systemic therapy with irinotecan-based treatment such as
+FOLFIRI in combination with anti-VEGF therapy.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

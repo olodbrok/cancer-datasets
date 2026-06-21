@@ -1,0 +1,25 @@
+This patient is a 70 year old male with a recent diagnosis of non–small cell lung cancer (NSCLC), 
+squamous cell subtype, stage IIB disease, who has undergone complete surgical resection 
+with curative intent and is now being evaluated in the adjuvant setting. The patient is recovering 
+well postoperatively, with mild residual fatigue and occasional incisional discomfort but no significant 
+respiratory complaints such as dyspnea, hemoptysis, or persistent cough. There are no constitutional symptoms 
+such as weight loss or fevers at this time.
+
+Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung, with features 
+such as keratinization and intercellular bridges. Pathologic staging demonstrates involvement consistent with 
+stage IIB disease. 
+Surgical margins are negative (R0 resection). Molecular testing is typically limited in squamous histology but 
+may be performed; actionable driver mutations are less common, and PD-L1 expression may be assessed to guide 
+potential adjuvant immunotherapy considerations.
+
+Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence 
+of distant metastatic disease. Postoperative imaging confirms no residual disease. Brain imaging (MRI) is 
+negative for intracranial metastases.
+
+Baseline laboratory studies show adequate organ function, with hemoglobin typically slightly reduced postoperatively 
+but stable (~11–13 g/dL), normal white blood cell count, and platelets within normal range. 
+Renal and hepatic function are within normal limits, supporting candidacy for systemic therapy. 
+Pulmonary function tests prior to surgery demonstrated sufficient reserve, and the patient remains functionally independent.
+
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4

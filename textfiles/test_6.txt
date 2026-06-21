@@ -1,0 +1,31 @@
+This is a 52-year-old female patient with a newly diagnosed 
+invasive ductal carcinoma of the left breast. 
+She initially presented with a progressively enlarging breast 
+mass over approximately four months, associated with skin 
+changes including erythema and peau d’orange, as well as 
+palpable axillary lymphadenopathy. Her performance status is 
+ECOG 1.
+Imaging with mammography and ultrasound demonstrated a 5.8 cm 
+irregular mass in the left breast and suspicious axillary 
+lymph nodes. Breast MRI confirmed locally advanced disease 
+with skin infiltration but no clear chest wall invasion. 
+Staging with CT of the chest, abdomen, and pelvis as well 
+as bone scan showed no evidence of distant metastases.
+Histopathological evaluation from core needle biopsy revealed 
+invasive ductal carcinoma, grade 3 (Nottingham score 8/9). 
+Biopsy of an axillary lymph node confirmed metastatic involvement. 
+Immunohistochemistry demonstrated strong estrogen receptor positivity (90%) 
+and progesterone receptor positivity (60%), with HER2 negativity (IHC 1+, FISH negative). 
+The proliferation index (Ki-67) is approximately 35%.
+Laboratory investigations are largely unremarkable, with 
+normal blood counts and organ function; CA 15-3 is mildly elevated at 38 U/mL. 
+No germline or somatic molecular testing has been performed to date.
+The patient has not yet received any oncologic treatment. 
+Given the diagnosis of locally advanced, hormone 
+receptor–positive, HER2-negative stage IIIB breast cancer, 
+we are referring her for initiation of neoadjuvant systemic 
+therapy, multidisciplinary evaluation, and consideration of 
+genetic testing and clinical trial participation.
+ 
+This data was synthetically generated.
+(c) 2026 Olaf Lodbrok assisted by Codex 5.4
