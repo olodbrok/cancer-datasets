@@ -1,0 +1,34 @@
+age	60 <= age < 70
+ajcc_m	cM0
+ajcc_m	M1
+ajcc_n	pN1b
+ajcc_t	pT3
+biomarkers	KRAS mutation detected
+biomarkers	MSS
+biomarkers	No BRAF mutation detected
+biomarkers	No NRAS mutation detected
+cancers	Colon Cancer
+disease_detectability	evidence of disease
+disease_detectability	no evidence of disease
+disease_extent	distant metastases
+disease_extent	no distant metastases
+disease_extent	regional lymph node(s) positive
+ecog	ECOG 1
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lines_of_therapy	first line (inferred)
+metastatic_sites	liver metastases
+received_drug_classes	antimetabolites
+received_drug_classes	platinum agents
+received_drugs	fluorouracil
+received_drugs	leucovorin
+received_drugs	oxaliplatin
+received_regimens	FOLFOX
+received_therapies	adjuvant
+received_therapies	chemotherapy
+received_therapies	R0 resection
+received_therapies	tumor resection
+residual_disease	no residual disease
+sex	male
+stages	Stage IIIB
+treatment_intent	curative intent

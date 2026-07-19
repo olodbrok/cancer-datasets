@@ -1,0 +1,18 @@
+age	50 <= age < 60
+ajcc_m	M0
+biomarkers	ER positive
+biomarkers	HER2 status negative
+biomarkers	HR positive
+biomarkers	No HER2 amplification detected
+biomarkers	PR positive
+cancers	Breast Cancer
+disease_detectability	evidence of disease
+disease_extent	no distant metastases
+disease_extent	regional lymph node(s) positive
+ecog	ECOG 1
+histologic_invasiveness	invasive
+lines_of_therapy	untreated (documented)
+organ_function	adequate organ function
+received_therapies	biopsy
+sex	female
+stages	Stage IIIB

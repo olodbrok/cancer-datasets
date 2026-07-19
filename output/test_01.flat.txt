@@ -1,0 +1,22 @@
+age	70 <= age < 80
+ajcc_m	M0
+cancers	Non-Small Cell Lung Cancer
+disease_detectability	no evidence of disease
+disease_extent	no distant metastases
+histologic_invasiveness	invasive
+histologies	non-small cell
+histologies	squamous
+lab_values	platelet count normal
+lab_values	WBC normal
+metastatic_sites	no brain metastases
+organ_function	adequate hepatic function
+organ_function	adequate organ function
+organ_function	adequate pulmonary function
+organ_function	adequate renal function
+received_therapies	cancer surgery
+received_therapies	R0 resection
+received_therapies	tumor resection
+residual_disease	no residual disease
+sex	male
+stages	Stage IIB
+treatment_intent	curative intent

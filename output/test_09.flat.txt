@@ -1,0 +1,17 @@
+age	70 <= age < 80
+ajcc_m	cM0
+ajcc_m	M0
+ajcc_n	cN0
+ajcc_t	cT3b
+cancers	Prostate Cancer
+disease_extent	no distant metastases
+disease_extent	regional lymph node(s) negative
+ecog	ECOG 0
+gleason	total Gleason score >=8
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	PSA high
+lines_of_therapy	untreated (documented)
+organ_function	adequate renal function
+received_therapies	biopsy
+sex	male

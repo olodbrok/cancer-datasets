@@ -1,0 +1,38 @@
+age	50 <= age < 60
+ajcc_m	M1
+biomarkers	CD20 positive
+biomarkers	Ki-67 expression high
+cancers	Diffuse Large B-Cell Lymphoma
+clinical_conditions	mild anemia 11 <= Hb < 12 g/dL
+disease_detectability	evidence of disease
+disease_detectability	no evidence of disease
+disease_extent	distant metastases
+disease_extent	lymph node(s) positive
+disease_status	recurrent disease
+disease_status	refractory disease
+disease_status	relapsed disease
+ecog	ECOG 1
+histologies	large cell
+lab_values	LDH high
+lines_of_therapy	first line (documented)
+received_drug_classes	alkylating agents
+received_drug_classes	anthracyclines
+received_drug_classes	anti-CD20
+received_drug_classes	antitumor antibiotics
+received_drug_classes	immunotherapy
+received_drug_classes	microtubule inhibitors
+received_drug_classes	monoclonal antibodies
+received_drug_classes	targeted therapy
+received_drug_classes	vinca alkaloids
+received_drugs	cyclophosphamide
+received_drugs	doxorubicin
+received_drugs	rituximab
+received_drugs	vincristine
+received_regimens	R-CHOP
+received_therapies	biopsy
+received_therapies	chemotherapy
+received_therapies	immunotherapy
+received_therapies	targeted therapy
+sex	female
+stages	Stage IIIS
+therapeutic_response	complete response

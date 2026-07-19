@@ -1,8 +1,0 @@
-age	70 <= age < 80
-cancers	Colon Cancer
-clinical_conditions	BMI high
-sex	male
-therapies	biopsy
-therapies	hospice care
-therapies	surgery
-therapies	surgery partial resection

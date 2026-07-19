@@ -1,0 +1,41 @@
+age	50 <= age < 60
+ajcc_m	M0
+ajcc_m	M1
+ajcc_n	pN2a
+ajcc_t	pT3
+biomarkers	HER2 status negative
+biomarkers	KRAS mutation detected
+biomarkers	MSS
+biomarkers	No BRAF V600E mutation detected
+biomarkers	No NRAS mutation detected
+biomarkers	pMMR
+cancers	Colorectal Cancer
+disease_detectability	evidence of disease
+disease_detectability	no evidence of disease
+disease_extent	distant lymph node(s) positive
+disease_extent	distant metastases
+disease_extent	no distant metastases
+disease_extent	regional lymph node(s) positive
+disease_status	recurrent disease
+disease_status	refractory disease
+disease_status	relapsed disease
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lines_of_therapy	first line (documented)
+metastatic_sites	liver metastases
+received_drug_classes	antimetabolites
+received_drug_classes	platinum agents
+received_drugs	capecitabine
+received_drugs	oxaliplatin
+received_regimens	CAPOX
+received_therapies	adjuvant
+received_therapies	biopsy
+received_therapies	cancer surgery
+received_therapies	chemotherapy
+received_therapies	R0 resection
+received_therapies	tumor resection
+residual_disease	no residual disease
+sex	male
+stages	Stage IIIB
+therapeutic_response	progressive disease
+treatment_intent	curative intent

@@ -1,0 +1,34 @@
+age	50 <= age < 60
+age	age < 50
+cancers	Lung Cancer
+cancers	Small Cell Lung Cancer
+clinical_conditions	BMI high
+disease_detectability	evidence of disease
+histologies	small cell
+lab_values	albumin normal
+lab_values	ALT high
+lab_values	ALT normal
+lab_values	AST normal
+lab_values	bilirubin normal
+lab_values	HCT low
+lab_values	HCT normal
+lab_values	leukocytes low
+lab_values	leukocytes normal
+lab_values	platelet count normal
+lab_values	RBC low
+lab_values	RBC normal
+lab_values	urine protein high
+lab_values	urine protein normal
+lines_of_therapy	first line (calculated)
+organ_function	hypertension
+organ_function	inadequate glomerular filtration rate GFR
+organ_function	inadequate renal function
+received_drug_classes	platinum agents
+received_drug_classes	topoisomerase inhibitors
+received_drugs	cisplatin
+received_drugs	etoposide
+received_therapies	chemotherapy
+received_therapies	hospice care
+received_therapies	radiation therapy
+sex	male
+stages	Stage I
