@@ -1,0 +1,38 @@
+Cancer Dataset Notices
+======================
+
+Copyright 2026 Olaf Lodbrok.
+
+This repository is licensed under the Apache License, Version 2.0. See
+LICENSE.
+
+
+Synthetic Data Notice
+---------------------
+
+The FHIR mCODE sample bundles in this repository are synthetic test data. They
+are not real patient records and must not be interpreted as real clinical data.
+
+The mCODE sample bundles were generated with Synthea, an open-source synthetic
+patient population simulator made available by The MITRE Corporation. Bundle
+metadata may include Synthea identifiers, seeds, organizations, locations, and
+references such as https://github.com/synthetichealth/synthea.
+
+Synthea software is distributed under the Apache License, Version 2.0.
+
+References:
+
+- Synthea: https://synthea.mitre.org/
+- Synthea source repository: https://github.com/synthetichealth/synthea
+- mCODE test data: https://confluence.hl7.org/spaces/COD/pages/80119851/mCODE+Test+Data
+
+
+Citation
+--------
+
+Jason Walonoski, Mark Kramer, Joseph Nichols, Andre Quina, Chris Moesel, Dylan
+Hall, Carlton Duffett, Kudakwashe Dube, Thomas Gallagher, Scott McLachlan,
+Synthea: An approach, method, and software mechanism for generating synthetic
+patients and the synthetic electronic health care record, Journal of the
+American Medical Informatics Association, Volume 25, Issue 3, March 2018, Pages
+230-238, https://doi.org/10.1093/jamia/ocx079.
