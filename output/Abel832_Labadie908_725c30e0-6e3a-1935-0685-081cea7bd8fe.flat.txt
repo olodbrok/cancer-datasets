@@ -1,16 +1,20 @@
+age	50 <= age < 60
 age	60 <= age < 70
 age	70 <= age < 80
 age	age < 50
 cancers	Colon Cancer
+clinical_conditions	anemia
 clinical_conditions	BMI high
-clinical_conditions	mild anemia 11 <= Hb < 12 g/dL
-disease_detectability	evidence of disease
+clinical_conditions	no anemia
+gender	male
+lab_values	creatinine normal
+lab_values	Hb normal
 lab_values	HCT normal
-lab_values	leukocytes normal
 lab_values	platelet count normal
 lab_values	RBC normal
-organ_function	inadequate renal function
+lab_values	WBC normal
+performance	deceased
 received_therapies	biopsy
 received_therapies	cancer surgery
 received_therapies	hospice care
-sex	male
+received_therapies	tumor resection

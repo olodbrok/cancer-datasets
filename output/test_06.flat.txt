@@ -3,16 +3,17 @@ ajcc_m	M0
 biomarkers	ER positive
 biomarkers	HER2 status negative
 biomarkers	HR positive
-biomarkers	No HER2 amplification detected
+biomarkers	Ki-67 expression high
 biomarkers	PR positive
 cancers	Breast Cancer
-disease_detectability	evidence of disease
-disease_extent	no distant metastases
-disease_extent	regional lymph node(s) positive
-ecog	ECOG 1
+gender	female
 histologic_invasiveness	invasive
+lab_values	WBC normal
 lines_of_therapy	untreated (documented)
+metastatic_sites	no bone metastases
 organ_function	adequate organ function
+performance	ECOG 1
 received_therapies	biopsy
-sex	female
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) positive
 stages	Stage IIIB

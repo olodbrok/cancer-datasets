@@ -6,18 +6,15 @@ biomarkers	HER2 status negative
 biomarkers	PD-L1 CPS >= 1 and < 5
 biomarkers	PR negative
 cancers	Breast Cancer
-clinical_conditions	moderate anemia 8 <= Hb < 11 g/dL
-disease_detectability	evidence of disease
-disease_detectability	no evidence of disease
-disease_extent	distant lymph node(s) positive
-disease_extent	distant metastases
-disease_extent	regional lymph node(s) positive
+clinical_conditions	anemia
 disease_status	recurrent disease
-ecog	ECOG 1
+gender	female
 histologic_invasiveness	invasive
 lab_values	ALT high
 lab_values	AST high
 lab_values	bilirubin normal
+lab_values	creatinine normal
+lab_values	Hb low
 lab_values	platelet count normal
 lab_values	WBC normal
 lines_of_therapy	first line (calculated)
@@ -26,7 +23,10 @@ metastatic_sites	bone metastases
 metastatic_sites	liver metastases
 metastatic_sites	lung metastases
 metastatic_sites	no brain metastases
+metastatic_sites	no CNS metastases
+metastatic_sites	visceral metastases
 organ_function	hypertension
+performance	ECOG 1
 received_drug_classes	alkylating agents
 received_drug_classes	anthracyclines
 received_drug_classes	antimetabolites
@@ -46,6 +46,10 @@ received_therapies	neoadjuvant
 received_therapies	radiation therapy
 received_therapies	tumor resection
 residual_disease	residual disease
-sex	female
+solid_tumor_extent	distant lymph node(s) positive
+solid_tumor_extent	distant metastases
+solid_tumor_extent	localized
+solid_tumor_extent	regional lymph node(s) positive
 stages	Stage IIIB
+stages	Stage IV
 therapeutic_response	progressive disease

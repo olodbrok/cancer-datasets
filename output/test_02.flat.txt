@@ -3,10 +3,7 @@ ajcc_m	M1
 biomarkers	BRCA2 mutation detected
 cancers	Prostate Cancer
 clinical_conditions	castration-resistant prostate cancer
-disease_detectability	evidence of disease
-disease_extent	distant metastases
-disease_extent	lymph node(s) positive
-ecog	ECOG 1
+gender	male
 gleason	total Gleason score >=8
 histologic_invasiveness	invasive
 histologies	adenocarcinoma
@@ -22,16 +19,14 @@ lines_of_therapy	second line (inferred)
 lines_of_therapy	third line (calculated)
 lines_of_therapy	third line (inferred)
 metastatic_sites	bone metastases
-metastatic_sites	no liver metastases
-metastatic_sites	no lung metastases
-metastatic_sites	no other visceral metastases
+metastatic_sites	no visceral metastases
+performance	ECOG 1
 received_drug_classes	androgen receptor inhibitors
 received_drug_classes	CYP17 inhibitors
 received_drug_classes	GnRH agonists
 received_drug_classes	hormonal therapy
 received_drug_classes	microtubule inhibitors
 received_drug_classes	PARP inhibitors
-received_drug_classes	targeted therapy
 received_drug_classes	taxanes
 received_drugs	abiraterone
 received_drugs	cabazitaxel
@@ -42,7 +37,8 @@ received_drugs	olaparib
 received_therapies	chemotherapy
 received_therapies	endocrine therapy
 received_therapies	targeted therapy
-sex	male
+solid_tumor_extent	distant metastases
+solid_tumor_extent	regional lymph node(s) positive
 stages	Stage IV
 therapeutic_response	partial response
 therapeutic_response	progressive disease

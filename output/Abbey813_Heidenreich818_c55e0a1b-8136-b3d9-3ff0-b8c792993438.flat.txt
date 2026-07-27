@@ -1,25 +1,30 @@
 age	age < 50
 cancers	Colon Cancer
+clinical_conditions	anemia
 clinical_conditions	BMI high
-clinical_conditions	hepatitis B (HBV) infection
-clinical_conditions	hepatitis C (HCV) infection
-clinical_conditions	HIV infection
-disease_detectability	evidence of disease
+clinical_conditions	no anemia
+clinical_conditions	severe anemia
+gender	female
 lab_values	albumin normal
 lab_values	ALT high
 lab_values	ALT normal
 lab_values	AST normal
 lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	Hb low
+lab_values	Hb normal
+lab_values	Hb severely low
 lab_values	HCT low
 lab_values	HCT normal
-lab_values	leukocytes low
-lab_values	leukocytes normal
+lab_values	inadequate GFR
 lab_values	platelet count normal
 lab_values	RBC low
 lab_values	RBC normal
+lab_values	WBC low
+lab_values	WBC normal
 lines_of_therapy	first line (calculated)
-organ_function	inadequate glomerular filtration rate GFR
-organ_function	inadequate renal function
+performance	deceased
+received_drug_classes	folate analogs
 received_drug_classes	platinum agents
 received_drugs	leucovorin
 received_drugs	oxaliplatin
@@ -27,4 +32,4 @@ received_therapies	cancer surgery
 received_therapies	chemotherapy
 received_therapies	hospice care
 received_therapies	radiation therapy
-sex	female
+received_therapies	tumor resection

@@ -5,29 +5,35 @@ age	age < 50
 cancers	Lung Cancer
 cancers	Prostate Cancer
 cancers	Small Cell Lung Cancer
+clinical_conditions	anemia
 clinical_conditions	BMI high
-disease_detectability	evidence of disease
+clinical_conditions	no anemia
+gender	male
 histologic_invasiveness	in situ
+histologic_invasiveness	invasive
 histologies	small cell
 lab_values	albumin normal
 lab_values	ALT normal
 lab_values	AST normal
 lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	creatinine normal
+lab_values	Hb low
+lab_values	Hb normal
 lab_values	HCT low
 lab_values	HCT normal
-lab_values	leukocytes low
-lab_values	leukocytes normal
+lab_values	inadequate GFR
 lab_values	platelet count normal
 lab_values	PSA high
 lab_values	PSA normal
 lab_values	RBC normal
 lab_values	urine protein high
-lab_values	urine protein normal
+lab_values	WBC low
+lab_values	WBC normal
 lines_of_therapy	first line (calculated)
 lines_of_therapy	second line (calculated)
-organ_function	inadequate glomerular filtration rate GFR
-organ_function	inadequate renal function
-organ_function	ischemic heart disease
+organ_function	coronary heart disease
+performance	deceased
 received_drug_classes	GnRH agonists
 received_drug_classes	hormonal therapy
 received_drug_classes	microtubule inhibitors
@@ -45,5 +51,4 @@ received_therapies	endocrine therapy
 received_therapies	hospice care
 received_therapies	radiation therapy
 received_therapies	tumor resection
-sex	male
 stages	Stage I

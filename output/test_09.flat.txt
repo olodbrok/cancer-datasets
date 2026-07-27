@@ -4,14 +4,14 @@ ajcc_m	M0
 ajcc_n	cN0
 ajcc_t	cT3b
 cancers	Prostate Cancer
-disease_extent	no distant metastases
-disease_extent	regional lymph node(s) negative
-ecog	ECOG 0
+gender	male
 gleason	total Gleason score >=8
 histologic_invasiveness	invasive
 histologies	adenocarcinoma
 lab_values	PSA high
 lines_of_therapy	untreated (documented)
 organ_function	adequate renal function
+performance	ECOG 0
 received_therapies	biopsy
-sex	male
+solid_tumor_extent	no distant metastases
+treatment_intent	curative intent
