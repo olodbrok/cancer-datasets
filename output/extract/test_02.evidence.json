@@ -1,0 +1,2719 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_02",
+  "bundle_path": "/home/ec2-user/Data/test/test_02.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:25:15Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "70 <= age < 80",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "72-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 72.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "72-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "is a 72-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "70_age_80"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9f762bcd6b4f50cd"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "is a 72-year-old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-210956d40222509a"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM1b",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL, and staging imaging demonstrated multiple osseous metastases involving the spine and pelvis as well as pelvic lymphadenopathy.",
+      "rationale": "At prostate-cancer diagnosis, staging imaging showed osseous metastases in the spine and pelvis; bone metastases establish clinical M1b in prostate cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL, and staging imaging demonstrated multiple osseous metastases involving the spine and pelvis as well as pelvic lymphadenopathy.",
+        "reason": "At prostate-cancer diagnosis, staging imaging showed osseous metastases in the spine and pelvis; bone metastases establish clinical M1b in prostate cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL, and staging imaging demonstrated multiple osseous metastases\ninvolving the spine and pelvis as well as pelvic lymphadenopathy.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm1b",
+        "axis": "terms",
+        "state": "cm1b"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-fc7dd426b2adb4f8"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "BRCA2 mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Molecular profiling of the tumor revealed a BRCA2 mutation",
+      "rationale": "Tumor molecular profiling revealed a BRCA2 mutation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Molecular profiling of the tumor revealed a BRCA2\nmutation",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "brca2",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-88207148621dd131"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Stage IV metastatic prostate adenocarcinoma with documented bone metastases supports an advanced-stage classification at diagnosis; it does not imply late or terminal disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "reason": "Stage IV metastatic prostate adenocarcinoma with documented bone metastases supports an advanced-stage classification at diagnosis; it does not imply late or terminal disease.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-a0d6af9ec6e24953"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Prostate Cancer",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Prostate adenocarcinoma directly establishes prostate cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "prostate_cancer",
+        "axis": "terms",
+        "state": "prostate_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-30ffa0b790758519"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "castration-resistant",
+      "date": "2021",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "castration_status",
+        "axis": "terms",
+        "state": "resistant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-bbcac446f6c55031"
+    },
+    {
+      "polarity": "positive",
+      "group": "gleason",
+      "term": "total Gleason score >=8",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Explicit score.gleason_total == 9 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 9.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "reason": "Explicit score.gleason_total == 9 satisfies the reviewed interval.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gleason",
+        "node": "total_gleason_score",
+        "axis": "value_bucket",
+        "state": "ge_8"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-8cf152342928d4f2"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Metastatic prostate adenocarcinoma necessarily represents invasive rather than in-situ carcinoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "reason": "Metastatic prostate adenocarcinoma necessarily represents invasive rather than in-situ carcinoma.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-0582befe95b0d8ce"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a1839e775f7b7b96"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "At diagnosis, his PSA was 68 ng/mL",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 68.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a6e2a950d38f6688"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PSA decline to 2.1 ng/mL",
+      "rationale": "A PSA value of 2.1 ng/mL is reported.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 2.1,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "PSA decline to 2.1 ng/mL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8ab4fffa18bdae45"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": "2021",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL)",
+      "rationale": "A PSA value of 18 ng/mL is reported in the 2021 progression assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 18.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-285ca3a110ebb8e1"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "15 ng/mL prior to initiation of olaparib",
+      "rationale": "The context identifies 15 ng/mL as the PSA value before olaparib initiation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 15.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "15 ng/mL prior to initiation of olaparib",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-037cb9f2c5e33127"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Most recent PSA is 9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 9.4,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null,
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-ea5858ed56957349"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "bone metastases",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "staging imaging demonstrated multiple osseous metastases involving the spine and pelvis",
+      "rationale": "Osseous metastases in the spine and pelvis are bone metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL, and staging imaging demonstrated multiple osseous metastases\ninvolving the spine and pelvis",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "bone_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-a897a535b9b74d2f"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "bone metastases",
+      "date": "2021",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "rationale": "In the context of established bone metastases, new bone lesions accompanying radiographic progression of metastatic prostate cancer support additional bone metastatic disease in 2021.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+        "reason": "In the context of established bone metastases, new bone lesions accompanying radiographic progression of metastatic prostate cancer support additional bone metastatic disease in 2021.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "bone_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2b5f5fdbfa231feb"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "no visceral metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "imaging shows stable osseous disease without evidence of visceral metastases.",
+      "rationale": "Current imaging explicitly shows no evidence of visceral metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "imaging shows stable osseous disease without evidence of visceral\nmetastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "visceral_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-04c3133e9d629de9"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": "2026",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib. His ECOG performance status is 1.",
+      "rationale": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 1.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib. His ECOG performance status is 1.",
+        "reason": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib.\nHis ECOG performance status is 1.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-efc44a6da7ca1629"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-8425dbe0f26f4c82"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": "2021",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5bd59478895f81ae"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IV",
+      "date": "2019",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iv",
+        "axis": "terms",
+        "state": "stage_iv"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3234a0eebd9f93be"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "PSA decline",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "achieving a good initial response with PSA decline to 2.1 ng/mL",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "achieving a good initial response with\nPSA decline to 2.1 ng/mL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "psa_decline",
+        "axis": "results",
+        "state": "decline"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b4aea01193d0d0a7"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": "2021",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions",
+      "rationale": "Biochemical and radiographic progression with new bone lesions is explicitly documented in 2021 after treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5ceade6c41d76009"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was subsequently treated with abiraterone plus prednisone, achieving a transient PSA response followed by progression.",
+      "rationale": "The treatment history explicitly describes progression after a transient PSA response to abiraterone plus prednisone.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone, achieving a\ntransient PSA response followed by progression.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-1a71674414402f1a"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "stable disease",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2023, he received cabazitaxel chemotherapy, achieving stable disease for approximately six months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In\n2023, he received cabazitaxel chemotherapy, achieving stable disease for\napproximately six months.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "stable_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c90d6fbfeab8461b"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "PSA decline",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Most recent PSA is 9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib",
+      "rationale": "PSA is explicitly reported to have decreased from 15 to 9.4 ng/mL after olaparib initiation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Most recent PSA is\n9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "psa_decline",
+        "axis": "results",
+        "state": "decline"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-0303bb6866f8a473"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "stable disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "imaging shows stable osseous disease without evidence of visceral metastases.",
+      "rationale": "Current imaging explicitly describes stable osseous disease, supporting stable disease in that imaging assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "imaging shows stable osseous disease without evidence of visceral\nmetastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "stable_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-354c033264f04aee"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "leuprolide",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "leuprolide",
+        "axis": "terms",
+        "state": "leuprolide"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-91029130d89bd250"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "docetaxel",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "docetaxel",
+        "axis": "terms",
+        "state": "docetaxel"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9511810e65d3e6ee"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "abiraterone",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was subsequently treated with abiraterone plus prednisone",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "abiraterone",
+        "axis": "terms",
+        "state": "abiraterone"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-44aa9da5d477155b"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "prednisone",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was subsequently treated with abiraterone plus prednisone",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "prednisone",
+        "axis": "terms",
+        "state": "prednisone"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-0dbc32e7317e0cb8"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "enzalutamide",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was then switched to enzalutamide, with limited clinical benefit and continued PSA rise.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was then switched to\nenzalutamide, with limited clinical benefit and continued PSA rise.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "enzalutamide",
+        "axis": "terms",
+        "state": "enzalutamide"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d0fe0d9c7320c35d"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "cabazitaxel",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2023, he received cabazitaxel chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In\n2023, he received cabazitaxel chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "cabazitaxel",
+        "axis": "terms",
+        "state": "cabazitaxel"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-be5792ad31feaa20"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "olaparib",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "in 2024 he was initiated on olaparib",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "in 2024 he was initiated on olaparib",
+      "treatment_period": {
+        "start": "2024-01-01",
+        "end": null,
+        "precision": "unknown",
+        "start_date": "2024",
+        "end_date": null
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "olaparib",
+        "axis": "terms",
+        "state": "olaparib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d9a3633f91f89b31"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "leuprolide",
+      "date": "2026",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "leuprolide",
+        "axis": "terms",
+        "state": "leuprolide"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-dffaba8a1c729b6c"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "olaparib",
+      "date": "2026",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "olaparib",
+        "axis": "terms",
+        "state": "olaparib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1e36b897d4e7d0f3"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "endocrine therapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+      "rationale": "The patient started androgen deprivation therapy with leuprolide, which is endocrine therapy; docetaxel is a separate chemotherapy modality.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+        "reason": "The patient started androgen deprivation therapy with leuprolide, which is endocrine therapy; docetaxel is a separate chemotherapy modality.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "endocrine_therapy",
+        "axis": "terms",
+        "state": "endocrine_therapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7464d624fac854d1"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-85f15f38c17dd7bd"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "In 2023, he received cabazitaxel chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "In\n2023, he received cabazitaxel chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3cf2d6285f0c16b4"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "endocrine therapy",
+      "date": "2026",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "rationale": "Continuing ADT with leuprolide in 2026 establishes ongoing endocrine therapy; olaparib is not the basis for this classification.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+        "reason": "Continuing ADT with leuprolide in 2026 establishes ongoing endocrine therapy; olaparib is not the basis for this classification.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "endocrine_therapy",
+        "axis": "terms",
+        "state": "endocrine_therapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2b7a1035d4a6f64a"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:prostate_cancer",
+      "cancer_term": "Prostate Cancer",
+      "episode_key": null,
+      "diagnosis_date": "2019",
+      "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-334e38ccaad92a06",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "abiraterone"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "prednisone"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "He was subsequently treated with abiraterone plus prednisone",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-68b31af57b781af0",
+      "status": "started",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "leuprolide"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "docetaxel"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "endocrine therapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "chemotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-cfcb483721bb2ea6",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "effective": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "precision": "year",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "leuprolide"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "olaparib"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "endocrine therapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_02",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "72-year-old": [
+          17
+        ],
+        "is a 72-year-old": [
+          12
+        ],
+        "male": [
+          29
+        ],
+        "is a 72-year-old male": [
+          12
+        ],
+        "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL, and staging imaging demonstrated multiple osseous metastases involving the spine and pelvis as well as pelvic lymphadenopathy.": [
+          52
+        ],
+        "Molecular profiling of the tumor revealed a BRCA2 mutation": [
+          1118
+        ],
+        "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019": [
+          52
+        ],
+        "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).": [
+          566
+        ],
+        "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019": [
+          72
+        ],
+        "At diagnosis, his PSA was 68 ng/mL": [
+          195
+        ],
+        "initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL": [
+          112
+        ],
+        "PSA decline to 2.1 ng/mL": [
+          512
+        ],
+        "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL)": [
+          566
+        ],
+        "15 ng/mL prior to initiation of olaparib": [
+          1558
+        ],
+        "Most recent PSA is 9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib": [
+          1513
+        ],
+        "staging imaging demonstrated multiple osseous metastases involving the spine and pelvis": [
+          235
+        ],
+        "initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL, and staging imaging demonstrated multiple osseous metastases involving the spine and pelvis": [
+          112
+        ],
+        "imaging shows stable osseous disease without evidence of visceral metastases.": [
+          1604
+        ],
+        "At present (2026), he remains on continuous ADT with leuprolide and olaparib. His ECOG performance status is 1.": [
+          1304
+        ],
+        "achieving a good initial response with PSA decline to 2.1 ng/mL": [
+          473
+        ],
+        "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions": [
+          566
+        ],
+        "He was subsequently treated with abiraterone plus prednisone, achieving a transient PSA response followed by progression.": [
+          802
+        ],
+        "In 2023, he received cabazitaxel chemotherapy, achieving stable disease for approximately six months.": [
+          1016
+        ],
+        "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)": [
+          358
+        ],
+        "He was subsequently treated with abiraterone plus prednisone": [
+          802
+        ],
+        "He was then switched to enzalutamide, with limited clinical benefit and continued PSA rise.": [
+          924
+        ],
+        "In 2023, he received cabazitaxel chemotherapy": [
+          1016
+        ],
+        "in 2024 he was initiated on olaparib": [
+          1182
+        ],
+        "At present (2026), he remains on continuous ADT with leuprolide and olaparib.": [
+          1304
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "70 <= age < 80",
+        "evidence": "72-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 72.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "is a 72-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "is a 72-year-old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM1b",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after presenting with urinary hesitancy and back pain. At diagnosis, his PSA was 68 ng/mL, and staging imaging demonstrated multiple osseous metastases involving the spine and pelvis as well as pelvic lymphadenopathy.",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL, and staging imaging demonstrated multiple osseous metastases\ninvolving the spine and pelvis as well as pelvic lymphadenopathy."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "BRCA2 mutation detected",
+        "evidence": "Molecular profiling of the tumor revealed a BRCA2 mutation",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "Molecular profiling of the tumor revealed a BRCA2\nmutation"
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Prostate Cancer",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "castration-resistant",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+        "date": "2021",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "polarity": "positive",
+        "group": "gleason",
+        "term": "total Gleason score >=8",
+        "evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "At diagnosis, his PSA was 68 ng/mL",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 68.0,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "PSA decline to 2.1 ng/mL",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 2.1,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "PSA decline to 2.1 ng/mL"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL)",
+        "date": "2021",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 18.0,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL)"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "15 ng/mL prior to initiation of olaparib",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 15.0,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "15 ng/mL prior to initiation of olaparib"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "Most recent PSA is 9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 9.4,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "bone metastases",
+        "evidence": "staging imaging demonstrated multiple osseous metastases involving the spine and pelvis",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2019 after\npresenting with urinary hesitancy and back pain. At diagnosis, his PSA was\n68 ng/mL, and staging imaging demonstrated multiple osseous metastases\ninvolving the spine and pelvis"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "bone metastases",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+        "date": "2021",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "no visceral metastases",
+        "evidence": "imaging shows stable osseous disease without evidence of visceral metastases.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "imaging shows stable osseous disease without evidence of visceral\nmetastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib. His ECOG performance status is 1.",
+        "date": "2026",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib.\nHis ECOG performance status is 1."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions, consistent with transition to metastatic castration-resistant prostate cancer (mCRPC).",
+        "date": "2021",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions, consistent with\ntransition to metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IV",
+        "evidence": "stage IV metastatic prostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019",
+        "date": "2019",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "stage IV metastatic\nprostate adenocarcinoma (Gleason 4+5=9) initially diagnosed in 2019"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "PSA decline",
+        "evidence": "achieving a good initial response with PSA decline to 2.1 ng/mL",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "achieving a good initial response with\nPSA decline to 2.1 ng/mL"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "In 2021, he developed biochemical and radiographic progression with rising PSA (18 ng/mL) despite castrate testosterone levels and new bone lesions",
+        "date": "2021",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In 2021, he developed\nbiochemical and radiographic progression with rising PSA (18 ng/mL) despite\ncastrate testosterone levels and new bone lesions"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "He was subsequently treated with abiraterone plus prednisone, achieving a transient PSA response followed by progression.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone, achieving a\ntransient PSA response followed by progression."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "stable disease",
+        "evidence": "In 2023, he received cabazitaxel chemotherapy, achieving stable disease for approximately six months.",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In\n2023, he received cabazitaxel chemotherapy, achieving stable disease for\napproximately six months."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "PSA decline",
+        "evidence": "Most recent PSA is 9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "Most recent PSA is\n9.4 ng/mL, decreased from 15 ng/mL prior to initiation of olaparib"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "stable disease",
+        "evidence": "imaging shows stable osseous disease without evidence of visceral metastases.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "imaging shows stable osseous disease without evidence of visceral\nmetastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "leuprolide",
+        "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "docetaxel",
+        "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "abiraterone",
+        "evidence": "He was subsequently treated with abiraterone plus prednisone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "prednisone",
+        "evidence": "He was subsequently treated with abiraterone plus prednisone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He\nwas subsequently treated with abiraterone plus prednisone"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "enzalutamide",
+        "evidence": "He was then switched to enzalutamide, with limited clinical benefit and continued PSA rise.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He was then switched to\nenzalutamide, with limited clinical benefit and continued PSA rise."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "cabazitaxel",
+        "evidence": "In 2023, he received cabazitaxel chemotherapy",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In\n2023, he received cabazitaxel chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "olaparib",
+        "evidence": "in 2024 he was initiated on olaparib",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "in 2024 he was initiated on olaparib",
+        "treatment_period": {
+          "start": "2024-01-01",
+          "precision": "unknown",
+          "start_date": "2024"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "leuprolide",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+        "date": "2026",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "olaparib",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+        "date": "2026",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "endocrine therapy",
+        "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "He was started on androgen deprivation therapy (leuprolide) in combination with docetaxel chemotherapy (6 cycles)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "He was\nstarted on androgen deprivation therapy (leuprolide) in combination with\ndocetaxel chemotherapy (6 cycles)"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "In 2023, he received cabazitaxel chemotherapy",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "In\n2023, he received cabazitaxel chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "endocrine therapy",
+        "evidence": "At present (2026), he remains on continuous ADT with leuprolide and olaparib.",
+        "date": "2026",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_02:PlainTextDocument.text",
+        "date_evidence": "At\npresent (2026), he remains on continuous ADT with leuprolide and olaparib."
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_02",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "adenocarcinoma",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "adenocarcinoma",
+                "start": 81,
+                "end": 95,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "tumor",
+                "start": 1145,
+                "end": 1150,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 61,
+                "end": 71,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "stage IV",
+                "start": 52,
+                "end": 60,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "chemotherapy",
+                "start": 448,
+                "end": 460,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "common_cancer_drugs",
+                "pattern": "(?<!\\w)(?:elranatamab[-\\s]+bcmm|penpulimab[-\\s]+kcqx|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|datopotamab\\s+deruxtecan|trastuzumab\\s+deruxtecan|fludarabine\\s+phosphate|inotuzumab\\s+ozogamicin|telisotuzumab\\s+vedotin|trastuzumab\\s+emtansine|abiraterone\\s+acetate|brentuximab\\s+vedotin|etoposide\\s+phosphate|polatuzumab\\s+vedotin|tisotumab\\s+vedotin|pegaspargase|penpulimab|lonsurf|teysuno|trifluridine[\\s/_-]+(?:and[\\s/_-]+)?tipiracil|tegafur[\\s/,_-]+gimeracil[\\s/,_-]+(?:and[\\s/,_-]+)?oteracil|floxuridine|levoleucovorin|abemaciclib|abiraterone|acalabrutinib|adagrasib|ado[-\\s]+trastuzumab\\s+emtansine|afatinib|alectinib|alemtuzumab|amivantamab|anastrozole|apalutamide|asciminib|atezolizumab|avelumab|avutometinib|axitinib|azacitidine|bacillus\\s+calmette[-\\s]+guerin|belinostat|belzutifan|bendamustine|bevacizumab|bicalutamide|binimetinib|bleomycin|blinatumomab|bortezomib|bosutinib|brentuximab|brigatinib|cabazitaxel|cabozantinib|capecitabine|capivasertib|capmatinib|carboplatin|carfilzomib|carmustine|cemiplimab|ceritinib|cetuximab|chlorambucil|cisplatin|cobimetinib|cosibelimab|crizotinib|cyclophosphamide|cytarabine|dabrafenib|dacarbazine|dacomitinib|dactinomycin|darolutamide|dasatinib|datopotamab|decitabine|degarelix|docetaxel|dostarlimab|doxorubicin|durvalumab|elacestrant|elranatamab|elranatamab[-\\s]+bcmm|enasidenib|encorafenib|enfortumab\\s+vedotin|ensartinib|entrectinib|enzalutamide|epcoritamab|erdafitinib|eribulin|erlotinib(?:\\s+hydrochloride)?|etoposide|everolimus|exemestane|fam[-\\s]+trastuzumab\\s+deruxtecan[-\\s]+nxki|fluorouracil|fruquintinib|fulvestrant|futibatinib|gefitinib|gemcitabine|gilteritinib|glofitamab|goserelin|histrelin|ibrutinib|idarubicin|idelalisib|ifosfamide|imatinib|inavolisib|inotuzumab|ipilimumab|irinotecan|isatuximab|ivosidenib|ixabepilone|ixazomib|lanreotide|lapatinib|larotrectinib|lenalidomide|lenvatinib|letrozole|leucovorin|leuprolide|lomustine|loncastuximab\\s+tesirine|lorlatinib|lurbinectedin|margetuximab|melphalan|mercaptopurine|methotrexate|mirvetuximab[\\s_]+soravtansine|mitomycin|mitotane|mosunetuzumab|nadofaragene\\s+firadenovec|necitumumab|neratinib|nilotinib|nilutamide|niraparib|nirogacestat|nivolumab|obinutuzumab|olaparib|olutasidenib|osimertinib|oxaliplatin|paclitaxel|palbociclib|panitumumab|pazopanib|pembrolizumab|pemetrexed|pemigatinib|penpulimab[-\\s]+kcqx|pertuzumab|pexidartinib|pirtobrutinib|polatuzumab|pomalidomide|ponatinib|pralsetinib|quizartinib|ramucirumab|regorafenib|relugolix|repotrectinib|retifanlimab|revumenib|ribociclib|ripretinib|rituximab|romidepsin|rucaparib|sacituzumab\\s+govitecan|selinexor|selpercatinib|sonidegib|sorafenib|sotorasib|sunitinib|talazoparib|taletrectinib|talimogene\\s+laherparepvec|talquetamab|tamoxifen|tarlatamab|tazemetostat|tebentafusp|teclistamab|telisotuzumab|temozolomide|temsirolimus|tepotinib|thalidomide|thioguanine|thiotepa|tislelizumab|tisotumab|tivozanib|topotecan|toremifene|toripalimab|trametinib|trastuzumab|tremelimumab|triptorelin|tucatinib|valrubicin|vandetanib|vemurafenib|venetoclax|vinblastine|vincristine|vinorelbine|vismodegib|vorasidenib|zanidatamab|zanubrutinib|zenocutuzumab|ziv[-\\s]+aflibercept|zolbetuximab|zongertinib|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|asparaginase\\s+erwinia\\s+chrysanthemi|nogapendekin\\s+alfa\\s+inbakicept|brexucabtagene\\s+autoleucel|ciltacabtagene\\s+autoleucel|omacetaxine\\s+mepesuccinate|vusolimogene\\s+oderparepvec|afamitresgene\\s+autoleucel|lisocabtagene\\s+maraleucel|axicabtagene\\s+ciloleucel|obecabtagene\\s+autoleucel|ropeginterferon\\s+alfa[-\\s]+2b|idecabtagene\\s+vicleucel|gemtuzumab\\s+ozogamicin|belantamab\\s+mafodotin|denileukin\\s+diftitox|etoposide\\s+phosphate|calaspargase\\s+pegol|interferon\\s+alfa[-\\s]+2b|megestrol\\s+acetate|arsenic\\s+trioxide|tisagenlecleucel|mechlorethamine|dexamethasone|mogamulizumab|sunvozertinib|vepdegestrant|camizestrant|daraxonrasib|daunorubicin|dordaviprone|eflornithine|imlunestrant|mitoxantrone|pralatrexate|procarbazine|relacorilant|sevabertinib|sipuleucel[-\\s]+T|trifluridine|zidesamtinib|zidesmatinib|aldesleukin|avapritinib|clofarabine|daratumumab|dinutuximab|gedatolisib|hydroxyurea|midostaurin|momelotinib|ruxolitinib|sonrotoclax|tafasitamab|tagraxofusp|tovorafenib|trabectedin|bexarotene|cladribine|elotuzumab|epirubicin|fedratinib|imetelstat|lazertinib|lifileucel|nelarabine|ofatumumab|pacritinib|prednisone|raloxifene|treosulfan|vorinostat|ziftomenib|alpelisib|duvelisib|erlotinib|flutamide|glasdegib|imiquimod|naxitamab|sirolimus|busulfan|fludarabine|tegafur|other\\s+cancer\\s+drug)(?!\\w)",
+                "evidence": "leuprolide",
+                "start": 406,
+                "end": 416,
+                "reason": "cancer drug trigger from tx/drugs.txt"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "PSA",
+                "start": 213,
+                "end": 216,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 1386,
+                "end": 1390,
+                "reason": "performance status trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 2,
+      "input_tokens": 71829,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 16181,
+      "output_tokens": 16502,
+      "total_tokens": 88331,
+      "time_elapsed": 141.9,
+      "estimated_cost_usd": 0.2163546,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 142.4
+    }
+  },
+  "allow_interpretation": true
+}

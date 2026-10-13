@@ -1,0 +1,50 @@
+patient_id:	test_02
+bundle_path:	/home/ec2-user/Data/test/test_02.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:31:37Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	70 <= age < 80		
+unknown	unknown	fact	gender	male		
+2019	Prostate Cancer	fact	ajcc_m	cM1b		
+unknown	Prostate Cancer	fact	biomarkers	BRCA2 mutation detected		
+2019	Prostate Cancer	fact	broad_disease_stage	advanced stage		
+2021	Prostate Cancer	fact	broad_disease_stage	advanced stage		
+2019	Prostate Cancer	fact	cancers	Prostate Cancer		
+2021	Prostate Cancer	fact	clinical_conditions	castration-resistant		
+2019	Prostate Cancer	fact	disease_status	newly diagnosed disease		
+2019	Prostate Cancer	fact	gleason	total Gleason score >=8	9.0	
+2019	Prostate Cancer	fact	histologic_invasiveness	invasive		
+2019	Prostate Cancer	fact	histologies	adenocarcinoma		
+2019	Prostate Cancer	fact	lab_values	PSA value reported	68.0 ng/mL	
+unknown	Prostate Cancer	fact	lab_values	PSA value reported	2.1 ng/mL	
+2021	Prostate Cancer	fact	lab_values	PSA value reported	18.0 ng/mL	
+unknown	Prostate Cancer	fact	lab_values	PSA value reported	15.0 ng/mL	
+2026	Prostate Cancer	fact	lab_values	PSA value reported	9.4 ng/mL	
+2019	Prostate Cancer	fact	metastatic_sites	bone metastases		
+2021	Prostate Cancer	fact	metastatic_sites	bone metastases		
+unknown	Prostate Cancer	fact	metastatic_sites	bone metastases		
+unknown	Prostate Cancer	fact	metastatic_sites	no visceral metastases		
+2026	Prostate Cancer	fact	performance	ECOG 1	1.0	
+2019	Prostate Cancer	fact	solid_tumor_extent	distant metastases		
+2021	Prostate Cancer	fact	solid_tumor_extent	distant metastases		
+2019	Prostate Cancer	fact	stages	Stage IV		
+unknown	Prostate Cancer	fact	therapeutic_response	PSA decline		
+2021	Prostate Cancer	fact	therapeutic_response	progressive disease		
+unknown	Prostate Cancer	fact	therapeutic_response	progressive disease		
+2023	Prostate Cancer	fact	therapeutic_response	stable disease		
+unknown	Prostate Cancer	fact	therapeutic_response	PSA decline		
+unknown	Prostate Cancer	fact	therapeutic_response	stable disease		
+unknown	Prostate Cancer	fact	drugs	leuprolide		
+unknown	Prostate Cancer	fact	drugs	docetaxel		
+unknown	Prostate Cancer	fact	drugs	abiraterone		
+unknown	Prostate Cancer	fact	drugs	prednisone		
+unknown	Prostate Cancer	fact	drugs	enzalutamide		
+2023	Prostate Cancer	fact	drugs	cabazitaxel		
+2024	Prostate Cancer	fact	drugs	olaparib		
+2026	Prostate Cancer	fact	drugs	leuprolide		
+2026	Prostate Cancer	fact	drugs	olaparib		
+unknown	Prostate Cancer	fact	therapies	endocrine therapy		
+unknown	Prostate Cancer	fact	therapies	chemotherapy		
+2023	Prostate Cancer	fact	therapies	chemotherapy		
+2026	Prostate Cancer	fact	therapies	endocrine therapy		

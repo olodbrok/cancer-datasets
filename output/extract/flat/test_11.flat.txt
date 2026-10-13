@@ -1,0 +1,43 @@
+age	50 <= age < 60
+ajcc_m	cM0
+ajcc_m	pM1
+ajcc_n	pN2a
+ajcc_t	pT3
+biomarkers	HER2 status negative
+biomarkers	HR positive
+broad_disease_stage	advanced stage
+broad_disease_stage	early stage
+cancers	Breast Cancer
+cancers	Colon Cancer
+clinical_conditions	anemia
+disease_status	newly diagnosed disease
+disease_status	recurrent disease
+drugs	bevacizumab
+drugs	cyclophosphamide
+drugs	docetaxel
+gender	female
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+histologies	carcinoma
+lines_of_therapy	first line
+lines_of_therapy	second line
+metastatic_sites	liver metastases
+metastatic_sites	lung metastases
+performance	ECOG 1
+regimens	FOLFIRI
+regimens	FOLFOX
+residual_disease	no residual disease
+solid_tumor_extent	distant metastases
+solid_tumor_extent	localized
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) positive
+stages	Stage IIA
+stages	Stage IIIB
+stages	Stage IV
+therapeutic_response	progressive disease
+therapies	biopsy
+therapies	cancer surgery
+therapies	chemotherapy
+therapies	endocrine therapy
+therapies	systemic therapy
+treatment_setting	adjuvant setting

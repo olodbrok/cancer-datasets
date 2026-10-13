@@ -1,0 +1,26 @@
+age	60 <= age < 70
+biomarkers	EGFR exon 19 deletion detected
+biomarkers	No ALK rearrangement detected
+biomarkers	No ROS1 rearrangement detected
+biomarkers	PD-L1 value reported
+broad_disease_stage	advanced stage
+cancers	Non-Small Cell Lung Cancer
+clinical_conditions	anemia
+drugs	osimertinib
+gender	male
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	LDH high
+lines_of_therapy	first line
+metastatic_sites	bone metastases
+metastatic_sites	lung metastases
+performance	ECOG 1
+solid_tumor_extent	distant metastases
+stages	Stage IV
+therapeutic_response	partial response
+therapeutic_response	progressive disease
+therapies	targeted therapy
+proposed_therapies:
+proposed_therapies/therapies	clinical trial [proposal_id=proposal-1904df384ae190be0109; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:non_small_cell_lung_cancer]
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-ae23544ab4d5c70cd3cb; status=under consideration; validation=supported; line_number=2; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:non_small_cell_lung_cancer]
+proposed_therapies/lines_of_therapy	second line [proposal_id=proposal-ae23544ab4d5c70cd3cb; status=under consideration; validation=supported; line_number=2; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:non_small_cell_lung_cancer]

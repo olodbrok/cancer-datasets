@@ -1,0 +1,3559 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_10",
+  "bundle_path": "/home/ec2-user/Data/test/test_10.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:47:01Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "60 <= age < 70",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "63-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 63.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "63-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Assessment 63-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "60_age_70"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d628426b5eb941b7"
+    },
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "60 <= age < 70",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Age: 63",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 63.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "Age: 63",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Patient Demographics Name: Jane Mitchell Age: 63",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "60_age_70"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-97309a525391f3ff"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Female",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Patient Demographics Name: Jane Mitchell Age: 63 Sex: Female",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-cd40a6a9136faab4"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "female",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Assessment 63-year-old female",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-8d1f0220c7fc74c6"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "CD20 positive",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "rationale": "The follicular lymphoma biopsy reports CD20+.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "cd20",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2e9283078a5b8d38"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement. Stage Ann Arbor Stage IV FLIPI score: High risk",
+      "rationale": "The documented follicular lymphoma is Ann Arbor stage IV with marrow involvement; stage IV is advanced-stage lymphoma at the initial assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement. Stage Ann Arbor Stage IV FLIPI score: High risk",
+        "reason": "The documented follicular lymphoma is Ann Arbor stage IV with marrow involvement; stage IV is advanced-stage lymphoma at the initial assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement.\n\nStage Ann Arbor Stage IV FLIPI score: High risk",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-bef86d2843460b05"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Follicular Lymphoma",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "follicular_lymphoma",
+        "axis": "terms",
+        "state": "follicular_lymphoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-93f7d42234d5beac"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "neutropenia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Bendamustine + Rituximab (BR) 6 cycles administered. Complications included grade 2 neutropenia",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "April 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered. Complications included\ngrade 2 neutropenia",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "neutropenia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-457832e6a603855d"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "neutropenia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "July 2021 – January 2022\n\nR-CHOP 6 cycles completed.\n\nComplications included febrile neutropenia after cycle 3",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "neutropenia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-10e4d9cab0474c19"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "anemia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3, grade 1 peripheral neuropathy, and anemia requiring transfusion support.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "July 2021 – January 2022\n\nR-CHOP 6 cycles completed.\n\nComplications included febrile neutropenia after cycle 3, grade 1\nperipheral neuropathy, and anemia requiring transfusion support.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "anemia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-951ed83db84f2d9f"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "rationale": "The March 2018 assessment is labeled the initial diagnosis of follicular lymphoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-1d3d26be5b20c811"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "recurrent disease",
+      "date": "2021-06",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+      "rationale": "The June 2021 biopsy confirms recurrent follicular lymphoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "recurrent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8da6dec3f3d002d7"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "relapsed disease",
+      "date": "2021-06",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+      "rationale": "The June 2021 episode is explicitly labeled the first relapse.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "relapsed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-01d3591c1676d023"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "relapsed disease",
+      "date": "2023-10",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation. Repeat biopsy showed follicular lymphoma grade 3A without evidence of diffuse large B-cell lymphoma transformation.",
+      "rationale": "The October 2023 follicular lymphoma episode is explicitly labeled the second relapse/progression.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation.\n\nRepeat biopsy showed follicular lymphoma grade 3A without evidence of\ndiffuse large B-cell lymphoma transformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "relapsed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-dc1f1f5a0005f4ea"
+    },
+    {
+      "polarity": "positive",
+      "group": "hematologic_extent",
+      "term": "disseminated or systemic",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement.",
+      "rationale": "Follicular lymphoma with 20% marrow involvement and diffuse nodal disease above and below the diaphragm with splenic involvement is disseminated rather than localized.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement.",
+        "reason": "Follicular lymphoma with 20% marrow involvement and diffuse nodal disease above and below the diaphragm with splenic involvement is disseminated rather than localized.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "hematologic_extent",
+        "node": "hematologic_extent",
+        "axis": "terms",
+        "state": "disseminated_or_systemic"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-750eea688c7709db"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "follicular",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "follicular",
+        "axis": "terms",
+        "state": "follicular"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5ba17d80a2a7dab3"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "Hb value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Hemoglobin: 10.4 g/dL",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 10.4,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "g/dL",
+          "display": "g/dL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Hemoglobin: 10.4 g/dL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "hb",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-6d928e462d1312e7"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "WBC value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "WBC: 3.2 x10^9/L",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 3.2,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "x10^9/L",
+          "display": "x10^9/L"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "WBC: 3.2 x10^9/L",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "wbc",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-89ab3b1692dfba5f"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "ANC value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "ANC: 1.4 x10^9/L",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 1.4,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "x10^9/L",
+          "display": "x10^9/L"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "ANC: 1.4\nx10^9/L",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "anc",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-8db7b2627f6e85b5"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "platelet count value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Platelets: 118 x10^9/L",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 118.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "x10^9/L",
+          "display": "x10^9/L"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Platelets: 118 x10^9/L",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "platelet_count",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-6d367bf3efd6f1d6"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "LDH high",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "LDH: Mildly elevated",
+      "rationale": "LDH is reported as mildly elevated, meaning high.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "LDH: Mildly elevated",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "ldh",
+        "axis": "results",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9fded2702cf271ef"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "creatinine value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Creatinine: 1.1 mg/dL",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 1.1,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "mg/dL",
+          "display": "mg/dL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Creatinine: 1.1 mg/dL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "creatinine",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-2b2926537e007fee"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "first line",
+      "date": "2018-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+      "rationale": "Bendamustine plus rituximab was administered under the explicit First-Line Therapy heading.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "first_line",
+        "axis": "terms",
+        "state": "first_line"
+      },
+      "line_number": 1,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5292bf776036a3fe"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "second line",
+      "date": "2021-07",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.",
+      "rationale": "The completed R-CHOP course is explicitly labeled Second-Line Therapy.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second-Line Therapy\n\nJuly 2021 – January 2022\n\nR-CHOP 6 cycles completed.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "second_line",
+        "axis": "terms",
+        "state": "second_line"
+      },
+      "line_number": 2,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-cb5523e69d80dc32"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "third line",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+      "rationale": "The current follicular lymphoma therapy is explicitly labeled third-line and is stated to have been initiated.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "third_line",
+        "axis": "terms",
+        "state": "third_line"
+      },
+      "line_number": 3,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-c452a35316ab03cc"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "hypertension",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Relevant Past Medical History Hypertension",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Relevant Past Medical History Hypertension",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "hypertension",
+        "axis": "results",
+        "state": "hypertension"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a39c3ed5a837e062"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "ECOG Performance Status: 1",
+      "rationale": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 1.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "ECOG Performance Status: 1",
+        "reason": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "ECOG Performance\nStatus: 1",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-7adf5e8d199c0f76"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "residual disease",
+      "date": "2022-02",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Response PET/CT February 2022 demonstrated partial response with residual mesenteric disease.",
+      "rationale": "The February 2022 post-treatment PET/CT explicitly reports residual mesenteric disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Response PET/CT February 2022 demonstrated partial response with residual\nmesenteric disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-78bdc8d3c959fc27"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "residual disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Disease Status Mixed response after 4 cycles with persistent abdominal disease and ongoing fatigue.",
+      "rationale": "The current assessment reports persistent abdominal disease after four treatment cycles; disease remaining after treatment is residual disease at that assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "Current Disease Status Mixed response after 4 cycles with persistent abdominal disease and ongoing fatigue.",
+        "reason": "The current assessment reports persistent abdominal disease after four treatment cycles; disease remaining after treatment is residual disease at that assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Disease Status Mixed response after 4 cycles with persistent\nabdominal disease and ongoing fatigue.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7f9275e7ad884ad7"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IV",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Stage Ann Arbor Stage IV FLIPI score: High risk",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement.\n\nStage Ann Arbor Stage IV FLIPI score: High risk",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iv",
+        "axis": "terms",
+        "state": "stage_iv"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-cc2243402bbd0e31"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "complete response",
+      "date": "2018-11",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Response PET/CT November 2018 showed complete metabolic response (Deauville 2).",
+      "rationale": "The post-treatment follicular lymphoma PET/CT reports complete metabolic response, Deauville 2, which constitutes a complete lymphoma response at that assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "evidence": "Response PET/CT November 2018 showed complete metabolic response (Deauville 2).",
+        "reason": "The post-treatment follicular lymphoma PET/CT reports complete metabolic response, Deauville 2, which constitutes a complete lymphoma response at that assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Response PET/CT November 2018 showed complete metabolic response (Deauville\n2).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "complete_response"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b8565f7501bb4ed2"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "partial response",
+      "date": "2022-02",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Response PET/CT February 2022 demonstrated partial response with residual mesenteric disease.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Response PET/CT February 2022 demonstrated partial response with residual\nmesenteric disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "partial_response"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e3cc5e5d67c3dd83"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": "2023-10",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy",
+      "rationale": "The October 2023 episode is explicitly labeled progression, with new adenopathy on PET/CT.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9097113067ff82c2"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP. Disease remains indolent but clinically progressive with persistent symptomatic abdominal adenopathy.",
+      "rationale": "The current assessment explicitly calls the follicular lymphoma clinically progressive.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Assessment 63-year-old female with multiply relapsed follicular\nlymphoma now receiving third-line systemic therapy following progression\nafter BR and R-CHOP. Disease remains indolent but clinically progressive\nwith persistent symptomatic abdominal adenopathy.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-a76f175fddc749a4"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "maintenance",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December\n2020.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "maintenance",
+        "axis": "terms",
+        "state": "maintenance"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-79e2bcda3fde8427"
+    },
+    {
+      "polarity": "positive",
+      "group": "tumor_bulk",
+      "term": "bulky disease",
+      "date": "2023-10",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation.",
+      "rationale": "PET/CT explicitly describes a bulky mesenteric mass.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "tumor_bulk",
+        "node": "tumor_bulk",
+        "axis": "results",
+        "state": "bulky"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b8021c2a246886ce"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "bendamustine",
+      "date": "2018-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+      "treatment_period": {
+        "start": "2018-04-01",
+        "end": "2018-10-31",
+        "precision": "month",
+        "start_date": "2018-04",
+        "end_date": "2018-10"
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "bendamustine",
+        "axis": "terms",
+        "state": "bendamustine"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9656d79591909de3"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "rituximab",
+      "date": "2018-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+      "treatment_period": {
+        "start": "2018-04-01",
+        "end": "2018-10-31",
+        "precision": "month",
+        "start_date": "2018-04",
+        "end_date": "2018-10"
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "rituximab",
+        "axis": "terms",
+        "state": "rituximab"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-20177c293a240849"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "rituximab",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December\n2020.",
+      "treatment_period": {
+        "start": null,
+        "end": "2020-12-31",
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": "2020-12"
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "rituximab",
+        "axis": "terms",
+        "state": "rituximab"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-487060b7059372c5"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "obinutuzumab",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+      "treatment_period": {
+        "start": "2024-01-01",
+        "end": null,
+        "precision": "unknown",
+        "start_date": "2024-01",
+        "end_date": null
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "obinutuzumab",
+        "axis": "terms",
+        "state": "obinutuzumab"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1f79e137a9092879"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "lenalidomide",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+      "treatment_period": {
+        "start": "2024-01-01",
+        "end": null,
+        "precision": "unknown",
+        "start_date": "2024-01",
+        "end_date": null
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "lenalidomide",
+        "axis": "terms",
+        "state": "lenalidomide"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-fca08116b1de5a7c"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "BR",
+      "date": "2018-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+      "treatment_period": {
+        "start": "2018-04-01",
+        "end": "2018-10-31",
+        "precision": "month",
+        "start_date": "2018-04",
+        "end_date": "2018-10"
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "br",
+        "axis": "terms",
+        "state": "br"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9c2bc9e32836d260"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "R-CHOP",
+      "date": "2021-07",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "completed",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second-Line Therapy\n\nJuly 2021 – January 2022\n\nR-CHOP 6 cycles completed.",
+      "treatment_period": {
+        "start": "2021-07-01",
+        "end": "2022-01-31",
+        "precision": "month",
+        "start_date": "2021-07",
+        "end_date": "2022-01"
+      },
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "r_chop",
+        "axis": "terms",
+        "state": "r_chop"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-7fefef282af983ba"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-540221b163e91593"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": "2018-03",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-94766b3229f7977c"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": "2021-06",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+      "rationale": "A biopsy confirmed the June 2021 recurrence; biopsy is a documented diagnostic procedure, not treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-f317e33471f234a6"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": "2023-10",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation. Repeat biopsy showed follicular lymphoma grade 3A without evidence of diffuse large B-cell lymphoma transformation.",
+      "rationale": "A repeat biopsy is documented for the October 2023 episode; it is a diagnostic procedure, not treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation.\n\nRepeat biopsy showed follicular lymphoma grade 3A without evidence of\ndiffuse large B-cell lymphoma transformation.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-25b8c3741f9fb4b9"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "systemic therapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current Assessment 63-year-old female with multiply relapsed follicular\nlymphoma now receiving third-line systemic therapy following progression\nafter BR and R-CHOP.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "systemic_therapy",
+        "axis": "terms",
+        "state": "systemic_therapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-21105be6f6f2f8af"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:follicular_lymphoma",
+      "cancer_term": "Follicular Lymphoma",
+      "episode_key": null,
+      "diagnosis_date": "2018-03",
+      "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "under consideration",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "cellular therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "Alternative consideration: CAR-T evaluation underway.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_10",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Alternative consideration” and an ongoing CAR-T evaluation explicitly support under-consideration status, not treatment receipt."
+        },
+        "modality_labels:cellular therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The quoted CAR-T evaluation concerns a cellular therapy because CAR-T uses engineered T cells."
+        },
+        "concepts:drug_classes/CAR-T therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“CAR-T evaluation underway” directly names the treatment being considered."
+        },
+        "concepts:therapies/cellular therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "CAR-T is a form of cellular therapy; the quote does not indicate it was administered."
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "CAR-T and cellular therapy describe the same option at different levels of specificity, not two combined treatments."
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "cellular therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [
+          {
+            "group": "drug_classes",
+            "term": "CAR-T therapy",
+            "evidence": "Alternative consideration: CAR-T evaluation underway.",
+            "concept_ref": {
+              "category": "drug_classes",
+              "node": "car_t_therapy",
+              "axis": "terms",
+              "state": "car_t_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "cellular therapy",
+            "evidence": "Alternative consideration: CAR-T evaluation underway.",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "cellular_therapy",
+              "axis": "terms",
+              "state": "cellular_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "drug_classes",
+          "term": "CAR-T therapy",
+          "evidence": "Alternative consideration: CAR-T evaluation underway.",
+          "concept_ref": {
+            "category": "drug_classes",
+            "node": "car_t_therapy",
+            "axis": "terms",
+            "state": "car_t_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "“CAR-T evaluation underway” directly names the treatment being considered.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "cellular therapy",
+          "evidence": "Alternative consideration: CAR-T evaluation underway.",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "cellular_therapy",
+            "axis": "terms",
+            "state": "cellular_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "CAR-T is a form of cellular therapy; the quote does not indicate it was administered.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "under consideration",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "Patient under consideration for cellular therapy versus bispecific antibody therapy depending on next response assessment.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_10",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.concepts:therapies/cellular therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.1.concepts:drug_classes/bispecific antibodies": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Bispecific antibody therapy” directly supports the bispecific antibodies concept as one conditional alternative."
+        },
+        "alternatives:2": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The cellular-therapy branch names one treatment option; “versus” separates it from the bispecific-antibody branch."
+        },
+        "alternatives.1.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The bispecific-antibody branch names one treatment option, rather than a combination with cellular therapy."
+        },
+        "alternatives.0.condition:depending on next response assessment": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Depending on next response assessment” qualifies the consideration of cellular therapy versus bispecific antibody therapy; it does not assert an assessment result."
+        },
+        "alternatives.1.condition:depending on next response assessment": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "unknown"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [],
+        "alternatives": [
+          {
+            "concepts": [
+              {
+                "group": "therapies",
+                "term": "cellular therapy",
+                "evidence": "consideration for cellular therapy",
+                "concept_ref": {
+                  "category": "therapies",
+                  "node": "cellular_therapy",
+                  "axis": "terms",
+                  "state": "cellular_therapy"
+                },
+                "validation": "unresolved",
+                "establishment": "direct"
+              }
+            ],
+            "relationship": "single",
+            "evidence": "consideration for cellular therapy",
+            "validation": "unresolved",
+            "relationship_validation": "unresolved",
+            "alternatives": [],
+            "steps": [],
+            "condition_evidence": "depending on next response assessment"
+          },
+          {
+            "concepts": [
+              {
+                "group": "drug_classes",
+                "term": "bispecific antibodies",
+                "evidence": "bispecific antibody therapy\ndepending on next response assessment",
+                "concept_ref": {
+                  "category": "drug_classes",
+                  "node": "bispecific_antibodies",
+                  "axis": "terms",
+                  "state": "bispecific_antibodies"
+                },
+                "validation": "unresolved",
+                "establishment": "direct"
+              }
+            ],
+            "relationship": "single",
+            "evidence": "bispecific antibody therapy\ndepending on next response assessment",
+            "validation": "unresolved",
+            "relationship_validation": "unresolved",
+            "alternatives": [],
+            "steps": [],
+            "condition_evidence": "depending on next response assessment"
+          }
+        ],
+        "relationship": "unspecified",
+        "steps": []
+      },
+      "concepts": [],
+      "alternatives": [
+        {
+          "concepts": [
+            {
+              "group": "therapies",
+              "term": "cellular therapy",
+              "evidence": "consideration for cellular therapy",
+              "concept_ref": {
+                "category": "therapies",
+                "node": "cellular_therapy",
+                "axis": "terms",
+                "state": "cellular_therapy"
+              },
+              "validation": "supported",
+              "establishment": "direct",
+              "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+              "derivation": null
+            }
+          ],
+          "relationship": "single",
+          "evidence": "consideration for cellular therapy",
+          "validation": "supported",
+          "relationship_validation": "supported",
+          "alternatives": [],
+          "steps": [],
+          "condition_evidence": "depending on next response assessment"
+        },
+        {
+          "concepts": [
+            {
+              "group": "drug_classes",
+              "term": "bispecific antibodies",
+              "evidence": "bispecific antibody therapy\ndepending on next response assessment",
+              "concept_ref": {
+                "category": "drug_classes",
+                "node": "bispecific_antibodies",
+                "axis": "terms",
+                "state": "bispecific_antibodies"
+              },
+              "validation": "supported",
+              "establishment": "direct",
+              "rationale": "“Bispecific antibody therapy” directly supports the bispecific antibodies concept as one conditional alternative.",
+              "derivation": null
+            }
+          ],
+          "relationship": "single",
+          "evidence": "bispecific antibody therapy\ndepending on next response assessment",
+          "validation": "supported",
+          "relationship_validation": "supported",
+          "alternatives": [],
+          "steps": [],
+          "condition_evidence": "depending on next response assessment"
+        }
+      ],
+      "steps": [],
+      "relationship": "unspecified",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-8c74612e35e102fa",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "effective": {
+        "start": null,
+        "end": "2020-12-31",
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": "2020-12"
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "rituximab"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": null,
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-fc90cdbe9835db71",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "effective": {
+        "start": "2018-04-01",
+        "end": "2018-10-31",
+        "precision": "month",
+        "start_date": "2018-04",
+        "end_date": "2018-10"
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "bendamustine"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "rituximab"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "BR"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-6fbe81ffee525e7e",
+      "status": "completed",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "effective": {
+        "start": "2021-07-01",
+        "end": "2022-01-31",
+        "precision": "month",
+        "start_date": "2021-07",
+        "end_date": "2022-01"
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "R-CHOP"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": null,
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-616007627f51ee99",
+      "status": "started",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:follicular_lymphoma",
+      "effective": {
+        "start": "2024-01-01",
+        "end": null,
+        "precision": "unknown",
+        "start_date": "2024-01",
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "obinutuzumab"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "lenalidomide"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_10",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "63-year-old": [
+          2620
+        ],
+        "Current Assessment 63-year-old": [
+          2601
+        ],
+        "Age: 63": [
+          41
+        ],
+        "Patient Demographics Name: Jane Mitchell Age: 63": [
+          0
+        ],
+        "Female": [
+          54
+        ],
+        "Patient Demographics Name: Jane Mitchell Age: 63 Sex: Female": [
+          0
+        ],
+        "female": [
+          2632
+        ],
+        "Current Assessment 63-year-old female": [
+          2601
+        ],
+        "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.": [
+          186
+        ],
+        "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement. Stage Ann Arbor Stage IV FLIPI score: High risk": [
+          186
+        ],
+        "Bendamustine + Rituximab (BR) 6 cycles administered. Complications included grade 2 neutropenia": [
+          699
+        ],
+        "April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered. Complications included grade 2 neutropenia": [
+          673
+        ],
+        "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3": [
+          1316
+        ],
+        "July 2021 – January 2022 R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3": [
+          1291
+        ],
+        "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3, grade 1 peripheral neuropathy, and anemia requiring transfusion support.": [
+          1316
+        ],
+        "July 2021 – January 2022 R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3, grade 1 peripheral neuropathy, and anemia requiring transfusion support.": [
+          1291
+        ],
+        "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.": [
+          995
+        ],
+        "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation. Repeat biopsy showed follicular lymphoma grade 3A without evidence of diffuse large B-cell lymphoma transformation.": [
+          1568
+        ],
+        "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement.": [
+          186
+        ],
+        "Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.": [
+          329
+        ],
+        "Hemoglobin: 10.4 g/dL": [
+          2479
+        ],
+        "WBC: 3.2 x10^9/L": [
+          2501
+        ],
+        "ANC: 1.4 x10^9/L": [
+          2518
+        ],
+        "Platelets: 118 x10^9/L": [
+          2535
+        ],
+        "LDH: Mildly elevated": [
+          2558
+        ],
+        "Creatinine: 1.1 mg/dL": [
+          2579
+        ],
+        "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.": [
+          654
+        ],
+        "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.": [
+          1271
+        ],
+        "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.": [
+          1947
+        ],
+        "Relevant Past Medical History Hypertension": [
+          2217
+        ],
+        "ECOG Performance Status: 1": [
+          128
+        ],
+        "Response PET/CT February 2022 demonstrated partial response with residual mesenteric disease.": [
+          1474
+        ],
+        "Current Disease Status Mixed response after 4 cycles with persistent abdominal disease and ongoing fatigue.": [
+          2109
+        ],
+        "Stage Ann Arbor Stage IV FLIPI score: High risk": [
+          606
+        ],
+        "Response PET/CT November 2018 showed complete metabolic response (Deauville 2).": [
+          836
+        ],
+        "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy": [
+          1568
+        ],
+        "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP. Disease remains indolent but clinically progressive with persistent symptomatic abdominal adenopathy.": [
+          2601
+        ],
+        "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.": [
+          916
+        ],
+        "PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation.": [
+          1718
+        ],
+        "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation.": [
+          1568
+        ],
+        "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement.": [
+          186
+        ],
+        "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP.": [
+          2601
+        ],
+        "Alternative consideration: CAR-T evaluation underway.": [
+          2055
+        ],
+        "Patient under consideration for cellular therapy versus bispecific antibody therapy depending on next response assessment.": [
+          2869
+        ],
+        "consideration for cellular therapy": [
+          2883
+        ],
+        "depending on next response assessment": [
+          2953
+        ],
+        "bispecific antibody therapy depending on next response assessment": [
+          2925
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "60 <= age < 70",
+        "evidence": "63-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 63.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Assessment 63-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "60 <= age < 70",
+        "evidence": "Age: 63",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 63.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Patient Demographics Name: Jane Mitchell Age: 63"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "Female",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Patient Demographics Name: Jane Mitchell Age: 63 Sex: Female"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "female",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Assessment 63-year-old female"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "CD20 positive",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement. Stage Ann Arbor Stage IV FLIPI score: High risk",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement.\n\nStage Ann Arbor Stage IV FLIPI score: High risk"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Follicular Lymphoma",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers."
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "neutropenia",
+        "evidence": "Bendamustine + Rituximab (BR) 6 cycles administered. Complications included grade 2 neutropenia",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "April 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered. Complications included\ngrade 2 neutropenia"
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "neutropenia",
+        "evidence": "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "July 2021 – January 2022\n\nR-CHOP 6 cycles completed.\n\nComplications included febrile neutropenia after cycle 3"
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "anemia",
+        "evidence": "R-CHOP 6 cycles completed. Complications included febrile neutropenia after cycle 3, grade 1 peripheral neuropathy, and anemia requiring transfusion support.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "July 2021 – January 2022\n\nR-CHOP 6 cycles completed.\n\nComplications included febrile neutropenia after cycle 3, grade 1\nperipheral neuropathy, and anemia requiring transfusion support."
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers."
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "recurrent disease",
+        "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+        "date": "2021-06",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "relapsed disease",
+        "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+        "date": "2021-06",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "relapsed disease",
+        "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation. Repeat biopsy showed follicular lymphoma grade 3A without evidence of diffuse large B-cell lymphoma transformation.",
+        "date": "2023-10",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation.\n\nRepeat biopsy showed follicular lymphoma grade 3A without evidence of\ndiffuse large B-cell lymphoma transformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "hematologic_extent",
+        "term": "disseminated or systemic",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement. PET/CT demonstrated diffuse nodal disease above and below the diaphragm with splenic involvement.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "follicular",
+        "evidence": "Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers."
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "Hb value reported",
+        "evidence": "Hemoglobin: 10.4 g/dL",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "source_value": {
+          "value": 10.4,
+          "unit": {
+            "code": "g/dL",
+            "display": "g/dL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Hemoglobin: 10.4 g/dL"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "WBC value reported",
+        "evidence": "WBC: 3.2 x10^9/L",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "source_value": {
+          "value": 3.2,
+          "unit": {
+            "code": "x10^9/L",
+            "display": "x10^9/L"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "WBC: 3.2 x10^9/L"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "ANC value reported",
+        "evidence": "ANC: 1.4 x10^9/L",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "source_value": {
+          "value": 1.4,
+          "unit": {
+            "code": "x10^9/L",
+            "display": "x10^9/L"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "ANC: 1.4\nx10^9/L"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "platelet count value reported",
+        "evidence": "Platelets: 118 x10^9/L",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "source_value": {
+          "value": 118.0,
+          "unit": {
+            "code": "x10^9/L",
+            "display": "x10^9/L"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Platelets: 118 x10^9/L"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "LDH high",
+        "evidence": "LDH: Mildly elevated",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "LDH: Mildly elevated"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "creatinine value reported",
+        "evidence": "Creatinine: 1.1 mg/dL",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "source_value": {
+          "value": 1.1,
+          "unit": {
+            "code": "mg/dL",
+            "display": "mg/dL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Creatinine: 1.1 mg/dL"
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "first line",
+        "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+        "date": "2018-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+        "line_number": 1
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "second line",
+        "evidence": "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.",
+        "date": "2021-07",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second-Line Therapy\n\nJuly 2021 – January 2022\n\nR-CHOP 6 cycles completed.",
+        "line_number": 2
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "third line",
+        "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+        "line_number": 3
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "hypertension",
+        "evidence": "Relevant Past Medical History Hypertension",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Relevant Past Medical History Hypertension"
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "ECOG Performance Status: 1",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "ECOG Performance\nStatus: 1"
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "residual disease",
+        "evidence": "Response PET/CT February 2022 demonstrated partial response with residual mesenteric disease.",
+        "date": "2022-02",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Response PET/CT February 2022 demonstrated partial response with residual\nmesenteric disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "residual disease",
+        "evidence": "Current Disease Status Mixed response after 4 cycles with persistent abdominal disease and ongoing fatigue.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Disease Status Mixed response after 4 cycles with persistent\nabdominal disease and ongoing fatigue."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IV",
+        "evidence": "Stage Ann Arbor Stage IV FLIPI score: High risk",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement.\n\nPET/CT demonstrated diffuse nodal disease above and below the diaphragm\nwith splenic involvement.\n\nStage Ann Arbor Stage IV FLIPI score: High risk"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "complete response",
+        "evidence": "Response PET/CT November 2018 showed complete metabolic response (Deauville 2).",
+        "date": "2018-11",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Response PET/CT November 2018 showed complete metabolic response (Deauville\n2)."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "partial response",
+        "evidence": "Response PET/CT February 2022 demonstrated partial response with residual mesenteric disease.",
+        "date": "2022-02",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Response PET/CT February 2022 demonstrated partial response with residual\nmesenteric disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy",
+        "date": "2023-10",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP. Disease remains indolent but clinically progressive with persistent symptomatic abdominal adenopathy.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Assessment 63-year-old female with multiply relapsed follicular\nlymphoma now receiving third-line systemic therapy following progression\nafter BR and R-CHOP. Disease remains indolent but clinically progressive\nwith persistent symptomatic abdominal adenopathy."
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "maintenance",
+        "evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December\n2020."
+      },
+      {
+        "polarity": "positive",
+        "group": "tumor_bulk",
+        "term": "bulky disease",
+        "evidence": "PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation.",
+        "date": "2023-10",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "bendamustine",
+        "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+        "date": "2018-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+        "treatment_period": {
+          "start": "2018-04-01",
+          "end": "2018-10-31",
+          "precision": "month",
+          "start_date": "2018-04",
+          "end_date": "2018-10"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "rituximab",
+        "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+        "date": "2018-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+        "treatment_period": {
+          "start": "2018-04-01",
+          "end": "2018-10-31",
+          "precision": "month",
+          "start_date": "2018-04",
+          "end_date": "2018-10"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "rituximab",
+        "evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December 2020.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Maintenance Rituximab maintenance every 8 weeks continued until December\n2020.",
+        "treatment_period": {
+          "end": "2020-12-31",
+          "precision": "unknown",
+          "end_date": "2020-12"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "obinutuzumab",
+        "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+        "treatment_period": {
+          "start": "2024-01-01",
+          "precision": "unknown",
+          "start_date": "2024-01"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "lenalidomide",
+        "evidence": "Current Status — Third-Line FL Current therapy initiated January 2024. Regimen Obinutuzumab + Lenalidomide.",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Status — Third-Line FL\n\nCurrent therapy initiated January 2024.\n\nRegimen Obinutuzumab + Lenalidomide.",
+        "treatment_period": {
+          "start": "2024-01-01",
+          "precision": "unknown",
+          "start_date": "2024-01"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "BR",
+        "evidence": "First-Line Therapy April 2018 – October 2018 Bendamustine + Rituximab (BR) 6 cycles administered.",
+        "date": "2018-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First-Line Therapy\n\nApril 2018 – October 2018\n\nBendamustine + Rituximab (BR) 6 cycles administered.",
+        "treatment_period": {
+          "start": "2018-04-01",
+          "end": "2018-10-31",
+          "precision": "month",
+          "start_date": "2018-04",
+          "end_date": "2018-10"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "R-CHOP",
+        "evidence": "Second-Line Therapy July 2021 – January 2022 R-CHOP 6 cycles completed.",
+        "date": "2021-07",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second-Line Therapy\n\nJuly 2021 – January 2022\n\nR-CHOP 6 cycles completed.",
+        "treatment_period": {
+          "start": "2021-07-01",
+          "end": "2022-01-31",
+          "precision": "month",
+          "start_date": "2021-07",
+          "end_date": "2022-01"
+        }
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Initial Diagnosis March 2018 Patient presented with progressive cervical and axillary lymphadenopathy, fatigue, and intermittent night sweats. Diagnostic Workup Excisional lymph node biopsy showed follicular lymphoma grade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers. Bone marrow biopsy showed 20% marrow involvement.",
+        "date": "2018-03",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Initial Diagnosis March 2018\n\nPatient presented with progressive cervical and axillary lymphadenopathy,\nfatigue, and intermittent night sweats.\n\nDiagnostic Workup Excisional lymph node biopsy showed follicular lymphoma\ngrade 1–2 with CD20+, CD10+, BCL2+, and BCL6+ markers.\n\nBone marrow biopsy showed 20% marrow involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "First Relapse June 2021 Patient developed enlarging inguinal lymph nodes, fatigue, and recurrent night sweats. PET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy. Biopsy confirmed recurrent follicular lymphoma grade 2 without evidence of transformation.",
+        "date": "2021-06",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "First Relapse\n\nJune 2021\n\nPatient developed enlarging inguinal lymph nodes, fatigue, and recurrent\nnight sweats.\n\nPET/CT demonstrated hypermetabolic pelvic and retroperitoneal adenopathy.\n\nBiopsy confirmed recurrent follicular lymphoma grade 2 without evidence of\ntransformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Second Relapse / Progression October 2023 Symptoms included worsening abdominal fullness, 8-kg unintentional weight loss, and drenching night sweats. PET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy with SUV concerning for transformation. Repeat biopsy showed follicular lymphoma grade 3A without evidence of diffuse large B-cell lymphoma transformation.",
+        "date": "2023-10",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Second Relapse / Progression\n\nOctober 2023\n\nSymptoms included worsening abdominal fullness, 8-kg unintentional weight\nloss, and drenching night sweats.\n\nPET/CT demonstrated bulky mesenteric mass and new mediastinal adenopathy\nwith SUV concerning for transformation.\n\nRepeat biopsy showed follicular lymphoma grade 3A without evidence of\ndiffuse large B-cell lymphoma transformation."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "systemic therapy",
+        "evidence": "Current Assessment 63-year-old female with multiply relapsed follicular lymphoma now receiving third-line systemic therapy following progression after BR and R-CHOP.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:follicular_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_10:PlainTextDocument.text",
+        "date_evidence": "Current Assessment 63-year-old female with multiply relapsed follicular\nlymphoma now receiving third-line systemic therapy following progression\nafter BR and R-CHOP."
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_10",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "Malignancy",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "Malignancy",
+                "start": 168,
+                "end": 178,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "mass",
+                "start": 1781,
+                "end": 1785,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "Relapse",
+                "start": 1014,
+                "end": 1021,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "grade 1",
+                "start": 407,
+                "end": 414,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "biopsy",
+                "start": 373,
+                "end": 379,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "cycle 3",
+                "start": 1413,
+                "end": 1420,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "common_cancer_drugs",
+                "pattern": "(?<!\\w)(?:elranatamab[-\\s]+bcmm|penpulimab[-\\s]+kcqx|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|datopotamab\\s+deruxtecan|trastuzumab\\s+deruxtecan|fludarabine\\s+phosphate|inotuzumab\\s+ozogamicin|telisotuzumab\\s+vedotin|trastuzumab\\s+emtansine|abiraterone\\s+acetate|brentuximab\\s+vedotin|etoposide\\s+phosphate|polatuzumab\\s+vedotin|tisotumab\\s+vedotin|pegaspargase|penpulimab|lonsurf|teysuno|trifluridine[\\s/_-]+(?:and[\\s/_-]+)?tipiracil|tegafur[\\s/,_-]+gimeracil[\\s/,_-]+(?:and[\\s/,_-]+)?oteracil|floxuridine|levoleucovorin|abemaciclib|abiraterone|acalabrutinib|adagrasib|ado[-\\s]+trastuzumab\\s+emtansine|afatinib|alectinib|alemtuzumab|amivantamab|anastrozole|apalutamide|asciminib|atezolizumab|avelumab|avutometinib|axitinib|azacitidine|bacillus\\s+calmette[-\\s]+guerin|belinostat|belzutifan|bendamustine|bevacizumab|bicalutamide|binimetinib|bleomycin|blinatumomab|bortezomib|bosutinib|brentuximab|brigatinib|cabazitaxel|cabozantinib|capecitabine|capivasertib|capmatinib|carboplatin|carfilzomib|carmustine|cemiplimab|ceritinib|cetuximab|chlorambucil|cisplatin|cobimetinib|cosibelimab|crizotinib|cyclophosphamide|cytarabine|dabrafenib|dacarbazine|dacomitinib|dactinomycin|darolutamide|dasatinib|datopotamab|decitabine|degarelix|docetaxel|dostarlimab|doxorubicin|durvalumab|elacestrant|elranatamab|elranatamab[-\\s]+bcmm|enasidenib|encorafenib|enfortumab\\s+vedotin|ensartinib|entrectinib|enzalutamide|epcoritamab|erdafitinib|eribulin|erlotinib(?:\\s+hydrochloride)?|etoposide|everolimus|exemestane|fam[-\\s]+trastuzumab\\s+deruxtecan[-\\s]+nxki|fluorouracil|fruquintinib|fulvestrant|futibatinib|gefitinib|gemcitabine|gilteritinib|glofitamab|goserelin|histrelin|ibrutinib|idarubicin|idelalisib|ifosfamide|imatinib|inavolisib|inotuzumab|ipilimumab|irinotecan|isatuximab|ivosidenib|ixabepilone|ixazomib|lanreotide|lapatinib|larotrectinib|lenalidomide|lenvatinib|letrozole|leucovorin|leuprolide|lomustine|loncastuximab\\s+tesirine|lorlatinib|lurbinectedin|margetuximab|melphalan|mercaptopurine|methotrexate|mirvetuximab[\\s_]+soravtansine|mitomycin|mitotane|mosunetuzumab|nadofaragene\\s+firadenovec|necitumumab|neratinib|nilotinib|nilutamide|niraparib|nirogacestat|nivolumab|obinutuzumab|olaparib|olutasidenib|osimertinib|oxaliplatin|paclitaxel|palbociclib|panitumumab|pazopanib|pembrolizumab|pemetrexed|pemigatinib|penpulimab[-\\s]+kcqx|pertuzumab|pexidartinib|pirtobrutinib|polatuzumab|pomalidomide|ponatinib|pralsetinib|quizartinib|ramucirumab|regorafenib|relugolix|repotrectinib|retifanlimab|revumenib|ribociclib|ripretinib|rituximab|romidepsin|rucaparib|sacituzumab\\s+govitecan|selinexor|selpercatinib|sonidegib|sorafenib|sotorasib|sunitinib|talazoparib|taletrectinib|talimogene\\s+laherparepvec|talquetamab|tamoxifen|tarlatamab|tazemetostat|tebentafusp|teclistamab|telisotuzumab|temozolomide|temsirolimus|tepotinib|thalidomide|thioguanine|thiotepa|tislelizumab|tisotumab|tivozanib|topotecan|toremifene|toripalimab|trametinib|trastuzumab|tremelimumab|triptorelin|tucatinib|valrubicin|vandetanib|vemurafenib|venetoclax|vinblastine|vincristine|vinorelbine|vismodegib|vorasidenib|zanidatamab|zanubrutinib|zenocutuzumab|ziv[-\\s]+aflibercept|zolbetuximab|zongertinib|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|asparaginase\\s+erwinia\\s+chrysanthemi|nogapendekin\\s+alfa\\s+inbakicept|brexucabtagene\\s+autoleucel|ciltacabtagene\\s+autoleucel|omacetaxine\\s+mepesuccinate|vusolimogene\\s+oderparepvec|afamitresgene\\s+autoleucel|lisocabtagene\\s+maraleucel|axicabtagene\\s+ciloleucel|obecabtagene\\s+autoleucel|ropeginterferon\\s+alfa[-\\s]+2b|idecabtagene\\s+vicleucel|gemtuzumab\\s+ozogamicin|belantamab\\s+mafodotin|denileukin\\s+diftitox|etoposide\\s+phosphate|calaspargase\\s+pegol|interferon\\s+alfa[-\\s]+2b|megestrol\\s+acetate|arsenic\\s+trioxide|tisagenlecleucel|mechlorethamine|dexamethasone|mogamulizumab|sunvozertinib|vepdegestrant|camizestrant|daraxonrasib|daunorubicin|dordaviprone|eflornithine|imlunestrant|mitoxantrone|pralatrexate|procarbazine|relacorilant|sevabertinib|sipuleucel[-\\s]+T|trifluridine|zidesamtinib|zidesmatinib|aldesleukin|avapritinib|clofarabine|daratumumab|dinutuximab|gedatolisib|hydroxyurea|midostaurin|momelotinib|ruxolitinib|sonrotoclax|tafasitamab|tagraxofusp|tovorafenib|trabectedin|bexarotene|cladribine|elotuzumab|epirubicin|fedratinib|imetelstat|lazertinib|lifileucel|nelarabine|ofatumumab|pacritinib|prednisone|raloxifene|treosulfan|vorinostat|ziftomenib|alpelisib|duvelisib|erlotinib|flutamide|glasdegib|imiquimod|naxitamab|sirolimus|busulfan|fludarabine|tegafur|other\\s+cancer\\s+drug)(?!\\w)",
+                "evidence": "Bendamustine",
+                "start": 709,
+                "end": 721,
+                "reason": "cancer drug trigger from tx/drugs.txt"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 128,
+                "end": 132,
+                "reason": "performance status trigger"
+              },
+              {
+                "id": "organ_function_labs",
+                "pattern": "\\b(creatinine|bilirubin|AST|ALT|alkaline phosphatase|albumin|hemoglobin|platelets?|neutrophils?|neutropenia|ANC|eGFR|glomerular filtration|urine protein|proteinuria|albuminuria|body mass index|BMI)\\b",
+                "evidence": "neutropenia",
+                "start": 793,
+                "end": 804,
+                "reason": "lab or organ function trigger"
+              },
+              {
+                "id": "eligibility_features",
+                "pattern": "\\b(transplant|stem cell|CAR[- ]?T|immunosuppression|autoimmune|pneumonitis|interstitial lung disease|ILD|menopause|pregnan(?:t|cy))\\b",
+                "evidence": "CAR-T",
+                "start": 2113,
+                "end": 2118,
+                "reason": "eligibility feature trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 86870,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 31222,
+      "output_tokens": 19908,
+      "total_tokens": 106778,
+      "time_elapsed": 180.9,
+      "estimated_cost_usd": 0.2878306,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 181.7
+    }
+  },
+  "allow_interpretation": true
+}

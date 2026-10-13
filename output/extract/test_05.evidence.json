@@ -1,0 +1,4106 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_05",
+  "bundle_path": "/home/ec2-user/Data/test/test_05.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:34:56Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "50 <= age < 60",
+      "date": "2026-05-14",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "54-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 54.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "54-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Assessment\n\n54-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "50_age_60"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b2137fa16fe12369"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": "2026-05-14",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "female",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Doe is a 54-year-old female",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f1aad72a5cad4501"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": "2026-05-14",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "woman",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "54-year-old woman",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f87aae1eb75910c1"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "ER negative",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "The 2023 triple-negative breast cancer diagnosis implies ER-negative disease at that historical assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "reason": "The 2023 triple-negative breast cancer diagnosis implies ER-negative disease at that historical assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "er",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8eb4a328c2ab6370"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PR negative",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "The 2023 triple-negative breast cancer diagnosis implies PR-negative disease at that historical assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "reason": "The 2023 triple-negative breast cancer diagnosis implies PR-negative disease at that historical assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pr",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5652106732d381b1"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 status negative",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "The 2023 triple-negative breast cancer diagnosis implies HER2-negative status at that historical assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "reason": "The 2023 triple-negative breast cancer diagnosis implies HER2-negative status at that historical assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_status",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7d20b49b8f794c47"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "ER negative",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "er",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-04bf9bc92c9713ee"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PR negative",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pr",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3b5e4ad124ca6db2"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 status negative",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_status",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-4489af7fe5f0b7a9"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 expression zero",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "HER2 negative (IHC 0)",
+      "rationale": "HER2 IHC 0 is documented, but the quote does not specify whether faint membrane staining is present; it cannot distinguish HER2 expression zero from ultralow.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "derived",
+      "validation": "unresolved",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#40d8cf6c8f2a9ca1",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_expression",
+        "axis": "value_bucket",
+        "state": "zero"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-760243ca907d21ab"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PD-L1 CPS >= 1 and < 5",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* PD-L1 CPS: 3",
+      "rationale": "Explicit score.pd_l1_cps == 3 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 3.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "* PD-L1 CPS: 3",
+        "reason": "Explicit score.pd_l1_cps == 3 satisfies the reviewed interval.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null,
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#40d8cf6c8f2a9ca1",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pd_l1_cps",
+        "axis": "value_bucket",
+        "state": "1_and_5"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-7e948c10fb029ead"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Stage IIIB breast cancer is a locally advanced presentation, supporting broad advanced stage for the 2023 assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "reason": "Stage IIIB breast cancer is a locally advanced presentation, supporting broad advanced stage for the 2023 assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e3a33b71e3be7550"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+      "rationale": "Breast cancer metastatic to the listed distant sites supports broad advanced stage for this later assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "reason": "Breast cancer metastatic to the listed distant sites supports broad advanced stage for this later assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-84f9e3f9b48649cc"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Breast Cancer",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Invasive ductal carcinoma of the left breast establishes breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "breast_cancer",
+        "axis": "terms",
+        "state": "breast_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7776650b223f6344"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Breast Cancer",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "breast_cancer",
+        "axis": "terms",
+        "state": "breast_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-6f7cca7ef0ead850"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "rationale": "The documented 2023 diagnosis followed by initial treatment supports a newly diagnosed phase in 2023, not a newly diagnosed status in 2026.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+        "reason": "The documented 2023 diagnosis followed by initial treatment supports a newly diagnosed phase in 2023, not a newly diagnosed status in 2026.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5c573e09fd4acdd5"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "recurrent disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Disease recurrence confirmed by biopsy.",
+      "rationale": "The assessment explicitly states biopsy-confirmed disease recurrence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null,
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "recurrent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7c4aa7a92e414102"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3b86d382984a4a0a"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#ff11fc6a6eba4059",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-17cd429ad7c93124"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "carcinoma",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "carcinoma",
+        "axis": "terms",
+        "state": "carcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3dd11bc6cf502bc0"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "carcinoma",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "carcinoma",
+        "axis": "terms",
+        "state": "carcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-2ce192e5a7617c7f"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "WBC value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* WBC: 5.8",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 5.8,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* WBC: 5.8",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "wbc",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-db2474296c3c05b7"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "Hb value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* Hgb: 10.4",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 10.4,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* Hgb: 10.4",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "hb",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-71fce87c00734880"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "platelet count value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* Platelets: 242",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 242.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* Platelets: 242",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "platelet_count",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-82c4b99ffbd16edb"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "AST value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* AST: 68",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 68.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* AST: 68",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "ast",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-76533535e6cb7d00"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "ALT value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* ALT: 72",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 72.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* ALT: 72",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "alt",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-61171ffbd53c257c"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "alkaline phosphatase value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* Alk Phos: 214",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 214.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* Alk Phos: 214",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "alkaline_phosphatase",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-0abac6a71c8883aa"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "bilirubin value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* Total bilirubin: 1.1",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 1.1,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* Total bilirubin: 1.1",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "bilirubin",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1fba8757e3440fbb"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "creatinine value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "* Creatinine: 0.8",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 0.8,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "* Creatinine: 0.8",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "creatinine",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-94e772f2321b9c37"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "liver metastases",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+      "rationale": "A liver biopsy confirming metastatic carcinoma from a breast primary establishes breast cancer metastasis in the liver.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+        "reason": "A liver biopsy confirming metastatic carcinoma from a breast primary establishes breast cancer metastasis in the liver.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6006d94cdcb927e9",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "liver_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8530c6b2f758677d"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "lung metastases",
+      "date": "2026-05-02",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules",
+      "rationale": "The PET/CT explicitly describes pulmonary metastatic nodules.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules",
+      "treatment_period": null,
+      "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#13113ed48e47a690",
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "lung_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5aa02d9f3f63650a"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "bone metastases",
+      "date": "2026-05-02",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules * Mediastinal adenopathy * T7 and T9 osseous metastatic lesions",
+      "rationale": "Osseous metastatic lesions at T7 and T9 are bone metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules\n* Mediastinal adenopathy\n* T7 and T9 osseous metastatic lesions",
+      "treatment_period": null,
+      "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6bdba3d9da223c64",
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "bone_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-dd7b242cf25e7e4e"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "no brain metastases",
+      "date": "2026-05-10",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "MRI brain 05/10/2026: * No intracranial metastatic disease",
+      "rationale": "Brain MRI reports no intracranial metastatic disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "MRI brain 05/10/2026:\n\n* No intracranial metastatic disease",
+      "treatment_period": null,
+      "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#38fb1be084131920",
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "brain_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-cd8be3239a0cde94"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "hypertension",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Past Medical History * Triple-negative breast cancer * Hypertension",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Past Medical History\n\n* Triple-negative breast cancer\n* Hypertension",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "hypertension",
+        "axis": "results",
+        "state": "hypertension"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-567e19bb8f7b49ec"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": "2026-05-14",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "ECOG performance status currently 1.",
+      "rationale": "ECOG performance status is explicitly 1.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "ECOG performance status currently\n1.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9073989bbe410b27"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "residual disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "rationale": "Post-treatment surgical pathology explicitly documents residual invasive disease; this is a historical assessment, not a claim about current residual disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#ff11fc6a6eba4059",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-69437eb750020f09"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "no residual disease",
+      "date": "2024-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "She subsequently completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024 and received adjuvant capecitabine. The patient remained without evidence of disease until approximately 3 months ago",
+      "rationale": "Explicit negative-result term or reviewed alias.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "She subsequently\ncompleted adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024 and received adjuvant capecitabine.\n\nThe patient remained without evidence of disease until approximately 3\nmonths ago",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c04d19dface88fc4"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "locally advanced",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Stage IIIB breast cancer supports locally advanced extent at the 2023 assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "reason": "Stage IIIB breast cancer supports locally advanced extent at the 2023 assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "locally_advanced",
+        "axis": "terms",
+        "state": "locally_advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-4e3bc4fe8714a546"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regional lymph node(s) positive",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "left modified radical mastectomy with axillary lymph node dissection in 01/2024. Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "rationale": "Four positive nodes in the axillary dissection for left breast cancer establish regional lymph-node involvement at surgery.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "left modified radical mastectomy with axillary lymph node dissection in 01/2024. Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "reason": "Four positive nodes in the axillary dissection for left breast cancer establish regional lymph-node involvement at surgery.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "left modified radical mastectomy with axillary lymph node\ndissection in 01/2024. Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regional_lymph_nodes",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-002230a3bfcdd2c2"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": "2026-05-02",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules * Mediastinal adenopathy * T7 and T9 osseous metastatic lesions",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules\n* Mediastinal adenopathy\n* T7 and T9 osseous metastatic lesions",
+      "treatment_period": null,
+      "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6bdba3d9da223c64",
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5602fa12ef4fa601"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant lymph node(s) positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+      "rationale": "The assessment identifies metastatic breast cancer involving mediastinal nodes, which are distant rather than regional nodes for this breast primary.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "reason": "The assessment identifies metastatic breast cancer involving mediastinal nodes, which are distant rather than regional nodes for this breast primary.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_lymph_nodes",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b0f49b23ae9260ae"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIIB",
+      "date": "2023",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iiib",
+        "axis": "terms",
+        "state": "stage_iiib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1fcede4203d9f129"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IV",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+      "rationale": "Intrinsic meaning of reviewed composition source:metastatic triple-negative breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "reason": "Intrinsic meaning of reviewed composition source:metastatic triple-negative breast cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iv",
+        "axis": "terms",
+        "state": "stage_iv"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e39a65f6a6b14e80"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": "2026-05-14",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Patient presents today to discuss second-line systemic therapy options after progression following prior anthracycline-, taxane-, and capecitabine-based treatment.",
+      "rationale": "The note explicitly documents disease progression following prior treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Patient presents today to discuss second-line systemic therapy options\nafter progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-ccb3f23b2c4883c2"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "neoadjuvant setting",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "neoadjuvant_setting",
+        "axis": "terms",
+        "state": "neoadjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-7a1dc42ae9fb35ae"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "adjuvant setting",
+      "date": "2024-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "completed adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "adjuvant_setting",
+        "axis": "terms",
+        "state": "adjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c81d62c3dad1d674"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "adjuvant setting",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "received adjuvant capecitabine",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "received adjuvant capecitabine",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "adjuvant_setting",
+        "axis": "terms",
+        "state": "adjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-cb7d4c6c24e62fe2"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "capecitabine",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "received adjuvant capecitabine",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "received adjuvant capecitabine",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "capecitabine",
+        "axis": "terms",
+        "state": "capecitabine"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b1ce42ffccf14b2b"
+    },
+    {
+      "polarity": "positive",
+      "group": "drug_classes",
+      "term": "anthracyclines",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "after progression following prior anthracycline-, taxane-, and capecitabine-based treatment",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "after progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drug_classes",
+        "node": "anthracyclines",
+        "axis": "terms",
+        "state": "anthracyclines"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a73aef1de0041a8a"
+    },
+    {
+      "polarity": "positive",
+      "group": "drug_classes",
+      "term": "taxanes",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "after progression following prior anthracycline-, taxane-, and capecitabine-based treatment",
+      "rationale": "Prior taxane-based treatment explicitly establishes receipt of the taxane drug class.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "after progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drug_classes",
+        "node": "taxanes",
+        "axis": "terms",
+        "state": "taxanes"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e6f75068684a0bca"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "ddAC-T",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "rationale": "The documented dose-dense AC-T chemotherapy names the ddAC-T regimen as initial treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "ddac_t",
+        "axis": "terms",
+        "state": "ddac_t"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5e85715a9112d89a"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-17b6aa968c90b0c8"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "cancer surgery",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+      "rationale": "The documented modified radical mastectomy for breast cancer establishes that cancer surgery was performed.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+        "reason": "The documented modified radical mastectomy for breast cancer establishes that cancer surgery was performed.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "followed by left modified radical mastectomy with axillary lymph node\ndissection in 01/2024",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "cancer_surgery",
+        "axis": "terms",
+        "state": "cancer_surgery"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-16ae2aa3d3702cae"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "lymphadenectomy",
+      "date": "2024-01",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "followed by left modified radical mastectomy with axillary lymph node\ndissection in 01/2024",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "lymphadenectomy",
+        "axis": "terms",
+        "state": "lymphadenectomy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-cd13ccb35897c293"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "radiation therapy",
+      "date": "2024-04",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "completed",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "completed adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "radiation_therapy",
+        "axis": "terms",
+        "state": "radiation_therapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a8b39f7d4c65c3f7"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": "2026-05-08",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6006d94cdcb927e9",
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-76abb6aa753c49eb"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Disease recurrence confirmed by biopsy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null,
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e9341392ab1e86c3"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:breast_cancer",
+      "cancer_term": "Breast Cancer",
+      "episode_key": null,
+      "diagnosis_date": "2023",
+      "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "planned",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "supportive care"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "Continue supportive care measures including antiemetics and pain management.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_05",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:planned": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Continue” directs future continuation of supportive care; it does not establish that a new treatment was given."
+        },
+        "modality_labels:supportive care": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The instruction presents one overarching supportive-care plan, with antiemetics and pain management as its measures."
+        }
+      },
+      "proposed_labels": {
+        "status": "planned",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "supportive care"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null
+    },
+    {
+      "status": "planned",
+      "line_of_therapy": "second line",
+      "line_number": 2,
+      "modality_labels": [
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [
+        "sacituzumab govitecan"
+      ],
+      "intent_labels": [],
+      "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_05",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:planned": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Initiate” explicitly states a plan to start sacituzumab govitecan, not that it has been administered."
+        },
+        "line_of_therapy:second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The proposed systemic therapy is explicitly called “second-line.”"
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "drug_or_regimen_mentions:sacituzumab govitecan": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:drugs/sacituzumab govitecan": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:lines_of_therapy/second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Second-line” directly supports the second-line concept for this proposed therapy."
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "This is one proposed treatment with sacituzumab govitecan; “systemic therapy” describes it rather than adding a separate option."
+        }
+      },
+      "proposed_labels": {
+        "status": "planned",
+        "line_of_therapy": "second line",
+        "modality_labels": [
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [
+          "sacituzumab govitecan"
+        ],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "drugs",
+            "term": "sacituzumab govitecan",
+            "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+            "concept_ref": {
+              "category": "drugs",
+              "node": "sacituzumab_govitecan",
+              "axis": "terms",
+              "state": "sacituzumab_govitecan"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "lines_of_therapy",
+            "term": "second line",
+            "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+            "concept_ref": {
+              "category": "lines_of_therapy",
+              "node": "second_line",
+              "axis": "terms",
+              "state": "second_line"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "drugs",
+          "term": "sacituzumab govitecan",
+          "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+          "concept_ref": {
+            "category": "drugs",
+            "node": "sacituzumab_govitecan",
+            "axis": "terms",
+            "state": "sacituzumab_govitecan"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "lines_of_therapy",
+          "term": "second line",
+          "evidence": "Initiate second-line systemic therapy with sacituzumab govitecan.",
+          "concept_ref": {
+            "category": "lines_of_therapy",
+            "node": "second_line",
+            "axis": "terms",
+            "state": "second_line"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "“Second-line” directly supports the second-line concept for this proposed therapy.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null
+    },
+    {
+      "status": "possible option",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "radiation therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "Refer to radiation oncology for evaluation of painful thoracic spine lesions if symptoms worsen.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_05",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:possible option": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "A radiation-oncology evaluation for painful spine lesions, conditional on worsening symptoms, implies a possible treatment option—not a confirmed radiation plan."
+        },
+        "modality_labels:radiation therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "Referral to radiation oncology to evaluate painful metastatic spine lesions implies consideration of radiation therapy if symptoms worsen."
+        },
+        "concepts:therapies/radiation therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The patient-specific radiation-oncology referral supports radiation therapy as a conditional possibility, without establishing its delivery."
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The referral describes one conditional evaluation, with no alternative or combined treatment option stated."
+        }
+      },
+      "proposed_labels": {
+        "status": "possible option",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "radiation therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "radiation therapy",
+            "evidence": "Refer to radiation oncology for evaluation of painful thoracic spine\nlesions if symptoms worsen.",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "radiation_therapy",
+              "axis": "terms",
+              "state": "radiation_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "radiation therapy",
+          "evidence": "Refer to radiation oncology for evaluation of painful thoracic spine\nlesions if symptoms worsen.",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "radiation_therapy",
+            "axis": "terms",
+            "state": "radiation_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "The patient-specific radiation-oncology referral supports radiation therapy as a conditional possibility, without establishing its delivery.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null
+    },
+    {
+      "status": "planned",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "supportive care"
+      ],
+      "drug_or_regimen_mentions": [
+        "zoledronic acid"
+      ],
+      "intent_labels": [],
+      "evidence": "Start zoledronic acid every 4 weeks for bone metastases after dental clearance.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_05",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:planned": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Start zoledronic acid” states a plan, explicitly subject to dental clearance."
+        },
+        "modality_labels:supportive care": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "Zoledronic acid for bone metastases is a bone-modifying intervention used to support skeletal health, so supportive care is a justified clinical classification."
+        },
+        "drug_or_regimen_mentions:zoledronic acid": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:drug_classes/bone-targeted": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "Zoledronic acid prescribed for bone metastases is a bone-targeted drug."
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The plan names one drug, zoledronic acid; dental clearance is a prerequisite, not another treatment option."
+        }
+      },
+      "proposed_labels": {
+        "status": "planned",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "supportive care"
+        ],
+        "drug_or_regimen_mentions": [
+          "zoledronic acid"
+        ],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "drug_classes",
+            "term": "bone-targeted",
+            "evidence": "Start zoledronic acid every 4 weeks for bone metastases after dental\nclearance.",
+            "concept_ref": {
+              "category": "drug_classes",
+              "node": "bone_targeted",
+              "axis": "terms",
+              "state": "bone_targeted"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "drug_classes",
+          "term": "bone-targeted",
+          "evidence": "Start zoledronic acid every 4 weeks for bone metastases after dental\nclearance.",
+          "concept_ref": {
+            "category": "drug_classes",
+            "node": "bone_targeted",
+            "axis": "terms",
+            "state": "bone_targeted"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "Zoledronic acid prescribed for bone metastases is a bone-targeted drug.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14",
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-a4c2b97c0feba33f",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "ddAC-T"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "chemotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer surgery"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "lymphadenectomy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "sequential",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024.",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": [
+        {
+          "component_id": "component-ec5b36436efb2d0a",
+          "concepts": [
+            {
+              "kind": "tx_ref",
+              "category": "regimens",
+              "term": "ddAC-T"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "chemotherapy"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "cancer-directed therapy"
+            }
+          ],
+          "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+          "effective": {
+            "start": null,
+            "end": null,
+            "precision": "unknown",
+            "start_date": null,
+            "end_date": null
+          },
+          "delivery_pattern": null,
+          "source_fact_ids": []
+        },
+        {
+          "component_id": "component-a5eee5e228e6b446",
+          "concepts": [
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "cancer surgery"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "lymphadenectomy"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "cancer-directed therapy"
+            }
+          ],
+          "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+          "effective": {
+            "start": null,
+            "end": null,
+            "precision": "unknown",
+            "start_date": null,
+            "end_date": null
+          },
+          "delivery_pattern": null,
+          "source_fact_ids": []
+        }
+      ]
+    },
+    {
+      "course_id": "course-11c78a5b0bf9cb20",
+      "status": "completed",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "effective": {
+        "start": "2024-04-01",
+        "end": "2024-04-30",
+        "precision": "month",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "radiation therapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": null,
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024",
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_05",
+      "fhir_path": "PlainTextDocument.text",
+      "date": "2026-05-14",
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "54-year-old": [
+          298,
+          3567
+        ],
+        "Assessment 54-year-old": [
+          3556
+        ],
+        "female": [
+          310
+        ],
+        "Doe is a 54-year-old female": [
+          289
+        ],
+        "woman": [
+          3579
+        ],
+        "54-year-old woman": [
+          3567
+        ],
+        "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023": [
+          335
+        ],
+        "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)": [
+          1368
+        ],
+        "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary. Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)": [
+          1246
+        ],
+        "HER2 negative (IHC 0)": [
+          1442,
+          3519
+        ],
+        "* PD-L1 CPS: 3": [
+          3541
+        ],
+        "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone": [
+          3590
+        ],
+        "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy": [
+          335
+        ],
+        "Disease recurrence confirmed by biopsy.": [
+          3794
+        ],
+        "Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.": [
+          587
+        ],
+        "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.": [
+          1246
+        ],
+        "* WBC: 5.8": [
+          3041
+        ],
+        "* Hgb: 10.4": [
+          3052
+        ],
+        "* Platelets: 242": [
+          3064
+        ],
+        "* AST: 68": [
+          3081
+        ],
+        "* ALT: 72": [
+          3091
+        ],
+        "* Alk Phos: 214": [
+          3101
+        ],
+        "* Total bilirubin: 1.1": [
+          3117
+        ],
+        "* Creatinine: 0.8": [
+          3140
+        ],
+        "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules": [
+          3166
+        ],
+        "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules * Mediastinal adenopathy * T7 and T9 osseous metastatic lesions": [
+          3166
+        ],
+        "MRI brain 05/10/2026: * No intracranial metastatic disease": [
+          3330
+        ],
+        "Past Medical History * Triple-negative breast cancer * Hypertension": [
+          2126
+        ],
+        "ECOG performance status currently 1.": [
+          3834
+        ],
+        "She subsequently completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024 and received adjuvant capecitabine. The patient remained without evidence of disease until approximately 3 months ago": [
+          694
+        ],
+        "left modified radical mastectomy with axillary lymph node dissection in 01/2024. Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.": [
+          506
+        ],
+        "Patient presents today to discuss second-line systemic therapy options after progression following prior anthracycline-, taxane-, and capecitabine-based treatment.": [
+          1523
+        ],
+        "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy": [
+          426
+        ],
+        "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024": [
+          711
+        ],
+        "received adjuvant capecitabine": [
+          805
+        ],
+        "after progression following prior anthracycline-, taxane-, and capecitabine-based treatment": [
+          1594
+        ],
+        "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024": [
+          494
+        ],
+        "Disease recurrence confirmed by biopsy": [
+          3794
+        ],
+        "Continue supportive care measures including antiemetics and pain management.": [
+          4289
+        ],
+        "Initiate second-line systemic therapy with sacituzumab govitecan.": [
+          3879
+        ],
+        "Refer to radiation oncology for evaluation of painful thoracic spine lesions if symptoms worsen.": [
+          4106
+        ],
+        "Start zoledronic acid every 4 weeks for bone metastases after dental clearance.": [
+          4206
+        ],
+        "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024.": [
+          426
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+      "documentation_date": "2026-05-14"
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [
+    "Semantic evidence review retained 1 unsupported or unresolved proposals for inspection."
+  ],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "50 <= age < 60",
+        "evidence": "54-year-old",
+        "date": "2026-05-14",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 54.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Assessment\n\n54-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "female",
+        "date": "2026-05-14",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Doe is a 54-year-old female"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "woman",
+        "date": "2026-05-14",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "54-year-old woman"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "ER negative",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "PR negative",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 status negative",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "ER negative",
+        "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "PR negative",
+        "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 status negative",
+        "evidence": "Repeat receptor testing remains ER negative (<1%), PR negative (<1%), and HER2 negative (IHC 0)",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 expression zero",
+        "evidence": "HER2 negative (IHC 0)",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary. Repeat receptor testing remains ER negative (<1%), PR\nnegative (<1%), and HER2 negative (IHC 0)",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#40d8cf6c8f2a9ca1"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "PD-L1 CPS >= 1 and < 5",
+        "evidence": "* PD-L1 CPS: 3",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#40d8cf6c8f2a9ca1"
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Breast Cancer",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Breast Cancer",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023. Initial treatment included neoadjuvant dose-dense AC-T chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "recurrent disease",
+        "evidence": "Disease recurrence confirmed by biopsy.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#ff11fc6a6eba4059"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "carcinoma",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "carcinoma",
+        "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary."
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "WBC value reported",
+        "evidence": "* WBC: 5.8",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 5.8
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* WBC: 5.8"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "Hb value reported",
+        "evidence": "* Hgb: 10.4",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 10.4
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* Hgb: 10.4"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "platelet count value reported",
+        "evidence": "* Platelets: 242",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 242.0
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* Platelets: 242"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "AST value reported",
+        "evidence": "* AST: 68",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 68.0
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* AST: 68"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "ALT value reported",
+        "evidence": "* ALT: 72",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 72.0
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* ALT: 72"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "alkaline phosphatase value reported",
+        "evidence": "* Alk Phos: 214",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 214.0
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* Alk Phos: 214"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "bilirubin value reported",
+        "evidence": "* Total bilirubin: 1.1",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 1.1
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* Total bilirubin: 1.1"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "creatinine value reported",
+        "evidence": "* Creatinine: 0.8",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 0.8
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "* Creatinine: 0.8"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "liver metastases",
+        "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary.",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6006d94cdcb927e9"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "lung metastases",
+        "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules",
+        "date": "2026-05-02",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules",
+        "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#13113ed48e47a690"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "bone metastases",
+        "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules * Mediastinal adenopathy * T7 and T9 osseous metastatic lesions",
+        "date": "2026-05-02",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules\n* Mediastinal adenopathy\n* T7 and T9 osseous metastatic lesions",
+        "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6bdba3d9da223c64"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "no brain metastases",
+        "evidence": "MRI brain 05/10/2026: * No intracranial metastatic disease",
+        "date": "2026-05-10",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "MRI brain 05/10/2026:\n\n* No intracranial metastatic disease",
+        "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#38fb1be084131920"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "hypertension",
+        "evidence": "Past Medical History * Triple-negative breast cancer * Hypertension",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Past Medical History\n\n* Triple-negative breast cancer\n* Hypertension"
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "ECOG performance status currently 1.",
+        "date": "2026-05-14",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "ECOG performance status currently\n1."
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "residual disease",
+        "evidence": "Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#ff11fc6a6eba4059"
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "no residual disease",
+        "evidence": "She subsequently completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024 and received adjuvant capecitabine. The patient remained without evidence of disease until approximately 3 months ago",
+        "date": "2024-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "She subsequently\ncompleted adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024 and received adjuvant capecitabine.\n\nThe patient remained without evidence of disease until approximately 3\nmonths ago"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "locally advanced",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regional lymph node(s) positive",
+        "evidence": "left modified radical mastectomy with axillary lymph node dissection in 01/2024. Surgical pathology demonstrated residual invasive disease measuring 2.8 cm with 4/16 positive lymph nodes.",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "left modified radical mastectomy with axillary lymph node\ndissection in 01/2024. Surgical pathology demonstrated residual invasive\ndisease measuring 2.8 cm with 4/16 positive lymph nodes."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "PET/CT 05/02/2026: * Multiple hypermetabolic liver lesions * Bilateral pulmonary metastatic nodules * Mediastinal adenopathy * T7 and T9 osseous metastatic lesions",
+        "date": "2026-05-02",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "PET/CT 05/02/2026:\n\n* Multiple hypermetabolic liver lesions\n* Bilateral pulmonary metastatic nodules\n* Mediastinal adenopathy\n* T7 and T9 osseous metastatic lesions",
+        "assessment_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6bdba3d9da223c64"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant lymph node(s) positive",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone"
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIIB",
+        "evidence": "stage IIIB triple-negative invasive ductal carcinoma of the left breast diagnosed in 2023",
+        "date": "2023",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "stage IIIB\ntriple-negative invasive ductal carcinoma of the left breast diagnosed in\n2023"
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IV",
+        "evidence": "metastatic triple-negative breast cancer involving liver, lungs, mediastinal nodes, and bone",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "metastatic triple-negative breast cancer involving\nliver, lungs, mediastinal nodes, and bone"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "Patient presents today to discuss second-line systemic therapy options after progression following prior anthracycline-, taxane-, and capecitabine-based treatment.",
+        "date": "2026-05-14",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Patient presents today to discuss second-line systemic therapy options\nafter progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment."
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "neoadjuvant setting",
+        "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "adjuvant setting",
+        "evidence": "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024",
+        "date": "2024-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "completed adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "adjuvant setting",
+        "evidence": "received adjuvant capecitabine",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "received adjuvant capecitabine"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "capecitabine",
+        "evidence": "received adjuvant capecitabine",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "received adjuvant capecitabine"
+      },
+      {
+        "polarity": "positive",
+        "group": "drug_classes",
+        "term": "anthracyclines",
+        "evidence": "after progression following prior anthracycline-, taxane-, and capecitabine-based treatment",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "after progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment"
+      },
+      {
+        "polarity": "positive",
+        "group": "drug_classes",
+        "term": "taxanes",
+        "evidence": "after progression following prior anthracycline-, taxane-, and capecitabine-based treatment",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "after progression following prior anthracycline-, taxane-, and\ncapecitabine-based treatment"
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "ddAC-T",
+        "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Initial treatment included neoadjuvant dose-dense AC-T chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "cancer surgery",
+        "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "followed by left modified radical mastectomy with axillary lymph node\ndissection in 01/2024"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "lymphadenectomy",
+        "evidence": "followed by left modified radical mastectomy with axillary lymph node dissection in 01/2024",
+        "date": "2024-01",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "followed by left modified radical mastectomy with axillary lymph node\ndissection in 01/2024"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "radiation therapy",
+        "evidence": "completed adjuvant radiation therapy to the chest wall and regional lymphatics in 04/2024",
+        "date": "2024-04",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "completed adjuvant radiation therapy to the chest wall and regional\nlymphatics in 04/2024"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Liver biopsy performed on 05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent with breast primary.",
+        "date": "2026-05-08",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_05:PlainTextDocument.text",
+        "documentation_date": "2026-05-14",
+        "date_evidence": "Liver biopsy performed on\n05/08/2026 confirmed metastatic poorly differentiated carcinoma consistent\nwith breast primary.",
+        "specimen_ref": "PlainTextDocument/test_05:PlainTextDocument.text#6006d94cdcb927e9"
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_05",
+        "fhir_path": "PlainTextDocument.text",
+        "date": "2026-05-14",
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "cancer",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "cancer",
+                "start": 229,
+                "end": 235,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 195,
+                "end": 205,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "stage IIIB",
+                "start": 340,
+                "end": 350,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "surgery_procedure",
+                "pattern": "\\b(resection|prostatectomy|colectomy|hemicolectomy|lumpectomy|mastectomy|lobectomy|pneumonectomy|nephrectomy|hysterectomy|cystectomy|lymphadenectomy|lymph\\s+node\\s+dissection|excision|debulking|metastasectomy|surgery|surgical|postoperative|preoperative)\\b",
+                "evidence": "mastectomy",
+                "start": 533,
+                "end": 543,
+                "reason": "surgery or procedure trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "pathology",
+                "start": 601,
+                "end": 610,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "radiation",
+                "pattern": "\\b(radiation|radiotherapy|irradiation|IMRT|SBRT|brachytherapy|proton therapy)\\b",
+                "evidence": "radiation",
+                "start": 735,
+                "end": 744,
+                "reason": "radiation therapy trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "neoadjuvant",
+                "start": 458,
+                "end": 469,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "common_cancer_drugs",
+                "pattern": "(?<!\\w)(?:elranatamab[-\\s]+bcmm|penpulimab[-\\s]+kcqx|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|datopotamab\\s+deruxtecan|trastuzumab\\s+deruxtecan|fludarabine\\s+phosphate|inotuzumab\\s+ozogamicin|telisotuzumab\\s+vedotin|trastuzumab\\s+emtansine|abiraterone\\s+acetate|brentuximab\\s+vedotin|etoposide\\s+phosphate|polatuzumab\\s+vedotin|tisotumab\\s+vedotin|pegaspargase|penpulimab|lonsurf|teysuno|trifluridine[\\s/_-]+(?:and[\\s/_-]+)?tipiracil|tegafur[\\s/,_-]+gimeracil[\\s/,_-]+(?:and[\\s/,_-]+)?oteracil|floxuridine|levoleucovorin|abemaciclib|abiraterone|acalabrutinib|adagrasib|ado[-\\s]+trastuzumab\\s+emtansine|afatinib|alectinib|alemtuzumab|amivantamab|anastrozole|apalutamide|asciminib|atezolizumab|avelumab|avutometinib|axitinib|azacitidine|bacillus\\s+calmette[-\\s]+guerin|belinostat|belzutifan|bendamustine|bevacizumab|bicalutamide|binimetinib|bleomycin|blinatumomab|bortezomib|bosutinib|brentuximab|brigatinib|cabazitaxel|cabozantinib|capecitabine|capivasertib|capmatinib|carboplatin|carfilzomib|carmustine|cemiplimab|ceritinib|cetuximab|chlorambucil|cisplatin|cobimetinib|cosibelimab|crizotinib|cyclophosphamide|cytarabine|dabrafenib|dacarbazine|dacomitinib|dactinomycin|darolutamide|dasatinib|datopotamab|decitabine|degarelix|docetaxel|dostarlimab|doxorubicin|durvalumab|elacestrant|elranatamab|elranatamab[-\\s]+bcmm|enasidenib|encorafenib|enfortumab\\s+vedotin|ensartinib|entrectinib|enzalutamide|epcoritamab|erdafitinib|eribulin|erlotinib(?:\\s+hydrochloride)?|etoposide|everolimus|exemestane|fam[-\\s]+trastuzumab\\s+deruxtecan[-\\s]+nxki|fluorouracil|fruquintinib|fulvestrant|futibatinib|gefitinib|gemcitabine|gilteritinib|glofitamab|goserelin|histrelin|ibrutinib|idarubicin|idelalisib|ifosfamide|imatinib|inavolisib|inotuzumab|ipilimumab|irinotecan|isatuximab|ivosidenib|ixabepilone|ixazomib|lanreotide|lapatinib|larotrectinib|lenalidomide|lenvatinib|letrozole|leucovorin|leuprolide|lomustine|loncastuximab\\s+tesirine|lorlatinib|lurbinectedin|margetuximab|melphalan|mercaptopurine|methotrexate|mirvetuximab[\\s_]+soravtansine|mitomycin|mitotane|mosunetuzumab|nadofaragene\\s+firadenovec|necitumumab|neratinib|nilotinib|nilutamide|niraparib|nirogacestat|nivolumab|obinutuzumab|olaparib|olutasidenib|osimertinib|oxaliplatin|paclitaxel|palbociclib|panitumumab|pazopanib|pembrolizumab|pemetrexed|pemigatinib|penpulimab[-\\s]+kcqx|pertuzumab|pexidartinib|pirtobrutinib|polatuzumab|pomalidomide|ponatinib|pralsetinib|quizartinib|ramucirumab|regorafenib|relugolix|repotrectinib|retifanlimab|revumenib|ribociclib|ripretinib|rituximab|romidepsin|rucaparib|sacituzumab\\s+govitecan|selinexor|selpercatinib|sonidegib|sorafenib|sotorasib|sunitinib|talazoparib|taletrectinib|talimogene\\s+laherparepvec|talquetamab|tamoxifen|tarlatamab|tazemetostat|tebentafusp|teclistamab|telisotuzumab|temozolomide|temsirolimus|tepotinib|thalidomide|thioguanine|thiotepa|tislelizumab|tisotumab|tivozanib|topotecan|toremifene|toripalimab|trametinib|trastuzumab|tremelimumab|triptorelin|tucatinib|valrubicin|vandetanib|vemurafenib|venetoclax|vinblastine|vincristine|vinorelbine|vismodegib|vorasidenib|zanidatamab|zanubrutinib|zenocutuzumab|ziv[-\\s]+aflibercept|zolbetuximab|zongertinib|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|asparaginase\\s+erwinia\\s+chrysanthemi|nogapendekin\\s+alfa\\s+inbakicept|brexucabtagene\\s+autoleucel|ciltacabtagene\\s+autoleucel|omacetaxine\\s+mepesuccinate|vusolimogene\\s+oderparepvec|afamitresgene\\s+autoleucel|lisocabtagene\\s+maraleucel|axicabtagene\\s+ciloleucel|obecabtagene\\s+autoleucel|ropeginterferon\\s+alfa[-\\s]+2b|idecabtagene\\s+vicleucel|gemtuzumab\\s+ozogamicin|belantamab\\s+mafodotin|denileukin\\s+diftitox|etoposide\\s+phosphate|calaspargase\\s+pegol|interferon\\s+alfa[-\\s]+2b|megestrol\\s+acetate|arsenic\\s+trioxide|tisagenlecleucel|mechlorethamine|dexamethasone|mogamulizumab|sunvozertinib|vepdegestrant|camizestrant|daraxonrasib|daunorubicin|dordaviprone|eflornithine|imlunestrant|mitoxantrone|pralatrexate|procarbazine|relacorilant|sevabertinib|sipuleucel[-\\s]+T|trifluridine|zidesamtinib|zidesmatinib|aldesleukin|avapritinib|clofarabine|daratumumab|dinutuximab|gedatolisib|hydroxyurea|midostaurin|momelotinib|ruxolitinib|sonrotoclax|tafasitamab|tagraxofusp|tovorafenib|trabectedin|bexarotene|cladribine|elotuzumab|epirubicin|fedratinib|imetelstat|lazertinib|lifileucel|nelarabine|ofatumumab|pacritinib|prednisone|raloxifene|treosulfan|vorinostat|ziftomenib|alpelisib|duvelisib|erlotinib|flutamide|glasdegib|imiquimod|naxitamab|sirolimus|busulfan|fludarabine|tegafur|other\\s+cancer\\s+drug)(?!\\w)",
+                "evidence": "capecitabine",
+                "start": 828,
+                "end": 840,
+                "reason": "cancer drug trigger from tx/drugs.txt"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "negative",
+                "start": 213,
+                "end": 221,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 3880,
+                "end": 3884,
+                "reason": "performance status trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 92990,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 37342,
+      "output_tokens": 26182,
+      "total_tokens": 119172,
+      "time_elapsed": 217.3,
+      "estimated_cost_usd": 0.3656351,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 218.0
+    }
+  },
+  "allow_interpretation": true
+}

@@ -1,0 +1,2083 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_07",
+  "bundle_path": "/home/ec2-user/Data/test/test_07.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:39:21Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "60 <= age < 70",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "64-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 64.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "64-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 64-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "60_age_70"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b5d9f8ef205375fc"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 64-year-old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b2a4f77c9aa4f906"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM0",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm0",
+        "axis": "terms",
+        "state": "cm0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-71399ea2497eed62"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "CT-documented liver metastases from the colon cancer establish current clinical distant metastatic disease (cM1).",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "reason": "CT-documented liver metastases from the colon cancer establish current clinical distant metastatic disease (cM1).",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm1",
+        "axis": "terms",
+        "state": "cm1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7eb8a5da95386a38"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_n",
+      "term": "pN1b",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_n",
+        "node": "pn1b",
+        "axis": "terms",
+        "state": "pn1b"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-ed01326e3cae6770"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_t",
+      "term": "pT3",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_t",
+        "node": "pt3",
+        "axis": "terms",
+        "state": "pt3"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-4ff49d40985e43b3"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "KRAS mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Molecular profiling of the primary tumor revealed a KRAS mutation (G12D)",
+      "rationale": "Molecular profiling reports a KRAS G12D mutation in the primary tumor.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Molecular profiling of the primary tumor revealed a KRAS\nmutation (G12D)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "kras",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7b8000916082ec0a"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No NRAS mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "NRAS and BRAF wild-type status",
+      "rationale": "NRAS wild-type status supports no NRAS mutation detected.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "NRAS and BRAF wild-type status",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "nras",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-443a78de7101f68c"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No BRAF mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "NRAS and BRAF wild-type status",
+      "rationale": "BRAF wild-type status supports no BRAF mutation detected.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "NRAS and BRAF wild-type status",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "braf",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b85c2885d8e120b8"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "MSS",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "microsatellite stable disease",
+      "rationale": "Microsatellite stable is MSS.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "microsatellite\nstable disease",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "msi",
+        "axis": "results",
+        "state": "mss"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8451e286258ca88f"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "The 2022 stage IIIB colon cancer had regional nodal involvement (pN1b), supporting an advanced, regionally spread colorectal cancer assessment. The later liver metastases are a separate assessment and are not backdated to 2022.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "reason": "The 2022 stage IIIB colon cancer had regional nodal involvement (pN1b), supporting an advanced, regionally spread colorectal cancer assessment. The later liver metastases are a separate assessment and are not backdated to 2022.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-c908beace56d5b34"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Colon Cancer",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022",
+      "rationale": "Intrinsic meaning of reviewed composition source:colon adenocarcinoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022",
+        "reason": "Intrinsic meaning of reviewed composition source:colon adenocarcinoma.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "colon_cancer",
+        "axis": "terms",
+        "state": "colon_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3a5c4f787958bd41"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "anemia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "a mild normocytic anemia",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "a mild\nnormocytic anemia",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "anemia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-78a8e49037f9a4bd"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "The initial diagnosis in 2022 supports newly diagnosed disease at that historical time, not at the later presentation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "reason": "The initial diagnosis in 2022 supports newly diagnosed disease at that historical time, not at the later presentation.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b0b595d7eb7bb858"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "recurrent disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "After treatment, he was disease-free for approximately 18 months before new liver metastases appeared, establishing recurrent disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "reason": "After treatment, he was disease-free for approximately 18 months before new liver metastases appeared, establishing recurrent disease.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "recurrent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7ca78406e0d37253"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "Pathologic T3 sigmoid colon adenocarcinoma extends beyond the bowel's muscular layer and is invasive, not in situ.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "reason": "Pathologic T3 sigmoid colon adenocarcinoma extends beyond the bowel's muscular layer and is invasive, not in situ.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-327f1ba17bd4fc51"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b0403471e989f434"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "CEA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "markedly elevated CEA of 145 ng/mL",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 145.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "markedly\nelevated CEA of 145 ng/mL",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "cea",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1276087558c0174b"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "liver metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "liver_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-15a9d120c7ac6bff"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "performance status is ECOG 1",
+      "rationale": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 1.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "performance status is ECOG 1",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b1755ca2e12d60c8"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "no residual disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months.",
+      "rationale": "The documented disease-free interval after resection and chemotherapy supports no remaining clinically evident disease during that interval; it does not describe the current metastatic assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months.",
+        "reason": "The documented disease-free interval after resection and chemotherapy supports no remaining clinically evident disease during that interval; it does not describe the current metastatic assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-161ddeaf2a2e2a9b"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regional lymph node(s) positive",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "The initial colon cancer classification pN1b establishes positive regional lymph nodes.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "reason": "The initial colon cancer classification pN1b establishes positive regional lymph nodes.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regional_lymph_nodes",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-4b88e0d2ed41ae7a"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "The initial cM0 classification indicates no clinically identified distant metastases at the 2022 staging assessment, not at the later presentation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "reason": "The initial cM0 classification indicates no clinically identified distant metastases at the 2022 staging assessment, not at the later presentation.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7134b410c9c61a7c"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "Documented liver metastases from the sigmoid colon cancer establish distant metastases at the later assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "reason": "Documented liver metastases from the sigmoid colon cancer establish distant metastases at the later assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e7beb2462cdb797c"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIIB",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iiib",
+        "axis": "terms",
+        "state": "stage_iiib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-05ab476071462714"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IV",
+      "date": "2022",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+      "rationale": "The proposed 2022 effective date conflicts with the documented 2022 stage IIIB (cM0). The later liver metastases support Stage IV only at the later assessment, not in 2022.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "derived",
+      "validation": "unsupported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iv",
+        "axis": "terms",
+        "state": "stage_iv"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-45b2d79f7787f278"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_intent",
+      "term": "curative intent",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "curative-intent resection with negative margins",
+      "rationale": "The historical resection is explicitly described as curative-intent.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "curative-intent resection with negative margins",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_intent",
+        "node": "curative_intent",
+        "axis": "terms",
+        "state": "curative_intent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e339ff0efbb89108"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "adjuvant setting",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "adjuvant_setting",
+        "axis": "terms",
+        "state": "adjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-4c72bcb1271591ff"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "FOLFOX",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "folfox",
+        "axis": "terms",
+        "state": "folfox"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a999dfbb9131f77e"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "R0 resection",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He underwent curative-intent resection with negative margins",
+      "rationale": "An undertaken curative-intent colon cancer resection with negative margins supports an R0 resection of the primary tumor.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "evidence": "He underwent curative-intent resection with negative margins",
+        "reason": "An undertaken curative-intent colon cancer resection with negative margins supports an R0 resection of the primary tumor.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He underwent\ncurative-intent resection with negative margins",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "r0_resection",
+        "axis": "terms",
+        "state": "r0_resection"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-6a62c2347823c6fa"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c19c6cc7586fa4cb"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:colon_cancer",
+      "cancer_term": "Colon Cancer",
+      "episode_key": null,
+      "diagnosis_date": "2022",
+      "evidence": "history of sigmoid colon adenocarcinoma initially diagnosed in 2022",
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-cb342e9a75ed5217",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "FOLFOX"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "R0 resection"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "chemotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "sequential",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": [
+        {
+          "component_id": "component-d7b41377b6a7a90d",
+          "concepts": [
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "R0 resection"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "cancer-directed therapy"
+            }
+          ],
+          "evidence": "He underwent curative-intent resection with negative margins",
+          "effective": {
+            "start": null,
+            "end": null,
+            "precision": "unknown",
+            "start_date": null,
+            "end_date": null
+          },
+          "delivery_pattern": null,
+          "source_fact_ids": []
+        },
+        {
+          "component_id": "component-5005cd7261cde05e",
+          "concepts": [
+            {
+              "kind": "tx_ref",
+              "category": "regimens",
+              "term": "FOLFOX"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "chemotherapy"
+            },
+            {
+              "kind": "tx_ref",
+              "category": "therapies",
+              "term": "cancer-directed therapy"
+            }
+          ],
+          "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+          "effective": {
+            "start": null,
+            "end": null,
+            "precision": "unknown",
+            "start_date": null,
+            "end_date": null
+          },
+          "delivery_pattern": null,
+          "source_fact_ids": []
+        }
+      ]
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_07",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "64-year-old": [
+          10
+        ],
+        "This is a 64-year-old": [
+          0
+        ],
+        "male": [
+          22
+        ],
+        "This is a 64-year-old male": [
+          0
+        ],
+        "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)": [
+          74
+        ],
+        "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases": [
+          394
+        ],
+        "Molecular profiling of the primary tumor revealed a KRAS mutation (G12D)": [
+          894
+        ],
+        "NRAS and BRAF wild-type status": [
+          973
+        ],
+        "microsatellite stable disease": [
+          1008
+        ],
+        "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases": [
+          45
+        ],
+        "sigmoid colon adenocarcinoma initially diagnosed in 2022": [
+          45
+        ],
+        "a mild normocytic anemia": [
+          868
+        ],
+        "He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases": [
+          235
+        ],
+        "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)": [
+          45
+        ],
+        "markedly elevated CEA of 145 ng/mL": [
+          790
+        ],
+        "performance status is ECOG 1": [
+          364
+        ],
+        "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months.": [
+          132
+        ],
+        "curative-intent resection with negative margins": [
+          145
+        ],
+        "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy": [
+          132
+        ],
+        "He underwent curative-intent resection with negative margins": [
+          132
+        ],
+        "history of sigmoid colon adenocarcinoma initially diagnosed in 2022": [
+          34
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [
+    "Semantic evidence review retained 1 unsupported or unresolved proposals for inspection."
+  ],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "60 <= age < 70",
+        "evidence": "64-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 64.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "This is a 64-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "This is a 64-year-old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM0",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM1",
+        "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_n",
+        "term": "pN1b",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_t",
+        "term": "pT3",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "KRAS mutation detected",
+        "evidence": "Molecular profiling of the primary tumor revealed a KRAS mutation (G12D)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "Molecular profiling of the primary tumor revealed a KRAS\nmutation (G12D)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No NRAS mutation detected",
+        "evidence": "NRAS and BRAF wild-type status",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "NRAS and BRAF wild-type status"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No BRAF mutation detected",
+        "evidence": "NRAS and BRAF wild-type status",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "NRAS and BRAF wild-type status"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "MSS",
+        "evidence": "microsatellite stable disease",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "microsatellite\nstable disease"
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Colon Cancer",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022"
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "anemia",
+        "evidence": "a mild normocytic anemia",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "a mild\nnormocytic anemia"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "recurrent disease",
+        "evidence": "He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "CEA value reported",
+        "evidence": "markedly elevated CEA of 145 ng/mL",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "source_value": {
+          "value": 145.0,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "markedly\nelevated CEA of 145 ng/mL"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "liver metastases",
+        "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "performance status is ECOG 1",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "performance status is ECOG 1"
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "no residual disease",
+        "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regional lymph node(s) positive",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIIB",
+        "evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IV",
+        "evidence": "sigmoid colon adenocarcinoma initially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy. He remained disease-free for approximately 18 months. He now presents with fatigue and mild right upper quadrant discomfort. His performance status is ECOG 1. Recent imaging with CT of the chest, abdomen, and pelvis demonstrates multiple bilobar liver metastases",
+        "date": "2022",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "sigmoid colon adenocarcinoma\ninitially diagnosed in 2022 as stage IIIB (pT3 pN1b cM0). He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy. He remained disease-free for approximately 18 months. He now\npresents with fatigue and mild right upper quadrant discomfort. His\nperformance status is ECOG 1. Recent imaging with CT of the chest, abdomen,\nand pelvis demonstrates multiple bilobar liver metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_intent",
+        "term": "curative intent",
+        "evidence": "curative-intent resection with negative margins",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "curative-intent resection with negative margins"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "adjuvant setting",
+        "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "FOLFOX",
+        "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "R0 resection",
+        "evidence": "He underwent curative-intent resection with negative margins",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He underwent\ncurative-intent resection with negative margins"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "He underwent curative-intent resection with negative margins followed by adjuvant FOLFOX chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_07:PlainTextDocument.text",
+        "date_evidence": "He underwent\ncurative-intent resection with negative margins followed by adjuvant FOLFOX\nchemotherapy"
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_07",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "adenocarcinoma",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "adenocarcinoma",
+                "start": 59,
+                "end": 73,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "tumor",
+                "start": 929,
+                "end": 934,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastases",
+                "start": 487,
+                "end": 497,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "stage IIIB",
+                "start": 105,
+                "end": 115,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "surgery_procedure",
+                "pattern": "\\b(resection|prostatectomy|colectomy|hemicolectomy|lumpectomy|mastectomy|lobectomy|pneumonectomy|nephrectomy|hysterectomy|cystectomy|lymphadenectomy|lymph\\s+node\\s+dissection|excision|debulking|metastasectomy|surgery|surgical|postoperative|preoperative)\\b",
+                "evidence": "resection",
+                "start": 161,
+                "end": 170,
+                "reason": "surgery or procedure trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "adjuvant",
+                "start": 205,
+                "end": 213,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "negative",
+                "start": 176,
+                "end": 184,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "performance status",
+                "start": 364,
+                "end": 382,
+                "reason": "performance status trigger"
+              },
+              {
+                "id": "care_intent",
+                "pattern": "\\b(hospice|palliative|curative|definitive|terminal care|candidate for|planned|plan to|considering|under consideration|intended|prior therapy|previously treated|history of treatment)\\b",
+                "evidence": "curative",
+                "start": 145,
+                "end": 153,
+                "reason": "intent or care planning trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 2,
+      "input_tokens": 68770,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 13122,
+      "output_tokens": 15309,
+      "total_tokens": 84079,
+      "time_elapsed": 147.1,
+      "estimated_cost_usd": 0.1968536,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 147.8
+    }
+  },
+  "allow_interpretation": true
+}

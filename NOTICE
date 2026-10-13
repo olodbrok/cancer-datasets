@@ -36,3 +36,98 @@ Synthea: An approach, method, and software mechanism for generating synthetic
 patients and the synthetic electronic health care record, Journal of the
 American Medical Informatics Association, Volume 25, Issue 3, March 2018, Pages
 230-238, https://doi.org/10.1093/jamia/ocx079.
+
+
+Clinical Standards And Terminology Notices
+-----------------------------------------
+
+HL7 FHIR
+
+OncoParser reads and writes data modeled around HL7 FHIR resources.
+FHIR is copyright (c) 2011+ HL7. The FHIR specification is licensed under
+Creative Commons CC0. HL7, Health Level Seven, FHIR, and the FHIR flame design
+are registered trademarks of Health Level Seven International. Use of these
+marks does not imply endorsement by HL7.
+
+Reference: https://fhir.hl7.org/fhir/license.html
+
+mCODE
+
+OncoParser refers to the minimal Common Oncology Data Elements (mCODE)
+Implementation Guide. mCODE is an HL7 FHIR implementation guide for oncology.
+mCODE is a trademark owned by the American Society of Clinical Oncology and is
+used with permission in the HL7 mCODE guide.
+
+Reference: https://hl7.org/fhir/us/mcode/
+
+LOINC
+
+OncoParser may use LOINC codes as source terminology identifiers. LOINC is
+copyright (c) Regenstrief Institute, Inc. and the Logical Observation
+Identifiers Names and Codes (LOINC) Committee.
+
+Required LOINC notice:
+
+"This material contains content from LOINC (http://loinc.org). LOINC is
+copyright © Regenstrief Institute, Inc. and the Logical Observation
+Identifiers Names and Codes (LOINC) Committee and is available at no cost under
+the license at http://loinc.org/license. LOINC® is a registered United States
+trademark of Regenstrief Institute, Inc."
+
+Reference: https://loinc.org/kb/license/
+
+SNOMED CT
+
+OncoParser may use SNOMED CT codes as source terminology identifiers. SNOMED CT
+is owned, maintained, and distributed by SNOMED International, formerly the
+International Health Terminology Standards Development Organisation (IHTSDO).
+Use and redistribution of SNOMED CT content may require an Affiliate License or
+other applicable license. The United States National Library of Medicine notes
+that use of SNOMED CT is subject to the IHTSDO Affiliate license provisions.
+
+Reference: https://www.nlm.nih.gov/healthit/snomedct/snomed_licensing.html
+
+RxNorm
+
+OncoParser may use RxNorm codes as source terminology identifiers. RxNorm is
+maintained by the United States National Library of Medicine. Downloading full
+RxNorm releases requires acceptance of the UMLS Metathesaurus License
+Agreement. Drug names and codes from other source vocabularies included in
+RxNorm may carry separate source vocabulary terms.
+
+Reference: https://www.nlm.nih.gov/research/umls/rxnorm/docs/termsofservice.html
+
+UCUM
+
+OncoParser uses UCUM unit strings in rule conditions and examples. The Unified
+Code for Units of Measure (UCUM), also known as the UCUM Specification, is
+copyright (c) 1999-2024 Regenstrief Institute, Inc. All rights reserved.
+
+Required UCUM notice:
+
+"Copyright 1999-2024 Regenstrief Institute, Inc. All rights reserved. Licensed
+under the UCUM License, Version 1.1 (the 'License'); you may not use this file
+except in compliance with the License. You may obtain a copy of the License at
+https://unitsofmeasure.org/license. Unless required by applicable law or agreed
+to in writing, software distributed under the License is distributed on an
+'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied. See the License for the specific language governing permissions and
+limitations under the License."
+
+Reference: https://ucum.org/license
+
+ICD-10-CM
+
+OncoParser may use ICD-10-CM codes as source terminology identifiers.
+ICD-10-CM is maintained by the National Center for Health Statistics at the
+Centers for Disease Control and Prevention. Verify the applicable yearly release
+and redistribution terms before bundling ICD-10-CM data.
+
+Reference: https://www.cdc.gov/nchs/icd/icd-10-cm/index.html
+
+Extraction Snapshot Notice
+---------------------------
+
+These files were copied from OncoParser benchmark/extract for version 3.0.0.
+The application code license does not relicense third-party terminology; stored
+codes, displays, units and examples retain their source conditions.

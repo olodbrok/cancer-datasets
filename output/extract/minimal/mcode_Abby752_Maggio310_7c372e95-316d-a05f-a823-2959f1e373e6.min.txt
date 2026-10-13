@@ -1,0 +1,342 @@
+patient_id:	7c372e95-316d-a05f-a823-2959f1e373e6
+bundle_path:	/home/ec2-user/Data/mcode/Abby752_Maggio310_7c372e95-316d-a05f-a823-2959f1e373e6.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T12:06:46Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2022-05-09	unknown	fact	gender	female		
+2022-05-09	unknown	fact	age	50 <= age < 60		
+2001-11-15	unknown	fact	clinical_conditions	BMI high		http://snomed.info/sct|162864005
+2016-02-12	unknown	fact	cancers	Colon Cancer		http://snomed.info/sct|363406005
+2016-02-12	unknown	fact	cancers	Colorectal Cancer		http://snomed.info/sct|363406005
+2016-02-12	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|363406005
+2019-10-04	unknown	fact	cancers	Breast Cancer		http://snomed.info/sct|254837009
+2019-10-04	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|254837009
+2012-09-20	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2014-08-28	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2015-09-03	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2016-03-27	unknown	fact	lab_values	creatinine high	3.1565 mg/dL	http://loinc.org|38483-4
+2016-03-27	unknown	fact	lab_values	inadequate GFR	21.046 mL/min	http://loinc.org|33914-3
+2016-03-27	unknown	fact	lab_values	albumin normal	3.8673 g/dL	http://loinc.org|1751-7
+2016-03-27	unknown	fact	lab_values	bilirubin normal	0.23773 mg/dL	http://loinc.org|1975-2
+2016-03-27	unknown	fact	lab_values	alkaline phosphatase value reported	135.66 U/L	http://loinc.org|6768-6
+2016-03-27	unknown	fact	lab_values	ALT normal	23.023 U/L	http://loinc.org|1742-6
+2016-03-27	unknown	fact	lab_values	AST normal	12.685 U/L	http://loinc.org|1920-8
+2016-03-27	unknown	fact	lab_values	WBC low	2.1407 10*3/uL	http://loinc.org|6690-2
+2016-03-27	unknown	fact	lab_values	RBC normal	4.6304 10*6/uL	http://loinc.org|789-8
+2016-03-27	unknown	fact	lab_values	Hb low	8.6003 g/dL	http://loinc.org|718-7
+2016-03-27	unknown	fact	lab_values	HCT low	25.048 %	http://loinc.org|4544-3
+2016-03-27	unknown	fact	lab_values	platelet count normal	423.43 10*3/uL	http://loinc.org|777-3
+2016-04-27	unknown	fact	lab_values	creatinine high	2.5487 mg/dL	http://loinc.org|38483-4
+2016-04-27	unknown	fact	lab_values	inadequate GFR	27.506 mL/min	http://loinc.org|33914-3
+2016-04-27	unknown	fact	lab_values	albumin normal	3.6652 g/dL	http://loinc.org|1751-7
+2016-04-27	unknown	fact	lab_values	bilirubin normal	0.23824 mg/dL	http://loinc.org|1975-2
+2016-04-27	unknown	fact	lab_values	alkaline phosphatase value reported	55.302 U/L	http://loinc.org|6768-6
+2016-04-27	unknown	fact	lab_values	ALT normal	32.218 U/L	http://loinc.org|1742-6
+2016-04-27	unknown	fact	lab_values	AST normal	38.699 U/L	http://loinc.org|1920-8
+2016-04-27	unknown	fact	lab_values	WBC low	1.937 10*3/uL	http://loinc.org|6690-2
+2016-04-27	unknown	fact	lab_values	RBC normal	4.0747 10*6/uL	http://loinc.org|789-8
+2016-04-27	unknown	fact	lab_values	Hb low	10.044 g/dL	http://loinc.org|718-7
+2016-04-27	unknown	fact	lab_values	HCT low	26.602 %	http://loinc.org|4544-3
+2016-04-27	unknown	fact	lab_values	platelet count normal	290.45 10*3/uL	http://loinc.org|777-3
+2016-05-26	unknown	fact	lab_values	creatinine high	2.9592 mg/dL	http://loinc.org|38483-4
+2016-05-26	unknown	fact	lab_values	inadequate GFR	22.066 mL/min	http://loinc.org|33914-3
+2016-05-26	unknown	fact	lab_values	albumin normal	4.2568 g/dL	http://loinc.org|1751-7
+2016-05-26	unknown	fact	lab_values	bilirubin value reported	0.1404 mg/dL	http://loinc.org|1975-2
+2016-05-26	unknown	fact	lab_values	alkaline phosphatase value reported	121.32 U/L	http://loinc.org|6768-6
+2016-05-26	unknown	fact	lab_values	ALT high	52.574 U/L	http://loinc.org|1742-6
+2016-05-26	unknown	fact	lab_values	AST normal	39.661 U/L	http://loinc.org|1920-8
+2016-05-26	unknown	fact	lab_values	WBC low	2.7679 10*3/uL	http://loinc.org|6690-2
+2016-05-26	unknown	fact	lab_values	RBC normal	4.7901 10*6/uL	http://loinc.org|789-8
+2016-05-26	unknown	fact	lab_values	Hb normal	12.502 g/dL	http://loinc.org|718-7
+2016-05-26	unknown	fact	lab_values	HCT low	30.363 %	http://loinc.org|4544-3
+2016-05-26	unknown	fact	lab_values	platelet count normal	345.64 10*3/uL	http://loinc.org|777-3
+2016-06-28	unknown	fact	lab_values	creatinine high	3.447 mg/dL	http://loinc.org|38483-4
+2016-06-28	unknown	fact	lab_values	inadequate GFR	20.33 mL/min	http://loinc.org|33914-3
+2016-06-28	unknown	fact	lab_values	albumin high	5.1553 g/dL	http://loinc.org|1751-7
+2016-06-28	unknown	fact	lab_values	bilirubin normal	1.097 mg/dL	http://loinc.org|1975-2
+2016-06-28	unknown	fact	lab_values	alkaline phosphatase value reported	72.716 U/L	http://loinc.org|6768-6
+2016-06-28	unknown	fact	lab_values	ALT normal	39.012 U/L	http://loinc.org|1742-6
+2016-06-28	unknown	fact	lab_values	AST value reported	6.1892 U/L	http://loinc.org|1920-8
+2016-06-28	unknown	fact	lab_values	WBC low	1.2198 10*3/uL	http://loinc.org|6690-2
+2016-06-28	unknown	fact	lab_values	RBC normal	4.1383 10*6/uL	http://loinc.org|789-8
+2016-06-28	unknown	fact	lab_values	Hb severely low	6.5395 g/dL	http://loinc.org|718-7
+2016-06-28	unknown	fact	lab_values	HCT low	34.201 %	http://loinc.org|4544-3
+2016-06-28	unknown	fact	lab_values	platelet count normal	426.52 10*3/uL	http://loinc.org|777-3
+2016-08-01	unknown	fact	lab_values	creatinine high	3.4224 mg/dL	http://loinc.org|38483-4
+2016-08-01	unknown	fact	lab_values	inadequate GFR	27.483 mL/min	http://loinc.org|33914-3
+2016-08-01	unknown	fact	lab_values	albumin normal	4.1979 g/dL	http://loinc.org|1751-7
+2016-08-01	unknown	fact	lab_values	bilirubin normal	0.79114 mg/dL	http://loinc.org|1975-2
+2016-08-01	unknown	fact	lab_values	alkaline phosphatase value reported	53.52 U/L	http://loinc.org|6768-6
+2016-08-01	unknown	fact	lab_values	ALT high	41.709 U/L	http://loinc.org|1742-6
+2016-08-01	unknown	fact	lab_values	AST normal	15.889 U/L	http://loinc.org|1920-8
+2016-08-01	unknown	fact	lab_values	WBC low	3.3314 10*3/uL	http://loinc.org|6690-2
+2016-08-01	unknown	fact	lab_values	RBC normal	5.2035 10*6/uL	http://loinc.org|789-8
+2016-08-01	unknown	fact	lab_values	Hb severely low	7.73 g/dL	http://loinc.org|718-7
+2016-08-01	unknown	fact	lab_values	HCT low	33.755 %	http://loinc.org|4544-3
+2016-08-01	unknown	fact	lab_values	platelet count normal	159.58 10*3/uL	http://loinc.org|777-3
+2016-08-31	unknown	fact	lab_values	creatinine high	2.6523 mg/dL	http://loinc.org|38483-4
+2016-08-31	unknown	fact	lab_values	inadequate GFR	16.226 mL/min	http://loinc.org|33914-3
+2016-08-31	unknown	fact	lab_values	albumin normal	3.5104 g/dL	http://loinc.org|1751-7
+2016-08-31	unknown	fact	lab_values	bilirubin normal	0.98502 mg/dL	http://loinc.org|1975-2
+2016-08-31	unknown	fact	lab_values	alkaline phosphatase value reported	110.91 U/L	http://loinc.org|6768-6
+2016-08-31	unknown	fact	lab_values	ALT high	45.741 U/L	http://loinc.org|1742-6
+2016-08-31	unknown	fact	lab_values	AST normal	27.425 U/L	http://loinc.org|1920-8
+2016-08-31	unknown	fact	lab_values	WBC low	0.57902 10*3/uL	http://loinc.org|6690-2
+2016-08-31	unknown	fact	lab_values	RBC normal	4.7562 10*6/uL	http://loinc.org|789-8
+2016-08-31	unknown	fact	lab_values	Hb severely low	6.2122 g/dL	http://loinc.org|718-7
+2016-08-31	unknown	fact	lab_values	HCT low	28.083 %	http://loinc.org|4544-3
+2016-08-31	unknown	fact	lab_values	platelet count normal	238.31 10*3/uL	http://loinc.org|777-3
+2016-09-08	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2016-09-08	unknown	fact	lab_values	WBC normal	10.265 10*3/uL	http://loinc.org|6690-2
+2016-09-08	unknown	fact	lab_values	RBC normal	4.2077 10*6/uL	http://loinc.org|789-8
+2016-09-08	unknown	fact	lab_values	Hb normal	12.056 g/dL	http://loinc.org|718-7
+2016-09-08	unknown	fact	lab_values	HCT normal	42.746 %	http://loinc.org|4544-3
+2016-09-08	unknown	fact	lab_values	platelet count normal	205.49 10*3/uL	http://loinc.org|777-3
+2017-09-14	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2018-09-20	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2018-09-20	unknown	fact	lab_values	creatinine normal	1.18 mg/dL	http://loinc.org|38483-4
+2019-09-26	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2019-09-26	unknown	fact	lab_values	creatinine normal	0.75 mg/dL	http://loinc.org|38483-4
+2019-10-04	unknown	fact	ajcc_m	cM0	M0 category (finding)	http://loinc.org|21907-1
+2019-10-04	unknown	fact	ajcc_m	M0	M0 category (finding)	http://loinc.org|21907-1
+2019-10-04	unknown	fact	ajcc_t	cT2	T2 category (finding)	http://loinc.org|21905-5
+2019-10-04	unknown	fact	ajcc_t	T2	T2 category (finding)	http://loinc.org|21905-5
+2019-10-04	unknown	fact	ajcc_n	cN0	N0 category (finding)	http://loinc.org|21906-3
+2019-10-04	unknown	fact	ajcc_n	N0	N0 category (finding)	http://loinc.org|21906-3
+2019-10-06	unknown	fact	biomarkers	HER2 status negative	Negative (qualifier value)	http://loinc.org|48676-1
+2019-10-06	unknown	fact	biomarkers	No HER2 amplification detected	Negative (qualifier value)	http://loinc.org|85318-4
+2019-10-06	unknown	fact	biomarkers	ER negative	Negative (qualifier value)	http://loinc.org|16112-5
+2019-10-06	unknown	fact	biomarkers	ER negative	Negative (qualifier value)	http://loinc.org|85337-4
+2019-10-06	unknown	fact	biomarkers	HR positive	Positive (qualifier value)	http://loinc.org|16113-3
+2019-10-06	unknown	fact	biomarkers	PR positive	Positive (qualifier value)	http://loinc.org|16113-3
+2019-10-06	unknown	fact	biomarkers	HR positive	Positive (qualifier value)	http://loinc.org|85339-0
+2019-10-06	unknown	fact	biomarkers	PR positive	Positive (qualifier value)	http://loinc.org|85339-0
+2019-10-06	unknown	fact	stages	Stage II	Stage 2A (qualifier value)	http://loinc.org|21908-9
+2019-10-06	unknown	fact	stages	Stage IIA	Stage 2A (qualifier value)	http://loinc.org|21908-9
+2019-10-06	unknown	fact	stages	Stage II	Stage 2 (qualifier value)	http://loinc.org|21908-9
+2020-05-21	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2020-05-21	unknown	fact	lab_values	creatinine normal	0.75 mg/dL	http://loinc.org|38483-4
+2020-10-01	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2020-10-01	unknown	fact	lab_values	creatinine normal	0.74 mg/dL	http://loinc.org|38483-4
+2021-10-07	unknown	fact	clinical_conditions	BMI high	27.4 kg/m2	http://loinc.org|39156-5
+2021-10-07	unknown	fact	lab_values	creatinine normal	0.73 mg/dL	http://loinc.org|38483-4
+2021-10-07	unknown	fact	lab_values	WBC normal	6.8793 10*3/uL	http://loinc.org|6690-2
+2021-10-07	unknown	fact	lab_values	RBC normal	5.4589 10*6/uL	http://loinc.org|789-8
+2021-10-07	unknown	fact	lab_values	Hb value reported	17.442 g/dL	http://loinc.org|718-7
+2021-10-07	unknown	fact	lab_values	HCT normal	44.156 %	http://loinc.org|4544-3
+2021-10-07	unknown	fact	lab_values	platelet count normal	238.71 10*3/uL	http://loinc.org|777-3
+2019-10-04	unknown	fact	therapies	biopsy		http://snomed.info/sct|122548005
+2019-10-11	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|64368001
+2019-10-11	unknown	fact	therapies	cancer surgery		http://snomed.info/sct|64368001
+2019-10-11	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|392021009
+2019-10-11	unknown	fact	therapies	cancer surgery		http://snomed.info/sct|392021009
+2019-10-11	unknown	fact	therapies	tumor resection		http://snomed.info/sct|392021009
+2019-10-20	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-21	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-21	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-22	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-24	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-25	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-25	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-26	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-28	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-28	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-29	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-29	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-30	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-10-31	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-10-31	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-02	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-03	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-04	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-06	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-06	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-07	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-08	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-08	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-09	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-11	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-11	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-12	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-12	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-13	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-13	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-15	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-15	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-16	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-17	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-17	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-18	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-20	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-21	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-21	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-22	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-24	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-25	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-25	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-27	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-28	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-28	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-29	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-29	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-11-30	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-11-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2019-12-02	unknown	fact	therapies	cancer-directed therapy		http://snomed.info/sct|USCRS-33529
+2019-12-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|USCRS-33529
+2016-03-27	unknown	fact	drugs	leucovorin		http://www.nlm.nih.gov/research/umls/rxnorm|1803932
+2016-03-27	unknown	fact	drugs	oxaliplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736776
+2019-12-06	unknown	fact	drugs	tamoxifen		http://www.nlm.nih.gov/research/umls/rxnorm|198240
+2016-03-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-03-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-04-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-04-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-05-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-05-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-06-28	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-06-28	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-08-01	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-08-01	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-08-31	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-08-31	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-08-28	unknown	fact	lab_values	Hb value reported	8.4898 ng/mL	http://loinc.org|57905-2
+2020-04-07	Colon Cancer	fact	cancers	Colon Cancer		
+2021-03-25	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-23	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-23	Colon Cancer	fact	therapies	radiation therapy		
+2018-06-25	Colon Cancer	fact	cancers	Colon Cancer		
+2018-09-20	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-19	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-19	Colon Cancer	fact	therapies	radiation therapy		
+2022-05-09	Colon Cancer	fact	cancers	Colon Cancer		
+2020-10-01	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-27	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-25	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-25	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-13	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-13	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-01	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-01	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-16	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-16	Colon Cancer	fact	therapies	radiation therapy		
+2020-07-27	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-31	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-22	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-22	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-28	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2021-02-18	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-30	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-30	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-05	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-05	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-18	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-18	Colon Cancer	fact	therapies	radiation therapy		
+2020-05-21	Colon Cancer	fact	cancers	Colon Cancer		
+2016-08-01	Colon Cancer	fact	cancers	Colon Cancer		
+2016-08-01	Colon Cancer	fact	therapies	chemotherapy		
+2016-08-01	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-26	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2021-10-07	Colon Cancer	fact	cancers	Colon Cancer		
+2020-10-30	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-29	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+unknown	unknown	fact	clinical_conditions	BMI high		
+2019-10-04	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-04	Breast Cancer	fact	cancers	Breast Cancer		
+2019-10-04	Breast Cancer	fact	therapies	biopsy		
+2019-11-10	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-09	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2021-09-17	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-14	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-14	Colon Cancer	fact	therapies	radiation therapy		
+2016-06-28	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	chemotherapy		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-04	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-03	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-03	Colon Cancer	fact	therapies	radiation therapy		
+2020-05-12	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-08	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-30	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-12	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2021-05-31	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-07	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-07	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-11	Colon Cancer	fact	cancers	Colon Cancer		
+2019-09-26	Colon Cancer	fact	cancers	Colon Cancer		
+2020-11-09	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-17	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-21	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-21	Colon Cancer	fact	therapies	radiation therapy		
+2020-11-09	Colon Cancer	fact	cancers	Colon Cancer		
+2016-03-26	Colon Cancer	fact	cancers	Colon Cancer		
+2016-03-26	Colon Cancer	fact	therapies	chemotherapy		
+2016-03-26	Colon Cancer	fact	therapies	radiation therapy		
+2016-08-31	Colon Cancer	fact	cancers	Colon Cancer		
+2016-08-31	Colon Cancer	fact	therapies	chemotherapy		
+2016-08-31	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-08	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-26	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-26	Colon Cancer	fact	therapies	radiation therapy		
+2022-01-10	Colon Cancer	fact	cancers	Colon Cancer		
+2016-09-21	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	cancers	Colon Cancer		
+2020-11-09	Colon Cancer	fact	cancers	Colon Cancer		
+2021-09-17	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-21	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-21	Colon Cancer	fact	therapies	radiation therapy		
+2019-12-06	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-20	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-20	Colon Cancer	fact	therapies	radiation therapy		
+2018-03-03	Colon Cancer	fact	cancers	Colon Cancer		
+2019-12-01	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2019-10-25	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-25	Colon Cancer	fact	therapies	radiation therapy		
+2017-09-14	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-22	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-22	Colon Cancer	fact	therapies	radiation therapy		
+2016-02-22	Colon Cancer	fact	cancers	Colon Cancer		
+2016-02-22	Colon Cancer	fact	therapies	cancer surgery		
+2016-09-08	Colon Cancer	fact	cancers	Colon Cancer		
+2016-04-27	Colon Cancer	fact	cancers	Colon Cancer		
+2016-04-27	Colon Cancer	fact	therapies	chemotherapy		
+2016-04-27	Colon Cancer	fact	therapies	radiation therapy		
+2019-11-24	Colon Cancer	fact	cancers	Colon Cancer		
+2019-11-24	Colon Cancer	fact	therapies	radiation therapy		
+2016-05-26	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	therapies	chemotherapy		
+unknown	Colon Cancer	fact	therapies	radiation therapy		
+2021-09-17	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-29	Colon Cancer	fact	cancers	Colon Cancer		
+2019-10-29	Colon Cancer	fact	therapies	radiation therapy		
+2019-12-06	Colon Cancer	planned	drugs	tamoxifen		
+unknown	Colon Cancer	planned	drugs	leucovorin		
+unknown	Colon Cancer	planned	drugs	oxaliplatin		

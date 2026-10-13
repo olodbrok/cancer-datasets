@@ -1,0 +1,17 @@
+age	60 <= age < 70
+cancers	Colon Cancer
+cancers	Colorectal Cancer
+cancers	Solid Tumor
+clinical_conditions	anemia
+clinical_conditions	BMI high
+gender	male
+lab_values	creatinine normal
+lab_values	Hb normal
+lab_values	Hb value reported
+lab_values	HCT normal
+lab_values	platelet count normal
+lab_values	RBC normal
+lab_values	WBC normal
+organ_function	hypertension
+performance	deceased
+therapies	hospice care

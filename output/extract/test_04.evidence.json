@@ -1,0 +1,2262 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_04",
+  "bundle_path": "/home/ec2-user/Data/test/test_04.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:31:18Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "50 <= age < 60",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "50-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 50.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "50-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "A 50-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "50_age_60"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-0e14513b15111e19"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "female",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "A 50-year-old female",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e743054e8e98037a"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "CD20 positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "positive for CD20",
+      "rationale": "The lymphoma cells are explicitly positive for CD20.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "positive for CD20",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "cd20",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-cf2e1bfd472421bb"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "Ki-67 expression high",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Ki-67 proliferation index was approximately 80 percent.",
+      "rationale": "The documented Ki-67 proliferation index of approximately 80% indicates high expression in this lymphoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "Ki-67 proliferation index was approximately 80 percent.",
+        "reason": "The documented Ki-67 proliferation index of approximately 80% indicates high expression in this lymphoma.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Ki-67 proliferation index was\napproximately 80 percent.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "ki_67",
+        "axis": "value_bucket",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8b26ffe656ff4bcf"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.",
+      "rationale": "The documented Ann Arbor stage IIIS DLBCL falls within advanced-stage lymphoma at the initial staging assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.",
+        "reason": "The documented Ann Arbor stage IIIS DLBCL falls within advanced-stage lymphoma at the initial staging assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Based on Ann Arbor\nstaging criteria, the patient was classified as Stage IIIS disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-acf57cb46d5a0431"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Diffuse Large B-Cell Lymphoma",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Excisional node biopsy confirmed diffuse large B-cell lymphoma.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Excisional node biopsy confirmed\ndiffuse large B-cell lymphoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "diffuse_large_b_cell_lymphoma",
+        "axis": "terms",
+        "state": "diffuse_large_b_cell_lymphoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c80f2404963c2d96"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "anemia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "mild normocytic anemia",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "mild\nnormocytic anemia",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "anemia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b19d89ff643ec55e"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "neutropenia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Treatment was completed with manageable toxicities including transient neutropenia",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Treatment was\ncompleted with manageable toxicities including transient neutropenia",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "neutropenia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-99f5ab992cf50472"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "was diagnosed with diffuse large B-cell lymphoma after presenting with several months of progressive cervical lymphadenopathy",
+      "rationale": "The initial biopsy confirmation and baseline findings described as being at diagnosis establish newly diagnosed disease at that initial assessment, not at relapse.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "was diagnosed with diffuse large B-cell lymphoma after presenting with several months of progressive cervical lymphadenopathy",
+        "reason": "The initial biopsy confirmation and baseline findings described as being at diagnosis establish newly diagnosed disease at that initial assessment, not at relapse.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "was diagnosed with diffuse large B-cell\nlymphoma after presenting with several months of progressive cervical\nlymphadenopathy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-20303f35656a8468"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "relapsed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Core biopsy of an axillary node confirmed relapsed diffuse large B-cell lymphoma",
+      "rationale": "An axillary-node biopsy explicitly confirmed relapsed DLBCL.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Core biopsy of an axillary\nnode confirmed relapsed diffuse large B-cell lymphoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "relapsed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-44c356f456110f47"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "relapsed or refractory disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current disease status is consistent with refractory or early relapsing aggressive B-cell lymphoma.",
+      "rationale": "The source assesses refractory or early-relapsing lymphoma, and the axillary-node biopsy confirms relapsed DLBCL. Confirmed relapse satisfies the relapsed-or-refractory composite without establishing refractory disease separately.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "Current disease status is consistent with refractory or early relapsing aggressive B-cell lymphoma.",
+        "reason": "The source assesses refractory or early-relapsing lymphoma, and the axillary-node biopsy confirms relapsed DLBCL. Confirmed relapse satisfies the relapsed-or-refractory composite without establishing refractory disease separately.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current disease status is\nconsistent with refractory or early relapsing aggressive B-cell lymphoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "relapsed_or_refractory",
+        "axis": "terms",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-78f1e0e9ce924d0a"
+    },
+    {
+      "polarity": "positive",
+      "group": "hematologic_extent",
+      "term": "disseminated or systemic",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Baseline PET/CT demonstrated hypermetabolic lymphadenopathy above and below the diaphragm with splenic involvement.",
+      "rationale": "Baseline lymphoma involvement in nodes above and below the diaphragm, together with splenic involvement, establishes systemic rather than localized extent.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "Baseline PET/CT demonstrated hypermetabolic lymphadenopathy above and below the diaphragm with splenic involvement.",
+        "reason": "Baseline lymphoma involvement in nodes above and below the diaphragm, together with splenic involvement, establishes systemic rather than localized extent.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Baseline PET/CT demonstrated hypermetabolic\nlymphadenopathy above and below the diaphragm with splenic involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "hematologic_extent",
+        "node": "hematologic_extent",
+        "axis": "terms",
+        "state": "disseminated_or_systemic"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7ce929967fba2fe4"
+    },
+    {
+      "polarity": "positive",
+      "group": "hematologic_extent",
+      "term": "disseminated or systemic",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Repeat PET/CT showed new hypermetabolic nodal disease in the axillary, mediastinal, and abdominal regions.",
+      "rationale": "The repeat PET/CT documents nodal lymphoma across axillary, mediastinal, and abdominal regions, establishing disseminated extent at the later assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "Repeat PET/CT showed new hypermetabolic nodal disease in the axillary, mediastinal, and abdominal regions.",
+        "reason": "The repeat PET/CT documents nodal lymphoma across axillary, mediastinal, and abdominal regions, establishing disseminated extent at the later assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Repeat PET/CT showed new hypermetabolic nodal disease in the\naxillary, mediastinal, and abdominal regions.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "hematologic_extent",
+        "node": "hematologic_extent",
+        "axis": "terms",
+        "state": "disseminated_or_systemic"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-afbee1da4ecfb9fd"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "large cell",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathology demonstrated sheets of large atypical lymphoid cells",
+      "rationale": "Histopathology describes large atypical lymphoid cells, consistent with the confirmed large B-cell lymphoma histology.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathology demonstrated sheets of large atypical lymphoid cells",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "large_cell",
+        "axis": "terms",
+        "state": "large_cell"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7525595dd2381301"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "LDH high",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Laboratory studies at diagnosis revealed elevated lactate dehydrogenase",
+      "rationale": "Elevated lactate dehydrogenase directly states high LDH at diagnosis.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Laboratory\nstudies at diagnosis revealed elevated lactate dehydrogenase",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "ldh",
+        "axis": "results",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-d31db24e243bd4c5"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "first line",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+      "rationale": "The received R-CHOP immunochemotherapy is explicitly called first-line.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "first_line",
+        "axis": "terms",
+        "state": "first_line"
+      },
+      "line_number": 1,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5fa44d6d9e1b6f43"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "ECOG performance status was 1.",
+      "rationale": "ECOG performance status is explicitly reported as 1.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "ECOG performance status was 1.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-4a415589c5da8891"
+    },
+    {
+      "polarity": "positive",
+      "group": "recurrence_risk",
+      "term": "intermediate risk of recurrence or progression",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "International Prognostic Index assessment placed the patient in an intermediate-risk category due to stage, elevated LDH, and extranodal splenic involvement.",
+      "rationale": "The documented intermediate-risk International Prognostic Index assessment in DLBCL stratifies lymphoma outcomes including progression risk, supporting intermediate risk of recurrence or progression at diagnosis.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "International Prognostic Index assessment placed the patient in an intermediate-risk category due to stage, elevated LDH, and extranodal splenic involvement.",
+        "reason": "The documented intermediate-risk International Prognostic Index assessment in DLBCL stratifies lymphoma outcomes including progression risk, supporting intermediate risk of recurrence or progression at diagnosis.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "International Prognostic Index assessment placed the patient in an\nintermediate-risk category due to stage, elevated LDH, and extranodal\nsplenic involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "recurrence_risk",
+        "node": "recurrence_risk",
+        "axis": "risk_level",
+        "state": "intermediate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-37adb518965b4190"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIIS",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Based on Ann Arbor\nstaging criteria, the patient was classified as Stage IIIS disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iiis",
+        "axis": "terms",
+        "state": "stage_iiis"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-020510ef54ba526b"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "complete response",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "end-of-therapy PET demonstrated complete metabolic remission.",
+      "rationale": "Following completed R-CHOP, the end-of-therapy PET showed complete metabolic remission, which establishes a complete lymphoma treatment response at that assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "end-of-therapy PET demonstrated complete metabolic remission.",
+        "reason": "Following completed R-CHOP, the end-of-therapy PET showed complete metabolic remission, which establishes a complete lymphoma treatment response at that assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "end-of-therapy PET demonstrated complete metabolic remission.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "complete_response"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-53f12360660f4595"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "R-CHOP",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "r_chop",
+        "axis": "terms",
+        "state": "r_chop"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-cd30d2cc3e24767f"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Excisional node biopsy confirmed diffuse large B-cell lymphoma.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Excisional node biopsy confirmed\ndiffuse large B-cell lymphoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b5e5437c58786a0d"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Bone marrow biopsy showed no evidence of marrow infiltration.",
+      "rationale": "A bone marrow biopsy was performed and its result reported; the selected biopsy concept is a procedure, not an assertion of therapeutic effect.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Bone marrow biopsy showed no evidence of marrow infiltration.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-d0698a4cb29dcfdb"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+      "rationale": "The patient received six cycles of immunochemotherapy with R-CHOP; its chemotherapy component establishes delivered chemotherapy.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "reason": "The patient received six cycles of immunochemotherapy with R-CHOP; its chemotherapy component establishes delivered chemotherapy.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-10ae91d9f69f6ff3"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "immunotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+      "rationale": "The patient received six cycles of immunochemotherapy with R-CHOP; its immune-treatment component establishes delivered immunotherapy.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "reason": "The patient received six cycles of immunochemotherapy with R-CHOP; its immune-treatment component establishes delivered immunotherapy.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "immunotherapy",
+        "axis": "terms",
+        "state": "immunotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5cc6232759b16221"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Core biopsy of an axillary node confirmed relapsed diffuse large B-cell lymphoma",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Core biopsy of an axillary\nnode confirmed relapsed diffuse large B-cell lymphoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-fee8eb88e70b90fd"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "cancer_term": "Diffuse Large B-Cell Lymphoma",
+      "episode_key": null,
+      "diagnosis_date": null,
+      "evidence": "Excisional node biopsy confirmed diffuse large B-cell lymphoma.",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "candidate",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "systemic therapy",
+        "cellular therapy",
+        "transplant"
+      ],
+      "drug_or_regimen_mentions": [
+        "R-ICE",
+        "R-DHAP"
+      ],
+      "intent_labels": [],
+      "evidence": "The patient remains a candidate for salvage systemic therapy, with typical options including R-ICE or R-DHAP followed by autologous stem cell transplantation in a chemosensitive setting, or CAR T-cell therapy depending on treatment response, eligibility, and multidisciplinary review.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_04",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:candidate": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "modality_labels:cellular therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "CAR T-cell therapy is a cellular therapy. It is presented as a conditional option for this patient, not as treatment received."
+        },
+        "modality_labels:transplant": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Autologous stem cell transplantation explicitly supports the transplant modality as a conditional option."
+        },
+        "drug_or_regimen_mentions:R-ICE": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "drug_or_regimen_mentions:R-DHAP": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:treatment_setting/salvage": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.steps.0.alternatives.0.concepts:regimens/R-ICE": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.steps.0.alternatives.1.concepts:regimens/R-DHAP": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.steps.1.concepts:therapies/autologous hematopoietic stem cell transplantation": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Autologous stem cell transplantation is a synonym for autologous hematopoietic stem cell transplantation; the option is conditional on a chemosensitive setting."
+        },
+        "alternatives.1.concepts:drug_classes/CAR-T therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "CAR T-cell therapy explicitly names this conditional alternative, subject to response, eligibility, and multidisciplinary review."
+        },
+        "alternatives.1.concepts:therapies/cellular therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The named CAR T-cell therapy is a form of cellular therapy; its conditional option status is preserved."
+        },
+        "alternatives:2": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.relationship:sequence": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.steps.0.alternatives:2": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.0.steps.0.alternatives.0.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "This branch contains the single named regimen R-ICE. It remains an alternative to R-DHAP within the first step of the sequence."
+        },
+        "alternatives.0.steps.0.alternatives.1.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "This branch contains the single named regimen R-DHAP. It remains an alternative to R-ICE within the first step of the sequence."
+        },
+        "alternatives.0.steps.1.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "This step contains transplantation as its single treatment concept, following a regimen option and conditional on a chemosensitive setting."
+        },
+        "alternatives.1.relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The CAR T-cell branch contains one treatment option. The preceding ‘or’ distinguishes it from the other branch, rather than adding another treatment within this branch."
+        },
+        "alternatives.0.steps.1.condition:in a chemosensitive setting": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "alternatives.1.condition:depending on treatment response, eligibility, and multidisciplinary review": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        }
+      },
+      "proposed_labels": {
+        "status": "candidate",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "systemic therapy",
+          "cellular therapy",
+          "transplant"
+        ],
+        "drug_or_regimen_mentions": [
+          "R-ICE",
+          "R-DHAP"
+        ],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "candidate for salvage systemic therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "treatment_setting",
+            "term": "salvage",
+            "evidence": "candidate for salvage systemic therapy",
+            "concept_ref": {
+              "category": "treatment_setting",
+              "node": "salvage",
+              "axis": "terms",
+              "state": "salvage"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [
+          {
+            "concepts": [],
+            "relationship": "sequence",
+            "evidence": "R-ICE or R-DHAP followed by autologous stem cell\ntransplantation in a chemosensitive setting",
+            "validation": "unresolved",
+            "relationship_validation": "unresolved",
+            "alternatives": [],
+            "steps": [
+              {
+                "concepts": [],
+                "relationship": "unspecified",
+                "evidence": "R-ICE or R-DHAP",
+                "validation": "unresolved",
+                "relationship_validation": "unresolved",
+                "alternatives": [
+                  {
+                    "concepts": [
+                      {
+                        "group": "regimens",
+                        "term": "R-ICE",
+                        "evidence": "options including R-ICE",
+                        "concept_ref": {
+                          "category": "regimens",
+                          "node": "r_ice",
+                          "axis": "terms",
+                          "state": "r_ice"
+                        },
+                        "validation": "unresolved",
+                        "establishment": "direct"
+                      }
+                    ],
+                    "relationship": "single",
+                    "evidence": "R-ICE",
+                    "validation": "unresolved",
+                    "relationship_validation": "unresolved",
+                    "alternatives": [],
+                    "steps": []
+                  },
+                  {
+                    "concepts": [
+                      {
+                        "group": "regimens",
+                        "term": "R-DHAP",
+                        "evidence": "R-ICE or R-DHAP",
+                        "concept_ref": {
+                          "category": "regimens",
+                          "node": "r_dhap",
+                          "axis": "terms",
+                          "state": "r_dhap"
+                        },
+                        "validation": "unresolved",
+                        "establishment": "direct"
+                      }
+                    ],
+                    "relationship": "single",
+                    "evidence": "R-DHAP",
+                    "validation": "unresolved",
+                    "relationship_validation": "unresolved",
+                    "alternatives": [],
+                    "steps": []
+                  }
+                ],
+                "steps": []
+              },
+              {
+                "concepts": [
+                  {
+                    "group": "therapies",
+                    "term": "autologous hematopoietic stem cell transplantation",
+                    "evidence": "followed by autologous stem cell\ntransplantation in a chemosensitive setting",
+                    "concept_ref": {
+                      "category": "therapies",
+                      "node": "autologous_hsct",
+                      "axis": "terms",
+                      "state": "autologous_hsct"
+                    },
+                    "validation": "unresolved",
+                    "establishment": "direct"
+                  }
+                ],
+                "relationship": "single",
+                "evidence": "autologous stem cell\ntransplantation in a chemosensitive setting",
+                "validation": "unresolved",
+                "relationship_validation": "unresolved",
+                "alternatives": [],
+                "steps": [],
+                "condition_evidence": "in a chemosensitive setting"
+              }
+            ]
+          },
+          {
+            "concepts": [
+              {
+                "group": "drug_classes",
+                "term": "CAR-T therapy",
+                "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+                "concept_ref": {
+                  "category": "drug_classes",
+                  "node": "car_t_therapy",
+                  "axis": "terms",
+                  "state": "car_t_therapy"
+                },
+                "validation": "unresolved",
+                "establishment": "direct"
+              },
+              {
+                "group": "therapies",
+                "term": "cellular therapy",
+                "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+                "concept_ref": {
+                  "category": "therapies",
+                  "node": "cellular_therapy",
+                  "axis": "terms",
+                  "state": "cellular_therapy"
+                },
+                "validation": "unresolved",
+                "establishment": "derived"
+              }
+            ],
+            "relationship": "single",
+            "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+            "validation": "unresolved",
+            "relationship_validation": "unresolved",
+            "alternatives": [],
+            "steps": [],
+            "condition_evidence": "depending on treatment response, eligibility, and multidisciplinary review"
+          }
+        ],
+        "relationship": "unspecified",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "candidate for salvage systemic therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "treatment_setting",
+          "term": "salvage",
+          "evidence": "candidate for salvage systemic therapy",
+          "concept_ref": {
+            "category": "treatment_setting",
+            "node": "salvage",
+            "axis": "terms",
+            "state": "salvage"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [
+        {
+          "concepts": [],
+          "relationship": "sequence",
+          "evidence": "R-ICE or R-DHAP followed by autologous stem cell\ntransplantation in a chemosensitive setting",
+          "validation": "supported",
+          "relationship_validation": "supported",
+          "alternatives": [],
+          "steps": [
+            {
+              "concepts": [],
+              "relationship": "unspecified",
+              "evidence": "R-ICE or R-DHAP",
+              "validation": "supported",
+              "relationship_validation": "unresolved",
+              "alternatives": [
+                {
+                  "concepts": [
+                    {
+                      "group": "regimens",
+                      "term": "R-ICE",
+                      "evidence": "options including R-ICE",
+                      "concept_ref": {
+                        "category": "regimens",
+                        "node": "r_ice",
+                        "axis": "terms",
+                        "state": "r_ice"
+                      },
+                      "validation": "supported",
+                      "establishment": "direct",
+                      "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+                      "derivation": null
+                    }
+                  ],
+                  "relationship": "single",
+                  "evidence": "R-ICE",
+                  "validation": "supported",
+                  "relationship_validation": "supported",
+                  "alternatives": [],
+                  "steps": [],
+                  "condition_evidence": null
+                },
+                {
+                  "concepts": [
+                    {
+                      "group": "regimens",
+                      "term": "R-DHAP",
+                      "evidence": "R-ICE or R-DHAP",
+                      "concept_ref": {
+                        "category": "regimens",
+                        "node": "r_dhap",
+                        "axis": "terms",
+                        "state": "r_dhap"
+                      },
+                      "validation": "supported",
+                      "establishment": "direct",
+                      "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+                      "derivation": null
+                    }
+                  ],
+                  "relationship": "single",
+                  "evidence": "R-DHAP",
+                  "validation": "supported",
+                  "relationship_validation": "supported",
+                  "alternatives": [],
+                  "steps": [],
+                  "condition_evidence": null
+                }
+              ],
+              "steps": [],
+              "condition_evidence": null
+            },
+            {
+              "concepts": [
+                {
+                  "group": "therapies",
+                  "term": "autologous hematopoietic stem cell transplantation",
+                  "evidence": "followed by autologous stem cell\ntransplantation in a chemosensitive setting",
+                  "concept_ref": {
+                    "category": "therapies",
+                    "node": "autologous_hsct",
+                    "axis": "terms",
+                    "state": "autologous_hsct"
+                  },
+                  "validation": "supported",
+                  "establishment": "direct",
+                  "rationale": "Autologous stem cell transplantation is a synonym for autologous hematopoietic stem cell transplantation; the option is conditional on a chemosensitive setting.",
+                  "derivation": null
+                }
+              ],
+              "relationship": "single",
+              "evidence": "autologous stem cell\ntransplantation in a chemosensitive setting",
+              "validation": "supported",
+              "relationship_validation": "supported",
+              "alternatives": [],
+              "steps": [],
+              "condition_evidence": "in a chemosensitive setting"
+            }
+          ],
+          "condition_evidence": null
+        },
+        {
+          "concepts": [
+            {
+              "group": "drug_classes",
+              "term": "CAR-T therapy",
+              "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+              "concept_ref": {
+                "category": "drug_classes",
+                "node": "car_t_therapy",
+                "axis": "terms",
+                "state": "car_t_therapy"
+              },
+              "validation": "supported",
+              "establishment": "direct",
+              "rationale": "CAR T-cell therapy explicitly names this conditional alternative, subject to response, eligibility, and multidisciplinary review.",
+              "derivation": null
+            },
+            {
+              "group": "therapies",
+              "term": "cellular therapy",
+              "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+              "concept_ref": {
+                "category": "therapies",
+                "node": "cellular_therapy",
+                "axis": "terms",
+                "state": "cellular_therapy"
+              },
+              "validation": "supported",
+              "establishment": "derived",
+              "rationale": "The named CAR T-cell therapy is a form of cellular therapy; its conditional option status is preserved.",
+              "derivation": null
+            }
+          ],
+          "relationship": "single",
+          "evidence": "or CAR T-cell therapy\ndepending on treatment response, eligibility, and multidisciplinary review.",
+          "validation": "supported",
+          "relationship_validation": "supported",
+          "alternatives": [],
+          "steps": [],
+          "condition_evidence": "depending on treatment response, eligibility, and multidisciplinary review"
+        }
+      ],
+      "steps": [],
+      "relationship": "unspecified",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-4b01ee44d560ee8f",
+      "status": "completed",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "R-CHOP"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "chemotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "immunotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP followed by end-of-treatment PET/CT assessment. Treatment was completed with manageable toxicities including transient neutropenia, fatigue, and mild peripheral neuropathy.",
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_04",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "50-year-old": [
+          2
+        ],
+        "A 50-year-old": [
+          0
+        ],
+        "female": [
+          14
+        ],
+        "A 50-year-old female": [
+          0
+        ],
+        "positive for CD20": [
+          1013
+        ],
+        "Ki-67 proliferation index was approximately 80 percent.": [
+          1055
+        ],
+        "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.": [
+          700
+        ],
+        "Excisional node biopsy confirmed diffuse large B-cell lymphoma.": [
+          327
+        ],
+        "mild normocytic anemia": [
+          645
+        ],
+        "Treatment was completed with manageable toxicities including transient neutropenia": [
+          1481
+        ],
+        "was diagnosed with diffuse large B-cell lymphoma after presenting with several months of progressive cervical lymphadenopathy": [
+          29
+        ],
+        "Core biopsy of an axillary node confirmed relapsed diffuse large B-cell lymphoma": [
+          1971
+        ],
+        "Current disease status is consistent with refractory or early relapsing aggressive B-cell lymphoma.": [
+          2244
+        ],
+        "Baseline PET/CT demonstrated hypermetabolic lymphadenopathy above and below the diaphragm with splenic involvement.": [
+          391
+        ],
+        "Repeat PET/CT showed new hypermetabolic nodal disease in the axillary, mediastinal, and abdominal regions.": [
+          1864
+        ],
+        "Histopathology demonstrated sheets of large atypical lymphoid cells": [
+          945
+        ],
+        "Laboratory studies at diagnosis revealed elevated lactate dehydrogenase": [
+          569
+        ],
+        "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP": [
+          1347
+        ],
+        "ECOG performance status was 1.": [
+          669
+        ],
+        "International Prognostic Index assessment placed the patient in an intermediate-risk category due to stage, elevated LDH, and extranodal splenic involvement.": [
+          787
+        ],
+        "end-of-therapy PET demonstrated complete metabolic remission.": [
+          1650
+        ],
+        "Bone marrow biopsy showed no evidence of marrow infiltration.": [
+          507
+        ],
+        "The patient remains a candidate for salvage systemic therapy, with typical options including R-ICE or R-DHAP followed by autologous stem cell transplantation in a chemosensitive setting, or CAR T-cell therapy depending on treatment response, eligibility, and multidisciplinary review.": [
+          2344
+        ],
+        "candidate for salvage systemic therapy": [
+          2366
+        ],
+        "R-ICE or R-DHAP followed by autologous stem cell transplantation in a chemosensitive setting": [
+          2437
+        ],
+        "R-ICE or R-DHAP": [
+          2437
+        ],
+        "R-ICE": [
+          2437
+        ],
+        "options including R-ICE": [
+          2419
+        ],
+        "R-DHAP": [
+          2446
+        ],
+        "autologous stem cell transplantation in a chemosensitive setting": [
+          2465
+        ],
+        "in a chemosensitive setting": [
+          2502
+        ],
+        "followed by autologous stem cell transplantation in a chemosensitive setting": [
+          2453
+        ],
+        "or CAR T-cell therapy depending on treatment response, eligibility, and multidisciplinary review.": [
+          2531
+        ],
+        "depending on treatment response, eligibility, and multidisciplinary review": [
+          2553
+        ],
+        "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP followed by end-of-treatment PET/CT assessment. Treatment was completed with manageable toxicities including transient neutropenia, fatigue, and mild peripheral neuropathy.": [
+          1347
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "50 <= age < 60",
+        "evidence": "50-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 50.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "A 50-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "female",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "A 50-year-old female"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "CD20 positive",
+        "evidence": "positive for CD20",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "positive for CD20"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "Ki-67 expression high",
+        "evidence": "Ki-67 proliferation index was approximately 80 percent.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Ki-67 proliferation index was\napproximately 80 percent."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Based on Ann Arbor\nstaging criteria, the patient was classified as Stage IIIS disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Diffuse Large B-Cell Lymphoma",
+        "evidence": "Excisional node biopsy confirmed diffuse large B-cell lymphoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Excisional node biopsy confirmed\ndiffuse large B-cell lymphoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "anemia",
+        "evidence": "mild normocytic anemia",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "mild\nnormocytic anemia"
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "neutropenia",
+        "evidence": "Treatment was completed with manageable toxicities including transient neutropenia",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Treatment was\ncompleted with manageable toxicities including transient neutropenia"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "was diagnosed with diffuse large B-cell lymphoma after presenting with several months of progressive cervical lymphadenopathy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "was diagnosed with diffuse large B-cell\nlymphoma after presenting with several months of progressive cervical\nlymphadenopathy"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "relapsed disease",
+        "evidence": "Core biopsy of an axillary node confirmed relapsed diffuse large B-cell lymphoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Core biopsy of an axillary\nnode confirmed relapsed diffuse large B-cell lymphoma"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "relapsed or refractory disease",
+        "evidence": "Current disease status is consistent with refractory or early relapsing aggressive B-cell lymphoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Current disease status is\nconsistent with refractory or early relapsing aggressive B-cell lymphoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "hematologic_extent",
+        "term": "disseminated or systemic",
+        "evidence": "Baseline PET/CT demonstrated hypermetabolic lymphadenopathy above and below the diaphragm with splenic involvement.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Baseline PET/CT demonstrated hypermetabolic\nlymphadenopathy above and below the diaphragm with splenic involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "hematologic_extent",
+        "term": "disseminated or systemic",
+        "evidence": "Repeat PET/CT showed new hypermetabolic nodal disease in the axillary, mediastinal, and abdominal regions.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Repeat PET/CT showed new hypermetabolic nodal disease in the\naxillary, mediastinal, and abdominal regions."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "large cell",
+        "evidence": "Histopathology demonstrated sheets of large atypical lymphoid cells",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Histopathology demonstrated sheets of large atypical lymphoid cells"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "LDH high",
+        "evidence": "Laboratory studies at diagnosis revealed elevated lactate dehydrogenase",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Laboratory\nstudies at diagnosis revealed elevated lactate dehydrogenase"
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "first line",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP",
+        "line_number": 1
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "ECOG performance status was 1.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "ECOG performance status was 1."
+      },
+      {
+        "polarity": "positive",
+        "group": "recurrence_risk",
+        "term": "intermediate risk of recurrence or progression",
+        "evidence": "International Prognostic Index assessment placed the patient in an intermediate-risk category due to stage, elevated LDH, and extranodal splenic involvement.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "International Prognostic Index assessment placed the patient in an\nintermediate-risk category due to stage, elevated LDH, and extranodal\nsplenic involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIIS",
+        "evidence": "Based on Ann Arbor staging criteria, the patient was classified as Stage IIIS disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Based on Ann Arbor\nstaging criteria, the patient was classified as Stage IIIS disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "complete response",
+        "evidence": "end-of-therapy PET demonstrated complete metabolic remission.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "end-of-therapy PET demonstrated complete metabolic remission."
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "R-CHOP",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Excisional node biopsy confirmed diffuse large B-cell lymphoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Excisional node biopsy confirmed\ndiffuse large B-cell lymphoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Bone marrow biopsy showed no evidence of marrow infiltration.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Bone marrow biopsy showed no evidence of marrow infiltration."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "immunotherapy",
+        "evidence": "The patient received standard first-line immunochemotherapy with six cycles of R-CHOP",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "The patient received standard first-line immunochemotherapy with six cycles\nof R-CHOP"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Core biopsy of an axillary node confirmed relapsed diffuse large B-cell lymphoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:diffuse_large_b_cell_lymphoma",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_04:PlainTextDocument.text",
+        "date_evidence": "Core biopsy of an axillary\nnode confirmed relapsed diffuse large B-cell lymphoma"
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_04",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "lymphoma",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "lymphoma",
+                "start": 69,
+                "end": 77,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "biopsy",
+                "start": 343,
+                "end": 349,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "systemic therapy",
+                "start": 2393,
+                "end": 2409,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "positive",
+                "start": 1015,
+                "end": 1023,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 670,
+                "end": 674,
+                "reason": "performance status trigger"
+              },
+              {
+                "id": "organ_function_labs",
+                "pattern": "\\b(creatinine|bilirubin|AST|ALT|alkaline phosphatase|albumin|hemoglobin|platelets?|neutrophils?|neutropenia|ANC|eGFR|glomerular filtration|urine protein|proteinuria|albuminuria|body mass index|BMI)\\b",
+                "evidence": "neutropenia",
+                "start": 1555,
+                "end": 1566,
+                "reason": "lab or organ function trigger"
+              },
+              {
+                "id": "eligibility_features",
+                "pattern": "\\b(transplant|stem cell|CAR[- ]?T|immunosuppression|autoimmune|pneumonitis|interstitial lung disease|ILD|menopause|pregnan(?:t|cy))\\b",
+                "evidence": "stem cell",
+                "start": 2481,
+                "end": 2490,
+                "reason": "eligibility feature trigger"
+              },
+              {
+                "id": "care_intent",
+                "pattern": "\\b(hospice|palliative|curative|definitive|terminal care|candidate for|planned|plan to|considering|under consideration|intended|prior therapy|previously treated|history of treatment)\\b",
+                "evidence": "candidate for",
+                "start": 2371,
+                "end": 2384,
+                "reason": "intent or care planning trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 89208,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 33560,
+      "output_tokens": 17028,
+      "total_tokens": 106236,
+      "time_elapsed": 163.8,
+      "estimated_cost_usd": 0.2649751,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 164.6
+    }
+  },
+  "allow_interpretation": true
+}

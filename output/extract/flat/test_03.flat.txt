@@ -1,0 +1,47 @@
+age	50 <= age < 60
+ajcc_m	M0
+ajcc_m	pM1
+ajcc_n	pN2a
+ajcc_t	pT3
+biomarkers	HER2 status negative
+biomarkers	KRAS mutation detected
+biomarkers	MSS
+biomarkers	No BRAF V600E mutation detected
+biomarkers	No NRAS mutation detected
+biomarkers	pMMR
+broad_disease_stage	advanced stage
+cancers	Colon Cancer
+disease_status	newly diagnosed disease
+disease_status	recurrent disease
+disease_status	refractory disease
+disease_status	relapsed disease
+drugs	capecitabine
+drugs	oxaliplatin
+gender	male
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	CEA value reported
+lines_of_therapy	first line
+metastatic_sites	liver metastases
+regimens	CAPOX
+residual_disease	no residual disease
+solid_tumor_extent	distant metastases
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) positive
+solid_tumor_extent	regionally advanced
+stages	Stage IIIB
+stages	Stage IV
+therapeutic_response	progressive disease
+therapies	biopsy
+therapies	cancer surgery
+therapies	chemotherapy
+therapies	lymphadenectomy
+therapies	R0 resection
+treatment_intent	curative intent
+treatment_setting	adjuvant setting
+proposed_therapies:
+proposed_therapies/lines_of_therapy	second line [proposal_id=proposal-aed899af3d3183918615; status=candidate; validation=supported; source_mentions=['irinotecan-based treatment', 'FOLFIRI']; line_number=2; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:colon_cancer]
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-aed899af3d3183918615; status=candidate; validation=supported; source_mentions=['irinotecan-based treatment', 'FOLFIRI']; line_number=2; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:colon_cancer]
+proposed_therapies/drugs	irinotecan [proposal_id=proposal-aed899af3d3183918615; status=candidate; validation=supported; source_mentions=['irinotecan-based treatment', 'FOLFIRI']; line_number=2; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:colon_cancer]
+proposed_therapies/regimens	FOLFIRI [proposal_id=proposal-aed899af3d3183918615; status=candidate; validation=supported; source_mentions=['irinotecan-based treatment', 'FOLFIRI']; line_number=2; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:colon_cancer]
+proposed_therapies/drug_classes	anti-VEGF [proposal_id=proposal-aed899af3d3183918615; status=candidate; validation=supported; source_mentions=['irinotecan-based treatment', 'FOLFIRI']; line_number=2; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:colon_cancer]

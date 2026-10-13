@@ -1,0 +1,114 @@
+age	70 <= age < 80
+ajcc_m	M0
+ajcc_n	N0
+broad_disease_stage	early stage
+cancers	Lung Cancer
+cancers	Prostate Cancer
+cancers	Small Cell Lung Cancer
+cancers	Solid Tumor
+clinical_conditions	anemia
+clinical_conditions	BMI high
+drugs	cisplatin
+drugs	docetaxel
+drugs	etoposide
+drugs	leuprolide
+gender	male
+histologic_invasiveness	in situ
+histologic_invasiveness	invasive
+histologies	small cell
+lab_values	albumin normal
+lab_values	alkaline phosphatase value reported
+lab_values	ALT high
+lab_values	ALT normal
+lab_values	AST normal
+lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	creatinine normal
+lab_values	Hb low
+lab_values	Hb normal
+lab_values	HCT low
+lab_values	HCT normal
+lab_values	inadequate GFR
+lab_values	platelet count normal
+lab_values	PSA high
+lab_values	PSA normal
+lab_values	RBC normal
+lab_values	urine protein high
+lab_values	WBC low
+lab_values	WBC normal
+organ_function	coronary heart disease
+performance	deceased
+solid_tumor_extent	limited stage
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) negative
+stages	Stage I
+therapies	biopsy
+therapies	cancer surgery
+therapies	chemotherapy
+therapies	hospice care
+therapies	radiation therapy
+therapies	radical resection
+proposed_therapies:
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-327a2f9860928d21a6df; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1986-12-20; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-ece5f2da759b1f149e42; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1986-12-20; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-07a1b2ef1910c451827f; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1987-01-13; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-4f4fd182165c6ccae8f4; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1987-01-13; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-0af5fc4406e7a2dd1f6d; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-03-01; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-0af5fc4406e7a2dd1f6d; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-03-01; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-5498576af4d982e5937d; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-03-27; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-5498576af4d982e5937d; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-03-27; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-81be574b2fb7e3637a3f; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-04-22; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-81be574b2fb7e3637a3f; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-04-22; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-760c39fc3ec9c325d3a9; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-05-18; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-760c39fc3ec9c325d3a9; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-05-18; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-a074909bc7ac71b69aa5; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-07-31; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-a074909bc7ac71b69aa5; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-07-31; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-3e7d2bcadff89881fdba; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-08-26; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-3e7d2bcadff89881fdba; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-08-26; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-d6051061bee3e22ef7f1; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-10-20; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-d6051061bee3e22ef7f1; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-10-20; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-81327a1f8a9e34c19693; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-11-11; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-81327a1f8a9e34c19693; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1987-11-11; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-1a281deff61034b158cc; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1987-12-06; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-f25442b4e54540c409da; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1987-12-06; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-a2ce5920b3bb163589dc; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-01-27; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-a2ce5920b3bb163589dc; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-01-27; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-78e66281fa25cb50f460; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1988-06-02; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-00e78d11c00f4ec3c8a8; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1988-06-02; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-6052ba52f32098f6a16d; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1988-06-24; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-ce39bc9333bc0232b981; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=1988-06-24; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-c40418da2a54bda08803; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-09-09; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-c40418da2a54bda08803; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-09-09; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-3c6663a3f96018ed0d5f; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-10-04; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-3c6663a3f96018ed0d5f; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-10-04; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-b92a9919f83b4311c5ba; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-10-31; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-b92a9919f83b4311c5ba; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=1988-10-31; cancer=unknown]
+proposed_therapies/unclassified	The patient was placed on a careplan: - terminal care [proposal_id=proposal-b97405d5bee0fac0863e; status=planned; validation=supported; relationship=unspecified; date=unknown; cancer=cancer:small_cell_lung_cancer]
+proposed_therapies/drugs	docetaxel [proposal_id=proposal-ea3abbf76613a4cb3faa; status=planned; validation=supported; source_mentions=['docetaxel']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]
+proposed_therapies/drugs	leuprolide [proposal_id=proposal-5d3d690c8bb312033956; status=planned; validation=supported; source_mentions=['leuprolide acetate']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-672da9f2a788d5897002; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-3a19bc0a57dcab3a7954; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-5f18f7a77df953af8d42; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-715980f3ad629d9004e5; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-82102e55aa599ac420b1; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-8f1cbdf835cace02a3a3; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-faa8ee3909b54cb6e46e; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-faa8ee3909b54cb6e46e; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-3e6ee5344ac9a5fe2dc3; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-d7fddb058f9e002dcd8e; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-58db9c4681481dd4f08c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-58db9c4681481dd4f08c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-9d432107313785e83e58; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-06950525a41f7877f94b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-06950525a41f7877f94b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-683f5153f8ca782c1d83; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-683f5153f8ca782c1d83; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-fed284c055a95bbfa41b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-fed284c055a95bbfa41b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-a50d438e82dcdfe28dff; status=planned; validation=supported; source_mentions=['etoposide 100 mg injection']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-0e9b23287f8866400fa1; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-0e9b23287f8866400fa1; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-e2e8d46a5bf094a75419; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-e2e8d46a5bf094a75419; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-7f0d15b867741509f939; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	etoposide [proposal_id=proposal-7f0d15b867741509f939; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'etoposide 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]

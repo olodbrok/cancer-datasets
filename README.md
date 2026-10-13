@@ -18,7 +18,20 @@ Ten years of medical history: https://mitre.box.com/shared/static/7k7lk7wmza4m17
 
 Synthetically generated plain text clinical notes in cancer-datasets/textfiles.
 
-The OncoParser output in cancer-datasets/output was flattened for easier comparison. For these runs, OncoParser was set to --aprove-all LLM proposals without human review.
+`output/extract/` contains a one-time copy of OncoParser's reviewed
+`benchmark/extract/` snapshots for the coordinated 3.0.0 release. It covers
+11 mCODE patients and 11 plain-text tests, with three files per input:
+
+- `<name>.evidence.json`: source-evidence JSON (`onco-source-evidence/1`).
+- `minimal/<name>.min.txt`: compact tab-separated terms.
+- `flat/<name>.flat.txt`: flattened concept terms for comparison.
+
+mCODE exports use the `mcode_` filename prefix; text exports use `test_XX`.
+These are extraction snapshots, including validated clinical interpretations
+and separately recorded proposed treatments. They do not include the subsequent
+patient-journey expansion or make an automatic approval claim for mappings.
+The older flat-only exports have been replaced. No automatic synchronization
+with OncoParser is configured.
 
 ## Dataset Catalog
 

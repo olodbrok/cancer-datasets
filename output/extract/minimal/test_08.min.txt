@@ -1,0 +1,33 @@
+patient_id:	test_08
+bundle_path:	/home/ec2-user/Data/test/test_08.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:46:16Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	60 <= age < 70		
+unknown	unknown	fact	gender	male		
+2024	Non-Small Cell Lung Cancer	fact	biomarkers	EGFR exon 19 deletion detected		
+2024	Non-Small Cell Lung Cancer	fact	biomarkers	PD-L1 value reported	20 %	
+2024	Non-Small Cell Lung Cancer	fact	biomarkers	No ALK rearrangement detected		
+2024	Non-Small Cell Lung Cancer	fact	biomarkers	No ROS1 rearrangement detected		
+2024	Non-Small Cell Lung Cancer	fact	broad_disease_stage	advanced stage		
+2024	Non-Small Cell Lung Cancer	fact	cancers	Non-Small Cell Lung Cancer		
+unknown	Non-Small Cell Lung Cancer	fact	clinical_conditions	anemia		
+2024	Non-Small Cell Lung Cancer	fact	histologic_invasiveness	invasive		
+2024	Non-Small Cell Lung Cancer	fact	histologies	adenocarcinoma		
+unknown	Non-Small Cell Lung Cancer	fact	lab_values	LDH high		
+unknown	Non-Small Cell Lung Cancer	fact	lines_of_therapy	first line		
+2024	Non-Small Cell Lung Cancer	fact	metastatic_sites	bone metastases		
+unknown	Non-Small Cell Lung Cancer	fact	metastatic_sites	lung metastases		
+unknown	Non-Small Cell Lung Cancer	fact	metastatic_sites	bone metastases		
+unknown	Non-Small Cell Lung Cancer	fact	performance	ECOG 1		
+2024	Non-Small Cell Lung Cancer	fact	solid_tumor_extent	distant metastases		
+2024	Non-Small Cell Lung Cancer	fact	stages	Stage IV		
+unknown	Non-Small Cell Lung Cancer	fact	therapeutic_response	partial response		
+unknown	Non-Small Cell Lung Cancer	fact	therapeutic_response	progressive disease		
+unknown	Non-Small Cell Lung Cancer	fact	drugs	osimertinib		
+unknown	Non-Small Cell Lung Cancer	fact	therapies	targeted therapy		
+unknown	Non-Small Cell Lung Cancer	fact	biomarkers	PD-L1 value reported	20.0 %	
+unknown	Non-Small Cell Lung Cancer	option	therapies	clinical trial		
+unknown	Non-Small Cell Lung Cancer	option	therapies	systemic therapy		
+unknown	Non-Small Cell Lung Cancer	option	lines_of_therapy	second line		

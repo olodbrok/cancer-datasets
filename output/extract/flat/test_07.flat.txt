@@ -1,0 +1,30 @@
+age	60 <= age < 70
+ajcc_m	cM0
+ajcc_n	pN1b
+ajcc_t	pT3
+biomarkers	KRAS mutation detected
+biomarkers	MSS
+biomarkers	No BRAF mutation detected
+biomarkers	No NRAS mutation detected
+broad_disease_stage	advanced stage
+cancers	Colon Cancer
+clinical_conditions	anemia
+disease_status	newly diagnosed disease
+disease_status	recurrent disease
+gender	male
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	CEA value reported
+metastatic_sites	liver metastases
+performance	ECOG 1
+regimens	FOLFOX
+residual_disease	no residual disease
+solid_tumor_extent	distant metastases
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) positive
+stages	Stage IIIB
+stages	Stage IV
+therapies	chemotherapy
+therapies	R0 resection
+treatment_intent	curative intent
+treatment_setting	adjuvant setting

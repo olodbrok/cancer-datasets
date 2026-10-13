@@ -1,0 +1,3108 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_03",
+  "bundle_path": "/home/ec2-user/Data/test/test_03.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:28:32Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "50 <= age < 60",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "54-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 54.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "54-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "A 54-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "50_age_60"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-97ede593892f4455"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "A 54-year-old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-72930a56702267b9"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "M0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "No distant metastases were identified (M0).",
+      "rationale": "The initial assessment explicitly states M0 and no distant metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "No distant\nmetastases were identified (M0).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "m0",
+        "axis": "terms",
+        "state": "m0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-acd177eb47d838d2"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "pM1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Biopsy confirmed a liver lesion was metastatic colorectal adenocarcinoma from the known primary, establishing pathologically confirmed distant metastasis (pM1) at the later assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "reason": "Biopsy confirmed a liver lesion was metastatic colorectal adenocarcinoma from the known primary, establishing pathologically confirmed distant metastasis (pM1) at the later assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "pm1",
+        "axis": "terms",
+        "state": "pm1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-93e2c20d27fa69aa"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_n",
+      "term": "pN2a",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_n",
+        "node": "pn2a",
+        "axis": "terms",
+        "state": "pn2a"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9b1c87269f9e6832"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_t",
+      "term": "pT3",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues, consistent\nwith pT3 disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_t",
+        "node": "pt3",
+        "axis": "terms",
+        "state": "pt3"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-dbfe781e3bd2eb2f"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "pMMR",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "mmr",
+        "axis": "results",
+        "state": "pmmr"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a4df8ca405867f0e"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "MSS",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "msi",
+        "axis": "results",
+        "state": "mss"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3cacfc9035aae6d0"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "KRAS mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Genomic testing identified a KRAS G12D mutation",
+      "rationale": "Genomic testing identified a KRAS G12D mutation.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Genomic testing identified a KRAS G12D mutation",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "kras",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-3a70b39a9135821f"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No NRAS mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "NRAS remained wild type",
+      "rationale": "NRAS wild type supports no NRAS mutation detected.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "NRAS remained wild\ntype",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "nras",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-6c759baff46610e8"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No BRAF V600E mutation detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "BRAF V600E was not detected",
+      "rationale": "BRAF V600E was explicitly not detected.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "BRAF V600E was not detected",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "braf_v600e",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-fc81ac002419a5fc"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 status negative",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "HER2 testing was negative.",
+      "rationale": "HER2 testing was explicitly negative.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "HER2 testing was negative.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_status",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2c50d95cec921835"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient is therefore assessed as having recurrent metastatic colorectal cancer",
+      "rationale": "The later assessment describes recurrent metastatic colorectal cancer; distant metastatic spread supports advanced-stage colorectal cancer in that assessment scope.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "The patient is therefore assessed as having recurrent metastatic colorectal cancer",
+        "reason": "The later assessment describes recurrent metastatic colorectal cancer; distant metastatic spread supports advanced-stage colorectal cancer in that assessment scope.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient is therefore assessed as having recurrent metastatic colorectal\ncancer",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-23dc470003d0ecea"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Colon Cancer",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+      "rationale": "Biopsy-confirmed adenocarcinoma in the sigmoid colon establishes a colon primary.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+        "reason": "Biopsy-confirmed adenocarcinoma in the sigmoid colon establishes a colon primary.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Colonoscopy identified\na partially obstructing sigmoid colon mass, and biopsy confirmed moderately\ndifferentiated adenocarcinoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "colon_cancer",
+        "axis": "terms",
+        "state": "colon_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-21613917a58b3708"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "biopsy confirmed moderately differentiated adenocarcinoma. Initial staging with CT imaging",
+      "rationale": "The biopsy confirmation followed by initial staging supports newly diagnosed disease at the initial diagnostic assessment, not at the later recurrence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "biopsy confirmed moderately differentiated adenocarcinoma. Initial staging with CT imaging",
+        "reason": "The biopsy confirmation followed by initial staging supports newly diagnosed disease at the initial diagnostic assessment, not at the later recurrence.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "biopsy confirmed moderately\ndifferentiated adenocarcinoma. Initial staging with CT imaging",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-0679844c2ec0368a"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "recurrent disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient is therefore assessed as having recurrent metastatic colorectal cancer",
+      "rationale": "The later assessment explicitly calls the colorectal cancer recurrent.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient is therefore assessed as having recurrent metastatic colorectal\ncancer",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "recurrent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-589a19111eba20b8"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "relapsed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "recurrent metastatic colorectal cancer that has relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy",
+      "rationale": "The assessment explicitly states that the cancer relapsed after prior treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "recurrent metastatic colorectal\ncancer that has relapsed after curative-intent surgery and prior\noxaliplatin-based adjuvant chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "relapsed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2471c8eecb9a8125"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "refractory disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current disease status is consistent with chemotherapy-refractory progression following first-line adjuvant treatment",
+      "rationale": "The current disease status is expressly characterized as consistent with chemotherapy-refractory progression after adjuvant treatment; this does not assert refractoriness to every chemotherapy.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current disease status is\nconsistent with chemotherapy-refractory progression following first-line\nadjuvant treatment",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "refractory"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-f9fe024e02d841a9"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues",
+      "rationale": "Pathology describes tumor invading through the muscularis propria into pericolorectal tissues.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e1d7086300c0c790"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "biopsy confirmed moderately differentiated adenocarcinoma.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "biopsy confirmed moderately\ndifferentiated adenocarcinoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-bbb57de55ebb686f"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e3d59c7ea30ecb1f"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "CEA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Baseline carcinoembryonic antigen (CEA) at diagnosis was elevated at 8.6 ng/mL.",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 8.6,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Baseline\ncarcinoembryonic antigen (CEA) at diagnosis was elevated at 8.6 ng/mL.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "cea",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5e3056424394bb85"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "CEA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "During routine surveillance approximately nine months after completion of adjuvant therapy, serial laboratory monitoring demonstrated a progressive rise in CEA to 17.4 ng/mL.",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 17.4,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "During routine surveillance approximately nine months after completion of\nadjuvant therapy, serial laboratory monitoring demonstrated a progressive\nrise in CEA to 17.4 ng/mL.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "cea",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-6033a9f98a62a19c"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "first line",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+      "rationale": "The received CAPOX course is explicitly called first-line adjuvant chemotherapy; no line number needs to be reconstructed.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "first_line",
+        "axis": "terms",
+        "state": "first_line"
+      },
+      "line_number": 1,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-62970d9a58f2ad35"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "liver metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Biopsy confirmed that a liver lesion was metastatic colorectal adenocarcinoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "liver_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-d44f7d6baf65c8dd"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "no residual disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Surgical margins were negative, indicating an R0 resection.",
+      "rationale": "The documented R0 resection implies no gross or microscopic residual tumor at the surgical assessment. It does not establish disease-free status at the later recurrence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Surgical margins were negative, indicating an R0 resection.",
+        "reason": "The documented R0 resection implies no gross or microscopic residual tumor at the surgical assessment. It does not establish disease-free status at the later recurrence.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Surgical margins were\nnegative, indicating an R0 resection.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-a6dcfe92332e5ecb"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial staging with CT imaging of the chest, abdomen, and pelvis demonstrated no evidence of distant metastatic disease.",
+      "rationale": "Initial staging imaging found no evidence of distant metastatic disease; this is limited to the initial assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial staging with CT imaging of the\nchest, abdomen, and pelvis demonstrated no evidence of distant metastatic\ndisease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-fb02d8ab81f550bc"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regional lymph node(s) positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma",
+      "rationale": "Four examined regional lymph nodes were explicitly positive for metastatic carcinoma.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regional_lymph_nodes",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9c95112922aec151"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "No distant metastases were identified (M0).",
+      "rationale": "Explicit negative-result term or reviewed alias.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "No distant\nmetastases were identified (M0).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d9fd963661d2925f"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regionally advanced",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+      "rationale": "For the colon primary, pN2a regional nodal spread with M0 supports regionally advanced, non-distant disease at initial staging.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+        "reason": "For the colon primary, pN2a regional nodal spread with M0 supports regionally advanced, non-distant disease at initial staging.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status. No distant\nmetastases were identified (M0).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regionally_advanced",
+        "axis": "terms",
+        "state": "regionally_advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-7c4060d8b5d737b5"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d1311bfe75a0d9e5"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIIB",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease. Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+      "rationale": "For colon cancer, the documented pT3, pN2a and M0 combination corresponds to AJCC Stage IIIB at initial staging.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease. Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+        "reason": "For colon cancer, the documented pT3, pN2a and M0 combination corresponds to AJCC Stage IIIB at initial staging.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues, consistent\nwith pT3 disease. Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status. No distant\nmetastases were identified (M0).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iiib",
+        "axis": "terms",
+        "state": "stage_iiib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-612c4614d4aa7e83"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IV",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Biopsy-confirmed liver metastasis from the colon primary establishes distant metastatic colorectal cancer, corresponding to Stage IV at the later assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "reason": "Biopsy-confirmed liver metastasis from the colon primary establishes distant metastatic colorectal cancer, corresponding to Stage IV at the later assessment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iv",
+        "axis": "terms",
+        "state": "stage_iv"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-3891b46549bd9c03"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Current disease status is consistent with chemotherapy-refractory progression following first-line adjuvant treatment",
+      "rationale": "The current disease assessment explicitly describes progression following adjuvant treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Current disease status is\nconsistent with chemotherapy-refractory progression following first-line\nadjuvant treatment",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-c5bfea267898f37b"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_intent",
+      "term": "curative intent",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy",
+      "rationale": "Curative intent is explicitly attributed to the prior surgery, not to a current or proposed treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "relapsed after curative-intent surgery and prior\noxaliplatin-based adjuvant chemotherapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_intent",
+        "node": "curative_intent",
+        "axis": "terms",
+        "state": "curative_intent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e8e63f6477db6b6f"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "adjuvant setting",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "adjuvant_setting",
+        "axis": "terms",
+        "state": "adjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-19e81453f7b77025"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "capecitabine",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "capecitabine",
+        "axis": "terms",
+        "state": "capecitabine"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b25c96b93fad9eb2"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "oxaliplatin",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "oxaliplatin",
+        "axis": "terms",
+        "state": "oxaliplatin"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-109737c3a530e9b6"
+    },
+    {
+      "polarity": "positive",
+      "group": "regimens",
+      "term": "CAPOX",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "regimens",
+        "node": "capox",
+        "axis": "terms",
+        "state": "capox"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-d106acc20dd7f5e9"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Colonoscopy identified\na partially obstructing sigmoid colon mass, and biopsy confirmed moderately\ndifferentiated adenocarcinoma.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3d4c0d7e044e25b1"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "cancer surgery",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.",
+      "rationale": "The patient underwent sigmoid colectomy with regional lymphadenectomy for the colon cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with\nregional lymphadenectomy.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "cancer_surgery",
+        "axis": "terms",
+        "state": "cancer_surgery"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-bc6f8bf8cf60717f"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "lymphadenectomy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with\nregional lymphadenectomy.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "lymphadenectomy",
+        "axis": "terms",
+        "state": "lymphadenectomy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-89301065ca429f94"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "R0 resection",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Surgical margins were negative, indicating an R0 resection.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Surgical margins were\nnegative, indicating an R0 resection.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "r0_resection",
+        "axis": "terms",
+        "state": "r0_resection"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e35025f1174c6ea6"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "chemotherapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "chemotherapy",
+        "axis": "terms",
+        "state": "chemotherapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c3295dbecfe50299"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5be914957040b3c0"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:colon_cancer",
+      "cancer_term": "Colon Cancer",
+      "episode_key": null,
+      "diagnosis_date": null,
+      "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "candidate",
+      "line_of_therapy": "second line",
+      "line_number": 2,
+      "modality_labels": [
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [
+        "irinotecan-based treatment",
+        "FOLFIRI"
+      ],
+      "intent_labels": [],
+      "evidence": "The patient is a candidate for second-line systemic therapy with irinotecan-based treatment such as FOLFIRI in combination with anti-VEGF therapy.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_03",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:colon_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:candidate": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "line_of_therapy:second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The patient is explicitly described as a candidate for second-line systemic therapy. This supports a prospective line designation, not treatment receipt."
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "drug_or_regimen_mentions:irinotecan-based treatment": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "drug_or_regimen_mentions:FOLFIRI": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:lines_of_therapy/second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Candidate for second-line systemic therapy” directly identifies the proposed treatment as second line."
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:drugs/irinotecan": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:regimens/FOLFIRI": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:drug_classes/anti-VEGF": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/anti-angiogenic therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The proposed anti-VEGF therapy inhibits VEGF-mediated angiogenesis, supporting its classification as anti-angiogenic therapy. It remains a candidate option, not received treatment."
+        },
+        "relationship:combination": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        }
+      },
+      "proposed_labels": {
+        "status": "candidate",
+        "line_of_therapy": "second line",
+        "modality_labels": [
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [
+          "irinotecan-based treatment",
+          "FOLFIRI"
+        ],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [
+          {
+            "group": "lines_of_therapy",
+            "term": "second line",
+            "evidence": "candidate for second-line systemic therapy",
+            "concept_ref": {
+              "category": "lines_of_therapy",
+              "node": "second_line",
+              "axis": "terms",
+              "state": "second_line"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "candidate for second-line systemic therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "drugs",
+            "term": "irinotecan",
+            "evidence": "irinotecan-based treatment such as FOLFIRI",
+            "concept_ref": {
+              "category": "drugs",
+              "node": "irinotecan",
+              "axis": "terms",
+              "state": "irinotecan"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "regimens",
+            "term": "FOLFIRI",
+            "evidence": "irinotecan-based treatment such as FOLFIRI in combination with anti-VEGF\ntherapy",
+            "concept_ref": {
+              "category": "regimens",
+              "node": "folfiri",
+              "axis": "terms",
+              "state": "folfiri"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "drug_classes",
+            "term": "anti-VEGF",
+            "evidence": "FOLFIRI in combination with anti-VEGF\ntherapy",
+            "concept_ref": {
+              "category": "drug_classes",
+              "node": "anti_vegf",
+              "axis": "terms",
+              "state": "anti_vegf"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "anti-angiogenic therapy",
+            "evidence": "anti-VEGF\ntherapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "anti_angiogenic_therapy",
+              "axis": "terms",
+              "state": "anti_angiogenic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "combination",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "lines_of_therapy",
+          "term": "second line",
+          "evidence": "candidate for second-line systemic therapy",
+          "concept_ref": {
+            "category": "lines_of_therapy",
+            "node": "second_line",
+            "axis": "terms",
+            "state": "second_line"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "“Candidate for second-line systemic therapy” directly identifies the proposed treatment as second line.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "candidate for second-line systemic therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "drugs",
+          "term": "irinotecan",
+          "evidence": "irinotecan-based treatment such as FOLFIRI",
+          "concept_ref": {
+            "category": "drugs",
+            "node": "irinotecan",
+            "axis": "terms",
+            "state": "irinotecan"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "regimens",
+          "term": "FOLFIRI",
+          "evidence": "irinotecan-based treatment such as FOLFIRI in combination with anti-VEGF\ntherapy",
+          "concept_ref": {
+            "category": "regimens",
+            "node": "folfiri",
+            "axis": "terms",
+            "state": "folfiri"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "drug_classes",
+          "term": "anti-VEGF",
+          "evidence": "FOLFIRI in combination with anti-VEGF\ntherapy",
+          "concept_ref": {
+            "category": "drug_classes",
+            "node": "anti_vegf",
+            "axis": "terms",
+            "state": "anti_vegf"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "anti-angiogenic therapy",
+          "evidence": "anti-VEGF\ntherapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "anti_angiogenic_therapy",
+            "axis": "terms",
+            "state": "anti_angiogenic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "The proposed anti-VEGF therapy inhibits VEGF-mediated angiogenesis, supporting its classification as anti-angiogenic therapy. It remains a candidate option, not received treatment.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "combination",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-ae68d963ac275145",
+      "status": "completed",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "capecitabine"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "oxaliplatin"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "regimens",
+          "term": "CAPOX"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "chemotherapy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": "concurrent",
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "Following recovery from surgery, the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months. Treatment was completed",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    },
+    {
+      "course_id": "course-c26fbc3f43666d15",
+      "status": "received",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:colon_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer surgery"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "lymphadenectomy"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": null,
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.",
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_03",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "54-year-old": [
+          2
+        ],
+        "A 54-year-old": [
+          0
+        ],
+        "male": [
+          14
+        ],
+        "A 54-year-old male": [
+          0
+        ],
+        "No distant metastases were identified (M0).": [
+          805
+        ],
+        "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.": [
+          1965
+        ],
+        "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status.": [
+          688
+        ],
+        "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease.": [
+          546
+        ],
+        "mismatch repair proficient / microsatellite stable (pMMR/MSS)": [
+          1072
+        ],
+        "Genomic testing identified a KRAS G12D mutation": [
+          1135
+        ],
+        "NRAS remained wild type": [
+          1190
+        ],
+        "BRAF V600E was not detected": [
+          1218
+        ],
+        "HER2 testing was negative.": [
+          1247
+        ],
+        "The patient is therefore assessed as having recurrent metastatic colorectal cancer": [
+          2091
+        ],
+        "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.": [
+          197
+        ],
+        "biopsy confirmed moderately differentiated adenocarcinoma. Initial staging with CT imaging": [
+          268
+        ],
+        "recurrent metastatic colorectal cancer that has relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy": [
+          2135
+        ],
+        "Current disease status is consistent with chemotherapy-refractory progression following first-line adjuvant treatment": [
+          2273
+        ],
+        "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues": [
+          546
+        ],
+        "biopsy confirmed moderately differentiated adenocarcinoma.": [
+          268
+        ],
+        "Baseline carcinoembryonic antigen (CEA) at diagnosis was elevated at 8.6 ng/mL.": [
+          1274
+        ],
+        "During routine surveillance approximately nine months after completion of adjuvant therapy, serial laboratory monitoring demonstrated a progressive rise in CEA to 17.4 ng/mL.": [
+          1645
+        ],
+        "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)": [
+          1387
+        ],
+        "Surgical margins were negative, indicating an R0 resection.": [
+          969
+        ],
+        "Initial staging with CT imaging of the chest, abdomen, and pelvis demonstrated no evidence of distant metastatic disease.": [
+          327
+        ],
+        "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma": [
+          688
+        ],
+        "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).": [
+          688
+        ],
+        "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease. Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).": [
+          546
+        ],
+        "relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy": [
+          2183
+        ],
+        "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.": [
+          1387
+        ],
+        "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.": [
+          449
+        ],
+        "The patient is a candidate for second-line systemic therapy with irinotecan-based treatment such as FOLFIRI in combination with anti-VEGF therapy.": [
+          2446
+        ],
+        "candidate for second-line systemic therapy": [
+          2463
+        ],
+        "irinotecan-based treatment such as FOLFIRI": [
+          2511
+        ],
+        "irinotecan-based treatment such as FOLFIRI in combination with anti-VEGF therapy": [
+          2511
+        ],
+        "FOLFIRI in combination with anti-VEGF therapy": [
+          2546
+        ],
+        "anti-VEGF therapy": [
+          2574
+        ],
+        "Following recovery from surgery, the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months. Treatment was completed": [
+          1354
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "50 <= age < 60",
+        "evidence": "54-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 54.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "A 54-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "A 54-year-old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "M0",
+        "evidence": "No distant metastases were identified (M0).",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "No distant\nmetastases were identified (M0)."
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "pM1",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_n",
+        "term": "pN2a",
+        "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status."
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_t",
+        "term": "pT3",
+        "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues, consistent\nwith pT3 disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "pMMR",
+        "evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "MSS",
+        "evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "mismatch repair proficient / microsatellite stable (pMMR/MSS)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "KRAS mutation detected",
+        "evidence": "Genomic testing identified a KRAS G12D mutation",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Genomic testing identified a KRAS G12D mutation"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No NRAS mutation detected",
+        "evidence": "NRAS remained wild type",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "NRAS remained wild\ntype"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No BRAF V600E mutation detected",
+        "evidence": "BRAF V600E was not detected",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "BRAF V600E was not detected"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 status negative",
+        "evidence": "HER2 testing was negative.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "HER2 testing was negative."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "The patient is therefore assessed as having recurrent metastatic colorectal cancer",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "The patient is therefore assessed as having recurrent metastatic colorectal\ncancer"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Colon Cancer",
+        "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Colonoscopy identified\na partially obstructing sigmoid colon mass, and biopsy confirmed moderately\ndifferentiated adenocarcinoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "biopsy confirmed moderately differentiated adenocarcinoma. Initial staging with CT imaging",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "biopsy confirmed moderately\ndifferentiated adenocarcinoma. Initial staging with CT imaging"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "recurrent disease",
+        "evidence": "The patient is therefore assessed as having recurrent metastatic colorectal cancer",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "The patient is therefore assessed as having recurrent metastatic colorectal\ncancer"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "relapsed disease",
+        "evidence": "recurrent metastatic colorectal cancer that has relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "recurrent metastatic colorectal\ncancer that has relapsed after curative-intent surgery and prior\noxaliplatin-based adjuvant chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "refractory disease",
+        "evidence": "Current disease status is consistent with chemotherapy-refractory progression following first-line adjuvant treatment",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Current disease status is\nconsistent with chemotherapy-refractory progression following first-line\nadjuvant treatment"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "biopsy confirmed moderately differentiated adenocarcinoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "biopsy confirmed moderately\ndifferentiated adenocarcinoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "CEA value reported",
+        "evidence": "Baseline carcinoembryonic antigen (CEA) at diagnosis was elevated at 8.6 ng/mL.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "source_value": {
+          "value": 8.6,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Baseline\ncarcinoembryonic antigen (CEA) at diagnosis was elevated at 8.6 ng/mL."
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "CEA value reported",
+        "evidence": "During routine surveillance approximately nine months after completion of adjuvant therapy, serial laboratory monitoring demonstrated a progressive rise in CEA to 17.4 ng/mL.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "source_value": {
+          "value": 17.4,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "During routine surveillance approximately nine months after completion of\nadjuvant therapy, serial laboratory monitoring demonstrated a progressive\nrise in CEA to 17.4 ng/mL."
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "first line",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+        "line_number": 1
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "liver metastases",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "no residual disease",
+        "evidence": "Surgical margins were negative, indicating an R0 resection.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Surgical margins were\nnegative, indicating an R0 resection."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "Initial staging with CT imaging of the chest, abdomen, and pelvis demonstrated no evidence of distant metastatic disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Initial staging with CT imaging of the\nchest, abdomen, and pelvis demonstrated no evidence of distant metastatic\ndisease."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regional lymph node(s) positive",
+        "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "No distant metastases were identified (M0).",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "No distant\nmetastases were identified (M0)."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regionally advanced",
+        "evidence": "Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status. No distant\nmetastases were identified (M0)."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIIB",
+        "evidence": "Final surgical pathology showed a tumor invading through the muscularis propria into the pericolorectal tissues, consistent with pT3 disease. Four of nineteen examined regional lymph nodes were positive for metastatic carcinoma, corresponding to pN2a status. No distant metastases were identified (M0).",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Final surgical pathology showed a tumor invading\nthrough the muscularis propria into the pericolorectal tissues, consistent\nwith pT3 disease. Four of nineteen examined regional lymph nodes were\npositive for metastatic carcinoma, corresponding to pN2a status. No distant\nmetastases were identified (M0)."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IV",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "Current disease status is consistent with chemotherapy-refractory progression following first-line adjuvant treatment",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Current disease status is\nconsistent with chemotherapy-refractory progression following first-line\nadjuvant treatment"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_intent",
+        "term": "curative intent",
+        "evidence": "relapsed after curative-intent surgery and prior oxaliplatin-based adjuvant chemotherapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "relapsed after curative-intent surgery and prior\noxaliplatin-based adjuvant chemotherapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "adjuvant setting",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin)"
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "capecitabine",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "oxaliplatin",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths."
+      },
+      {
+        "polarity": "positive",
+        "group": "regimens",
+        "term": "CAPOX",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Colonoscopy identified a partially obstructing sigmoid colon mass, and biopsy confirmed moderately differentiated adenocarcinoma.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Colonoscopy identified\na partially obstructing sigmoid colon mass, and biopsy confirmed moderately\ndifferentiated adenocarcinoma."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "cancer surgery",
+        "evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with\nregional lymphadenectomy."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "lymphadenectomy",
+        "evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with regional lymphadenectomy.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "The patient subsequently underwent laparoscopic sigmoid colectomy with\nregional lymphadenectomy."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "R0 resection",
+        "evidence": "Surgical margins were negative, indicating an R0 resection.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Surgical margins were\nnegative, indicating an R0 resection."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "chemotherapy",
+        "evidence": "the patient received standard first-line adjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "the patient received standard first-line\nadjuvant chemotherapy with CAPOX (capecitabine plus oxaliplatin) for six\nmonths."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Image-guided biopsy of a liver lesion confirmed metastatic colorectal adenocarcinoma consistent with the known primary tumor.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:colon_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_03:PlainTextDocument.text",
+        "date_evidence": "Image-guided biopsy of a liver lesion\nconfirmed metastatic colorectal adenocarcinoma consistent with the known\nprimary tumor."
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_03",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "adenocarcinoma",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "adenocarcinoma",
+                "start": 36,
+                "end": 50,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "mass",
+                "start": 258,
+                "end": 262,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 429,
+                "end": 439,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "M0",
+                "start": 845,
+                "end": 847,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "surgery_procedure",
+                "pattern": "\\b(resection|prostatectomy|colectomy|hemicolectomy|lumpectomy|mastectomy|lobectomy|pneumonectomy|nephrectomy|hysterectomy|cystectomy|lymphadenectomy|lymph\\s+node\\s+dissection|excision|debulking|metastasectomy|surgery|surgical|postoperative|preoperative)\\b",
+                "evidence": "colectomy",
+                "start": 506,
+                "end": 515,
+                "reason": "surgery or procedure trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "biopsy",
+                "start": 268,
+                "end": 274,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "adjuvant",
+                "start": 1431,
+                "end": 1439,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "common_cancer_drugs",
+                "pattern": "(?<!\\w)(?:elranatamab[-\\s]+bcmm|penpulimab[-\\s]+kcqx|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|datopotamab\\s+deruxtecan|trastuzumab\\s+deruxtecan|fludarabine\\s+phosphate|inotuzumab\\s+ozogamicin|telisotuzumab\\s+vedotin|trastuzumab\\s+emtansine|abiraterone\\s+acetate|brentuximab\\s+vedotin|etoposide\\s+phosphate|polatuzumab\\s+vedotin|tisotumab\\s+vedotin|pegaspargase|penpulimab|lonsurf|teysuno|trifluridine[\\s/_-]+(?:and[\\s/_-]+)?tipiracil|tegafur[\\s/,_-]+gimeracil[\\s/,_-]+(?:and[\\s/,_-]+)?oteracil|floxuridine|levoleucovorin|abemaciclib|abiraterone|acalabrutinib|adagrasib|ado[-\\s]+trastuzumab\\s+emtansine|afatinib|alectinib|alemtuzumab|amivantamab|anastrozole|apalutamide|asciminib|atezolizumab|avelumab|avutometinib|axitinib|azacitidine|bacillus\\s+calmette[-\\s]+guerin|belinostat|belzutifan|bendamustine|bevacizumab|bicalutamide|binimetinib|bleomycin|blinatumomab|bortezomib|bosutinib|brentuximab|brigatinib|cabazitaxel|cabozantinib|capecitabine|capivasertib|capmatinib|carboplatin|carfilzomib|carmustine|cemiplimab|ceritinib|cetuximab|chlorambucil|cisplatin|cobimetinib|cosibelimab|crizotinib|cyclophosphamide|cytarabine|dabrafenib|dacarbazine|dacomitinib|dactinomycin|darolutamide|dasatinib|datopotamab|decitabine|degarelix|docetaxel|dostarlimab|doxorubicin|durvalumab|elacestrant|elranatamab|elranatamab[-\\s]+bcmm|enasidenib|encorafenib|enfortumab\\s+vedotin|ensartinib|entrectinib|enzalutamide|epcoritamab|erdafitinib|eribulin|erlotinib(?:\\s+hydrochloride)?|etoposide|everolimus|exemestane|fam[-\\s]+trastuzumab\\s+deruxtecan[-\\s]+nxki|fluorouracil|fruquintinib|fulvestrant|futibatinib|gefitinib|gemcitabine|gilteritinib|glofitamab|goserelin|histrelin|ibrutinib|idarubicin|idelalisib|ifosfamide|imatinib|inavolisib|inotuzumab|ipilimumab|irinotecan|isatuximab|ivosidenib|ixabepilone|ixazomib|lanreotide|lapatinib|larotrectinib|lenalidomide|lenvatinib|letrozole|leucovorin|leuprolide|lomustine|loncastuximab\\s+tesirine|lorlatinib|lurbinectedin|margetuximab|melphalan|mercaptopurine|methotrexate|mirvetuximab[\\s_]+soravtansine|mitomycin|mitotane|mosunetuzumab|nadofaragene\\s+firadenovec|necitumumab|neratinib|nilotinib|nilutamide|niraparib|nirogacestat|nivolumab|obinutuzumab|olaparib|olutasidenib|osimertinib|oxaliplatin|paclitaxel|palbociclib|panitumumab|pazopanib|pembrolizumab|pemetrexed|pemigatinib|penpulimab[-\\s]+kcqx|pertuzumab|pexidartinib|pirtobrutinib|polatuzumab|pomalidomide|ponatinib|pralsetinib|quizartinib|ramucirumab|regorafenib|relugolix|repotrectinib|retifanlimab|revumenib|ribociclib|ripretinib|rituximab|romidepsin|rucaparib|sacituzumab\\s+govitecan|selinexor|selpercatinib|sonidegib|sorafenib|sotorasib|sunitinib|talazoparib|taletrectinib|talimogene\\s+laherparepvec|talquetamab|tamoxifen|tarlatamab|tazemetostat|tebentafusp|teclistamab|telisotuzumab|temozolomide|temsirolimus|tepotinib|thalidomide|thioguanine|thiotepa|tislelizumab|tisotumab|tivozanib|topotecan|toremifene|toripalimab|trametinib|trastuzumab|tremelimumab|triptorelin|tucatinib|valrubicin|vandetanib|vemurafenib|venetoclax|vinblastine|vincristine|vinorelbine|vismodegib|vorasidenib|zanidatamab|zanubrutinib|zenocutuzumab|ziv[-\\s]+aflibercept|zolbetuximab|zongertinib|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|asparaginase\\s+erwinia\\s+chrysanthemi|nogapendekin\\s+alfa\\s+inbakicept|brexucabtagene\\s+autoleucel|ciltacabtagene\\s+autoleucel|omacetaxine\\s+mepesuccinate|vusolimogene\\s+oderparepvec|afamitresgene\\s+autoleucel|lisocabtagene\\s+maraleucel|axicabtagene\\s+ciloleucel|obecabtagene\\s+autoleucel|ropeginterferon\\s+alfa[-\\s]+2b|idecabtagene\\s+vicleucel|gemtuzumab\\s+ozogamicin|belantamab\\s+mafodotin|denileukin\\s+diftitox|etoposide\\s+phosphate|calaspargase\\s+pegol|interferon\\s+alfa[-\\s]+2b|megestrol\\s+acetate|arsenic\\s+trioxide|tisagenlecleucel|mechlorethamine|dexamethasone|mogamulizumab|sunvozertinib|vepdegestrant|camizestrant|daraxonrasib|daunorubicin|dordaviprone|eflornithine|imlunestrant|mitoxantrone|pralatrexate|procarbazine|relacorilant|sevabertinib|sipuleucel[-\\s]+T|trifluridine|zidesamtinib|zidesmatinib|aldesleukin|avapritinib|clofarabine|daratumumab|dinutuximab|gedatolisib|hydroxyurea|midostaurin|momelotinib|ruxolitinib|sonrotoclax|tafasitamab|tagraxofusp|tovorafenib|trabectedin|bexarotene|cladribine|elotuzumab|epirubicin|fedratinib|imetelstat|lazertinib|lifileucel|nelarabine|ofatumumab|pacritinib|prednisone|raloxifene|treosulfan|vorinostat|ziftomenib|alpelisib|duvelisib|erlotinib|flutamide|glasdegib|imiquimod|naxitamab|sirolimus|busulfan|fludarabine|tegafur|other\\s+cancer\\s+drug)(?!\\w)",
+                "evidence": "capecitabine",
+                "start": 1465,
+                "end": 1477,
+                "reason": "cancer drug trigger from tx/drugs.txt"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "positive",
+                "start": 741,
+                "end": 749,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "care_intent",
+                "pattern": "\\b(hospice|palliative|curative|definitive|terminal care|candidate for|planned|plan to|considering|under consideration|intended|prior therapy|previously treated|history of treatment)\\b",
+                "evidence": "curative",
+                "start": 2203,
+                "end": 2211,
+                "reason": "intent or care planning trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 81909,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 26261,
+      "output_tokens": 20319,
+      "total_tokens": 102228,
+      "time_elapsed": 195.1,
+      "estimated_cost_usd": 0.2796526,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 196.5
+    }
+  },
+  "allow_interpretation": true
+}

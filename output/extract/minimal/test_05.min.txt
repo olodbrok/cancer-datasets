@@ -1,0 +1,66 @@
+patient_id:	test_05
+bundle_path:	/home/ec2-user/Data/test/test_05.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:40:53Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2026-05-14	unknown	fact	age	50 <= age < 60		
+2026-05-14	unknown	fact	gender	female		
+2026-05-02	Breast Cancer	fact	ajcc_m	cM1		
+2026-05-08	Breast Cancer	fact	ajcc_m	pM1		
+2024-01	Breast Cancer	fact	ajcc_t	ypT2		
+2023	Breast Cancer	fact	biomarkers	ER negative		
+2023	Breast Cancer	fact	biomarkers	PR negative		
+2023	Breast Cancer	fact	biomarkers	HER2 status negative		
+2026-05-08	Breast Cancer	fact	biomarkers	ER negative	<1 %	
+2026-05-08	Breast Cancer	fact	biomarkers	PR negative	<1 %	
+2026-05-08	Breast Cancer	fact	biomarkers	HER2 status negative	IHC 0	
+unknown	Breast Cancer	fact	biomarkers	PD-L1 CPS >= 1 and < 5	3.0	
+2023	Breast Cancer	fact	broad_disease_stage	advanced stage		
+2026-05-08	Breast Cancer	fact	broad_disease_stage	advanced stage		
+2023	Breast Cancer	fact	cancers	Breast Cancer		
+2026-05-08	Breast Cancer	fact	disease_status	recurrent disease		
+2023	Breast Cancer	fact	histologic_invasiveness	invasive		
+2023	Breast Cancer	fact	histologies	carcinoma		
+2026-05-08	Breast Cancer	fact	histologies	carcinoma		
+unknown	Breast Cancer	fact	lab_values	WBC value reported	5.8	
+unknown	Breast Cancer	fact	lab_values	Hb value reported	10.4	
+unknown	Breast Cancer	fact	lab_values	platelet count value reported	242.0	
+unknown	Breast Cancer	fact	lab_values	AST value reported	68.0	
+unknown	Breast Cancer	fact	lab_values	ALT value reported	72.0	
+unknown	Breast Cancer	fact	lab_values	alkaline phosphatase value reported	214.0	
+unknown	Breast Cancer	fact	lab_values	bilirubin value reported	1.1	
+unknown	Breast Cancer	fact	lab_values	creatinine value reported	0.8	
+2026-05-08	Breast Cancer	fact	metastatic_sites	liver metastases		
+2026-05-02	Breast Cancer	fact	metastatic_sites	lung metastases		
+2026-05-02	Breast Cancer	fact	metastatic_sites	bone metastases		
+2026-05-10	Breast Cancer	fact	metastatic_sites	no brain metastases		
+unknown	Breast Cancer	fact	organ_function	hypertension		
+unknown	Breast Cancer	fact	performance	ECOG 1	1.0	
+2024-01	Breast Cancer	fact	residual_disease	residual disease		
+2024-04	Breast Cancer	fact	residual_disease	no residual disease		
+2023	Breast Cancer	fact	solid_tumor_extent	locally advanced		
+2024-01	Breast Cancer	fact	solid_tumor_extent	regional lymph node(s) positive		
+2026-05-08	Breast Cancer	fact	solid_tumor_extent	distant metastases		
+unknown	Breast Cancer	fact	solid_tumor_extent	distant lymph node(s) positive		
+2023	Breast Cancer	fact	stages	Stage IIIB		
+2026-05-08	Breast Cancer	fact	stages	Stage IV		
+unknown	Breast Cancer	fact	therapeutic_response	progressive disease		
+unknown	Breast Cancer	fact	treatment_setting	neoadjuvant setting		
+2024-04	Breast Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Breast Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Breast Cancer	fact	drugs	capecitabine		
+unknown	Breast Cancer	fact	drug_classes	anthracyclines		
+unknown	Breast Cancer	fact	drug_classes	taxanes		
+unknown	Breast Cancer	fact	regimens	ddAC-T		
+unknown	Breast Cancer	fact	therapies	chemotherapy		
+2024-01	Breast Cancer	fact	therapies	cancer surgery		
+2024-01	Breast Cancer	fact	therapies	lymphadenectomy		
+2024-04	Breast Cancer	fact	therapies	radiation therapy		
+2026-05-08	Breast Cancer	fact	therapies	biopsy		
+unknown	Breast Cancer	fact	therapies	biopsy		
+unknown	Breast Cancer	planned	lines_of_therapy	second line		
+unknown	Breast Cancer	planned	therapies	systemic therapy		
+unknown	Breast Cancer	planned	drugs	sacituzumab govitecan		
+unknown	Breast Cancer	option	therapies	radiation therapy		
+unknown	Breast Cancer	planned	unclassified	zoledronic acid		

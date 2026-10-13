@@ -1,0 +1,9 @@
+# Local notebook and editor state
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*~
+*.swp
+*.swo
+*.bak
+*.tmp

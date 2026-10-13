@@ -1,0 +1,56 @@
+patient_id:	test_03
+bundle_path:	/home/ec2-user/Data/test/test_03.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:34:22Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	50 <= age < 60		
+unknown	unknown	fact	gender	male		
+unknown	Colon Cancer	fact	ajcc_m	M0		
+unknown	Colon Cancer	fact	ajcc_m	pM1		
+unknown	Colon Cancer	fact	ajcc_n	pN2a		
+unknown	Colon Cancer	fact	ajcc_t	pT3		
+unknown	Colon Cancer	fact	biomarkers	pMMR		
+unknown	Colon Cancer	fact	biomarkers	MSS		
+unknown	Colon Cancer	fact	biomarkers	KRAS mutation detected	G12D	
+unknown	Colon Cancer	fact	biomarkers	No NRAS mutation detected		
+unknown	Colon Cancer	fact	biomarkers	No BRAF V600E mutation detected		
+unknown	Colon Cancer	fact	biomarkers	HER2 status negative		
+unknown	Colon Cancer	fact	broad_disease_stage	advanced stage		
+unknown	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	disease_status	newly diagnosed disease		
+unknown	Colon Cancer	fact	disease_status	recurrent disease		
+unknown	Colon Cancer	fact	disease_status	relapsed disease		
+unknown	Colon Cancer	fact	disease_status	refractory disease		
+unknown	Colon Cancer	fact	histologic_invasiveness	invasive		
+unknown	Colon Cancer	fact	histologies	adenocarcinoma		
+unknown	Colon Cancer	fact	histologies	adenocarcinoma		
+unknown	Colon Cancer	fact	lab_values	CEA value reported	8.6 ng/mL	
+unknown	Colon Cancer	fact	lab_values	CEA value reported	17.4 ng/mL	
+unknown	Colon Cancer	fact	lines_of_therapy	first line		
+unknown	Colon Cancer	fact	metastatic_sites	liver metastases		
+unknown	Colon Cancer	fact	residual_disease	no residual disease		
+unknown	Colon Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Colon Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Colon Cancer	fact	solid_tumor_extent	regional lymph node(s) positive		
+unknown	Colon Cancer	fact	solid_tumor_extent	regionally advanced		
+unknown	Colon Cancer	fact	solid_tumor_extent	distant metastases		
+unknown	Colon Cancer	fact	stages	Stage IIIB		
+unknown	Colon Cancer	fact	stages	Stage IV		
+unknown	Colon Cancer	fact	therapeutic_response	progressive disease		
+unknown	Colon Cancer	fact	treatment_intent	curative intent		
+unknown	Colon Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Colon Cancer	fact	drugs	capecitabine		
+unknown	Colon Cancer	fact	drugs	oxaliplatin		
+unknown	Colon Cancer	fact	regimens	CAPOX		
+unknown	Colon Cancer	fact	therapies	biopsy		
+unknown	Colon Cancer	fact	therapies	cancer surgery		
+unknown	Colon Cancer	fact	therapies	lymphadenectomy		
+unknown	Colon Cancer	fact	therapies	R0 resection		
+unknown	Colon Cancer	fact	therapies	chemotherapy		
+unknown	Colon Cancer	fact	therapies	biopsy		
+unknown	Colon Cancer	option	lines_of_therapy	second line		
+unknown	Colon Cancer	option	therapies	systemic therapy		
+unknown	Colon Cancer	option	drugs	irinotecan		
+unknown	Colon Cancer	option	regimens	FOLFIRI		
+unknown	Colon Cancer	option	drug_classes	anti-VEGF		

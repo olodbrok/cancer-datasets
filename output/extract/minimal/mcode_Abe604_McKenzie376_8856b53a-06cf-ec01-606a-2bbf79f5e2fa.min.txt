@@ -1,0 +1,81 @@
+patient_id:	8856b53a-06cf-ec01-606a-2bbf79f5e2fa
+bundle_path:	/home/ec2-user/Data/mcode/Abe604_McKenzie376_8856b53a-06cf-ec01-606a-2bbf79f5e2fa.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T12:57:57Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2009-02-27	unknown	fact	gender	male		
+2009-02-27	unknown	fact	age	60 <= age < 70		
+1969-10-24	unknown	fact	clinical_conditions	anemia		http://snomed.info/sct|271737000
+1990-02-16	unknown	fact	organ_function	hypertension		http://snomed.info/sct|59621000
+2006-07-12	unknown	fact	cancers	Colon Cancer		http://snomed.info/sct|109838007
+2006-07-12	unknown	fact	cancers	Colorectal Cancer		http://snomed.info/sct|109838007
+2006-07-12	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|109838007
+1999-04-09	unknown	fact	clinical_conditions	BMI high	30.18 kg/m2	http://loinc.org|39156-5
+1999-04-09	unknown	fact	lab_values	creatinine normal	1.07 mg/dL	http://loinc.org|38483-4
+1999-07-16	unknown	fact	clinical_conditions	BMI high	30.37 kg/m2	http://loinc.org|39156-5
+1999-07-16	unknown	fact	lab_values	creatinine normal	1.06 mg/dL	http://loinc.org|38483-4
+2000-04-14	unknown	fact	clinical_conditions	BMI high	29.01 kg/m2	http://loinc.org|39156-5
+2000-04-14	unknown	fact	lab_values	creatinine normal	1.02 mg/dL	http://loinc.org|38483-4
+2001-04-20	unknown	fact	clinical_conditions	BMI high	28.11 kg/m2	http://loinc.org|39156-5
+2001-04-20	unknown	fact	lab_values	creatinine normal	1.01 mg/dL	http://loinc.org|38483-4
+2002-04-26	unknown	fact	clinical_conditions	BMI high	28.81 kg/m2	http://loinc.org|39156-5
+2002-04-26	unknown	fact	lab_values	creatinine normal	0.99 mg/dL	http://loinc.org|38483-4
+2002-04-26	unknown	fact	lab_values	WBC normal	5.4088 10*3/uL	http://loinc.org|6690-2
+2002-04-26	unknown	fact	lab_values	RBC normal	5.172 10*6/uL	http://loinc.org|789-8
+2002-04-26	unknown	fact	lab_values	Hb normal	15.993 g/dL	http://loinc.org|718-7
+2002-04-26	unknown	fact	lab_values	HCT normal	42.953 %	http://loinc.org|4544-3
+2002-04-26	unknown	fact	lab_values	platelet count normal	448.84 10*3/uL	http://loinc.org|777-3
+2003-05-02	unknown	fact	clinical_conditions	BMI high	29.52 kg/m2	http://loinc.org|39156-5
+2003-05-02	unknown	fact	lab_values	creatinine normal	0.99 mg/dL	http://loinc.org|38483-4
+2004-05-07	unknown	fact	clinical_conditions	BMI high	30.22 kg/m2	http://loinc.org|39156-5
+2004-05-07	unknown	fact	lab_values	creatinine normal	1 mg/dL	http://loinc.org|38483-4
+2005-05-13	unknown	fact	clinical_conditions	BMI high	29.13 kg/m2	http://loinc.org|39156-5
+2005-05-13	unknown	fact	lab_values	creatinine normal	1.09 mg/dL	http://loinc.org|38483-4
+2006-05-19	unknown	fact	clinical_conditions	BMI high	28.55 kg/m2	http://loinc.org|39156-5
+2006-05-19	unknown	fact	lab_values	creatinine normal	0.93 mg/dL	http://loinc.org|38483-4
+2007-05-25	unknown	fact	clinical_conditions	BMI high	29.13 kg/m2	http://loinc.org|39156-5
+2007-05-25	unknown	fact	lab_values	creatinine normal	1.21 mg/dL	http://loinc.org|38483-4
+2007-05-25	unknown	fact	lab_values	WBC normal	10.341 10*3/uL	http://loinc.org|6690-2
+2007-05-25	unknown	fact	lab_values	RBC normal	5.1554 10*6/uL	http://loinc.org|789-8
+2007-05-25	unknown	fact	lab_values	Hb normal	16.37 g/dL	http://loinc.org|718-7
+2007-05-25	unknown	fact	lab_values	HCT normal	47.151 %	http://loinc.org|4544-3
+2007-05-25	unknown	fact	lab_values	platelet count normal	156.96 10*3/uL	http://loinc.org|777-3
+2008-05-30	unknown	fact	clinical_conditions	BMI high	29.72 kg/m2	http://loinc.org|39156-5
+2008-05-30	unknown	fact	lab_values	creatinine normal	0.94 mg/dL	http://loinc.org|38483-4
+2009-02-27	unknown	fact	performance	deceased	Overlapping malignant neoplasm of colon	http://loinc.org|69453-9
+2009-01-23	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-24	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-25	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-26	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-27	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-28	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-29	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-30	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-01-31	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-01	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-02	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-03	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-04	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-05	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-06	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-07	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-08	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-09	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-10	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-11	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-12	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-13	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-14	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-15	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-16	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-17	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-18	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-19	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-20	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2009-02-27	unknown	fact	performance	deceased		http://loinc.org|69409-1
+2005-06-28	unknown	fact	lab_values	Hb value reported	11.15 ng/mL	http://loinc.org|57905-2
+1969-10-24	unknown	fact	clinical_conditions	anemia		
+2006-07-12	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	unknown	fact	organ_function	hypertension		
+2009-01-23	unknown	fact	therapies	hospice care		

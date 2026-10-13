@@ -1,0 +1,1770 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_01",
+  "bundle_path": "/home/ec2-user/Data/test/test_01.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:22:53Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "70 <= age < 80",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "70 year old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 70.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "evidence": "70 year old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This patient is a 70 year old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "70_age_80"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9e69532df671948c"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This patient is a 70 year old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-0aaedb83563f2681"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.",
+      "rationale": "Preoperative CT and PET-CT showed no distant metastatic disease, supporting a clinical M0 classification for this lung cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.",
+        "reason": "Preoperative CT and PET-CT showed no distant metastatic disease, supporting a clinical M0 classification for this lung cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to\nsurgery, demonstrated no evidence of distant metastatic disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm0",
+        "axis": "terms",
+        "state": "cm0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b7eef44ab53037bc"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "early stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has undergone complete surgical resection with curative intent",
+      "rationale": "The documented NSCLC is stage IIB and was completely resected with curative intent. Stage IIB falls within the early-stage classification for resectable NSCLC; this is a cancer-specific implication, not a universal stage-number rule.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "evidence": "non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has undergone complete surgical resection with curative intent",
+        "reason": "The documented NSCLC is stage IIB and was completely resected with curative intent. Stage IIB falls within the early-stage classification for resectable NSCLC; this is a cancer-specific implication, not a universal stage-number rule.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "non–small\ncell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has\nundergone complete surgical resection with curative intent",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "early"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-73d40d804d617600"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Non-Small Cell Lung Cancer",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "recent diagnosis of non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "recent diagnosis of non–small\ncell lung cancer (NSCLC), squamous cell subtype, stage IIB disease",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "non_small_cell_lung_cancer",
+        "axis": "terms",
+        "state": "non_small_cell_lung_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-30ab4afa1df6738c"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "recent diagnosis of non–small cell lung cancer (NSCLC)",
+      "rationale": "A recent diagnosis of NSCLC directly supports newly diagnosed disease in that assessment scope.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "recent diagnosis of non–small\ncell lung cancer (NSCLC)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-81b12dcaaff6d380"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung, with features such as keratinization and intercellular bridges. Pathologic staging demonstrates involvement consistent with stage IIB disease.",
+      "rationale": "The resected lung squamous cell carcinoma has pathologic stage IIB disease; stage IIB NSCLC is invasive rather than carcinoma in situ.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung, with features such as keratinization and intercellular bridges. Pathologic staging demonstrates involvement consistent with stage IIB disease.",
+        "reason": "The resected lung squamous cell carcinoma has pathologic stage IIB disease; stage IIB NSCLC is invasive rather than carcinoma in situ.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell\ncarcinoma of the lung, with features such as keratinization and\nintercellular bridges. Pathologic staging demonstrates involvement\nconsistent with stage IIB disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-20d051e88877e871"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "squamous",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell\ncarcinoma of the lung",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "squamous",
+        "axis": "terms",
+        "state": "squamous"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-378c9cbdd5b1a396"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "Hb low",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "hemoglobin typically slightly reduced postoperatively but stable (~11–13 g/dL)",
+      "rationale": "The baseline-laboratory description explicitly says hemoglobin is slightly reduced postoperatively.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "hemoglobin\ntypically slightly reduced postoperatively but stable (~11–13 g/dL)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "hb",
+        "axis": "results",
+        "state": "low"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b93f26a98aaeee86"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "WBC normal",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "normal white blood cell count",
+      "rationale": "The white blood cell count is explicitly described as normal.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "normal\nwhite blood cell count",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "wbc",
+        "axis": "results",
+        "state": "normal"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b606a5a6b6df9cc4"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "platelet count normal",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "platelets within normal range",
+      "rationale": "Platelets are explicitly described as within the normal range.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "platelets within normal range",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "platelet_count",
+        "axis": "results",
+        "state": "normal"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-ef88be4d138f639b"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "no brain metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Brain imaging (MRI) is negative for intracranial metastases.",
+      "rationale": "Brain MRI is explicitly negative for intracranial metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Brain imaging (MRI) is\nnegative for intracranial metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "brain_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-4666b023ab8fa945"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate organ function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Baseline laboratory studies show adequate organ function",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Baseline laboratory studies show adequate organ function",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "organ_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-65ff64fa1de2d40b"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate renal function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Renal and hepatic function are within normal limits",
+      "rationale": "Renal function is explicitly stated to be within normal limits.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Renal and\nhepatic function are within normal limits",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "renal_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-aac85def331523a3"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate hepatic function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Renal and hepatic function are within normal limits",
+      "rationale": "Hepatic function is explicitly stated to be within normal limits.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Renal and\nhepatic function are within normal limits",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "hepatic_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2ef024dc8352a70e"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate pulmonary function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Pulmonary function tests prior to surgery demonstrated sufficient reserve",
+      "rationale": "Preoperative pulmonary function testing explicitly demonstrated sufficient reserve, supporting adequate pulmonary function in that preoperative scope.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Pulmonary function tests prior to surgery demonstrated\nsufficient reserve",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "pulmonary_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-d3520a6becf67dd4"
+    },
+    {
+      "polarity": "positive",
+      "group": "residual_disease",
+      "term": "no residual disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Postoperative imaging confirms no residual disease.",
+      "rationale": "Explicit negative-result term or reviewed alias.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Postoperative imaging confirms no residual disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "residual_disease",
+        "node": "residual_disease",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c95f129537c3e56d"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.",
+      "rationale": "Pre- and postoperative imaging explicitly showed no evidence of distant metastatic disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to\nsurgery, demonstrated no evidence of distant metastatic disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8551882ddb8fa6d9"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIB",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Pathologic staging demonstrates involvement consistent with stage IIB disease.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Pathologic staging demonstrates involvement\nconsistent with stage IIB disease.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iib",
+        "axis": "terms",
+        "state": "stage_iib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9e90f38fcc66bd70"
+    },
+    {
+      "polarity": "positive",
+      "group": "surgical_feasibility",
+      "term": "resectable",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "undergone complete surgical resection with curative intent",
+      "rationale": "The patient underwent complete surgical resection of this cancer, establishing that it was resectable at the time of surgery.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "evidence": "undergone complete surgical resection with curative intent",
+        "reason": "The patient underwent complete surgical resection of this cancer, establishing that it was resectable at the time of surgery.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "undergone complete surgical resection with curative intent",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "surgical_feasibility",
+        "node": "surgical_feasibility",
+        "axis": "resectability",
+        "state": "resectable"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-35575b2d27c26207"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_intent",
+      "term": "curative intent",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "undergone complete surgical resection with curative intent",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "undergone complete surgical resection with curative intent",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_intent",
+        "node": "curative_intent",
+        "axis": "terms",
+        "state": "curative_intent"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3182a3cdb4ae2f87"
+    },
+    {
+      "polarity": "positive",
+      "group": "treatment_setting",
+      "term": "adjuvant setting",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "is now being evaluated in the adjuvant setting.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "is now being\nevaluated in the adjuvant setting.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "treatment_setting",
+        "node": "adjuvant_setting",
+        "axis": "terms",
+        "state": "adjuvant"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f22422b7e85e47e5"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "complete resection",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "undergone complete surgical resection with curative intent",
+      "rationale": "The source explicitly states that complete surgical resection was performed.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "undergone complete surgical resection with curative intent",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "complete_resection",
+        "axis": "terms",
+        "state": "complete_resection"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-0168c8783523f7f0"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "R0 resection",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Surgical margins are negative (R0 resection).",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Surgical margins are negative (R0\nresection).",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "r0_resection",
+        "axis": "terms",
+        "state": "r0_resection"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f03c31dd30189879"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:non_small_cell_lung_cancer",
+      "cancer_term": "Non-Small Cell Lung Cancer",
+      "episode_key": null,
+      "diagnosis_date": null,
+      "evidence": "recent diagnosis of non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease",
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "possible option",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "immunotherapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy considerations.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_01",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:possible option": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Potential adjuvant immunotherapy considerations” supports a possible, conditional option; it does not establish testing or treatment receipt."
+        },
+        "modality_labels:immunotherapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/immunotherapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:treatment_setting/adjuvant setting": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Immunotherapy is the sole treatment option named; adjuvant describes its setting, not another treatment."
+        }
+      },
+      "proposed_labels": {
+        "status": "possible option",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "immunotherapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "immunotherapy",
+            "evidence": "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy\nconsiderations.",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "immunotherapy",
+              "axis": "terms",
+              "state": "immunotherapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "treatment_setting",
+            "term": "adjuvant setting",
+            "evidence": "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy\nconsiderations.",
+            "concept_ref": {
+              "category": "treatment_setting",
+              "node": "adjuvant_setting",
+              "axis": "terms",
+              "state": "adjuvant"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "immunotherapy",
+          "evidence": "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy\nconsiderations.",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "immunotherapy",
+            "axis": "terms",
+            "state": "immunotherapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "treatment_setting",
+          "term": "adjuvant setting",
+          "evidence": "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy\nconsiderations.",
+          "concept_ref": {
+            "category": "treatment_setting",
+            "node": "adjuvant_setting",
+            "axis": "terms",
+            "state": "adjuvant"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "candidate",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "Renal and hepatic function are within normal limits, supporting candidacy for systemic therapy.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_01",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:candidate": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The text explicitly says the patient’s organ function supports “candidacy for systemic therapy,” without establishing a treatment plan or receipt."
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Systemic therapy is the only treatment named in this candidacy statement."
+        }
+      },
+      "proposed_labels": {
+        "status": "candidate",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "supporting candidacy for\nsystemic therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "supporting candidacy for\nsystemic therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_01",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "70 year old": [
+          18
+        ],
+        "This patient is a 70 year old": [
+          0
+        ],
+        "male": [
+          30
+        ],
+        "This patient is a 70 year old male": [
+          0
+        ],
+        "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.": [
+          1054
+        ],
+        "non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has undergone complete surgical resection with curative intent": [
+          62
+        ],
+        "recent diagnosis of non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease": [
+          42
+        ],
+        "recent diagnosis of non–small cell lung cancer (NSCLC)": [
+          42
+        ],
+        "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung, with features such as keratinization and intercellular bridges. Pathologic staging demonstrates involvement consistent with stage IIB disease.": [
+          544
+        ],
+        "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung": [
+          544
+        ],
+        "hemoglobin typically slightly reduced postoperatively but stable (~11–13 g/dL)": [
+          1366
+        ],
+        "normal white blood cell count": [
+          1446
+        ],
+        "platelets within normal range": [
+          1481
+        ],
+        "Brain imaging (MRI) is negative for intracranial metastases.": [
+          1242
+        ],
+        "Baseline laboratory studies show adequate organ function": [
+          1303
+        ],
+        "Renal and hepatic function are within normal limits": [
+          1512
+        ],
+        "Pulmonary function tests prior to surgery demonstrated sufficient reserve": [
+          1608
+        ],
+        "Postoperative imaging confirms no residual disease.": [
+          1190
+        ],
+        "Pathologic staging demonstrates involvement consistent with stage IIB disease.": [
+          706
+        ],
+        "undergone complete surgical resection with curative intent": [
+          148
+        ],
+        "is now being evaluated in the adjuvant setting.": [
+          211
+        ],
+        "Surgical margins are negative (R0 resection).": [
+          785
+        ],
+        "PD-L1 expression may be assessed to guide potential adjuvant immunotherapy considerations.": [
+          963
+        ],
+        "Renal and hepatic function are within normal limits, supporting candidacy for systemic therapy.": [
+          1512
+        ],
+        "supporting candidacy for systemic therapy": [
+          1565
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "70 <= age < 80",
+        "evidence": "70 year old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 70.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "This patient is a 70 year old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "This patient is a 70 year old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM0",
+        "evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to\nsurgery, demonstrated no evidence of distant metastatic disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "early stage",
+        "evidence": "non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has undergone complete surgical resection with curative intent",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "non–small\ncell lung cancer (NSCLC), squamous cell subtype, stage IIB disease, who has\nundergone complete surgical resection with curative intent"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Non-Small Cell Lung Cancer",
+        "evidence": "recent diagnosis of non–small cell lung cancer (NSCLC), squamous cell subtype, stage IIB disease",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "recent diagnosis of non–small\ncell lung cancer (NSCLC), squamous cell subtype, stage IIB disease"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "recent diagnosis of non–small cell lung cancer (NSCLC)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "recent diagnosis of non–small\ncell lung cancer (NSCLC)"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung, with features such as keratinization and intercellular bridges. Pathologic staging demonstrates involvement consistent with stage IIB disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell\ncarcinoma of the lung, with features such as keratinization and\nintercellular bridges. Pathologic staging demonstrates involvement\nconsistent with stage IIB disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "squamous",
+        "evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell carcinoma of the lung",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Histopathologic evaluation of the resected specimen confirms squamous cell\ncarcinoma of the lung"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "Hb low",
+        "evidence": "hemoglobin typically slightly reduced postoperatively but stable (~11–13 g/dL)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "hemoglobin\ntypically slightly reduced postoperatively but stable (~11–13 g/dL)"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "WBC normal",
+        "evidence": "normal white blood cell count",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "normal\nwhite blood cell count"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "platelet count normal",
+        "evidence": "platelets within normal range",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "platelets within normal range"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "no brain metastases",
+        "evidence": "Brain imaging (MRI) is negative for intracranial metastases.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Brain imaging (MRI) is\nnegative for intracranial metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate organ function",
+        "evidence": "Baseline laboratory studies show adequate organ function",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Baseline laboratory studies show adequate organ function"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate renal function",
+        "evidence": "Renal and hepatic function are within normal limits",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Renal and\nhepatic function are within normal limits"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate hepatic function",
+        "evidence": "Renal and hepatic function are within normal limits",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Renal and\nhepatic function are within normal limits"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate pulmonary function",
+        "evidence": "Pulmonary function tests prior to surgery demonstrated sufficient reserve",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Pulmonary function tests prior to surgery demonstrated\nsufficient reserve"
+      },
+      {
+        "polarity": "positive",
+        "group": "residual_disease",
+        "term": "no residual disease",
+        "evidence": "Postoperative imaging confirms no residual disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Postoperative imaging confirms no residual disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to surgery, demonstrated no evidence of distant metastatic disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Pre- and postoperative imaging, including CT chest and PET-CT prior to\nsurgery, demonstrated no evidence of distant metastatic disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIB",
+        "evidence": "Pathologic staging demonstrates involvement consistent with stage IIB disease.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Pathologic staging demonstrates involvement\nconsistent with stage IIB disease."
+      },
+      {
+        "polarity": "positive",
+        "group": "surgical_feasibility",
+        "term": "resectable",
+        "evidence": "undergone complete surgical resection with curative intent",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "undergone complete surgical resection with curative intent"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_intent",
+        "term": "curative intent",
+        "evidence": "undergone complete surgical resection with curative intent",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "undergone complete surgical resection with curative intent"
+      },
+      {
+        "polarity": "positive",
+        "group": "treatment_setting",
+        "term": "adjuvant setting",
+        "evidence": "is now being evaluated in the adjuvant setting.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "is now being\nevaluated in the adjuvant setting."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "complete resection",
+        "evidence": "undergone complete surgical resection with curative intent",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "undergone complete surgical resection with curative intent"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "R0 resection",
+        "evidence": "Surgical margins are negative (R0 resection).",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_01:PlainTextDocument.text",
+        "date_evidence": "Surgical margins are negative (R0\nresection)."
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_01",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "cancer",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "cancer",
+                "start": 82,
+                "end": 88,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 1172,
+                "end": 1182,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "stage IIB",
+                "start": 121,
+                "end": 130,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "surgery_procedure",
+                "pattern": "\\b(resection|prostatectomy|colectomy|hemicolectomy|lumpectomy|mastectomy|lobectomy|pneumonectomy|nephrectomy|hysterectomy|cystectomy|lymphadenectomy|lymph\\s+node\\s+dissection|excision|debulking|metastasectomy|surgery|surgical|postoperative|preoperative)\\b",
+                "evidence": "surgical",
+                "start": 167,
+                "end": 175,
+                "reason": "surgery or procedure trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "specimen",
+                "start": 588,
+                "end": 596,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "adjuvant",
+                "start": 241,
+                "end": 249,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "negative",
+                "start": 807,
+                "end": 815,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "organ_function_labs",
+                "pattern": "\\b(creatinine|bilirubin|AST|ALT|alkaline phosphatase|albumin|hemoglobin|platelets?|neutrophils?|neutropenia|ANC|eGFR|glomerular filtration|urine protein|proteinuria|albuminuria|body mass index|BMI)\\b",
+                "evidence": "hemoglobin",
+                "start": 1369,
+                "end": 1379,
+                "reason": "lab or organ function trigger"
+              },
+              {
+                "id": "care_intent",
+                "pattern": "\\b(hospice|palliative|curative|definitive|terminal care|candidate for|planned|plan to|considering|under consideration|intended|prior therapy|previously treated|history of treatment)\\b",
+                "evidence": "curative",
+                "start": 191,
+                "end": 199,
+                "reason": "intent or care planning trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 73288,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 17640,
+      "output_tokens": 12052,
+      "total_tokens": 85340,
+      "time_elapsed": 114.2,
+      "estimated_cost_usd": 0.1755146,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 116.3
+    }
+  },
+  "allow_interpretation": true
+}

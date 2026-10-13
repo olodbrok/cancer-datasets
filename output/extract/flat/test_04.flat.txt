@@ -1,0 +1,32 @@
+age	50 <= age < 60
+biomarkers	CD20 positive
+biomarkers	Ki-67 expression high
+broad_disease_stage	advanced stage
+cancers	Diffuse Large B-Cell Lymphoma
+clinical_conditions	anemia
+clinical_conditions	neutropenia
+disease_status	newly diagnosed disease
+disease_status	relapsed disease
+disease_status	relapsed or refractory disease
+gender	female
+hematologic_extent	disseminated or systemic
+histologies	large cell
+lab_values	LDH high
+lines_of_therapy	first line
+performance	ECOG 1
+regimens	R-CHOP
+residual_disease	no residual disease
+stages	Stage IIIS
+therapeutic_response	complete response
+therapeutic_response	progressive disease
+therapies	biopsy
+therapies	chemotherapy
+therapies	immunotherapy
+proposed_therapies:
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/treatment_setting	salvage [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/regimens	R-ICE [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=single; relationship_validation=supported; group_path=alternatives.1.steps.1.alternatives.1; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved', 'supported', 'unresolved']; option=1; alternatives=2; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/regimens	R-DHAP [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=single; relationship_validation=supported; group_path=alternatives.1.steps.1.alternatives.2; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved', 'supported', 'unresolved']; option=1; alternatives=2; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/therapies	autologous hematopoietic stem cell transplantation [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=single; relationship_validation=supported; group_path=alternatives.1.steps.2; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved', 'supported']; option=1; alternatives=2; condition_evidence=in a chemosensitive setting; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/drug_classes	CAR-T therapy [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=single; relationship_validation=supported; group_path=alternatives.2; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved']; option=2; alternatives=2; condition_evidence=depending on treatment response, eligibility, and multidisciplinary review; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]
+proposed_therapies/therapies	cellular therapy [proposal_id=proposal-582aee08c94e33bf68ac; status=candidate; validation=supported; source_mentions=['R-ICE', 'R-DHAP']; relationship=single; relationship_validation=supported; group_path=alternatives.2; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved']; option=2; alternatives=2; condition_evidence=depending on treatment response, eligibility, and multidisciplinary review; concept_validation=supported; date=unknown; cancer=cancer:diffuse_large_b_cell_lymphoma]

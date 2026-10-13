@@ -1,0 +1,30 @@
+age	age < 50
+cancers	Colon Cancer
+cancers	Colorectal Cancer
+cancers	Solid Tumor
+clinical_conditions	BMI high
+drugs	leucovorin
+drugs	oxaliplatin
+gender	female
+lab_values	albumin normal
+lab_values	alkaline phosphatase value reported
+lab_values	ALT high
+lab_values	ALT normal
+lab_values	AST normal
+lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	Hb low
+lab_values	Hb normal
+lab_values	Hb value reported
+lab_values	HCT low
+lab_values	HCT normal
+lab_values	inadequate GFR
+lab_values	platelet count normal
+lab_values	RBC normal
+lab_values	WBC low
+lab_values	WBC normal
+therapies	chemotherapy
+therapies	radiation therapy
+proposed_therapies:
+proposed_therapies/drugs	leucovorin [proposal_id=proposal-4c8b1e0b1094a3c11096; status=planned; validation=supported; source_mentions=['leucovorin 100 mg injection', '10 ml oxaliplatin 5 mg/ml injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2018-05-17; cancer=cancer:colon_cancer]
+proposed_therapies/drugs	oxaliplatin [proposal_id=proposal-4c8b1e0b1094a3c11096; status=planned; validation=supported; source_mentions=['leucovorin 100 mg injection', '10 ml oxaliplatin 5 mg/ml injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2018-05-17; cancer=cancer:colon_cancer]

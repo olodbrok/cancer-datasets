@@ -1,0 +1,34 @@
+age	age >= 80
+cancers	Prostate Cancer
+clinical_conditions	anemia
+clinical_conditions	BMI high
+drugs	docetaxel
+drugs	leuprolide
+gender	male
+histologic_invasiveness	in situ
+histologies	carcinoma
+lab_values	albumin normal
+lab_values	alkaline phosphatase value reported
+lab_values	ALT high
+lab_values	AST normal
+lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	creatinine normal
+lab_values	Hb low
+lab_values	Hb normal
+lab_values	HCT normal
+lab_values	inadequate GFR
+lab_values	platelet count normal
+lab_values	PSA high
+lab_values	PSA normal
+lab_values	RBC normal
+lab_values	urine protein high
+lab_values	WBC low
+lab_values	WBC normal
+therapies	biopsy
+therapies	cancer surgery
+therapies	hospice care
+therapies	radical resection
+proposed_therapies:
+proposed_therapies/drugs	docetaxel [proposal_id=proposal-c72182e79b232a1f04da; status=planned; validation=supported; source_mentions=['docetaxel']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]
+proposed_therapies/drugs	leuprolide [proposal_id=proposal-4dba300243bf4ebcb2cb; status=planned; validation=supported; source_mentions=['leuprolide acetate']; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]

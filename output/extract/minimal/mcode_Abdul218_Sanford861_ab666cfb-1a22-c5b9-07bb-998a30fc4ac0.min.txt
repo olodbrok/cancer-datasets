@@ -1,0 +1,137 @@
+patient_id:	ab666cfb-1a22-c5b9-07bb-998a30fc4ac0
+bundle_path:	/home/ec2-user/Data/mcode/Abdul218_Sanford861_ab666cfb-1a22-c5b9-07bb-998a30fc4ac0.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T12:09:00Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2022-02-04	unknown	fact	gender	male		
+2022-02-04	unknown	fact	age	age < 50		
+2005-02-06	unknown	fact	clinical_conditions	BMI high		http://snomed.info/sct|162864005
+2021-07-14	unknown	fact	clinical_conditions	anemia		http://snomed.info/sct|271737000
+2021-07-14	unknown	fact	cancers	Colon Cancer		http://snomed.info/sct|363406005
+2021-07-14	unknown	fact	cancers	Colorectal Cancer		http://snomed.info/sct|363406005
+2021-07-14	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|363406005
+2014-02-16	unknown	fact	clinical_conditions	BMI high	30.88 kg/m2	http://loinc.org|39156-5
+2014-02-16	unknown	fact	lab_values	WBC normal	8.7252 10*3/uL	http://loinc.org|6690-2
+2014-02-16	unknown	fact	lab_values	RBC normal	5.2251 10*6/uL	http://loinc.org|789-8
+2014-02-16	unknown	fact	lab_values	Hb normal	16.784 g/dL	http://loinc.org|718-7
+2014-02-16	unknown	fact	lab_values	HCT normal	37.841 %	http://loinc.org|4544-3
+2014-02-16	unknown	fact	lab_values	platelet count normal	276.14 10*3/uL	http://loinc.org|777-3
+2017-02-19	unknown	fact	clinical_conditions	BMI high	30.88 kg/m2	http://loinc.org|39156-5
+2019-12-08	unknown	fact	clinical_conditions	BMI high	30.88 kg/m2	http://loinc.org|39156-5
+2019-12-08	unknown	fact	lab_values	WBC normal	9.5007 10*3/uL	http://loinc.org|6690-2
+2019-12-08	unknown	fact	lab_values	RBC normal	4.4141 10*6/uL	http://loinc.org|789-8
+2019-12-08	unknown	fact	lab_values	Hb normal	13.562 g/dL	http://loinc.org|718-7
+2019-12-08	unknown	fact	lab_values	HCT normal	41.637 %	http://loinc.org|4544-3
+2019-12-08	unknown	fact	lab_values	platelet count normal	206.05 10*3/uL	http://loinc.org|777-3
+2021-07-18	unknown	fact	clinical_conditions	BMI high	28.55 kg/m2	http://loinc.org|39156-5
+2021-07-14	unknown	fact	lab_values	Hb low	11.746 g/dL	http://loinc.org|718-7
+2021-07-14	unknown	fact	lab_values	HCT low	31.944 %	http://loinc.org|20570-8
+2021-07-14	unknown	fact	lab_values	WBC normal	10.123 10*3/uL	http://loinc.org|6690-2
+2021-07-14	unknown	fact	lab_values	RBC normal	4.1572 10*6/uL	http://loinc.org|789-8
+2021-07-14	unknown	fact	lab_values	platelet count normal	167.18 10*3/uL	http://loinc.org|777-3
+2021-08-25	unknown	fact	lab_values	creatinine high	2.8989 mg/dL	http://loinc.org|38483-4
+2021-08-25	unknown	fact	lab_values	inadequate GFR	23.153 mL/min	http://loinc.org|33914-3
+2021-08-25	unknown	fact	lab_values	albumin normal	4.1091 g/dL	http://loinc.org|1751-7
+2021-08-25	unknown	fact	lab_values	bilirubin normal	0.2161 mg/dL	http://loinc.org|1975-2
+2021-08-25	unknown	fact	lab_values	alkaline phosphatase value reported	109.56 U/L	http://loinc.org|6768-6
+2021-08-25	unknown	fact	lab_values	ALT normal	30.792 U/L	http://loinc.org|1742-6
+2021-08-25	unknown	fact	lab_values	AST normal	26.846 U/L	http://loinc.org|1920-8
+2021-08-25	unknown	fact	lab_values	WBC low	3.5268 10*3/uL	http://loinc.org|6690-2
+2021-08-25	unknown	fact	lab_values	RBC normal	4.4075 10*6/uL	http://loinc.org|789-8
+2021-08-25	unknown	fact	lab_values	Hb low	9.1525 g/dL	http://loinc.org|718-7
+2021-08-25	unknown	fact	lab_values	HCT low	33.424 %	http://loinc.org|4544-3
+2021-08-25	unknown	fact	lab_values	platelet count normal	287.4 10*3/uL	http://loinc.org|777-3
+2021-09-26	unknown	fact	lab_values	creatinine high	3.3204 mg/dL	http://loinc.org|38483-4
+2021-09-26	unknown	fact	lab_values	inadequate GFR	4.8431 mL/min	http://loinc.org|33914-3
+2021-09-26	unknown	fact	lab_values	albumin normal	3.6912 g/dL	http://loinc.org|1751-7
+2021-09-26	unknown	fact	lab_values	bilirubin normal	1.1724 mg/dL	http://loinc.org|1975-2
+2021-09-26	unknown	fact	lab_values	alkaline phosphatase value reported	107.96 U/L	http://loinc.org|6768-6
+2021-09-26	unknown	fact	lab_values	ALT normal	34.812 U/L	http://loinc.org|1742-6
+2021-09-26	unknown	fact	lab_values	AST normal	32.976 U/L	http://loinc.org|1920-8
+2021-09-26	unknown	fact	lab_values	WBC low	1.8928 10*3/uL	http://loinc.org|6690-2
+2021-09-26	unknown	fact	lab_values	RBC normal	4.2664 10*6/uL	http://loinc.org|789-8
+2021-09-26	unknown	fact	lab_values	Hb low	13.168 g/dL	http://loinc.org|718-7
+2021-09-26	unknown	fact	lab_values	HCT low	29.9 %	http://loinc.org|4544-3
+2021-09-26	unknown	fact	lab_values	platelet count normal	264.63 10*3/uL	http://loinc.org|777-3
+2021-10-30	unknown	fact	lab_values	creatinine high	3.4918 mg/dL	http://loinc.org|38483-4
+2021-10-30	unknown	fact	lab_values	inadequate GFR	16.683 mL/min	http://loinc.org|33914-3
+2021-10-30	unknown	fact	lab_values	albumin high	5.1717 g/dL	http://loinc.org|1751-7
+2021-10-30	unknown	fact	lab_values	bilirubin normal	0.5222 mg/dL	http://loinc.org|1975-2
+2021-10-30	unknown	fact	lab_values	alkaline phosphatase value reported	120.16 U/L	http://loinc.org|6768-6
+2021-10-30	unknown	fact	lab_values	ALT high	54.154 U/L	http://loinc.org|1742-6
+2021-10-30	unknown	fact	lab_values	AST normal	36.589 U/L	http://loinc.org|1920-8
+2021-10-30	unknown	fact	lab_values	WBC low	1.2162 10*3/uL	http://loinc.org|6690-2
+2021-10-30	unknown	fact	lab_values	RBC normal	4.5725 10*6/uL	http://loinc.org|789-8
+2021-10-30	unknown	fact	lab_values	Hb severely low	7.5406 g/dL	http://loinc.org|718-7
+2021-10-30	unknown	fact	lab_values	HCT low	32.918 %	http://loinc.org|4544-3
+2021-10-30	unknown	fact	lab_values	platelet count normal	157.41 10*3/uL	http://loinc.org|777-3
+2021-11-28	unknown	fact	lab_values	creatinine high	2.6863 mg/dL	http://loinc.org|38483-4
+2021-11-28	unknown	fact	lab_values	inadequate GFR	14.741 mL/min	http://loinc.org|33914-3
+2021-11-28	unknown	fact	lab_values	albumin normal	4.7706 g/dL	http://loinc.org|1751-7
+2021-11-28	unknown	fact	lab_values	bilirubin normal	0.75625 mg/dL	http://loinc.org|1975-2
+2021-11-28	unknown	fact	lab_values	alkaline phosphatase value reported	27.68 U/L	http://loinc.org|6768-6
+2021-11-28	unknown	fact	lab_values	ALT high	40.689 U/L	http://loinc.org|1742-6
+2021-11-28	unknown	fact	lab_values	AST normal	35.866 U/L	http://loinc.org|1920-8
+2021-11-28	unknown	fact	lab_values	WBC low	1.5759 10*3/uL	http://loinc.org|6690-2
+2021-11-28	unknown	fact	lab_values	RBC normal	4.3814 10*6/uL	http://loinc.org|789-8
+2021-11-28	unknown	fact	lab_values	Hb low	9.9314 g/dL	http://loinc.org|718-7
+2021-11-28	unknown	fact	lab_values	HCT low	30.615 %	http://loinc.org|4544-3
+2021-11-28	unknown	fact	lab_values	platelet count normal	365.26 10*3/uL	http://loinc.org|777-3
+2021-12-12	unknown	fact	clinical_conditions	BMI high	28.82 kg/m2	http://loinc.org|39156-5
+2022-01-02	unknown	fact	lab_values	creatinine high	3.2677 mg/dL	http://loinc.org|38483-4
+2022-01-02	unknown	fact	lab_values	inadequate GFR	28.783 mL/min	http://loinc.org|33914-3
+2022-01-02	unknown	fact	lab_values	albumin normal	3.8346 g/dL	http://loinc.org|1751-7
+2022-01-02	unknown	fact	lab_values	bilirubin normal	1.1198 mg/dL	http://loinc.org|1975-2
+2022-01-02	unknown	fact	lab_values	alkaline phosphatase value reported	69.15 U/L	http://loinc.org|6768-6
+2022-01-02	unknown	fact	lab_values	ALT normal	29.127 U/L	http://loinc.org|1742-6
+2022-01-02	unknown	fact	lab_values	AST normal	34.987 U/L	http://loinc.org|1920-8
+2022-01-02	unknown	fact	lab_values	WBC low	3.4522 10*3/uL	http://loinc.org|6690-2
+2022-01-02	unknown	fact	lab_values	RBC normal	4.2581 10*6/uL	http://loinc.org|789-8
+2022-01-02	unknown	fact	lab_values	Hb low	9.7545 g/dL	http://loinc.org|718-7
+2022-01-02	unknown	fact	lab_values	HCT low	33.178 %	http://loinc.org|4544-3
+2022-01-02	unknown	fact	lab_values	platelet count normal	285.66 10*3/uL	http://loinc.org|777-3
+2022-02-04	unknown	fact	lab_values	creatinine high	2.5725 mg/dL	http://loinc.org|38483-4
+2022-02-04	unknown	fact	lab_values	inadequate GFR	13.639 mL/min	http://loinc.org|33914-3
+2022-02-04	unknown	fact	lab_values	albumin high	5.1389 g/dL	http://loinc.org|1751-7
+2022-02-04	unknown	fact	lab_values	bilirubin normal	0.2387 mg/dL	http://loinc.org|1975-2
+2022-02-04	unknown	fact	lab_values	alkaline phosphatase value reported	92.387 U/L	http://loinc.org|6768-6
+2022-02-04	unknown	fact	lab_values	ALT high	50.33 U/L	http://loinc.org|1742-6
+2022-02-04	unknown	fact	lab_values	AST value reported	6.7364 U/L	http://loinc.org|1920-8
+2022-02-04	unknown	fact	lab_values	WBC low	1.5991 10*3/uL	http://loinc.org|6690-2
+2022-02-04	unknown	fact	lab_values	RBC normal	4.2896 10*6/uL	http://loinc.org|789-8
+2022-02-04	unknown	fact	lab_values	Hb low	11.837 g/dL	http://loinc.org|718-7
+2022-02-04	unknown	fact	lab_values	HCT low	27.565 %	http://loinc.org|4544-3
+2022-02-04	unknown	fact	lab_values	platelet count normal	345.19 10*3/uL	http://loinc.org|777-3
+2021-08-25	unknown	fact	drugs	leucovorin		http://www.nlm.nih.gov/research/umls/rxnorm|1803932
+2021-08-25	unknown	fact	drugs	oxaliplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736776
+2021-08-25	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2021-08-25	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2021-09-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2021-09-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2021-10-30	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2021-10-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2021-11-28	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2021-11-28	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2022-01-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2022-01-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2022-02-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2022-02-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2021-07-14	unknown	fact	lab_values	RBC value reported	45.744 fL	http://loinc.org|21000-5
+2022-02-04	unknown	fact	therapies	chemotherapy		
+2022-02-04	unknown	fact	therapies	radiation therapy		
+2021-11-28	unknown	fact	therapies	chemotherapy		
+2021-11-28	unknown	fact	therapies	radiation therapy		
+2021-09-26	unknown	fact	therapies	chemotherapy		
+2021-09-26	unknown	fact	therapies	radiation therapy		
+2022-01-02	unknown	fact	therapies	chemotherapy		
+2022-01-02	unknown	fact	therapies	radiation therapy		
+2005-02-06	unknown	fact	clinical_conditions	BMI high		
+2021-08-25	unknown	fact	therapies	chemotherapy		
+2021-08-25	unknown	fact	therapies	radiation therapy		
+2021-10-30	unknown	fact	therapies	chemotherapy		
+2021-10-30	unknown	fact	therapies	radiation therapy		
+2021-07-18	unknown	fact	clinical_conditions	anemia		
+2021-07-14	Colon Cancer	fact	cancers	Colon Cancer		
+2021-08-25	unknown	planned	drugs	leucovorin		
+2021-08-25	unknown	planned	drugs	oxaliplatin		

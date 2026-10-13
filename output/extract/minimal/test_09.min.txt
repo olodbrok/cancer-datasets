@@ -1,0 +1,27 @@
+patient_id:	test_09
+bundle_path:	/home/ec2-user/Data/test/test_09.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:47:59Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	70 <= age < 80		
+unknown	unknown	fact	gender	male		
+unknown	Prostate Cancer	fact	ajcc_m	cM0		
+unknown	Prostate Cancer	fact	ajcc_n	cN0		
+unknown	Prostate Cancer	fact	ajcc_t	cT3b		
+unknown	Prostate Cancer	fact	broad_disease_stage	advanced stage		
+unknown	Prostate Cancer	fact	cancers	Prostate Cancer		
+unknown	Prostate Cancer	fact	gleason	total Gleason score >=8		
+unknown	Prostate Cancer	fact	histologic_invasiveness	invasive		
+unknown	Prostate Cancer	fact	histologies	adenocarcinoma		
+unknown	Prostate Cancer	fact	lab_values	PSA value reported	48.0 ng/mL	
+unknown	Prostate Cancer	fact	lines_of_therapy	untreated		
+unknown	Prostate Cancer	fact	organ_function	adequate renal function		
+unknown	Prostate Cancer	fact	performance	ECOG 0	0.0	
+unknown	Prostate Cancer	fact	solid_tumor_extent	locally advanced		
+unknown	Prostate Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Prostate Cancer	fact	solid_tumor_extent	regional lymph node(s) negative		
+unknown	Prostate Cancer	fact	therapies	biopsy		
+unknown	Prostate Cancer	option	therapies	systemic therapy		
+unknown	Prostate Cancer	option	therapies	radiation therapy		
+unknown	Prostate Cancer	option	therapies	endocrine therapy		

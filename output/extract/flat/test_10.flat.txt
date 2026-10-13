@@ -1,0 +1,43 @@
+age	60 <= age < 70
+biomarkers	CD20 positive
+broad_disease_stage	advanced stage
+cancers	Follicular Lymphoma
+clinical_conditions	anemia
+clinical_conditions	neutropenia
+disease_status	newly diagnosed disease
+disease_status	recurrent disease
+disease_status	relapsed disease
+drugs	bendamustine
+drugs	lenalidomide
+drugs	obinutuzumab
+drugs	rituximab
+gender	female
+hematologic_extent	disseminated or systemic
+histologies	follicular
+lab_values	ANC value reported
+lab_values	creatinine value reported
+lab_values	Hb value reported
+lab_values	LDH high
+lab_values	platelet count value reported
+lab_values	WBC value reported
+lines_of_therapy	first line
+lines_of_therapy	second line
+lines_of_therapy	third line
+organ_function	hypertension
+performance	ECOG 1
+regimens	BR
+regimens	R-CHOP
+residual_disease	residual disease
+stages	Stage IV
+therapeutic_response	complete response
+therapeutic_response	partial response
+therapeutic_response	progressive disease
+therapies	biopsy
+therapies	systemic therapy
+treatment_setting	maintenance
+tumor_bulk	bulky disease
+proposed_therapies:
+proposed_therapies/drug_classes	CAR-T therapy [proposal_id=proposal-83d5b8cfda1f71233b30; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:follicular_lymphoma]
+proposed_therapies/therapies	cellular therapy [proposal_id=proposal-83d5b8cfda1f71233b30; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:follicular_lymphoma]
+proposed_therapies/therapies	cellular therapy [proposal_id=proposal-29dcd427fb5a88e69f8d; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; group_path=alternatives.1; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved']; option=1; alternatives=2; condition_evidence=depending on next response assessment; concept_validation=supported; date=unknown; cancer=cancer:follicular_lymphoma]
+proposed_therapies/drug_classes	bispecific antibodies [proposal_id=proposal-29dcd427fb5a88e69f8d; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; group_path=alternatives.2; option_validation=supported; alternatives_validation=supported; ancestor_relationship_verdicts=['unresolved']; option=2; alternatives=2; condition_evidence=depending on next response assessment; concept_validation=supported; date=unknown; cancer=cancer:follicular_lymphoma]

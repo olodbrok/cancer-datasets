@@ -1,0 +1,26 @@
+age	70 <= age < 80
+broad_disease_stage	early stage
+cancers	Non-Small Cell Lung Cancer
+clinical_conditions	anemia
+disease_status	newly diagnosed disease
+gender	male
+histologic_invasiveness	invasive
+histologies	squamous
+lab_values	Hb low
+lab_values	platelet count normal
+lab_values	WBC normal
+metastatic_sites	no brain metastases
+organ_function	adequate hepatic function
+organ_function	adequate organ function
+organ_function	adequate pulmonary function
+organ_function	adequate renal function
+residual_disease	no residual disease
+solid_tumor_extent	no distant metastases
+stages	Stage IIB
+therapies	complete resection
+therapies	R0 resection
+treatment_intent	curative intent
+treatment_setting	adjuvant setting
+proposed_therapies:
+proposed_therapies/therapies	immunotherapy [proposal_id=proposal-b975c590931144f8b5b6; status=possible option; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:non_small_cell_lung_cancer]
+proposed_therapies/treatment_setting	adjuvant setting [proposal_id=proposal-b975c590931144f8b5b6; status=possible option; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:non_small_cell_lung_cancer]

@@ -1,0 +1,36 @@
+patient_id:	test_06
+bundle_path:	/home/ec2-user/Data/test/test_06.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:42:26Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	50 <= age < 60		
+unknown	unknown	fact	gender	female		
+unknown	Breast Cancer	fact	ajcc_m	cM0		
+unknown	Breast Cancer	fact	biomarkers	ER positive	90 %	
+unknown	Breast Cancer	fact	biomarkers	PR positive	60 %	
+unknown	Breast Cancer	fact	biomarkers	HR positive		
+unknown	Breast Cancer	fact	biomarkers	HER2 status negative	IHC 1+	
+unknown	Breast Cancer	fact	biomarkers	HER2 expression low	IHC 1+	
+unknown	Breast Cancer	fact	biomarkers	No HER2 amplification detected		
+unknown	Breast Cancer	fact	biomarkers	Ki-67 expression high	35 %	
+unknown	Breast Cancer	fact	broad_disease_stage	advanced stage		
+unknown	Breast Cancer	fact	cancers	Breast Cancer		
+unknown	Breast Cancer	fact	disease_status	newly diagnosed disease		
+unknown	Breast Cancer	fact	histologic_invasiveness	invasive		
+unknown	Breast Cancer	fact	histologies	carcinoma		
+unknown	Breast Cancer	fact	lab_values	CA 15-3 value reported	38.0 U/mL	
+unknown	Breast Cancer	fact	lines_of_therapy	untreated		
+unknown	Breast Cancer	fact	organ_function	adequate hematologic function		
+unknown	Breast Cancer	fact	organ_function	adequate bone marrow function		
+unknown	Breast Cancer	fact	organ_function	adequate organ function		
+unknown	Breast Cancer	fact	performance	ECOG 1	1.0	
+unknown	Breast Cancer	fact	solid_tumor_extent	locally advanced		
+unknown	Breast Cancer	fact	solid_tumor_extent	regional lymph node(s) positive		
+unknown	Breast Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Breast Cancer	fact	stages	Stage IIIB		
+unknown	Breast Cancer	fact	therapies	biopsy		
+unknown	Breast Cancer	fact	therapies	biopsy		
+unknown	Breast Cancer	option	therapies	clinical trial		
+unknown	Breast Cancer	planned	therapies	systemic therapy		
+unknown	Breast Cancer	planned	treatment_setting	neoadjuvant setting		

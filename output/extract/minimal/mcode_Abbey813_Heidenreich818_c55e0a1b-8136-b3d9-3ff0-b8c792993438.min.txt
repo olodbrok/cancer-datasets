@@ -1,0 +1,171 @@
+patient_id:	c55e0a1b-8136-b3d9-3ff0-b8c792993438
+bundle_path:	/home/ec2-user/Data/mcode/Abbey813_Heidenreich818_c55e0a1b-8136-b3d9-3ff0-b8c792993438.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T11:55:33Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2017-09-28	unknown	fact	gender	female		
+2017-09-28	unknown	fact	age	age < 50		
+2014-01-09	unknown	fact	clinical_conditions	BMI high		http://snomed.info/sct|162864005
+2014-02-05	unknown	fact	clinical_conditions	anemia		http://snomed.info/sct|271737000
+2014-02-05	unknown	fact	cancers	Colon Cancer		http://snomed.info/sct|363406005
+2014-02-05	unknown	fact	cancers	Colorectal Cancer		http://snomed.info/sct|363406005
+2014-02-05	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|363406005
+2007-10-04	unknown	fact	clinical_conditions	BMI high	29.21 kg/m2	http://loinc.org|39156-5
+2007-10-04	unknown	fact	lab_values	WBC normal	4.7238 10*3/uL	http://loinc.org|6690-2
+2007-10-04	unknown	fact	lab_values	RBC normal	5.258 10*6/uL	http://loinc.org|789-8
+2007-10-04	unknown	fact	lab_values	Hb value reported	15.587 g/dL	http://loinc.org|718-7
+2007-10-04	unknown	fact	lab_values	HCT normal	36.866 %	http://loinc.org|4544-3
+2007-10-04	unknown	fact	lab_values	platelet count normal	222.1 10*3/uL	http://loinc.org|777-3
+2008-03-20	unknown	fact	clinical_conditions	BMI high	29.68 kg/m2	http://loinc.org|39156-5
+2011-03-24	unknown	fact	clinical_conditions	BMI high	28.24 kg/m2	http://loinc.org|39156-5
+2014-01-09	unknown	fact	clinical_conditions	BMI high	30.11 kg/m2	http://loinc.org|39156-5
+2014-01-09	unknown	fact	lab_values	WBC normal	5.1229 10*3/uL	http://loinc.org|6690-2
+2014-01-09	unknown	fact	lab_values	RBC normal	4.8616 10*6/uL	http://loinc.org|789-8
+2014-01-09	unknown	fact	lab_values	Hb normal	13.87 g/dL	http://loinc.org|718-7
+2014-01-09	unknown	fact	lab_values	HCT normal	41.063 %	http://loinc.org|4544-3
+2014-01-09	unknown	fact	lab_values	platelet count normal	248.01 10*3/uL	http://loinc.org|777-3
+2014-02-05	unknown	fact	lab_values	Hb low	11.157 g/dL	http://loinc.org|718-7
+2014-02-05	unknown	fact	lab_values	HCT low	35.221 %	http://loinc.org|20570-8
+2014-02-05	unknown	fact	lab_values	WBC normal	9.3425 10*3/uL	http://loinc.org|6690-2
+2014-02-05	unknown	fact	lab_values	RBC normal	5.0237 10*6/uL	http://loinc.org|789-8
+2014-02-05	unknown	fact	lab_values	platelet count normal	160.48 10*3/uL	http://loinc.org|777-3
+2014-03-05	unknown	fact	lab_values	creatinine high	3.0516 mg/dL	http://loinc.org|38483-4
+2014-03-05	unknown	fact	lab_values	inadequate GFR	24.375 mL/min	http://loinc.org|33914-3
+2014-03-05	unknown	fact	lab_values	albumin normal	3.5914 g/dL	http://loinc.org|1751-7
+2014-03-05	unknown	fact	lab_values	bilirubin normal	1.1086 mg/dL	http://loinc.org|1975-2
+2014-03-05	unknown	fact	lab_values	alkaline phosphatase value reported	128.12 U/L	http://loinc.org|6768-6
+2014-03-05	unknown	fact	lab_values	ALT high	50.203 U/L	http://loinc.org|1742-6
+2014-03-05	unknown	fact	lab_values	AST normal	14.536 U/L	http://loinc.org|1920-8
+2014-03-05	unknown	fact	lab_values	WBC normal	4.3244 10*3/uL	http://loinc.org|6690-2
+2014-03-05	unknown	fact	lab_values	RBC normal	4.6714 10*6/uL	http://loinc.org|789-8
+2014-03-05	unknown	fact	lab_values	Hb normal	13.453 g/dL	http://loinc.org|718-7
+2014-03-05	unknown	fact	lab_values	HCT low	27.019 %	http://loinc.org|4544-3
+2014-03-05	unknown	fact	lab_values	platelet count normal	360.09 10*3/uL	http://loinc.org|777-3
+2014-04-03	unknown	fact	lab_values	creatinine high	3.1986 mg/dL	http://loinc.org|38483-4
+2014-04-03	unknown	fact	lab_values	inadequate GFR	12.014 mL/min	http://loinc.org|33914-3
+2014-04-03	unknown	fact	lab_values	albumin normal	4.0335 g/dL	http://loinc.org|1751-7
+2014-04-03	unknown	fact	lab_values	bilirubin normal	0.27071 mg/dL	http://loinc.org|1975-2
+2014-04-03	unknown	fact	lab_values	alkaline phosphatase value reported	103.77 U/L	http://loinc.org|6768-6
+2014-04-03	unknown	fact	lab_values	ALT high	58.003 U/L	http://loinc.org|1742-6
+2014-04-03	unknown	fact	lab_values	AST normal	27.18 U/L	http://loinc.org|1920-8
+2014-04-03	unknown	fact	lab_values	WBC low	1.2408 10*3/uL	http://loinc.org|6690-2
+2014-04-03	unknown	fact	lab_values	RBC normal	5.3571 10*6/uL	http://loinc.org|789-8
+2014-04-03	unknown	fact	lab_values	Hb severely low	7.4016 g/dL	http://loinc.org|718-7
+2014-04-03	unknown	fact	lab_values	HCT low	31.229 %	http://loinc.org|4544-3
+2014-04-03	unknown	fact	lab_values	platelet count normal	178.11 10*3/uL	http://loinc.org|777-3
+2014-05-03	unknown	fact	lab_values	creatinine high	2.9633 mg/dL	http://loinc.org|38483-4
+2014-05-03	unknown	fact	lab_values	inadequate GFR	4.3064 mL/min	http://loinc.org|33914-3
+2014-05-03	unknown	fact	lab_values	albumin normal	4.8065 g/dL	http://loinc.org|1751-7
+2014-05-03	unknown	fact	lab_values	bilirubin normal	0.70741 mg/dL	http://loinc.org|1975-2
+2014-05-03	unknown	fact	lab_values	alkaline phosphatase value reported	62.742 U/L	http://loinc.org|6768-6
+2014-05-03	unknown	fact	lab_values	ALT high	43.242 U/L	http://loinc.org|1742-6
+2014-05-03	unknown	fact	lab_values	AST normal	33.433 U/L	http://loinc.org|1920-8
+2014-05-03	unknown	fact	lab_values	WBC low	1.0302 10*3/uL	http://loinc.org|6690-2
+2014-05-03	unknown	fact	lab_values	RBC normal	4.1896 10*6/uL	http://loinc.org|789-8
+2014-05-03	unknown	fact	lab_values	Hb severely low	6.8798 g/dL	http://loinc.org|718-7
+2014-05-03	unknown	fact	lab_values	HCT low	31.705 %	http://loinc.org|4544-3
+2014-05-03	unknown	fact	lab_values	platelet count normal	184.82 10*3/uL	http://loinc.org|777-3
+2014-06-03	unknown	fact	lab_values	creatinine high	2.8485 mg/dL	http://loinc.org|38483-4
+2014-06-03	unknown	fact	lab_values	inadequate GFR	25.903 mL/min	http://loinc.org|33914-3
+2014-06-03	unknown	fact	lab_values	albumin normal	4.1154 g/dL	http://loinc.org|1751-7
+2014-06-03	unknown	fact	lab_values	bilirubin normal	0.39975 mg/dL	http://loinc.org|1975-2
+2014-06-03	unknown	fact	lab_values	alkaline phosphatase value reported	95.293 U/L	http://loinc.org|6768-6
+2014-06-03	unknown	fact	lab_values	ALT normal	21.302 U/L	http://loinc.org|1742-6
+2014-06-03	unknown	fact	lab_values	AST normal	21.433 U/L	http://loinc.org|1920-8
+2014-06-03	unknown	fact	lab_values	WBC low	1.8535 10*3/uL	http://loinc.org|6690-2
+2014-06-03	unknown	fact	lab_values	RBC normal	4.0279 10*6/uL	http://loinc.org|789-8
+2014-06-03	unknown	fact	lab_values	Hb low	9.0893 g/dL	http://loinc.org|718-7
+2014-06-03	unknown	fact	lab_values	HCT low	28.78 %	http://loinc.org|4544-3
+2014-06-03	unknown	fact	lab_values	platelet count normal	307.24 10*3/uL	http://loinc.org|777-3
+2014-06-12	unknown	fact	clinical_conditions	BMI high	29.1 kg/m2	http://loinc.org|39156-5
+2014-07-02	unknown	fact	lab_values	creatinine high	3.267 mg/dL	http://loinc.org|38483-4
+2014-07-02	unknown	fact	lab_values	inadequate GFR	7.5575 mL/min	http://loinc.org|33914-3
+2014-07-02	unknown	fact	lab_values	albumin normal	3.6532 g/dL	http://loinc.org|1751-7
+2014-07-02	unknown	fact	lab_values	bilirubin normal	0.22397 mg/dL	http://loinc.org|1975-2
+2014-07-02	unknown	fact	lab_values	alkaline phosphatase value reported	109.49 U/L	http://loinc.org|6768-6
+2014-07-02	unknown	fact	lab_values	ALT normal	22.264 U/L	http://loinc.org|1742-6
+2014-07-02	unknown	fact	lab_values	AST normal	36.23 U/L	http://loinc.org|1920-8
+2014-07-02	unknown	fact	lab_values	WBC low	1.8529 10*3/uL	http://loinc.org|6690-2
+2014-07-02	unknown	fact	lab_values	RBC normal	4.4131 10*6/uL	http://loinc.org|789-8
+2014-07-02	unknown	fact	lab_values	Hb normal	14.2 g/dL	http://loinc.org|718-7
+2014-07-02	unknown	fact	lab_values	HCT low	30.599 %	http://loinc.org|4544-3
+2014-07-02	unknown	fact	lab_values	platelet count normal	322.81 10*3/uL	http://loinc.org|777-3
+2014-08-04	unknown	fact	lab_values	creatinine high	2.6268 mg/dL	http://loinc.org|38483-4
+2014-08-04	unknown	fact	lab_values	inadequate GFR	5.0523 mL/min	http://loinc.org|33914-3
+2014-08-04	unknown	fact	lab_values	albumin normal	4.4884 g/dL	http://loinc.org|1751-7
+2014-08-04	unknown	fact	lab_values	bilirubin normal	1.1668 mg/dL	http://loinc.org|1975-2
+2014-08-04	unknown	fact	lab_values	alkaline phosphatase value reported	115.92 U/L	http://loinc.org|6768-6
+2014-08-04	unknown	fact	lab_values	ALT high	52.908 U/L	http://loinc.org|1742-6
+2014-08-04	unknown	fact	lab_values	AST normal	32.011 U/L	http://loinc.org|1920-8
+2014-08-04	unknown	fact	lab_values	WBC low	0.63659 10*3/uL	http://loinc.org|6690-2
+2014-08-04	unknown	fact	lab_values	RBC normal	4.4289 10*6/uL	http://loinc.org|789-8
+2014-08-04	unknown	fact	lab_values	Hb severely low	7.4491 g/dL	http://loinc.org|718-7
+2014-08-04	unknown	fact	lab_values	HCT low	33.928 %	http://loinc.org|4544-3
+2014-08-04	unknown	fact	lab_values	platelet count normal	365.59 10*3/uL	http://loinc.org|777-3
+2016-01-14	unknown	fact	clinical_conditions	BMI high	27.98 kg/m2	http://loinc.org|39156-5
+2017-09-28	unknown	fact	performance	deceased	Malignant tumor of colon	http://loinc.org|69453-9
+2017-08-24	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-25	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-26	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-27	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-28	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-29	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-30	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-08-31	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-01	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-02	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-03	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-04	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-05	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-06	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-07	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-08	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-09	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-10	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-11	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-12	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-13	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-14	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-15	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-16	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-17	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-18	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-19	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-20	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-21	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2017-09-28	unknown	fact	performance	deceased		http://loinc.org|69409-1
+2014-03-05	unknown	fact	drugs	leucovorin		http://www.nlm.nih.gov/research/umls/rxnorm|1803932
+2014-03-05	unknown	fact	drugs	oxaliplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736776
+2014-03-05	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-03-05	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-04-03	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-04-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-05-03	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-05-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-06-03	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-06-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-07-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-07-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-08-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-08-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-02-05	unknown	fact	lab_values	RBC value reported	42.108 fL	http://loinc.org|21000-5
+2014-05-03	unknown	fact	therapies	chemotherapy		
+2014-05-03	unknown	fact	therapies	radiation therapy		
+2014-03-05	unknown	fact	therapies	chemotherapy		
+2014-03-05	unknown	fact	therapies	radiation therapy		
+2014-04-02	unknown	fact	therapies	chemotherapy		
+2014-04-02	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2017-09-02	unknown	fact	therapies	hospice care		
+2017-08-24	unknown	fact	therapies	hospice care		
+2014-07-02	unknown	fact	therapies	chemotherapy		
+2014-07-02	unknown	fact	therapies	radiation therapy		
+2014-08-04	unknown	fact	therapies	chemotherapy		
+2014-08-04	unknown	fact	therapies	radiation therapy		
+2014-01-09	unknown	fact	clinical_conditions	BMI high		
+unknown	unknown	fact	clinical_conditions	anemia		
+2014-02-05	Colon Cancer	fact	cancers	Colon Cancer		
+2014-03-05	unknown	planned	drugs	leucovorin		
+2014-03-05	unknown	planned	drugs	oxaliplatin		

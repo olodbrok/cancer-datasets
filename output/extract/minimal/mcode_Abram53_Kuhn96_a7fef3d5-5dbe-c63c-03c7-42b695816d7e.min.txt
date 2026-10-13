@@ -1,0 +1,409 @@
+patient_id:	a7fef3d5-5dbe-c63c-03c7-42b695816d7e
+bundle_path:	/home/ec2-user/Data/mcode/Abram53_Kuhn96_a7fef3d5-5dbe-c63c-03c7-42b695816d7e.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T13:22:01Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+1988-11-29	unknown	fact	gender	male		
+1988-11-29	unknown	fact	age	70 <= age < 80		
+1956-10-30	unknown	fact	clinical_conditions	anemia		http://snomed.info/sct|271737000
+1975-09-23	unknown	fact	organ_function	coronary heart disease		http://snomed.info/sct|53741008
+1984-11-07	unknown	fact	histologic_invasiveness	in situ		http://snomed.info/sct|92691004
+1984-11-07	unknown	fact	cancers	Prostate Cancer		http://snomed.info/sct|92691004
+1986-10-28	unknown	fact	cancers	Lung Cancer		http://snomed.info/sct|254632001
+1986-10-28	unknown	fact	cancers	Small Cell Lung Cancer		http://snomed.info/sct|254632001
+1986-10-28	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|254632001
+1986-10-29	unknown	fact	cancers	Lung Cancer		http://snomed.info/sct|67811000119102
+1986-10-29	unknown	fact	cancers	Small Cell Lung Cancer		http://snomed.info/sct|67811000119102
+1986-10-29	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|67811000119102
+1979-10-16	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1979-10-16	unknown	fact	lab_values	creatinine normal	0.84 mg/dL	http://loinc.org|38483-4
+1979-10-16	unknown	fact	lab_values	PSA high	7.0087 ng/mL	http://loinc.org|2857-1
+1980-10-15	unknown	fact	lab_values	PSA normal	3.0278 ng/mL	http://loinc.org|2857-1
+1980-10-21	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1980-10-21	unknown	fact	lab_values	creatinine normal	0.83 mg/dL	http://loinc.org|38483-4
+1980-10-21	unknown	fact	lab_values	WBC normal	6.4277 10*3/uL	http://loinc.org|6690-2
+1980-10-21	unknown	fact	lab_values	RBC normal	5.1135 10*6/uL	http://loinc.org|789-8
+1980-10-21	unknown	fact	lab_values	Hb normal	14.653 g/dL	http://loinc.org|718-7
+1980-10-21	unknown	fact	lab_values	HCT normal	46.916 %	http://loinc.org|4544-3
+1980-10-21	unknown	fact	lab_values	platelet count normal	268.32 10*3/uL	http://loinc.org|777-3
+1981-10-27	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1981-10-27	unknown	fact	lab_values	creatinine normal	0.82 mg/dL	http://loinc.org|38483-4
+1981-10-27	unknown	fact	lab_values	PSA normal	1.5576 ng/mL	http://loinc.org|2857-1
+1982-10-27	unknown	fact	lab_values	PSA normal	1.5545 ng/mL	http://loinc.org|2857-1
+1982-11-02	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1982-11-02	unknown	fact	lab_values	creatinine normal	0.81 mg/dL	http://loinc.org|38483-4
+1983-11-08	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1983-11-08	unknown	fact	lab_values	creatinine normal	0.79 mg/dL	http://loinc.org|38483-4
+1983-11-08	unknown	fact	lab_values	PSA normal	1.4524 ng/mL	http://loinc.org|2857-1
+1984-11-07	unknown	fact	lab_values	PSA high	6.5289 ng/mL	http://loinc.org|2857-1
+1984-11-07	unknown	fact	lab_values	creatinine high	2.7924 mg/dL	http://loinc.org|38483-4
+1984-11-07	unknown	fact	lab_values	inadequate GFR	12.975 mL/min	http://loinc.org|33914-3
+1984-11-07	unknown	fact	lab_values	albumin normal	3.7229 g/dL	http://loinc.org|1751-7
+1984-11-07	unknown	fact	lab_values	bilirubin normal	0.82244 mg/dL	http://loinc.org|1975-2
+1984-11-07	unknown	fact	lab_values	alkaline phosphatase value reported	93.497 U/L	http://loinc.org|6768-6
+1984-11-07	unknown	fact	lab_values	ALT normal	34.416 U/L	http://loinc.org|1742-6
+1984-11-07	unknown	fact	lab_values	AST normal	14.017 U/L	http://loinc.org|1920-8
+1984-11-07	unknown	fact	lab_values	urine protein high	408.6 mg/dL	http://loinc.org|5804-0
+1984-11-07	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+1984-11-07	unknown	fact	lab_values	WBC low	2.2554 10*3/uL	http://loinc.org|6690-2
+1984-11-07	unknown	fact	lab_values	RBC normal	5.3949 10*6/uL	http://loinc.org|789-8
+1984-11-07	unknown	fact	lab_values	Hb low	12.121 g/dL	http://loinc.org|718-7
+1984-11-07	unknown	fact	lab_values	HCT low	35.668 %	http://loinc.org|4544-3
+1984-11-07	unknown	fact	lab_values	platelet count normal	330.69 10*3/uL	http://loinc.org|777-3
+1984-11-13	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1984-11-13	unknown	fact	lab_values	creatinine normal	0.78 mg/dL	http://loinc.org|38483-4
+1985-02-05	unknown	fact	lab_values	creatinine high	2.8236 mg/dL	http://loinc.org|38483-4
+1985-02-05	unknown	fact	lab_values	inadequate GFR	23.36 mL/min	http://loinc.org|33914-3
+1985-02-05	unknown	fact	lab_values	albumin normal	3.6947 g/dL	http://loinc.org|1751-7
+1985-02-05	unknown	fact	lab_values	bilirubin normal	0.52783 mg/dL	http://loinc.org|1975-2
+1985-02-05	unknown	fact	lab_values	alkaline phosphatase value reported	33.209 U/L	http://loinc.org|6768-6
+1985-02-05	unknown	fact	lab_values	ALT high	54.336 U/L	http://loinc.org|1742-6
+1985-02-05	unknown	fact	lab_values	AST normal	36.484 U/L	http://loinc.org|1920-8
+1985-02-05	unknown	fact	lab_values	urine protein high	276.86 mg/dL	http://loinc.org|5804-0
+1985-02-05	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+1985-02-05	unknown	fact	lab_values	WBC low	0.61887 10*3/uL	http://loinc.org|6690-2
+1985-02-05	unknown	fact	lab_values	RBC normal	5.3858 10*6/uL	http://loinc.org|789-8
+1985-02-05	unknown	fact	lab_values	Hb low	12.521 g/dL	http://loinc.org|718-7
+1985-02-05	unknown	fact	lab_values	HCT normal	37.816 %	http://loinc.org|4544-3
+1985-02-05	unknown	fact	lab_values	platelet count normal	314.93 10*3/uL	http://loinc.org|777-3
+1985-11-19	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1985-11-19	unknown	fact	lab_values	creatinine normal	0.8 mg/dL	http://loinc.org|38483-4
+1985-11-19	unknown	fact	lab_values	WBC normal	10.418 10*3/uL	http://loinc.org|6690-2
+1985-11-19	unknown	fact	lab_values	RBC normal	4.7244 10*6/uL	http://loinc.org|789-8
+1985-11-19	unknown	fact	lab_values	Hb normal	15.602 g/dL	http://loinc.org|718-7
+1985-11-19	unknown	fact	lab_values	HCT normal	48.457 %	http://loinc.org|4544-3
+1985-11-19	unknown	fact	lab_values	platelet count normal	224.73 10*3/uL	http://loinc.org|777-3
+1986-11-25	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1986-11-25	unknown	fact	lab_values	creatinine normal	0.76 mg/dL	http://loinc.org|38483-4
+1987-12-01	unknown	fact	clinical_conditions	BMI high	27.14 kg/m2	http://loinc.org|39156-5
+1987-12-01	unknown	fact	lab_values	creatinine normal	0.75 mg/dL	http://loinc.org|38483-4
+1988-11-29	unknown	fact	performance	deceased	Small cell carcinoma of lung (disorder)	http://loinc.org|69453-9
+1979-10-16	unknown	fact	therapies	biopsy		http://snomed.info/sct|65575008
+1984-11-07	unknown	fact	therapies	biopsy		http://snomed.info/sct|65575008
+1984-11-07	unknown	fact	therapies	radical resection		http://snomed.info/sct|90470006
+1984-11-07	unknown	fact	therapies	cancer surgery		http://snomed.info/sct|90470006
+1988-07-26	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-07-27	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-07-28	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-07-29	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-07-30	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-07-31	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-01	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-02	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-03	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-04	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-05	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-06	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-07	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-08-08	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-25	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-26	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-27	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-28	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-29	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-30	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-10-31	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-01	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-02	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-03	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-04	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-05	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-06	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-07	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-08	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-09	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-10	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-11	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-12	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-13	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-14	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-15	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-16	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-17	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-18	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-19	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-20	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-21	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-22	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+1988-11-29	unknown	fact	performance	deceased		http://loinc.org|69409-1
+1984-11-07	unknown	fact	drugs	docetaxel		http://www.nlm.nih.gov/research/umls/rxnorm|1860480
+1984-11-07	unknown	fact	drugs	leuprolide		http://www.nlm.nih.gov/research/umls/rxnorm|752899
+1986-10-29	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1986-10-29	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1986-11-26	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1986-11-26	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1986-12-20	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1986-12-20	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-01-14	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-01-14	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-02-06	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-02-06	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-03-01	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-03-01	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-03-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-03-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-04-22	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-04-22	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-05-18	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-05-18	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-06-15	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-06-15	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-07-09	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-07-09	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-08-01	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-08-01	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-08-26	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-08-26	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-09-22	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-09-22	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-10-20	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-10-20	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-11-11	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-11-11	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1987-12-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1987-12-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-01-03	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-01-03	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-01-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-01-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-02-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-02-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-03-19	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-03-19	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-04-11	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-04-11	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-05-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-05-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-06-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-06-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-06-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-06-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-07-20	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-07-20	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-08-13	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-08-13	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-09-09	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-09-09	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-10-04	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-10-04	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1988-10-31	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+1988-10-31	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+1979-10-16	unknown	fact	therapies	biopsy	Surgical biopsy result normal	http://loinc.org|46288-7
+1984-11-07	unknown	fact	therapies	biopsy	Surgical biopsy result abnormal	http://loinc.org|46288-7
+1986-10-29	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1986-10-29	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1986-11-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1986-11-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1986-12-20	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1986-12-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-01-14	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-01-14	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-02-06	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-02-06	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-03-01	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-03-01	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-03-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-03-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-04-22	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-04-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-05-18	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-05-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-06-15	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-06-15	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-07-09	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-07-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-08-01	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-08-01	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-08-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-08-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-09-22	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-09-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-10-20	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-10-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-11-11	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-11-11	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1987-12-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1987-12-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-01-03	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-01-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-01-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-01-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-02-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-02-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-03-19	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-03-19	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-04-11	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-04-11	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-05-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-05-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-06-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-06-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-06-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-06-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-07-20	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-07-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-08-13	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-08-13	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-09-09	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-09-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-10-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-10-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1988-10-31	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+1988-10-31	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+1969-08-19	unknown	fact	clinical_conditions	anemia		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+1988-06-24	unknown	fact	therapies	chemotherapy		
+1988-06-24	unknown	fact	therapies	radiation therapy		
+1956-10-24	unknown	fact	clinical_conditions	anemia		
+1956-10-30	unknown	fact	clinical_conditions	anemia		
+1988-01-27	unknown	fact	therapies	chemotherapy		
+1988-01-27	unknown	fact	therapies	radiation therapy		
+1988-06-02	unknown	fact	therapies	chemotherapy		
+1988-06-02	unknown	fact	therapies	radiation therapy		
+unknown	Prostate Cancer	fact	cancers	Prostate Cancer		
+unknown	Prostate Cancer	fact	histologic_invasiveness	in situ		
+1984-11-07	Prostate Cancer	fact	therapies	cancer surgery		
+1968-08-13	unknown	fact	clinical_conditions	anemia		
+1988-09-09	unknown	fact	therapies	chemotherapy		
+1988-09-09	unknown	fact	therapies	radiation therapy		
+1988-05-07	unknown	fact	therapies	chemotherapy		
+1988-05-07	unknown	fact	therapies	radiation therapy		
+1988-07-26	unknown	fact	therapies	hospice care		
+unknown	unknown	fact	drugs	etoposide		
+unknown	unknown	fact	drugs	cisplatin		
+1988-03-19	unknown	fact	therapies	chemotherapy		
+1988-03-19	unknown	fact	therapies	radiation therapy		
+1987-10-20	unknown	fact	therapies	chemotherapy		
+1987-10-20	unknown	fact	therapies	radiation therapy		
+1986-10-29	unknown	fact	therapies	chemotherapy		
+1986-10-29	unknown	fact	therapies	radiation therapy		
+1988-02-24	unknown	fact	therapies	chemotherapy		
+1988-02-24	unknown	fact	therapies	radiation therapy		
+1987-11-11	unknown	fact	therapies	chemotherapy		
+1987-11-11	unknown	fact	therapies	radiation therapy		
+1986-10-28	Small Cell Lung Cancer	fact	cancers	Small Cell Lung Cancer		
+1986-10-28	Small Cell Lung Cancer	fact	histologies	small cell		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+1979-10-16	unknown	fact	therapies	biopsy		
+1966-08-02	unknown	fact	clinical_conditions	anemia		
+1987-07-31	unknown	fact	therapies	chemotherapy		
+1987-07-31	unknown	fact	therapies	radiation therapy		
+1964-07-21	unknown	fact	clinical_conditions	anemia		
+1987-01-13	unknown	fact	therapies	chemotherapy		
+1987-01-13	unknown	fact	therapies	radiation therapy		
+1987-09-22	unknown	fact	therapies	chemotherapy		
+1987-09-22	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	hospice care		
+1959-08-04	unknown	fact	clinical_conditions	anemia		
+1987-12-06	unknown	fact	therapies	chemotherapy		
+1987-12-06	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+1988-01-03	unknown	fact	therapies	chemotherapy		
+1988-01-03	unknown	fact	therapies	radiation therapy		
+1987-08-26	unknown	fact	therapies	chemotherapy		
+1987-08-26	unknown	fact	therapies	radiation therapy		
+1963-07-16	unknown	fact	clinical_conditions	anemia		
+1988-10-31	unknown	fact	therapies	chemotherapy		
+1988-10-31	unknown	fact	therapies	radiation therapy		
+1988-10-31	unknown	fact	therapies	hospice care		
+1987-02-05	unknown	fact	therapies	chemotherapy		
+1987-02-05	unknown	fact	therapies	radiation therapy		
+1987-04-22	unknown	fact	therapies	chemotherapy		
+1987-04-22	unknown	fact	therapies	radiation therapy		
+1987-05-18	unknown	fact	therapies	chemotherapy		
+1987-05-18	unknown	fact	therapies	radiation therapy		
+1987-03-27	unknown	fact	therapies	chemotherapy		
+1987-03-27	unknown	fact	therapies	radiation therapy		
+1961-08-08	unknown	fact	clinical_conditions	anemia		
+unknown	Small Cell Lung Cancer	fact	ajcc_m	M0		
+unknown	Small Cell Lung Cancer	fact	ajcc_n	N0		
+unknown	Small Cell Lung Cancer	fact	broad_disease_stage	early stage		
+unknown	Small Cell Lung Cancer	fact	cancers	Small Cell Lung Cancer		
+unknown	Small Cell Lung Cancer	fact	histologic_invasiveness	invasive		
+unknown	Small Cell Lung Cancer	fact	histologies	small cell		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	limited stage		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	regional lymph node(s) negative		
+unknown	Small Cell Lung Cancer	fact	stages	Stage I		
+1988-07-20	unknown	fact	therapies	chemotherapy		
+1988-07-20	unknown	fact	therapies	radiation therapy		
+1967-08-08	unknown	fact	clinical_conditions	anemia		
+1988-08-13	unknown	fact	therapies	chemotherapy		
+1988-08-13	unknown	fact	therapies	radiation therapy		
+1988-10-04	unknown	fact	therapies	chemotherapy		
+1988-10-04	unknown	fact	therapies	radiation therapy		
+1986-12-20	unknown	fact	therapies	chemotherapy		
+1986-12-20	unknown	fact	therapies	radiation therapy		
+1988-11-12	unknown	fact	therapies	hospice care		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+1987-03-01	unknown	fact	therapies	chemotherapy		
+1987-03-01	unknown	fact	therapies	radiation therapy		
+1984-11-07	unknown	fact	therapies	biopsy		
+1986-12-20	unknown	planned	drugs	cisplatin		
+1986-12-20	unknown	planned	drugs	etoposide		
+1987-01-13	unknown	planned	drugs	cisplatin		
+1987-01-13	unknown	planned	drugs	etoposide		
+1987-03-01	unknown	planned	drugs	cisplatin		
+1987-03-01	unknown	planned	drugs	etoposide		
+1987-03-27	unknown	planned	drugs	cisplatin		
+1987-03-27	unknown	planned	drugs	etoposide		
+1987-04-22	unknown	planned	drugs	cisplatin		
+1987-04-22	unknown	planned	drugs	etoposide		
+1987-05-18	unknown	planned	drugs	cisplatin		
+1987-05-18	unknown	planned	drugs	etoposide		
+1987-07-31	unknown	planned	drugs	cisplatin		
+1987-07-31	unknown	planned	drugs	etoposide		
+1987-08-26	unknown	planned	drugs	cisplatin		
+1987-08-26	unknown	planned	drugs	etoposide		
+1987-10-20	unknown	planned	drugs	cisplatin		
+1987-10-20	unknown	planned	drugs	etoposide		
+1987-11-11	unknown	planned	drugs	cisplatin		
+1987-11-11	unknown	planned	drugs	etoposide		
+1987-12-06	unknown	planned	drugs	cisplatin		
+1987-12-06	unknown	planned	drugs	etoposide		
+1988-01-27	unknown	planned	drugs	cisplatin		
+1988-01-27	unknown	planned	drugs	etoposide		
+1988-06-02	unknown	planned	drugs	cisplatin		
+1988-06-02	unknown	planned	drugs	etoposide		
+1988-06-24	unknown	planned	drugs	cisplatin		
+1988-06-24	unknown	planned	drugs	etoposide		
+1988-09-09	unknown	planned	drugs	cisplatin		
+1988-09-09	unknown	planned	drugs	etoposide		
+1988-10-04	unknown	planned	drugs	cisplatin		
+1988-10-04	unknown	planned	drugs	etoposide		
+1988-10-31	unknown	planned	drugs	cisplatin		
+1988-10-31	unknown	planned	drugs	etoposide		
+unknown	Small Cell Lung Cancer	planned	unclassified	The patient was placed on a careplan: - terminal care		
+unknown	Prostate Cancer	planned	drugs	docetaxel		
+unknown	Prostate Cancer	planned	drugs	leuprolide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		

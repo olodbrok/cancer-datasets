@@ -1,0 +1,22 @@
+age	70 <= age < 80
+ajcc_m	cM0
+ajcc_n	cN0
+ajcc_t	cT3b
+broad_disease_stage	advanced stage
+cancers	Prostate Cancer
+gender	male
+gleason	total Gleason score >=8
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	PSA value reported
+lines_of_therapy	untreated
+organ_function	adequate renal function
+performance	ECOG 0
+solid_tumor_extent	locally advanced
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) negative
+therapies	biopsy
+proposed_therapies:
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-77eda957e8e6bcec566c; status=possible option; validation=supported; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]
+proposed_therapies/therapies	radiation therapy [proposal_id=proposal-5033cbdbe2b532a38da2; status=under consideration; validation=supported; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]
+proposed_therapies/therapies	endocrine therapy [proposal_id=proposal-5033cbdbe2b532a38da2; status=under consideration; validation=supported; relationship=combination; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:prostate_cancer]

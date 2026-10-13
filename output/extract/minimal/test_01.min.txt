@@ -1,0 +1,31 @@
+patient_id:	test_01
+bundle_path:	/home/ec2-user/Data/test/test_01.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:29:08Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	70 <= age < 80		
+unknown	unknown	fact	gender	male		
+unknown	Non-Small Cell Lung Cancer	fact	broad_disease_stage	early stage		
+unknown	Non-Small Cell Lung Cancer	fact	cancers	Non-Small Cell Lung Cancer		
+unknown	Non-Small Cell Lung Cancer	fact	clinical_conditions	anemia		
+unknown	Non-Small Cell Lung Cancer	fact	disease_status	newly diagnosed disease		
+unknown	Non-Small Cell Lung Cancer	fact	histologic_invasiveness	invasive		
+unknown	Non-Small Cell Lung Cancer	fact	histologies	squamous		
+unknown	Non-Small Cell Lung Cancer	fact	lab_values	Hb low	~11–13 g/dL	
+unknown	Non-Small Cell Lung Cancer	fact	lab_values	WBC normal		
+unknown	Non-Small Cell Lung Cancer	fact	lab_values	platelet count normal		
+unknown	Non-Small Cell Lung Cancer	fact	metastatic_sites	no brain metastases		
+unknown	Non-Small Cell Lung Cancer	fact	organ_function	adequate organ function		
+unknown	Non-Small Cell Lung Cancer	fact	organ_function	adequate renal function		
+unknown	Non-Small Cell Lung Cancer	fact	organ_function	adequate hepatic function		
+unknown	Non-Small Cell Lung Cancer	fact	organ_function	adequate pulmonary function		
+unknown	Non-Small Cell Lung Cancer	fact	residual_disease	no residual disease		
+unknown	Non-Small Cell Lung Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Non-Small Cell Lung Cancer	fact	stages	Stage IIB		
+unknown	Non-Small Cell Lung Cancer	fact	treatment_intent	curative intent		
+unknown	Non-Small Cell Lung Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Non-Small Cell Lung Cancer	fact	therapies	complete resection		
+unknown	Non-Small Cell Lung Cancer	fact	therapies	R0 resection		
+unknown	Non-Small Cell Lung Cancer	option	therapies	immunotherapy		
+unknown	Non-Small Cell Lung Cancer	option	treatment_setting	adjuvant setting		

@@ -1,0 +1,39 @@
+patient_id:	test_04
+bundle_path:	/home/ec2-user/Data/test/test_04.txt
+input_type:	plain_text
+run_time:	2026-10-13T06:10:42Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	50 <= age < 60		
+unknown	unknown	fact	gender	female		
+unknown	Diffuse Large B-Cell Lymphoma	fact	biomarkers	CD20 positive		
+unknown	Diffuse Large B-Cell Lymphoma	fact	biomarkers	Ki-67 expression high	80 %	
+unknown	Diffuse Large B-Cell Lymphoma	fact	broad_disease_stage	advanced stage		
+unknown	Diffuse Large B-Cell Lymphoma	fact	cancers	Diffuse Large B-Cell Lymphoma		
+unknown	Diffuse Large B-Cell Lymphoma	fact	clinical_conditions	anemia		
+unknown	Diffuse Large B-Cell Lymphoma	fact	clinical_conditions	neutropenia		
+unknown	Diffuse Large B-Cell Lymphoma	fact	disease_status	newly diagnosed disease		
+unknown	Diffuse Large B-Cell Lymphoma	fact	disease_status	relapsed disease		
+unknown	Diffuse Large B-Cell Lymphoma	fact	disease_status	relapsed or refractory disease		
+unknown	Diffuse Large B-Cell Lymphoma	fact	hematologic_extent	disseminated or systemic		
+unknown	Diffuse Large B-Cell Lymphoma	fact	histologies	large cell		
+unknown	Diffuse Large B-Cell Lymphoma	fact	lab_values	LDH high		
+unknown	Diffuse Large B-Cell Lymphoma	fact	lines_of_therapy	first line		
+unknown	Diffuse Large B-Cell Lymphoma	fact	performance	ECOG 1		
+unknown	Diffuse Large B-Cell Lymphoma	fact	residual_disease	no residual disease		
+unknown	Diffuse Large B-Cell Lymphoma	fact	stages	Stage IIIS		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapeutic_response	complete response		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapeutic_response	progressive disease		
+unknown	Diffuse Large B-Cell Lymphoma	fact	regimens	R-CHOP		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapies	biopsy		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapies	biopsy		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapies	chemotherapy		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapies	immunotherapy		
+unknown	Diffuse Large B-Cell Lymphoma	fact	therapies	biopsy		
+unknown	Diffuse Large B-Cell Lymphoma	option	therapies	systemic therapy		
+unknown	Diffuse Large B-Cell Lymphoma	option	treatment_setting	salvage		
+unknown	Diffuse Large B-Cell Lymphoma	option	regimens	R-ICE		
+unknown	Diffuse Large B-Cell Lymphoma	option	regimens	R-DHAP		
+unknown	Diffuse Large B-Cell Lymphoma	option	therapies	autologous hematopoietic stem cell transplantation		
+unknown	Diffuse Large B-Cell Lymphoma	option	drug_classes	CAR-T therapy		
+unknown	Diffuse Large B-Cell Lymphoma	option	therapies	cellular therapy		

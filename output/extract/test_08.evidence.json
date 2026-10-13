@@ -1,0 +1,2033 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_08",
+  "bundle_path": "/home/ec2-user/Data/test/test_08.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:41:44Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "60 <= age < 70",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "68-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 68.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "68-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 68-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "60_age_70"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e048c5e02a09fffb"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 68-year-old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-abe8be5c266ead88"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "M1c",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "At diagnosis, the NSCLC had multiple osseous metastases. Multiple extrathoracic metastases meet the lung-cancer criterion for M1c.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "reason": "At diagnosis, the NSCLC had multiple osseous metastases. Multiple extrathoracic metastases meet the lung-cancer criterion for M1c.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "m1c",
+        "axis": "terms",
+        "state": "m1c"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-95426abd3be4f24c"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "EGFR exon 19 deletion detected",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "egfr_exon_19",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-422ffdc88a468336"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PD-L1 value reported",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PD-L1 expression was 20%",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pd_l1_expression",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-8bb686c20b79b81e"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No ALK rearrangement detected",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "negative testing for ALK and ROS1 rearrangements.",
+      "rationale": "Testing for ALK rearrangements was negative.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "alk_rearrangement",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-96fca73090243fe3"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No ROS1 rearrangement detected",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "negative testing for ALK and ROS1 rearrangements.",
+      "rationale": "Testing for ROS1 rearrangements was negative.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "ros1_rearrangement",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2c2d5002ce923b9d"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "The documented metastatic NSCLC with osseous spread supports an advanced-stage classification at diagnosis.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "reason": "The documented metastatic NSCLC with osseous spread supports an advanced-stage classification at diagnosis.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-58ff2bf92b82e29d"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Non-Small Cell Lung Cancer",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "non_small_cell_lung_cancer",
+        "axis": "terms",
+        "state": "non_small_cell_lung_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5ba550479166b630"
+    },
+    {
+      "polarity": "positive",
+      "group": "clinical_conditions",
+      "term": "anemia",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Laboratory evaluation shows mild anemia",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Laboratory\nevaluation shows mild anemia",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "clinical_conditions",
+        "node": "anemia",
+        "axis": "severity",
+        "state": "present"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e0354a7be3b85ee6"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "The 2024 assessment is explicitly at diagnosis, supporting newly diagnosed disease in that historical scope, not as a current status.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "reason": "The 2024 assessment is explicitly at diagnosis, supporting newly diagnosed disease in that historical scope, not as a current status.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-00ada06e1ae7b580"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "The documented metastatic NSCLC is invasive; carcinoma in situ cannot produce distant metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "reason": "The documented metastatic NSCLC is invasive; carcinoma in situ cannot produce distant metastases.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-1be2b46558f0e34c"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-40533af831f56d5a"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "LDH high",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "elevated LDH",
+      "rationale": "LDH is explicitly described as elevated.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "elevated LDH",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "ldh",
+        "axis": "results",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-583c1f1455366a11"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "first line",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on first-line osimertinib",
+      "rationale": "Osimertinib is explicitly described as first-line treatment that was started.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was started on first-line osimertinib",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "first_line",
+        "axis": "terms",
+        "state": "first_line"
+      },
+      "line_number": 1,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9e8872b67a19a4b2"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "bone metastases",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "Osseous metastases are bone metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "bone_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b51e698f96ad081b"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "lung metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "progression of pulmonary metastases",
+      "rationale": "Pulmonary metastases are explicitly documented.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "progression of pulmonary metastases",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "lung_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-6112a4957a296e76"
+    },
+    {
+      "polarity": "positive",
+      "group": "metastatic_sites",
+      "term": "bone metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Known bone metastases appear stable.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Known bone metastases appear stable.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "metastatic_sites",
+        "node": "bone_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-3e045e410d3debca"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "His ECOG performance status is currently 1.",
+      "rationale": "The current ECOG performance status is explicitly 1.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "His ECOG performance status is currently 1.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-75ee7d1800640f97"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c64b8cd8ad0dd59b"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Known bone metastases appear stable.",
+      "rationale": "Known bone metastases from the documented lung primary constitute distant metastases, even though those lesions appear stable.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "Known bone metastases appear stable.",
+        "reason": "Known bone metastases from the documented lung primary constitute distant metastases, even though those lesions appear stable.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Known bone metastases appear stable.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2de0f43b6d00ff6a"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IVB",
+      "date": "2024",
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+      "rationale": "The multiple osseous metastases at NSCLC diagnosis meet M1c criteria, which correspond to Stage IVB.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "reason": "The multiple osseous metastases at NSCLC diagnosis meet M1c criteria, which correspond to Stage IVB.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_ivb",
+        "axis": "terms",
+        "state": "stage_ivb"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-ba2e4254aa931384"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "partial response",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on first-line osimertinib, achieving a good partial response that lasted approximately 10 months.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was started on first-line osimertinib, achieving a good partial response\nthat lasted approximately 10 months.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "partial_response"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a2b67a73ba696fd8"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapeutic_response",
+      "term": "progressive disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Recent CT imaging demonstrates progression of the primary right upper lobe tumor, now measuring 4.5 cm, progression of pulmonary metastases, and the appearance of new liver lesions up to 2.0 cm.",
+      "rationale": "Recent CT explicitly documents progression of the tumor and pulmonary metastases after first-line treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Recent CT imaging demonstrates\nprogression of the primary right upper lobe tumor, now measuring 4.5 cm,\nprogression of pulmonary metastases, and the appearance of new liver\nlesions up to 2.0 cm.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapeutic_response",
+        "node": "therapeutic_response",
+        "axis": "results",
+        "state": "progressive_disease"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5f56ca48dad96135"
+    },
+    {
+      "polarity": "positive",
+      "group": "drugs",
+      "term": "osimertinib",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "He was started on first-line osimertinib",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "started",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "He was started on first-line osimertinib",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drugs",
+        "node": "osimertinib",
+        "axis": "terms",
+        "state": "osimertinib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b68c62fd1365b861"
+    },
+    {
+      "polarity": "positive",
+      "group": "drug_classes",
+      "term": "EGFR inhibitors",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Given disease progression on first-line EGFR-targeted therapy",
+      "rationale": "The documented first-line EGFR-targeted treatment was osimertinib, an EGFR inhibitor.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "evidence": "Given disease progression on first-line EGFR-targeted therapy",
+        "reason": "The documented first-line EGFR-targeted treatment was osimertinib, an EGFR inhibitor.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Given disease progression on first-line EGFR-targeted therapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "drug_classes",
+        "node": "egfr_inhibitors",
+        "axis": "terms",
+        "state": "egfr_inhibitors"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-e1524fc19d6362b3"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "targeted therapy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Given disease progression on first-line EGFR-targeted therapy",
+      "rationale": "The received first-line treatment is explicitly called EGFR-targeted therapy.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": "received",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Given disease progression on first-line EGFR-targeted therapy",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "targeted_therapy",
+        "axis": "terms",
+        "state": "targeted_therapy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-1e49a5075a361c64"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PD-L1 value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PD-L1\nexpression was 20%",
+      "rationale": "Literal reported measurement; no assay axis or reference classification inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 20.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "%",
+          "display": "%"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null,
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pd_l1_expression",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {},
+      "fact_id": "fact-1e3d3d279216e2af"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:non_small_cell_lung_cancer",
+      "cancer_term": "Non-Small Cell Lung Cancer",
+      "episode_key": null,
+      "diagnosis_date": "2024",
+      "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "under consideration",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "clinical trial"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "consideration of clinical trial participation",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_08",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Consideration of clinical trial participation” explicitly describes a future option under consideration, not participation already received."
+        },
+        "modality_labels:clinical trial": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/clinical trial": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Clinical trial participation is presented as one standalone option, without a combination or sequence in this proposal."
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "clinical trial"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "clinical trial",
+            "evidence": "consideration of\nclinical trial participation",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "clinical_trial",
+              "axis": "terms",
+              "state": "clinical_trial"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "clinical trial",
+          "evidence": "consideration of\nclinical trial participation",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "clinical_trial",
+            "axis": "terms",
+            "state": "clinical_trial"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "under consideration",
+      "line_of_therapy": "second line",
+      "line_number": 2,
+      "modality_labels": [
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "we are referring the patient for further evaluation, including repeat molecular profiling to assess for resistance mechanisms and determination of appropriate second-line systemic therapy",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_08",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Referral to determine appropriate second-line systemic therapy leaves that future treatment under consideration; it does not establish receipt."
+        },
+        "line_of_therapy:second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Second-line systemic therapy” explicitly specifies the line of the prospective therapy."
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:lines_of_therapy/second line": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted prospective systemic therapy is explicitly described as “second-line.”"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The proposal names one unspecified systemic therapy option; “second-line” modifies its line, not a separate therapy or combination."
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "second line",
+        "modality_labels": [
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "determination\nof appropriate second-line systemic therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "lines_of_therapy",
+            "term": "second line",
+            "evidence": "determination\nof appropriate second-line systemic therapy",
+            "concept_ref": {
+              "category": "lines_of_therapy",
+              "node": "second_line",
+              "axis": "terms",
+              "state": "second_line"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "determination\nof appropriate second-line systemic therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "lines_of_therapy",
+          "term": "second line",
+          "evidence": "determination\nof appropriate second-line systemic therapy",
+          "concept_ref": {
+            "category": "lines_of_therapy",
+            "node": "second_line",
+            "axis": "terms",
+            "state": "second_line"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "The quoted prospective systemic therapy is explicitly described as “second-line.”",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [
+    {
+      "course_id": "course-ac6959f861a329d5",
+      "status": "started",
+      "episode_ref": null,
+      "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+      "effective": {
+        "start": null,
+        "end": null,
+        "precision": "unknown",
+        "start_date": null,
+        "end_date": null
+      },
+      "concepts": [
+        {
+          "kind": "tx_ref",
+          "category": "drugs",
+          "term": "osimertinib"
+        },
+        {
+          "kind": "tx_ref",
+          "category": "therapies",
+          "term": "cancer-directed therapy"
+        }
+      ],
+      "delivery_pattern": null,
+      "delivery_ids": [],
+      "outcomes": [],
+      "evidence": "He was started on first-line osimertinib, achieving a good partial response that lasted approximately 10 months.",
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "source_fact_ids": [],
+      "components": []
+    }
+  ],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_08",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "68-year-old": [
+          10
+        ],
+        "This is a 68-year-old": [
+          0
+        ],
+        "male": [
+          22
+        ],
+        "This is a 68-year-old male": [
+          0
+        ],
+        "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.": [
+          71
+        ],
+        "Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion.": [
+          285
+        ],
+        "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases. His ECOG performance status is currently 1. Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion.": [
+          71
+        ],
+        "PD-L1 expression was 20%": [
+          355
+        ],
+        "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases. His ECOG performance status is currently 1. Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1 expression was 20%, with negative testing for ALK and ROS1 rearrangements.": [
+          71
+        ],
+        "negative testing for ALK and ROS1 rearrangements.": [
+          386
+        ],
+        "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.": [
+          71
+        ],
+        "Laboratory evaluation shows mild anemia": [
+          851
+        ],
+        "metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.": [
+          86
+        ],
+        "elevated LDH": [
+          892
+        ],
+        "He was started on first-line osimertinib": [
+          436
+        ],
+        "progression of pulmonary metastases": [
+          723
+        ],
+        "Known bone metastases appear stable.": [
+          814
+        ],
+        "His ECOG performance status is currently 1.": [
+          241
+        ],
+        "He was started on first-line osimertinib, achieving a good partial response that lasted approximately 10 months.": [
+          436
+        ],
+        "Recent CT imaging demonstrates progression of the primary right upper lobe tumor, now measuring 4.5 cm, progression of pulmonary metastases, and the appearance of new liver lesions up to 2.0 cm.": [
+          619
+        ],
+        "Given disease progression on first-line EGFR-targeted therapy": [
+          1020
+        ],
+        "consideration of clinical trial participation": [
+          1283
+        ],
+        "we are referring the patient for further evaluation, including repeat molecular profiling to assess for resistance mechanisms and determination of appropriate second-line systemic therapy": [
+          1083
+        ],
+        "determination of appropriate second-line systemic therapy": [
+          1213
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "60 <= age < 70",
+        "evidence": "68-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 68.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "This is a 68-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "This is a 68-year-old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "M1c",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "EGFR exon 19 deletion detected",
+        "evidence": "Molecular testing at diagnosis demonstrated an EGFR exon 19 deletion.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "PD-L1 value reported",
+        "evidence": "PD-L1 expression was 20%",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No ALK rearrangement detected",
+        "evidence": "negative testing for ALK and ROS1 rearrangements.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements."
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No ROS1 rearrangement detected",
+        "evidence": "negative testing for ALK and ROS1 rearrangements.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases. His ECOG performance status is currently 1.\nMolecular testing at diagnosis demonstrated an EGFR exon 19 deletion. PD-L1\nexpression was 20%, with negative testing for ALK and ROS1 rearrangements."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Non-Small Cell Lung Cancer",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024."
+      },
+      {
+        "polarity": "positive",
+        "group": "clinical_conditions",
+        "term": "anemia",
+        "evidence": "Laboratory evaluation shows mild anemia",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Laboratory\nevaluation shows mild anemia"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024."
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "LDH high",
+        "evidence": "elevated LDH",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "elevated LDH"
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "first line",
+        "evidence": "He was started on first-line osimertinib",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "He was started on first-line osimertinib",
+        "line_number": 1
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "bone metastases",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "lung metastases",
+        "evidence": "progression of pulmonary metastases",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "progression of pulmonary metastases"
+      },
+      {
+        "polarity": "positive",
+        "group": "metastatic_sites",
+        "term": "bone metastases",
+        "evidence": "Known bone metastases appear stable.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Known bone metastases appear stable."
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "His ECOG performance status is currently 1.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "His ECOG performance status is currently 1."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "distant metastases",
+        "evidence": "Known bone metastases appear stable.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Known bone metastases appear stable."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IVB",
+        "evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma subtype) in 2024. At diagnosis, disease involved bilateral pulmonary lesions and osseous metastases.",
+        "date": "2024",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "diagnosed with metastatic non-small cell lung cancer (adenocarcinoma\nsubtype) in 2024. At diagnosis, disease involved bilateral pulmonary\nlesions and osseous metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "partial response",
+        "evidence": "He was started on first-line osimertinib, achieving a good partial response that lasted approximately 10 months.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "He was started on first-line osimertinib, achieving a good partial response\nthat lasted approximately 10 months."
+      },
+      {
+        "polarity": "positive",
+        "group": "therapeutic_response",
+        "term": "progressive disease",
+        "evidence": "Recent CT imaging demonstrates progression of the primary right upper lobe tumor, now measuring 4.5 cm, progression of pulmonary metastases, and the appearance of new liver lesions up to 2.0 cm.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Recent CT imaging demonstrates\nprogression of the primary right upper lobe tumor, now measuring 4.5 cm,\nprogression of pulmonary metastases, and the appearance of new liver\nlesions up to 2.0 cm."
+      },
+      {
+        "polarity": "positive",
+        "group": "drugs",
+        "term": "osimertinib",
+        "evidence": "He was started on first-line osimertinib",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "He was started on first-line osimertinib"
+      },
+      {
+        "polarity": "positive",
+        "group": "drug_classes",
+        "term": "EGFR inhibitors",
+        "evidence": "Given disease progression on first-line EGFR-targeted therapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Given disease progression on first-line EGFR-targeted therapy"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "targeted therapy",
+        "evidence": "Given disease progression on first-line EGFR-targeted therapy",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:non_small_cell_lung_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_08:PlainTextDocument.text",
+        "date_evidence": "Given disease progression on first-line EGFR-targeted therapy"
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_08",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "cancer",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "cancer",
+                "start": 117,
+                "end": 123,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "tumor",
+                "start": 694,
+                "end": 699,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 86,
+                "end": 96,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "targeted therapy",
+                "start": 1065,
+                "end": 1081,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "common_cancer_drugs",
+                "pattern": "(?<!\\w)(?:elranatamab[-\\s]+bcmm|penpulimab[-\\s]+kcqx|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|datopotamab\\s+deruxtecan|trastuzumab\\s+deruxtecan|fludarabine\\s+phosphate|inotuzumab\\s+ozogamicin|telisotuzumab\\s+vedotin|trastuzumab\\s+emtansine|abiraterone\\s+acetate|brentuximab\\s+vedotin|etoposide\\s+phosphate|polatuzumab\\s+vedotin|tisotumab\\s+vedotin|pegaspargase|penpulimab|lonsurf|teysuno|trifluridine[\\s/_-]+(?:and[\\s/_-]+)?tipiracil|tegafur[\\s/,_-]+gimeracil[\\s/,_-]+(?:and[\\s/,_-]+)?oteracil|floxuridine|levoleucovorin|abemaciclib|abiraterone|acalabrutinib|adagrasib|ado[-\\s]+trastuzumab\\s+emtansine|afatinib|alectinib|alemtuzumab|amivantamab|anastrozole|apalutamide|asciminib|atezolizumab|avelumab|avutometinib|axitinib|azacitidine|bacillus\\s+calmette[-\\s]+guerin|belinostat|belzutifan|bendamustine|bevacizumab|bicalutamide|binimetinib|bleomycin|blinatumomab|bortezomib|bosutinib|brentuximab|brigatinib|cabazitaxel|cabozantinib|capecitabine|capivasertib|capmatinib|carboplatin|carfilzomib|carmustine|cemiplimab|ceritinib|cetuximab|chlorambucil|cisplatin|cobimetinib|cosibelimab|crizotinib|cyclophosphamide|cytarabine|dabrafenib|dacarbazine|dacomitinib|dactinomycin|darolutamide|dasatinib|datopotamab|decitabine|degarelix|docetaxel|dostarlimab|doxorubicin|durvalumab|elacestrant|elranatamab|elranatamab[-\\s]+bcmm|enasidenib|encorafenib|enfortumab\\s+vedotin|ensartinib|entrectinib|enzalutamide|epcoritamab|erdafitinib|eribulin|erlotinib(?:\\s+hydrochloride)?|etoposide|everolimus|exemestane|fam[-\\s]+trastuzumab\\s+deruxtecan[-\\s]+nxki|fluorouracil|fruquintinib|fulvestrant|futibatinib|gefitinib|gemcitabine|gilteritinib|glofitamab|goserelin|histrelin|ibrutinib|idarubicin|idelalisib|ifosfamide|imatinib|inavolisib|inotuzumab|ipilimumab|irinotecan|isatuximab|ivosidenib|ixabepilone|ixazomib|lanreotide|lapatinib|larotrectinib|lenalidomide|lenvatinib|letrozole|leucovorin|leuprolide|lomustine|loncastuximab\\s+tesirine|lorlatinib|lurbinectedin|margetuximab|melphalan|mercaptopurine|methotrexate|mirvetuximab[\\s_]+soravtansine|mitomycin|mitotane|mosunetuzumab|nadofaragene\\s+firadenovec|necitumumab|neratinib|nilotinib|nilutamide|niraparib|nirogacestat|nivolumab|obinutuzumab|olaparib|olutasidenib|osimertinib|oxaliplatin|paclitaxel|palbociclib|panitumumab|pazopanib|pembrolizumab|pemetrexed|pemigatinib|penpulimab[-\\s]+kcqx|pertuzumab|pexidartinib|pirtobrutinib|polatuzumab|pomalidomide|ponatinib|pralsetinib|quizartinib|ramucirumab|regorafenib|relugolix|repotrectinib|retifanlimab|revumenib|ribociclib|ripretinib|rituximab|romidepsin|rucaparib|sacituzumab\\s+govitecan|selinexor|selpercatinib|sonidegib|sorafenib|sotorasib|sunitinib|talazoparib|taletrectinib|talimogene\\s+laherparepvec|talquetamab|tamoxifen|tarlatamab|tazemetostat|tebentafusp|teclistamab|telisotuzumab|temozolomide|temsirolimus|tepotinib|thalidomide|thioguanine|thiotepa|tislelizumab|tisotumab|tivozanib|topotecan|toremifene|toripalimab|trametinib|trastuzumab|tremelimumab|triptorelin|tucatinib|valrubicin|vandetanib|vemurafenib|venetoclax|vinblastine|vincristine|vinorelbine|vismodegib|vorasidenib|zanidatamab|zanubrutinib|zenocutuzumab|ziv[-\\s]+aflibercept|zolbetuximab|zongertinib|asparaginase\\s+erwinia\\s+chrysanthemi\\s+\\(recombinant\\)|asparaginase\\s+erwinia\\s+chrysanthemi|nogapendekin\\s+alfa\\s+inbakicept|brexucabtagene\\s+autoleucel|ciltacabtagene\\s+autoleucel|omacetaxine\\s+mepesuccinate|vusolimogene\\s+oderparepvec|afamitresgene\\s+autoleucel|lisocabtagene\\s+maraleucel|axicabtagene\\s+ciloleucel|obecabtagene\\s+autoleucel|ropeginterferon\\s+alfa[-\\s]+2b|idecabtagene\\s+vicleucel|gemtuzumab\\s+ozogamicin|belantamab\\s+mafodotin|denileukin\\s+diftitox|etoposide\\s+phosphate|calaspargase\\s+pegol|interferon\\s+alfa[-\\s]+2b|megestrol\\s+acetate|arsenic\\s+trioxide|tisagenlecleucel|mechlorethamine|dexamethasone|mogamulizumab|sunvozertinib|vepdegestrant|camizestrant|daraxonrasib|daunorubicin|dordaviprone|eflornithine|imlunestrant|mitoxantrone|pralatrexate|procarbazine|relacorilant|sevabertinib|sipuleucel[-\\s]+T|trifluridine|zidesamtinib|zidesmatinib|aldesleukin|avapritinib|clofarabine|daratumumab|dinutuximab|gedatolisib|hydroxyurea|midostaurin|momelotinib|ruxolitinib|sonrotoclax|tafasitamab|tagraxofusp|tovorafenib|trabectedin|bexarotene|cladribine|elotuzumab|epirubicin|fedratinib|imetelstat|lazertinib|lifileucel|nelarabine|ofatumumab|pacritinib|prednisone|raloxifene|treosulfan|vorinostat|ziftomenib|alpelisib|duvelisib|erlotinib|flutamide|glasdegib|imiquimod|naxitamab|sirolimus|busulfan|fludarabine|tegafur|other\\s+cancer\\s+drug)(?!\\w)",
+                "evidence": "osimertinib",
+                "start": 465,
+                "end": 476,
+                "reason": "cancer drug trigger from tx/drugs.txt"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "EGFR",
+                "start": 332,
+                "end": 336,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 245,
+                "end": 249,
+                "reason": "performance status trigger"
+              },
+              {
+                "id": "organ_function_labs",
+                "pattern": "\\b(creatinine|bilirubin|AST|ALT|alkaline phosphatase|albumin|hemoglobin|platelets?|neutrophils?|neutropenia|ANC|eGFR|glomerular filtration|urine protein|proteinuria|albuminuria|body mass index|BMI)\\b",
+                "evidence": "EGFR",
+                "start": 332,
+                "end": 336,
+                "reason": "lab or organ function trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 73866,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 18218,
+      "output_tokens": 15364,
+      "total_tokens": 89230,
+      "time_elapsed": 142.8,
+      "estimated_cost_usd": 0.2101176,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 143.4
+    }
+  },
+  "allow_interpretation": true
+}

@@ -1,0 +1,2028 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_06",
+  "bundle_path": "/home/ec2-user/Data/test/test_06.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:36:53Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "50 <= age < 60",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "52-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 52.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "52-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 52-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "50_age_60"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-12ce6fd2b70bfe83"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "female",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "female",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 52-year-old female",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "female",
+        "axis": "terms",
+        "state": "female"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-99b0429470af07a9"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.",
+      "rationale": "Staging CT and bone scan found no evidence of distant metastases, supporting clinical M0 for the breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.",
+        "reason": "Staging CT and bone scan found no evidence of distant metastases, supporting clinical M0 for the breast cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Staging\nwith CT of the chest, abdomen, and pelvis as well as bone scan showed no\nevidence of distant metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm0",
+        "axis": "terms",
+        "state": "cm0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-9f2f9291c6fafa52"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_t",
+      "term": "cT4",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "skin changes including erythema and peau d’orange, as well as palpable axillary lymphadenopathy. Her performance status is ECOG 1. Imaging with mammography and ultrasound demonstrated a 5.8 cm irregular mass in the left breast and suspicious axillary lymph nodes. Breast MRI confirmed locally advanced disease with skin infiltration",
+      "rationale": "The breast cancer has peau d’orange and MRI-confirmed skin infiltration, supporting clinical T4 skin involvement; clear chest-wall invasion is not required.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "skin changes including erythema and peau d’orange, as well as palpable axillary lymphadenopathy. Her performance status is ECOG 1. Imaging with mammography and ultrasound demonstrated a 5.8 cm irregular mass in the left breast and suspicious axillary lymph nodes. Breast MRI confirmed locally advanced disease with skin infiltration",
+        "reason": "The breast cancer has peau d’orange and MRI-confirmed skin infiltration, supporting clinical T4 skin involvement; clear chest-wall invasion is not required.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "skin\nchanges including erythema and peau d’orange, as well as palpable axillary\nlymphadenopathy. Her performance status is ECOG 1. Imaging with mammography\nand ultrasound demonstrated a 5.8 cm irregular mass in the left breast and\nsuspicious axillary lymph nodes. Breast MRI confirmed locally advanced\ndisease with skin infiltration",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_t",
+        "node": "ct4",
+        "axis": "terms",
+        "state": "ct4"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-fe258854119c535c"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "ER positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "strong estrogen receptor positivity (90%)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "strong estrogen receptor positivity (90%)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "er",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-1ee0506deec89cf6"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "PR positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "progesterone receptor positivity (60%)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "progesterone receptor positivity (60%)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "pr",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-2f782fc087060370"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HR positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "hormone receptor–positive, HER2-negative stage IIIB breast cancer",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "hormone receptor–positive, HER2-negative stage IIIB\nbreast cancer",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "hr",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-5b3318808e57e79d"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 status negative",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_status",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9b3a2609bf1a3587"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "HER2 expression low",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+      "rationale": "HER2 IHC 1+ in this breast cancer falls in the HER2-low expression category. The negative FISH result is a separate assay finding.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+        "reason": "HER2 IHC 1+ in this breast cancer falls in the HER2-low expression category. The negative FISH result is a separate assay finding.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "her2_expression",
+        "axis": "value_bucket",
+        "state": "low"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-a531fcaa0dc3f928"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "No HER2 amplification detected",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+      "rationale": "The documented HER2 FISH-negative result supports that HER2 amplification was not detected; IHC 1+ alone would not establish amplification status.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+        "reason": "The documented HER2 FISH-negative result supports that HER2 amplification was not detected; IHC 1+ alone would not establish amplification status.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "erbb2_amplification",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-b715439a11315d84"
+    },
+    {
+      "polarity": "positive",
+      "group": "biomarkers",
+      "term": "Ki-67 expression high",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The proliferation index (Ki-67) is approximately 35%.",
+      "rationale": "The documented Ki-67 proliferation index of approximately 35% supports high Ki-67 expression in this breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "The proliferation index (Ki-67) is approximately 35%.",
+        "reason": "The documented Ki-67 proliferation index of approximately 35% supports high Ki-67 expression in this breast cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The proliferation index (Ki-67) is approximately 35%.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "biomarkers",
+        "node": "ki_67",
+        "axis": "value_bucket",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-513e0cc378891a68"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "locally advanced, hormone receptor–positive, HER2-negative stage IIIB breast cancer",
+      "rationale": "The documented breast cancer is described as locally advanced and stage IIIB, supporting the separate broad classification of advanced stage.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "locally advanced, hormone receptor–positive, HER2-negative stage IIIB breast cancer",
+        "reason": "The documented breast cancer is described as locally advanced and stage IIIB, supporting the separate broad classification of advanced stage.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "locally advanced, hormone receptor–positive, HER2-negative stage IIIB\nbreast cancer",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-d0ed485cfac5c774"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Breast Cancer",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "newly diagnosed invasive ductal carcinoma of the left breast",
+      "rationale": "Invasive ductal carcinoma of the left breast establishes breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "newly diagnosed invasive ductal\ncarcinoma of the left breast",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "breast_cancer",
+        "axis": "terms",
+        "state": "breast_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-08e81f717916b238"
+    },
+    {
+      "polarity": "positive",
+      "group": "disease_status",
+      "term": "newly diagnosed disease",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "newly diagnosed invasive ductal carcinoma of the left breast",
+      "rationale": "The breast carcinoma is explicitly described as newly diagnosed.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "newly diagnosed invasive ductal\ncarcinoma of the left breast",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "disease_status",
+        "node": "disease_status",
+        "axis": "results",
+        "state": "newly_diagnosed"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-426c74f25c7ba7fa"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-12877eb6a32466f8"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "carcinoma",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "carcinoma",
+        "axis": "terms",
+        "state": "carcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-c291b489ef71385a"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "CA 15-3 value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "CA 15-3 is mildly elevated at 38 U/mL.",
+      "rationale": "Reported source measurement; no reference interpretation inferred.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 38.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "U/mL",
+          "display": "U/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "CA 15-3 is mildly elevated at 38 U/mL.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "ca_15_3",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-7e15398702388b0b"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "untreated",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient has not yet received any oncologic treatment.",
+      "rationale": "The patient has not yet received any oncologic treatment, establishing untreated status.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The\npatient has not yet received any oncologic treatment.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "untreated",
+        "axis": "terms",
+        "state": "untreated"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-cc742812c57635b8"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate bone marrow function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "normal blood counts and organ function",
+      "rationale": "Intrinsic meaning of reviewed composition source:normal blood counts.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "normal blood counts and organ function",
+        "reason": "Intrinsic meaning of reviewed composition source:normal blood counts.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "normal blood\ncounts and organ function",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "bone_marrow_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-be2b9907d73b9115"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate hematologic function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "normal blood counts and organ function",
+      "rationale": "Intrinsic meaning of reviewed composition source:normal blood counts.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "normal blood counts and organ function",
+        "reason": "Intrinsic meaning of reviewed composition source:normal blood counts.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "normal blood\ncounts and organ function",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "hematologic_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-a60f48e10e048734"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate organ function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "normal blood counts and organ function",
+      "rationale": "Normal organ function is explicitly documented and supports adequate organ function.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "normal blood\ncounts and organ function",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "organ_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-f10bc0f7ca9c7b84"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 1",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Her performance status is ECOG 1.",
+      "rationale": "Explicit score.ecog == 1 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 1.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Her performance status is ECOG 1.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "1"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-51ca18c8ff91ec8f"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "locally advanced",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Breast MRI confirmed locally advanced disease with skin infiltration",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Breast MRI confirmed locally advanced\ndisease with skin infiltration",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "locally_advanced",
+        "axis": "terms",
+        "state": "locally_advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-13071f365e1fe006"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regional lymph node(s) positive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+      "rationale": "Biopsy confirms metastatic involvement of an axillary lymph node, which is a regional lymph node for this breast cancer.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+        "reason": "Biopsy confirms metastatic involvement of an axillary lymph node, which is a regional lymph node for this breast cancer.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regional_lymph_nodes",
+        "axis": "results",
+        "state": "positive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-8fb2053779715def"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.",
+      "rationale": "The staging assessment explicitly reports no evidence of distant metastases.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Staging\nwith CT of the chest, abdomen, and pelvis as well as bone scan showed no\nevidence of distant metastases.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-749b18add3396f5d"
+    },
+    {
+      "polarity": "positive",
+      "group": "stages",
+      "term": "Stage IIIB",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "stage IIIB breast cancer",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "stage IIIB\nbreast cancer",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "stages",
+        "node": "stage_iiib",
+        "axis": "terms",
+        "state": "stage_iiib"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-4db681d6fbe389c3"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9ba4922863773699"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:breast_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-b4fd5c43aec363fe"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:breast_cancer",
+      "cancer_term": "Breast Cancer",
+      "episode_key": null,
+      "diagnosis_date": null,
+      "evidence": "newly diagnosed invasive ductal carcinoma of the left breast",
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "under consideration",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "clinical trial"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "consideration of genetic testing and clinical trial participation.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_06",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Clinical trial participation is explicitly under consideration for this patient; it is not documented as received."
+        },
+        "modality_labels:clinical trial": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/clinical trial": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Clinical trial participation is a single considered option; genetic testing is not a concurrent therapy."
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "clinical trial"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "clinical trial",
+            "evidence": "consideration of genetic testing\nand clinical trial participation",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "clinical_trial",
+              "axis": "terms",
+              "state": "clinical_trial"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "clinical trial",
+          "evidence": "consideration of genetic testing\nand clinical trial participation",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "clinical_trial",
+            "axis": "terms",
+            "state": "clinical_trial"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "planned",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "we are referring her for initiation of neoadjuvant systemic therapy",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_06",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:breast_cancer",
+      "validation": "supported",
+      "establishment": "direct",
+      "qualifier_verdicts": {
+        "status:planned": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The referral is for initiation of neoadjuvant systemic therapy, supporting a planned option, not treatment receipt."
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:treatment_setting/neoadjuvant setting": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The option names one therapy, systemic therapy; neoadjuvant describes its setting."
+        }
+      },
+      "proposed_labels": {
+        "status": "planned",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "referring her for initiation of neoadjuvant systemic\ntherapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "treatment_setting",
+            "term": "neoadjuvant setting",
+            "evidence": "referring her for initiation of neoadjuvant systemic\ntherapy",
+            "concept_ref": {
+              "category": "treatment_setting",
+              "node": "neoadjuvant_setting",
+              "axis": "terms",
+              "state": "neoadjuvant"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "referring her for initiation of neoadjuvant systemic\ntherapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        },
+        {
+          "group": "treatment_setting",
+          "term": "neoadjuvant setting",
+          "evidence": "referring her for initiation of neoadjuvant systemic\ntherapy",
+          "concept_ref": {
+            "category": "treatment_setting",
+            "node": "neoadjuvant_setting",
+            "axis": "terms",
+            "state": "neoadjuvant"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_06",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "52-year-old": [
+          10
+        ],
+        "This is a 52-year-old": [
+          0
+        ],
+        "female": [
+          22
+        ],
+        "This is a 52-year-old female": [
+          0
+        ],
+        "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.": [
+          588
+        ],
+        "skin changes including erythema and peau d’orange, as well as palpable axillary lymphadenopathy. Her performance status is ECOG 1. Imaging with mammography and ultrasound demonstrated a 5.8 cm irregular mass in the left breast and suspicious axillary lymph nodes. Breast MRI confirmed locally advanced disease with skin infiltration": [
+          221
+        ],
+        "strong estrogen receptor positivity (90%)": [
+          923
+        ],
+        "progesterone receptor positivity (60%)": [
+          969
+        ],
+        "hormone receptor–positive, HER2-negative stage IIIB breast cancer": [
+          1413
+        ],
+        "HER2 negativity (IHC 1+, FISH negative)": [
+          1014
+        ],
+        "The proliferation index (Ki-67) is approximately 35%.": [
+          1055
+        ],
+        "locally advanced, hormone receptor–positive, HER2-negative stage IIIB breast cancer": [
+          1395
+        ],
+        "newly diagnosed invasive ductal carcinoma of the left breast": [
+          44
+        ],
+        "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma": [
+          701
+        ],
+        "CA 15-3 is mildly elevated at 38 U/mL.": [
+          1206
+        ],
+        "The patient has not yet received any oncologic treatment.": [
+          1314
+        ],
+        "normal blood counts and organ function": [
+          1166
+        ],
+        "Her performance status is ECOG 1.": [
+          318
+        ],
+        "Breast MRI confirmed locally advanced disease with skin infiltration": [
+          485
+        ],
+        "Biopsy of an axillary lymph node confirmed metastatic involvement.": [
+          822
+        ],
+        "stage IIIB breast cancer": [
+          1454
+        ],
+        "consideration of genetic testing and clinical trial participation.": [
+          1583
+        ],
+        "consideration of genetic testing and clinical trial participation": [
+          1583
+        ],
+        "we are referring her for initiation of neoadjuvant systemic therapy": [
+          1480
+        ],
+        "referring her for initiation of neoadjuvant systemic therapy": [
+          1487
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "50 <= age < 60",
+        "evidence": "52-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 52.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "This is a 52-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "female",
+        "evidence": "female",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "This is a 52-year-old female"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM0",
+        "evidence": "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Staging\nwith CT of the chest, abdomen, and pelvis as well as bone scan showed no\nevidence of distant metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_t",
+        "term": "cT4",
+        "evidence": "skin changes including erythema and peau d’orange, as well as palpable axillary lymphadenopathy. Her performance status is ECOG 1. Imaging with mammography and ultrasound demonstrated a 5.8 cm irregular mass in the left breast and suspicious axillary lymph nodes. Breast MRI confirmed locally advanced disease with skin infiltration",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "skin\nchanges including erythema and peau d’orange, as well as palpable axillary\nlymphadenopathy. Her performance status is ECOG 1. Imaging with mammography\nand ultrasound demonstrated a 5.8 cm irregular mass in the left breast and\nsuspicious axillary lymph nodes. Breast MRI confirmed locally advanced\ndisease with skin infiltration"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "ER positive",
+        "evidence": "strong estrogen receptor positivity (90%)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "strong estrogen receptor positivity (90%)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "PR positive",
+        "evidence": "progesterone receptor positivity (60%)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "progesterone receptor positivity (60%)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HR positive",
+        "evidence": "hormone receptor–positive, HER2-negative stage IIIB breast cancer",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "hormone receptor–positive, HER2-negative stage IIIB\nbreast cancer"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 status negative",
+        "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "HER2 expression low",
+        "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "No HER2 amplification detected",
+        "evidence": "HER2 negativity (IHC 1+, FISH negative)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "HER2 negativity (IHC 1+,\nFISH negative)"
+      },
+      {
+        "polarity": "positive",
+        "group": "biomarkers",
+        "term": "Ki-67 expression high",
+        "evidence": "The proliferation index (Ki-67) is approximately 35%.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "The proliferation index (Ki-67) is approximately 35%."
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "locally advanced, hormone receptor–positive, HER2-negative stage IIIB breast cancer",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "locally advanced, hormone receptor–positive, HER2-negative stage IIIB\nbreast cancer"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Breast Cancer",
+        "evidence": "newly diagnosed invasive ductal carcinoma of the left breast",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "newly diagnosed invasive ductal\ncarcinoma of the left breast"
+      },
+      {
+        "polarity": "positive",
+        "group": "disease_status",
+        "term": "newly diagnosed disease",
+        "evidence": "newly diagnosed invasive ductal carcinoma of the left breast",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "newly diagnosed invasive ductal\ncarcinoma of the left breast"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "carcinoma",
+        "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "CA 15-3 value reported",
+        "evidence": "CA 15-3 is mildly elevated at 38 U/mL.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "source_value": {
+          "value": 38.0,
+          "unit": {
+            "code": "U/mL",
+            "display": "U/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "CA 15-3 is mildly elevated at 38 U/mL."
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "untreated",
+        "evidence": "The patient has not yet received any oncologic treatment.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "The\npatient has not yet received any oncologic treatment."
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate bone marrow function",
+        "evidence": "normal blood counts and organ function",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "normal blood\ncounts and organ function"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate hematologic function",
+        "evidence": "normal blood counts and organ function",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "normal blood\ncounts and organ function"
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate organ function",
+        "evidence": "normal blood counts and organ function",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "normal blood\ncounts and organ function"
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 1",
+        "evidence": "Her performance status is ECOG 1.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Her performance status is ECOG 1."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "locally advanced",
+        "evidence": "Breast MRI confirmed locally advanced disease with skin infiltration",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Breast MRI confirmed locally advanced\ndisease with skin infiltration"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regional lymph node(s) positive",
+        "evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "Staging with CT of the chest, abdomen, and pelvis as well as bone scan showed no evidence of distant metastases.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Staging\nwith CT of the chest, abdomen, and pelvis as well as bone scan showed no\nevidence of distant metastases."
+      },
+      {
+        "polarity": "positive",
+        "group": "stages",
+        "term": "Stage IIIB",
+        "evidence": "stage IIIB breast cancer",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "stage IIIB\nbreast cancer"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Histopathological evaluation from core needle biopsy revealed invasive ductal carcinoma",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Histopathological evaluation from core\nneedle biopsy revealed invasive ductal carcinoma"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:breast_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_06:PlainTextDocument.text",
+        "date_evidence": "Biopsy of an axillary lymph node confirmed metastatic involvement."
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_06",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "carcinoma",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "carcinoma",
+                "start": 76,
+                "end": 85,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "mass",
+                "start": 168,
+                "end": 172,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastases",
+                "start": 689,
+                "end": 699,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "stage_grade_tnm",
+                "pattern": "\\b(stage\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?)(?:\\s*[-/]\\s*(?:[0-4]|I|II|III|IV|IVA|IVB|IVC|[ivx]+[abc]?))?|AJCC|TNM|T[0-4][a-c]?|N[0-3][a-c]?|M[01][a-c]?|grade\\s*[1-4])\\b",
+                "evidence": "grade 3",
+                "start": 790,
+                "end": 797,
+                "reason": "stage or grade trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "biopsy",
+                "start": 747,
+                "end": 753,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "systemic_therapy",
+                "pattern": "\\b(chemotherapy|immunotherapy|hormonal therapy|endocrine therapy|targeted therapy|systemic therapy|regimen|cycle\\s*[0-9]+|adjuvant|neoadjuvant|salvage therapy)\\b",
+                "evidence": "neoadjuvant",
+                "start": 1519,
+                "end": 1530,
+                "reason": "systemic therapy trigger"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "HER2",
+                "start": 1014,
+                "end": 1018,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "performance status",
+                "start": 322,
+                "end": 340,
+                "reason": "performance status trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 70380,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 14732,
+      "output_tokens": 12805,
+      "total_tokens": 83185,
+      "time_elapsed": 115.9,
+      "estimated_cost_usd": 0.1757796,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 116.5
+    }
+  },
+  "allow_interpretation": true
+}

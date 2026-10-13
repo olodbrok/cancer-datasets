@@ -1,0 +1,76 @@
+age	age < 50
+ajcc_m	M0
+ajcc_n	N0
+broad_disease_stage	early stage
+cancers	Lung Cancer
+cancers	Non-Small Cell Lung Cancer
+cancers	Solid Tumor
+clinical_conditions	anemia
+clinical_conditions	BMI high
+drugs	cisplatin
+drugs	paclitaxel
+gender	male
+histologic_invasiveness	invasive
+histologies	non-small cell
+lab_values	albumin high
+lab_values	albumin normal
+lab_values	alkaline phosphatase value reported
+lab_values	ALT high
+lab_values	ALT normal
+lab_values	AST normal
+lab_values	AST value reported
+lab_values	bilirubin normal
+lab_values	creatinine high
+lab_values	Hb low
+lab_values	Hb normal
+lab_values	HCT low
+lab_values	HCT normal
+lab_values	inadequate GFR
+lab_values	platelet count normal
+lab_values	RBC low
+lab_values	RBC normal
+lab_values	RBC value reported
+lab_values	urine protein high
+lab_values	WBC low
+lab_values	WBC normal
+solid_tumor_extent	localized
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) negative
+stages	Stage I
+therapies	cancer-directed therapy
+therapies	chemotherapy
+therapies	hospice care
+therapies	radiation therapy
+proposed_therapies:
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-a47a572f26f240c4de1e; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-03-09; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-a47a572f26f240c4de1e; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-03-09; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-ef5af8bb28c9b913ca25; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-05-07; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-ba8a3d47a731512deb72; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-05-07; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-cf5b1238d49c22391236; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-06-07; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-fc51b4e2f6c08f6c8da6; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-06-07; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-bb101bc955a3c4f039c6; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-07-10; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-9aef7e4fd7c1ec966e4e; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-07-10; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-01e2c9ec59bcbf5d9923; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-09-14; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-01e2c9ec59bcbf5d9923; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-09-14; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-33415328799f2a864fff; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-11-17; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-33415328799f2a864fff; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2021-11-17; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-9530231c2805325a8312; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-12-16; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-b94d567d60bdfccfc123; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2021-12-16; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-517496c8b5cc8946fbd3; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2022-01-14; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-517496c8b5cc8946fbd3; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=2022-01-14; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-bd752ed59c5795c8fe55; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2022-03-14; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-3d306a33fd0eba975304; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=2022-03-14; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-9dbee43a4ee7961e3a60; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-ac2ba96318ce570256e9; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-094b112c77286bb6a1b2; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-56dbfa06df78bc7477e6; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-5c74d5d098e2f346e60b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-5c74d5d098e2f346e60b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-1f4809319768e5f7105c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-1f4809319768e5f7105c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-09e0087e423d68167e75; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-9f16088177406350375b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-9f16088177406350375b; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	cisplatin [proposal_id=proposal-44ed502cb0aace10042c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-44ed502cb0aace10042c; status=planned; validation=supported; source_mentions=['cisplatin 50 mg injection', 'paclitaxel 100 mg injection']; relationship=unspecified; relationship_validation=unresolved; concept_validation=supported; date=unknown; cancer=unknown]
+proposed_therapies/drugs	paclitaxel [proposal_id=proposal-db91dc32a4d06fbdf5f8; status=planned; validation=supported; source_mentions=['paclitaxel 100 mg injection']; relationship=single; relationship_validation=unsupported; concept_validation=supported; date=unknown; cancer=unknown]

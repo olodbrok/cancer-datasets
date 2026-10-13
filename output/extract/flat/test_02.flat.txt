@@ -1,0 +1,29 @@
+age	70 <= age < 80
+ajcc_m	cM1b
+biomarkers	BRCA2 mutation detected
+broad_disease_stage	advanced stage
+cancers	Prostate Cancer
+clinical_conditions	castration-resistant
+disease_status	newly diagnosed disease
+drugs	abiraterone
+drugs	cabazitaxel
+drugs	docetaxel
+drugs	enzalutamide
+drugs	leuprolide
+drugs	olaparib
+drugs	prednisone
+gender	male
+gleason	total Gleason score >=8
+histologic_invasiveness	invasive
+histologies	adenocarcinoma
+lab_values	PSA value reported
+metastatic_sites	bone metastases
+metastatic_sites	no visceral metastases
+performance	ECOG 1
+solid_tumor_extent	distant metastases
+stages	Stage IV
+therapeutic_response	progressive disease
+therapeutic_response	PSA decline
+therapeutic_response	stable disease
+therapies	chemotherapy
+therapies	endocrine therapy

@@ -1,0 +1,36 @@
+patient_id:	test_07
+bundle_path:	/home/ec2-user/Data/test/test_07.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:44:18Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	60 <= age < 70		
+unknown	unknown	fact	gender	male		
+2022	Colon Cancer	fact	ajcc_m	cM0		
+2022	Colon Cancer	fact	ajcc_n	pN1b		
+2022	Colon Cancer	fact	ajcc_t	pT3		
+unknown	Colon Cancer	fact	biomarkers	KRAS mutation detected	G12D	
+unknown	Colon Cancer	fact	biomarkers	No NRAS mutation detected		
+unknown	Colon Cancer	fact	biomarkers	No BRAF mutation detected		
+unknown	Colon Cancer	fact	biomarkers	MSS		
+unknown	Colon Cancer	fact	broad_disease_stage	advanced stage		
+2022	Colon Cancer	fact	cancers	Colon Cancer		
+unknown	Colon Cancer	fact	clinical_conditions	anemia		
+2022	Colon Cancer	fact	disease_status	newly diagnosed disease		
+unknown	Colon Cancer	fact	disease_status	recurrent disease		
+2022	Colon Cancer	fact	histologic_invasiveness	invasive		
+2022	Colon Cancer	fact	histologies	adenocarcinoma		
+unknown	Colon Cancer	fact	lab_values	CEA value reported	145.0 ng/mL	
+unknown	Colon Cancer	fact	metastatic_sites	liver metastases		
+unknown	Colon Cancer	fact	performance	ECOG 1	1.0	
+unknown	Colon Cancer	fact	residual_disease	no residual disease		
+2022	Colon Cancer	fact	solid_tumor_extent	regional lymph node(s) positive		
+2022	Colon Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Colon Cancer	fact	solid_tumor_extent	distant metastases		
+2022	Colon Cancer	fact	stages	Stage IIIB		
+unknown	Colon Cancer	fact	stages	Stage IV		
+unknown	Colon Cancer	fact	treatment_intent	curative intent		
+unknown	Colon Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Colon Cancer	fact	regimens	FOLFOX		
+unknown	Colon Cancer	fact	therapies	R0 resection		
+unknown	Colon Cancer	fact	therapies	chemotherapy		

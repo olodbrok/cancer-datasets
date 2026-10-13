@@ -1,0 +1,58 @@
+patient_id:	test_10
+bundle_path:	/home/ec2-user/Data/test/test_10.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:50:58Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	60 <= age < 70		
+unknown	unknown	fact	gender	female		
+2018-03	Follicular Lymphoma	fact	biomarkers	CD20 positive		
+2018-03	Follicular Lymphoma	fact	broad_disease_stage	advanced stage		
+2018-03	Follicular Lymphoma	fact	cancers	Follicular Lymphoma		
+unknown	Follicular Lymphoma	fact	clinical_conditions	neutropenia		
+unknown	Follicular Lymphoma	fact	clinical_conditions	neutropenia		
+unknown	Follicular Lymphoma	fact	clinical_conditions	anemia		
+2018-03	Follicular Lymphoma	fact	disease_status	newly diagnosed disease		
+2021-06	Follicular Lymphoma	fact	disease_status	relapsed disease		
+2021-06	Follicular Lymphoma	fact	disease_status	recurrent disease		
+2023-10	Follicular Lymphoma	fact	disease_status	relapsed disease		
+2018-03	Follicular Lymphoma	fact	hematologic_extent	disseminated or systemic		
+2018-03	Follicular Lymphoma	fact	histologies	follicular		
+2021-06	Follicular Lymphoma	fact	histologies	follicular		
+2023-10	Follicular Lymphoma	fact	histologies	follicular		
+unknown	Follicular Lymphoma	fact	lab_values	Hb value reported	10.4 g/dL	
+unknown	Follicular Lymphoma	fact	lab_values	WBC value reported	3.2 x10^9/L	
+unknown	Follicular Lymphoma	fact	lab_values	ANC value reported	1.4 x10^9/L	
+unknown	Follicular Lymphoma	fact	lab_values	platelet count value reported	118.0 x10^9/L	
+unknown	Follicular Lymphoma	fact	lab_values	LDH high		
+unknown	Follicular Lymphoma	fact	lab_values	creatinine value reported	1.1 mg/dL	
+2018-04	Follicular Lymphoma	fact	lines_of_therapy	first line		
+2021-07	Follicular Lymphoma	fact	lines_of_therapy	second line		
+2024-01	Follicular Lymphoma	fact	lines_of_therapy	third line		
+unknown	Follicular Lymphoma	fact	organ_function	hypertension		
+unknown	Follicular Lymphoma	fact	performance	ECOG 1	1.0	
+2022-02	Follicular Lymphoma	fact	residual_disease	residual disease		
+unknown	Follicular Lymphoma	fact	residual_disease	residual disease		
+2018-03	Follicular Lymphoma	fact	stages	Stage IV		
+2018-11	Follicular Lymphoma	fact	therapeutic_response	complete response		
+2022-02	Follicular Lymphoma	fact	therapeutic_response	partial response		
+2023-10	Follicular Lymphoma	fact	therapeutic_response	progressive disease		
+unknown	Follicular Lymphoma	fact	therapeutic_response	progressive disease		
+unknown	Follicular Lymphoma	fact	treatment_setting	maintenance		
+2023-10	Follicular Lymphoma	fact	tumor_bulk	bulky disease		
+2018-04	Follicular Lymphoma	fact	drugs	bendamustine		
+2018-04	Follicular Lymphoma	fact	drugs	rituximab		
+unknown	Follicular Lymphoma	fact	drugs	rituximab		
+2024-01	Follicular Lymphoma	fact	drugs	obinutuzumab		
+2024-01	Follicular Lymphoma	fact	drugs	lenalidomide		
+2018-04	Follicular Lymphoma	fact	regimens	BR		
+2022-01	Follicular Lymphoma	fact	regimens	R-CHOP		
+2018-03	Follicular Lymphoma	fact	therapies	biopsy		
+2018-03	Follicular Lymphoma	fact	therapies	biopsy		
+2021-06	Follicular Lymphoma	fact	therapies	biopsy		
+2023-10	Follicular Lymphoma	fact	therapies	biopsy		
+unknown	Follicular Lymphoma	fact	therapies	systemic therapy		
+unknown	Follicular Lymphoma	option	drug_classes	CAR-T therapy		
+unknown	Follicular Lymphoma	option	therapies	cellular therapy		
+unknown	Follicular Lymphoma	option	therapies	cellular therapy		
+unknown	Follicular Lymphoma	option	drug_classes	bispecific antibodies		

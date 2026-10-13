@@ -1,0 +1,1739 @@
+patient_id:	b7ac3b73-dbb8-20c6-a330-3de6d5cefe7a
+bundle_path:	/home/ec2-user/Data/mcode/Abe604_Bins636_b7ac3b73-dbb8-20c6-a330-3de6d5cefe7a.json
+input_type:	fhir_bundle
+run_time:	2026-10-13T12:52:24Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+2016-11-30	unknown	fact	gender	male		
+2016-11-30	unknown	fact	age	50 <= age < 60		
+1981-09-16	unknown	fact	organ_function	hypertension		http://snomed.info/sct|59621000
+2011-11-25	unknown	fact	cancers	Lung Cancer		http://snomed.info/sct|254632001
+2011-11-25	unknown	fact	cancers	Small Cell Lung Cancer		http://snomed.info/sct|254632001
+2011-11-25	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|254632001
+2011-11-25	unknown	fact	clinical_conditions	anemia		http://snomed.info/sct|271737000
+2011-11-26	unknown	fact	cancers	Lung Cancer		http://snomed.info/sct|67811000119102
+2011-11-26	unknown	fact	cancers	Small Cell Lung Cancer		http://snomed.info/sct|67811000119102
+2011-11-26	unknown	fact	cancers	Solid Tumor		http://snomed.info/sct|67811000119102
+2007-02-07	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2007-09-26	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2008-02-13	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2009-02-18	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2010-02-24	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2010-02-24	unknown	fact	lab_values	WBC low	3.9129 10*3/uL	http://loinc.org|6690-2
+2010-02-24	unknown	fact	lab_values	RBC normal	4.2132 10*6/uL	http://loinc.org|789-8
+2010-02-24	unknown	fact	lab_values	Hb normal	13.509 g/dL	http://loinc.org|718-7
+2010-02-24	unknown	fact	lab_values	HCT normal	45.806 %	http://loinc.org|4544-3
+2010-02-24	unknown	fact	lab_values	platelet count normal	336.27 10*3/uL	http://loinc.org|777-3
+2011-03-02	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2011-11-23	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2011-11-25	unknown	fact	lab_values	Hb low	10.932 g/dL	http://loinc.org|718-7
+2011-11-25	unknown	fact	lab_values	HCT low	33.914 %	http://loinc.org|20570-8
+2011-11-25	unknown	fact	lab_values	WBC normal	4.5107 10*3/uL	http://loinc.org|6690-2
+2011-11-25	unknown	fact	lab_values	RBC normal	5.1867 10*6/uL	http://loinc.org|789-8
+2011-11-25	unknown	fact	lab_values	platelet count normal	200.42 10*3/uL	http://loinc.org|777-3
+2011-11-26	unknown	fact	lab_values	creatinine high	3.0118 mg/dL	http://loinc.org|38483-4
+2011-11-26	unknown	fact	lab_values	inadequate GFR	4.2511 mL/min	http://loinc.org|33914-3
+2011-11-26	unknown	fact	lab_values	albumin normal	3.9902 g/dL	http://loinc.org|1751-7
+2011-11-26	unknown	fact	lab_values	bilirubin normal	0.76983 mg/dL	http://loinc.org|1975-2
+2011-11-26	unknown	fact	lab_values	alkaline phosphatase value reported	58.541 U/L	http://loinc.org|6768-6
+2011-11-26	unknown	fact	lab_values	ALT normal	24.736 U/L	http://loinc.org|1742-6
+2011-11-26	unknown	fact	lab_values	AST normal	23.113 U/L	http://loinc.org|1920-8
+2011-11-26	unknown	fact	lab_values	urine protein high	321.69 mg/dL	http://loinc.org|5804-0
+2011-11-26	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2011-11-26	unknown	fact	lab_values	WBC normal	4.2379 10*3/uL	http://loinc.org|6690-2
+2011-11-26	unknown	fact	lab_values	RBC normal	5.2552 10*6/uL	http://loinc.org|789-8
+2011-11-26	unknown	fact	lab_values	Hb normal	16.965 g/dL	http://loinc.org|718-7
+2011-11-26	unknown	fact	lab_values	HCT normal	36.316 %	http://loinc.org|4544-3
+2011-11-26	unknown	fact	lab_values	platelet count normal	188.53 10*3/uL	http://loinc.org|777-3
+2011-12-24	unknown	fact	lab_values	creatinine high	2.6643 mg/dL	http://loinc.org|38483-4
+2011-12-24	unknown	fact	lab_values	inadequate GFR	10.374 mL/min	http://loinc.org|33914-3
+2011-12-24	unknown	fact	lab_values	albumin high	5.4411 g/dL	http://loinc.org|1751-7
+2011-12-24	unknown	fact	lab_values	bilirubin normal	0.91676 mg/dL	http://loinc.org|1975-2
+2011-12-24	unknown	fact	lab_values	alkaline phosphatase value reported	68.243 U/L	http://loinc.org|6768-6
+2011-12-24	unknown	fact	lab_values	ALT normal	28.622 U/L	http://loinc.org|1742-6
+2011-12-24	unknown	fact	lab_values	AST normal	39.574 U/L	http://loinc.org|1920-8
+2011-12-24	unknown	fact	lab_values	urine protein high	289.77 mg/dL	http://loinc.org|5804-0
+2011-12-24	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2011-12-24	unknown	fact	lab_values	WBC low	1.2011 10*3/uL	http://loinc.org|6690-2
+2011-12-24	unknown	fact	lab_values	RBC normal	4.5899 10*6/uL	http://loinc.org|789-8
+2011-12-24	unknown	fact	lab_values	Hb normal	16.987 g/dL	http://loinc.org|718-7
+2011-12-24	unknown	fact	lab_values	HCT normal	47.838 %	http://loinc.org|4544-3
+2011-12-24	unknown	fact	lab_values	platelet count normal	233.5 10*3/uL	http://loinc.org|777-3
+2012-01-18	unknown	fact	lab_values	creatinine high	2.7256 mg/dL	http://loinc.org|38483-4
+2012-01-18	unknown	fact	lab_values	inadequate GFR	6.4447 mL/min	http://loinc.org|33914-3
+2012-01-18	unknown	fact	lab_values	albumin normal	3.5417 g/dL	http://loinc.org|1751-7
+2012-01-18	unknown	fact	lab_values	bilirubin normal	0.95589 mg/dL	http://loinc.org|1975-2
+2012-01-18	unknown	fact	lab_values	alkaline phosphatase value reported	114.14 U/L	http://loinc.org|6768-6
+2012-01-18	unknown	fact	lab_values	ALT high	44.319 U/L	http://loinc.org|1742-6
+2012-01-18	unknown	fact	lab_values	AST value reported	9.9617 U/L	http://loinc.org|1920-8
+2012-01-18	unknown	fact	lab_values	urine protein high	442.62 mg/dL	http://loinc.org|5804-0
+2012-01-18	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-01-18	unknown	fact	lab_values	WBC normal	4.9377 10*3/uL	http://loinc.org|6690-2
+2012-01-18	unknown	fact	lab_values	RBC normal	4.6836 10*6/uL	http://loinc.org|789-8
+2012-01-18	unknown	fact	lab_values	Hb normal	16.689 g/dL	http://loinc.org|718-7
+2012-01-18	unknown	fact	lab_values	HCT normal	38.232 %	http://loinc.org|4544-3
+2012-01-18	unknown	fact	lab_values	platelet count normal	353.52 10*3/uL	http://loinc.org|777-3
+2012-02-12	unknown	fact	lab_values	creatinine high	2.8561 mg/dL	http://loinc.org|38483-4
+2012-02-12	unknown	fact	lab_values	inadequate GFR	10.423 mL/min	http://loinc.org|33914-3
+2012-02-12	unknown	fact	lab_values	albumin normal	4.4316 g/dL	http://loinc.org|1751-7
+2012-02-12	unknown	fact	lab_values	bilirubin value reported	0.15271 mg/dL	http://loinc.org|1975-2
+2012-02-12	unknown	fact	lab_values	alkaline phosphatase value reported	84.394 U/L	http://loinc.org|6768-6
+2012-02-12	unknown	fact	lab_values	ALT high	45.303 U/L	http://loinc.org|1742-6
+2012-02-12	unknown	fact	lab_values	AST normal	25.553 U/L	http://loinc.org|1920-8
+2012-02-12	unknown	fact	lab_values	urine protein high	380.89 mg/dL	http://loinc.org|5804-0
+2012-02-12	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-02-12	unknown	fact	lab_values	WBC low	3.9457 10*3/uL	http://loinc.org|6690-2
+2012-02-12	unknown	fact	lab_values	RBC normal	5.0819 10*6/uL	http://loinc.org|789-8
+2012-02-12	unknown	fact	lab_values	Hb low	12.919 g/dL	http://loinc.org|718-7
+2012-02-12	unknown	fact	lab_values	HCT normal	40.631 %	http://loinc.org|4544-3
+2012-02-12	unknown	fact	lab_values	platelet count normal	199.6 10*3/uL	http://loinc.org|777-3
+2012-03-07	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2012-03-05	unknown	fact	lab_values	creatinine high	2.7571 mg/dL	http://loinc.org|38483-4
+2012-03-05	unknown	fact	lab_values	inadequate GFR	24.175 mL/min	http://loinc.org|33914-3
+2012-03-05	unknown	fact	lab_values	albumin normal	4.9605 g/dL	http://loinc.org|1751-7
+2012-03-05	unknown	fact	lab_values	bilirubin normal	0.92486 mg/dL	http://loinc.org|1975-2
+2012-03-05	unknown	fact	lab_values	alkaline phosphatase value reported	48.665 U/L	http://loinc.org|6768-6
+2012-03-05	unknown	fact	lab_values	ALT normal	28.973 U/L	http://loinc.org|1742-6
+2012-03-05	unknown	fact	lab_values	AST normal	35.994 U/L	http://loinc.org|1920-8
+2012-03-05	unknown	fact	lab_values	urine protein high	417.93 mg/dL	http://loinc.org|5804-0
+2012-03-05	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-03-05	unknown	fact	lab_values	WBC normal	4.1528 10*3/uL	http://loinc.org|6690-2
+2012-03-05	unknown	fact	lab_values	RBC normal	4.1445 10*6/uL	http://loinc.org|789-8
+2012-03-05	unknown	fact	lab_values	Hb normal	16.047 g/dL	http://loinc.org|718-7
+2012-03-05	unknown	fact	lab_values	HCT normal	42.513 %	http://loinc.org|4544-3
+2012-03-05	unknown	fact	lab_values	platelet count normal	404.88 10*3/uL	http://loinc.org|777-3
+2012-03-31	unknown	fact	lab_values	creatinine high	3.0104 mg/dL	http://loinc.org|38483-4
+2012-03-31	unknown	fact	lab_values	inadequate GFR	19.42 mL/min	http://loinc.org|33914-3
+2012-03-31	unknown	fact	lab_values	albumin normal	4.3839 g/dL	http://loinc.org|1751-7
+2012-03-31	unknown	fact	lab_values	bilirubin normal	0.39189 mg/dL	http://loinc.org|1975-2
+2012-03-31	unknown	fact	lab_values	alkaline phosphatase value reported	58.827 U/L	http://loinc.org|6768-6
+2012-03-31	unknown	fact	lab_values	ALT high	42.311 U/L	http://loinc.org|1742-6
+2012-03-31	unknown	fact	lab_values	AST normal	37.814 U/L	http://loinc.org|1920-8
+2012-03-31	unknown	fact	lab_values	urine protein high	280.32 mg/dL	http://loinc.org|5804-0
+2012-03-31	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-03-31	unknown	fact	lab_values	WBC low	1.0043 10*3/uL	http://loinc.org|6690-2
+2012-03-31	unknown	fact	lab_values	RBC normal	4.3395 10*6/uL	http://loinc.org|789-8
+2012-03-31	unknown	fact	lab_values	Hb normal	17.346 g/dL	http://loinc.org|718-7
+2012-03-31	unknown	fact	lab_values	HCT normal	40.201 %	http://loinc.org|4544-3
+2012-03-31	unknown	fact	lab_values	platelet count normal	333.42 10*3/uL	http://loinc.org|777-3
+2012-04-27	unknown	fact	lab_values	creatinine high	3.0155 mg/dL	http://loinc.org|38483-4
+2012-04-27	unknown	fact	lab_values	inadequate GFR	23.65 mL/min	http://loinc.org|33914-3
+2012-04-27	unknown	fact	lab_values	albumin normal	3.8291 g/dL	http://loinc.org|1751-7
+2012-04-27	unknown	fact	lab_values	bilirubin normal	0.43113 mg/dL	http://loinc.org|1975-2
+2012-04-27	unknown	fact	lab_values	alkaline phosphatase value reported	36.419 U/L	http://loinc.org|6768-6
+2012-04-27	unknown	fact	lab_values	ALT normal	38.916 U/L	http://loinc.org|1742-6
+2012-04-27	unknown	fact	lab_values	AST normal	22.445 U/L	http://loinc.org|1920-8
+2012-04-27	unknown	fact	lab_values	urine protein high	291.16 mg/dL	http://loinc.org|5804-0
+2012-04-27	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-04-27	unknown	fact	lab_values	WBC low	2.4197 10*3/uL	http://loinc.org|6690-2
+2012-04-27	unknown	fact	lab_values	RBC normal	5.2561 10*6/uL	http://loinc.org|789-8
+2012-04-27	unknown	fact	lab_values	Hb normal	15.59 g/dL	http://loinc.org|718-7
+2012-04-27	unknown	fact	lab_values	HCT normal	38.861 %	http://loinc.org|4544-3
+2012-04-27	unknown	fact	lab_values	platelet count normal	308.79 10*3/uL	http://loinc.org|777-3
+2012-05-19	unknown	fact	lab_values	creatinine high	3.373 mg/dL	http://loinc.org|38483-4
+2012-05-19	unknown	fact	lab_values	inadequate GFR	25.013 mL/min	http://loinc.org|33914-3
+2012-05-19	unknown	fact	lab_values	albumin normal	4.1089 g/dL	http://loinc.org|1751-7
+2012-05-19	unknown	fact	lab_values	bilirubin normal	1.0414 mg/dL	http://loinc.org|1975-2
+2012-05-19	unknown	fact	lab_values	alkaline phosphatase value reported	103.34 U/L	http://loinc.org|6768-6
+2012-05-19	unknown	fact	lab_values	ALT normal	28.09 U/L	http://loinc.org|1742-6
+2012-05-19	unknown	fact	lab_values	AST normal	11.433 U/L	http://loinc.org|1920-8
+2012-05-19	unknown	fact	lab_values	urine protein high	293.39 mg/dL	http://loinc.org|5804-0
+2012-05-19	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-05-19	unknown	fact	lab_values	WBC low	2.3476 10*3/uL	http://loinc.org|6690-2
+2012-05-19	unknown	fact	lab_values	RBC normal	4.6269 10*6/uL	http://loinc.org|789-8
+2012-05-19	unknown	fact	lab_values	Hb low	12.022 g/dL	http://loinc.org|718-7
+2012-05-19	unknown	fact	lab_values	HCT normal	45.094 %	http://loinc.org|4544-3
+2012-05-19	unknown	fact	lab_values	platelet count normal	320.52 10*3/uL	http://loinc.org|777-3
+2012-06-11	unknown	fact	lab_values	creatinine high	3.2019 mg/dL	http://loinc.org|38483-4
+2012-06-11	unknown	fact	lab_values	inadequate GFR	24.158 mL/min	http://loinc.org|33914-3
+2012-06-11	unknown	fact	lab_values	albumin normal	4.9685 g/dL	http://loinc.org|1751-7
+2012-06-11	unknown	fact	lab_values	bilirubin normal	1.0525 mg/dL	http://loinc.org|1975-2
+2012-06-11	unknown	fact	lab_values	alkaline phosphatase value reported	137.6 U/L	http://loinc.org|6768-6
+2012-06-11	unknown	fact	lab_values	ALT normal	31.459 U/L	http://loinc.org|1742-6
+2012-06-11	unknown	fact	lab_values	AST normal	24.324 U/L	http://loinc.org|1920-8
+2012-06-11	unknown	fact	lab_values	urine protein high	398.06 mg/dL	http://loinc.org|5804-0
+2012-06-11	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-06-11	unknown	fact	lab_values	WBC normal	4.7366 10*3/uL	http://loinc.org|6690-2
+2012-06-11	unknown	fact	lab_values	RBC normal	4.5641 10*6/uL	http://loinc.org|789-8
+2012-06-11	unknown	fact	lab_values	Hb normal	16.434 g/dL	http://loinc.org|718-7
+2012-06-11	unknown	fact	lab_values	HCT normal	49.58 %	http://loinc.org|4544-3
+2012-06-11	unknown	fact	lab_values	platelet count normal	206.22 10*3/uL	http://loinc.org|777-3
+2012-07-02	unknown	fact	lab_values	creatinine high	3.4264 mg/dL	http://loinc.org|38483-4
+2012-07-02	unknown	fact	lab_values	inadequate GFR	21.475 mL/min	http://loinc.org|33914-3
+2012-07-02	unknown	fact	lab_values	albumin normal	4.9962 g/dL	http://loinc.org|1751-7
+2012-07-02	unknown	fact	lab_values	bilirubin normal	0.75448 mg/dL	http://loinc.org|1975-2
+2012-07-02	unknown	fact	lab_values	alkaline phosphatase value reported	99.843 U/L	http://loinc.org|6768-6
+2012-07-02	unknown	fact	lab_values	ALT normal	26.426 U/L	http://loinc.org|1742-6
+2012-07-02	unknown	fact	lab_values	AST normal	24.946 U/L	http://loinc.org|1920-8
+2012-07-02	unknown	fact	lab_values	urine protein high	283.47 mg/dL	http://loinc.org|5804-0
+2012-07-02	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-07-02	unknown	fact	lab_values	WBC low	2.419 10*3/uL	http://loinc.org|6690-2
+2012-07-02	unknown	fact	lab_values	RBC normal	4.35 10*6/uL	http://loinc.org|789-8
+2012-07-02	unknown	fact	lab_values	Hb normal	15.113 g/dL	http://loinc.org|718-7
+2012-07-02	unknown	fact	lab_values	HCT normal	47.625 %	http://loinc.org|4544-3
+2012-07-02	unknown	fact	lab_values	platelet count normal	332.76 10*3/uL	http://loinc.org|777-3
+2012-07-26	unknown	fact	lab_values	creatinine high	3.3364 mg/dL	http://loinc.org|38483-4
+2012-07-26	unknown	fact	lab_values	inadequate GFR	5.6013 mL/min	http://loinc.org|33914-3
+2012-07-26	unknown	fact	lab_values	albumin normal	4.29 g/dL	http://loinc.org|1751-7
+2012-07-26	unknown	fact	lab_values	bilirubin normal	0.6893 mg/dL	http://loinc.org|1975-2
+2012-07-26	unknown	fact	lab_values	alkaline phosphatase value reported	31.376 U/L	http://loinc.org|6768-6
+2012-07-26	unknown	fact	lab_values	ALT high	44.213 U/L	http://loinc.org|1742-6
+2012-07-26	unknown	fact	lab_values	AST normal	28.863 U/L	http://loinc.org|1920-8
+2012-07-26	unknown	fact	lab_values	urine protein high	431.21 mg/dL	http://loinc.org|5804-0
+2012-07-26	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-07-26	unknown	fact	lab_values	WBC low	3.9655 10*3/uL	http://loinc.org|6690-2
+2012-07-26	unknown	fact	lab_values	RBC normal	4.9749 10*6/uL	http://loinc.org|789-8
+2012-07-26	unknown	fact	lab_values	Hb normal	14.199 g/dL	http://loinc.org|718-7
+2012-07-26	unknown	fact	lab_values	HCT normal	41.495 %	http://loinc.org|4544-3
+2012-07-26	unknown	fact	lab_values	platelet count normal	198.47 10*3/uL	http://loinc.org|777-3
+2012-08-19	unknown	fact	lab_values	creatinine high	3.1462 mg/dL	http://loinc.org|38483-4
+2012-08-19	unknown	fact	lab_values	inadequate GFR	12.947 mL/min	http://loinc.org|33914-3
+2012-08-19	unknown	fact	lab_values	albumin normal	4.4608 g/dL	http://loinc.org|1751-7
+2012-08-19	unknown	fact	lab_values	bilirubin normal	0.39805 mg/dL	http://loinc.org|1975-2
+2012-08-19	unknown	fact	lab_values	alkaline phosphatase value reported	93.204 U/L	http://loinc.org|6768-6
+2012-08-19	unknown	fact	lab_values	ALT high	46.728 U/L	http://loinc.org|1742-6
+2012-08-19	unknown	fact	lab_values	AST normal	10.034 U/L	http://loinc.org|1920-8
+2012-08-19	unknown	fact	lab_values	urine protein high	320.88 mg/dL	http://loinc.org|5804-0
+2012-08-19	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-08-19	unknown	fact	lab_values	WBC low	3.8039 10*3/uL	http://loinc.org|6690-2
+2012-08-19	unknown	fact	lab_values	RBC normal	5.2251 10*6/uL	http://loinc.org|789-8
+2012-08-19	unknown	fact	lab_values	Hb normal	15.967 g/dL	http://loinc.org|718-7
+2012-08-19	unknown	fact	lab_values	HCT normal	47.476 %	http://loinc.org|4544-3
+2012-08-19	unknown	fact	lab_values	platelet count normal	293.04 10*3/uL	http://loinc.org|777-3
+2012-09-16	unknown	fact	lab_values	creatinine high	3.015 mg/dL	http://loinc.org|38483-4
+2012-09-16	unknown	fact	lab_values	inadequate GFR	14.324 mL/min	http://loinc.org|33914-3
+2012-09-16	unknown	fact	lab_values	albumin normal	3.7361 g/dL	http://loinc.org|1751-7
+2012-09-16	unknown	fact	lab_values	bilirubin normal	0.68122 mg/dL	http://loinc.org|1975-2
+2012-09-16	unknown	fact	lab_values	alkaline phosphatase value reported	25.651 U/L	http://loinc.org|6768-6
+2012-09-16	unknown	fact	lab_values	ALT normal	34.025 U/L	http://loinc.org|1742-6
+2012-09-16	unknown	fact	lab_values	AST normal	39.657 U/L	http://loinc.org|1920-8
+2012-09-16	unknown	fact	lab_values	urine protein high	433.68 mg/dL	http://loinc.org|5804-0
+2012-09-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-09-16	unknown	fact	lab_values	WBC low	1.9754 10*3/uL	http://loinc.org|6690-2
+2012-09-16	unknown	fact	lab_values	RBC normal	4.4549 10*6/uL	http://loinc.org|789-8
+2012-09-16	unknown	fact	lab_values	Hb normal	13.828 g/dL	http://loinc.org|718-7
+2012-09-16	unknown	fact	lab_values	HCT normal	49.16 %	http://loinc.org|4544-3
+2012-09-16	unknown	fact	lab_values	platelet count normal	367.35 10*3/uL	http://loinc.org|777-3
+2012-10-09	unknown	fact	lab_values	creatinine high	2.6054 mg/dL	http://loinc.org|38483-4
+2012-10-09	unknown	fact	lab_values	inadequate GFR	12.848 mL/min	http://loinc.org|33914-3
+2012-10-09	unknown	fact	lab_values	albumin normal	4.6427 g/dL	http://loinc.org|1751-7
+2012-10-09	unknown	fact	lab_values	bilirubin normal	1.1707 mg/dL	http://loinc.org|1975-2
+2012-10-09	unknown	fact	lab_values	alkaline phosphatase value reported	74.136 U/L	http://loinc.org|6768-6
+2012-10-09	unknown	fact	lab_values	ALT high	55.855 U/L	http://loinc.org|1742-6
+2012-10-09	unknown	fact	lab_values	AST normal	23.223 U/L	http://loinc.org|1920-8
+2012-10-09	unknown	fact	lab_values	urine protein high	325.18 mg/dL	http://loinc.org|5804-0
+2012-10-09	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-10-09	unknown	fact	lab_values	WBC low	2.1644 10*3/uL	http://loinc.org|6690-2
+2012-10-09	unknown	fact	lab_values	RBC normal	4.8711 10*6/uL	http://loinc.org|789-8
+2012-10-09	unknown	fact	lab_values	Hb normal	15.942 g/dL	http://loinc.org|718-7
+2012-10-09	unknown	fact	lab_values	HCT normal	42.938 %	http://loinc.org|4544-3
+2012-10-09	unknown	fact	lab_values	platelet count normal	434.14 10*3/uL	http://loinc.org|777-3
+2012-10-31	unknown	fact	lab_values	creatinine high	2.5308 mg/dL	http://loinc.org|38483-4
+2012-10-31	unknown	fact	lab_values	inadequate GFR	4.3182 mL/min	http://loinc.org|33914-3
+2012-10-31	unknown	fact	lab_values	albumin normal	4.398 g/dL	http://loinc.org|1751-7
+2012-10-31	unknown	fact	lab_values	bilirubin value reported	0.1001 mg/dL	http://loinc.org|1975-2
+2012-10-31	unknown	fact	lab_values	alkaline phosphatase value reported	92.161 U/L	http://loinc.org|6768-6
+2012-10-31	unknown	fact	lab_values	ALT high	47.801 U/L	http://loinc.org|1742-6
+2012-10-31	unknown	fact	lab_values	AST normal	23.362 U/L	http://loinc.org|1920-8
+2012-10-31	unknown	fact	lab_values	urine protein high	365.28 mg/dL	http://loinc.org|5804-0
+2012-10-31	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-10-31	unknown	fact	lab_values	WBC low	1.0333 10*3/uL	http://loinc.org|6690-2
+2012-10-31	unknown	fact	lab_values	RBC normal	4.4284 10*6/uL	http://loinc.org|789-8
+2012-10-31	unknown	fact	lab_values	Hb normal	16.586 g/dL	http://loinc.org|718-7
+2012-10-31	unknown	fact	lab_values	HCT normal	43.506 %	http://loinc.org|4544-3
+2012-10-31	unknown	fact	lab_values	platelet count normal	359.29 10*3/uL	http://loinc.org|777-3
+2012-11-22	unknown	fact	lab_values	creatinine high	3.2443 mg/dL	http://loinc.org|38483-4
+2012-11-22	unknown	fact	lab_values	inadequate GFR	26.551 mL/min	http://loinc.org|33914-3
+2012-11-22	unknown	fact	lab_values	albumin normal	4.4456 g/dL	http://loinc.org|1751-7
+2012-11-22	unknown	fact	lab_values	bilirubin normal	0.94962 mg/dL	http://loinc.org|1975-2
+2012-11-22	unknown	fact	lab_values	alkaline phosphatase value reported	35.691 U/L	http://loinc.org|6768-6
+2012-11-22	unknown	fact	lab_values	ALT high	50.581 U/L	http://loinc.org|1742-6
+2012-11-22	unknown	fact	lab_values	AST normal	29.407 U/L	http://loinc.org|1920-8
+2012-11-22	unknown	fact	lab_values	urine protein high	412.49 mg/dL	http://loinc.org|5804-0
+2012-11-22	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-11-22	unknown	fact	lab_values	WBC low	1.0003 10*3/uL	http://loinc.org|6690-2
+2012-11-22	unknown	fact	lab_values	RBC normal	4.9831 10*6/uL	http://loinc.org|789-8
+2012-11-22	unknown	fact	lab_values	Hb low	12.24 g/dL	http://loinc.org|718-7
+2012-11-22	unknown	fact	lab_values	HCT normal	42.06 %	http://loinc.org|4544-3
+2012-11-22	unknown	fact	lab_values	platelet count normal	371.26 10*3/uL	http://loinc.org|777-3
+2012-12-15	unknown	fact	lab_values	creatinine high	2.8673 mg/dL	http://loinc.org|38483-4
+2012-12-15	unknown	fact	lab_values	inadequate GFR	6.4782 mL/min	http://loinc.org|33914-3
+2012-12-15	unknown	fact	lab_values	albumin normal	4.5011 g/dL	http://loinc.org|1751-7
+2012-12-15	unknown	fact	lab_values	bilirubin normal	0.61577 mg/dL	http://loinc.org|1975-2
+2012-12-15	unknown	fact	lab_values	alkaline phosphatase value reported	103.76 U/L	http://loinc.org|6768-6
+2012-12-15	unknown	fact	lab_values	ALT normal	31.143 U/L	http://loinc.org|1742-6
+2012-12-15	unknown	fact	lab_values	AST normal	22.121 U/L	http://loinc.org|1920-8
+2012-12-15	unknown	fact	lab_values	urine protein high	432.07 mg/dL	http://loinc.org|5804-0
+2012-12-15	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2012-12-15	unknown	fact	lab_values	WBC low	2.115 10*3/uL	http://loinc.org|6690-2
+2012-12-15	unknown	fact	lab_values	RBC normal	5.1277 10*6/uL	http://loinc.org|789-8
+2012-12-15	unknown	fact	lab_values	Hb normal	13.807 g/dL	http://loinc.org|718-7
+2012-12-15	unknown	fact	lab_values	HCT normal	43.593 %	http://loinc.org|4544-3
+2012-12-15	unknown	fact	lab_values	platelet count normal	396.92 10*3/uL	http://loinc.org|777-3
+2013-01-07	unknown	fact	lab_values	creatinine high	2.5712 mg/dL	http://loinc.org|38483-4
+2013-01-07	unknown	fact	lab_values	inadequate GFR	27.875 mL/min	http://loinc.org|33914-3
+2013-01-07	unknown	fact	lab_values	albumin normal	3.7095 g/dL	http://loinc.org|1751-7
+2013-01-07	unknown	fact	lab_values	bilirubin normal	0.57677 mg/dL	http://loinc.org|1975-2
+2013-01-07	unknown	fact	lab_values	alkaline phosphatase value reported	88.834 U/L	http://loinc.org|6768-6
+2013-01-07	unknown	fact	lab_values	ALT high	59.824 U/L	http://loinc.org|1742-6
+2013-01-07	unknown	fact	lab_values	AST normal	21.333 U/L	http://loinc.org|1920-8
+2013-01-07	unknown	fact	lab_values	urine protein high	405.18 mg/dL	http://loinc.org|5804-0
+2013-01-07	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-01-07	unknown	fact	lab_values	WBC low	3.1387 10*3/uL	http://loinc.org|6690-2
+2013-01-07	unknown	fact	lab_values	RBC normal	4.2549 10*6/uL	http://loinc.org|789-8
+2013-01-07	unknown	fact	lab_values	Hb low	12.226 g/dL	http://loinc.org|718-7
+2013-01-07	unknown	fact	lab_values	HCT normal	48.297 %	http://loinc.org|4544-3
+2013-01-07	unknown	fact	lab_values	platelet count normal	393.01 10*3/uL	http://loinc.org|777-3
+2013-02-02	unknown	fact	lab_values	creatinine high	2.5718 mg/dL	http://loinc.org|38483-4
+2013-02-02	unknown	fact	lab_values	inadequate GFR	27.594 mL/min	http://loinc.org|33914-3
+2013-02-02	unknown	fact	lab_values	albumin high	5.1705 g/dL	http://loinc.org|1751-7
+2013-02-02	unknown	fact	lab_values	bilirubin normal	0.39706 mg/dL	http://loinc.org|1975-2
+2013-02-02	unknown	fact	lab_values	alkaline phosphatase value reported	42.687 U/L	http://loinc.org|6768-6
+2013-02-02	unknown	fact	lab_values	ALT high	51.806 U/L	http://loinc.org|1742-6
+2013-02-02	unknown	fact	lab_values	AST normal	13.523 U/L	http://loinc.org|1920-8
+2013-02-02	unknown	fact	lab_values	urine protein high	332.25 mg/dL	http://loinc.org|5804-0
+2013-02-02	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-02-02	unknown	fact	lab_values	WBC low	3.6211 10*3/uL	http://loinc.org|6690-2
+2013-02-02	unknown	fact	lab_values	RBC normal	4.9302 10*6/uL	http://loinc.org|789-8
+2013-02-02	unknown	fact	lab_values	Hb normal	15.442 g/dL	http://loinc.org|718-7
+2013-02-02	unknown	fact	lab_values	HCT normal	48.093 %	http://loinc.org|4544-3
+2013-02-02	unknown	fact	lab_values	platelet count normal	428.42 10*3/uL	http://loinc.org|777-3
+2013-02-27	unknown	fact	lab_values	creatinine high	3.1539 mg/dL	http://loinc.org|38483-4
+2013-02-27	unknown	fact	lab_values	inadequate GFR	24.616 mL/min	http://loinc.org|33914-3
+2013-02-27	unknown	fact	lab_values	albumin normal	4.8222 g/dL	http://loinc.org|1751-7
+2013-02-27	unknown	fact	lab_values	bilirubin normal	0.72791 mg/dL	http://loinc.org|1975-2
+2013-02-27	unknown	fact	lab_values	alkaline phosphatase value reported	135.17 U/L	http://loinc.org|6768-6
+2013-02-27	unknown	fact	lab_values	ALT normal	37.519 U/L	http://loinc.org|1742-6
+2013-02-27	unknown	fact	lab_values	AST value reported	7.7748 U/L	http://loinc.org|1920-8
+2013-02-27	unknown	fact	lab_values	urine protein high	354.61 mg/dL	http://loinc.org|5804-0
+2013-02-27	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-02-27	unknown	fact	lab_values	WBC normal	4.2784 10*3/uL	http://loinc.org|6690-2
+2013-02-27	unknown	fact	lab_values	RBC normal	5.2169 10*6/uL	http://loinc.org|789-8
+2013-02-27	unknown	fact	lab_values	Hb low	12.264 g/dL	http://loinc.org|718-7
+2013-02-27	unknown	fact	lab_values	HCT normal	38.138 %	http://loinc.org|4544-3
+2013-02-27	unknown	fact	lab_values	platelet count normal	182.29 10*3/uL	http://loinc.org|777-3
+2013-03-13	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2013-03-26	unknown	fact	lab_values	creatinine high	2.6791 mg/dL	http://loinc.org|38483-4
+2013-03-26	unknown	fact	lab_values	inadequate GFR	24.75 mL/min	http://loinc.org|33914-3
+2013-03-26	unknown	fact	lab_values	albumin high	5.4927 g/dL	http://loinc.org|1751-7
+2013-03-26	unknown	fact	lab_values	bilirubin normal	0.56153 mg/dL	http://loinc.org|1975-2
+2013-03-26	unknown	fact	lab_values	alkaline phosphatase value reported	71.856 U/L	http://loinc.org|6768-6
+2013-03-26	unknown	fact	lab_values	ALT normal	20.356 U/L	http://loinc.org|1742-6
+2013-03-26	unknown	fact	lab_values	AST normal	15.106 U/L	http://loinc.org|1920-8
+2013-03-26	unknown	fact	lab_values	urine protein high	430.28 mg/dL	http://loinc.org|5804-0
+2013-03-26	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-03-26	unknown	fact	lab_values	WBC normal	4.0969 10*3/uL	http://loinc.org|6690-2
+2013-03-26	unknown	fact	lab_values	RBC normal	4.7565 10*6/uL	http://loinc.org|789-8
+2013-03-26	unknown	fact	lab_values	Hb normal	16.469 g/dL	http://loinc.org|718-7
+2013-03-26	unknown	fact	lab_values	HCT normal	41.692 %	http://loinc.org|4544-3
+2013-03-26	unknown	fact	lab_values	platelet count normal	445.96 10*3/uL	http://loinc.org|777-3
+2013-04-20	unknown	fact	lab_values	creatinine high	3.2375 mg/dL	http://loinc.org|38483-4
+2013-04-20	unknown	fact	lab_values	inadequate GFR	23.507 mL/min	http://loinc.org|33914-3
+2013-04-20	unknown	fact	lab_values	albumin normal	3.6584 g/dL	http://loinc.org|1751-7
+2013-04-20	unknown	fact	lab_values	bilirubin normal	0.61588 mg/dL	http://loinc.org|1975-2
+2013-04-20	unknown	fact	lab_values	alkaline phosphatase value reported	61.668 U/L	http://loinc.org|6768-6
+2013-04-20	unknown	fact	lab_values	ALT normal	25.77 U/L	http://loinc.org|1742-6
+2013-04-20	unknown	fact	lab_values	AST normal	11.349 U/L	http://loinc.org|1920-8
+2013-04-20	unknown	fact	lab_values	urine protein high	279.6 mg/dL	http://loinc.org|5804-0
+2013-04-20	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-04-20	unknown	fact	lab_values	WBC normal	4.9387 10*3/uL	http://loinc.org|6690-2
+2013-04-20	unknown	fact	lab_values	RBC normal	4.1598 10*6/uL	http://loinc.org|789-8
+2013-04-20	unknown	fact	lab_values	Hb low	13.31 g/dL	http://loinc.org|718-7
+2013-04-20	unknown	fact	lab_values	HCT normal	38.2 %	http://loinc.org|4544-3
+2013-04-20	unknown	fact	lab_values	platelet count normal	338.17 10*3/uL	http://loinc.org|777-3
+2013-05-14	unknown	fact	lab_values	creatinine high	3.242 mg/dL	http://loinc.org|38483-4
+2013-05-14	unknown	fact	lab_values	inadequate GFR	6.0735 mL/min	http://loinc.org|33914-3
+2013-05-14	unknown	fact	lab_values	albumin normal	3.9357 g/dL	http://loinc.org|1751-7
+2013-05-14	unknown	fact	lab_values	bilirubin normal	0.52391 mg/dL	http://loinc.org|1975-2
+2013-05-14	unknown	fact	lab_values	alkaline phosphatase value reported	25.276 U/L	http://loinc.org|6768-6
+2013-05-14	unknown	fact	lab_values	ALT high	58.078 U/L	http://loinc.org|1742-6
+2013-05-14	unknown	fact	lab_values	AST normal	10.192 U/L	http://loinc.org|1920-8
+2013-05-14	unknown	fact	lab_values	urine protein high	271.39 mg/dL	http://loinc.org|5804-0
+2013-05-14	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-05-14	unknown	fact	lab_values	WBC low	2.2051 10*3/uL	http://loinc.org|6690-2
+2013-05-14	unknown	fact	lab_values	RBC normal	5.4216 10*6/uL	http://loinc.org|789-8
+2013-05-14	unknown	fact	lab_values	Hb normal	16.731 g/dL	http://loinc.org|718-7
+2013-05-14	unknown	fact	lab_values	HCT normal	41.446 %	http://loinc.org|4544-3
+2013-05-14	unknown	fact	lab_values	platelet count normal	234.19 10*3/uL	http://loinc.org|777-3
+2013-06-08	unknown	fact	lab_values	creatinine high	3.3361 mg/dL	http://loinc.org|38483-4
+2013-06-08	unknown	fact	lab_values	inadequate GFR	20.65 mL/min	http://loinc.org|33914-3
+2013-06-08	unknown	fact	lab_values	albumin normal	4.909 g/dL	http://loinc.org|1751-7
+2013-06-08	unknown	fact	lab_values	bilirubin normal	0.21322 mg/dL	http://loinc.org|1975-2
+2013-06-08	unknown	fact	lab_values	alkaline phosphatase value reported	47.704 U/L	http://loinc.org|6768-6
+2013-06-08	unknown	fact	lab_values	ALT high	40.826 U/L	http://loinc.org|1742-6
+2013-06-08	unknown	fact	lab_values	AST normal	37.922 U/L	http://loinc.org|1920-8
+2013-06-08	unknown	fact	lab_values	urine protein high	319.83 mg/dL	http://loinc.org|5804-0
+2013-06-08	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-06-08	unknown	fact	lab_values	WBC low	1.5737 10*3/uL	http://loinc.org|6690-2
+2013-06-08	unknown	fact	lab_values	RBC normal	4.2263 10*6/uL	http://loinc.org|789-8
+2013-06-08	unknown	fact	lab_values	Hb normal	14.646 g/dL	http://loinc.org|718-7
+2013-06-08	unknown	fact	lab_values	HCT normal	42.934 %	http://loinc.org|4544-3
+2013-06-08	unknown	fact	lab_values	platelet count normal	357.6 10*3/uL	http://loinc.org|777-3
+2013-06-30	unknown	fact	lab_values	creatinine high	2.6708 mg/dL	http://loinc.org|38483-4
+2013-06-30	unknown	fact	lab_values	inadequate GFR	18.813 mL/min	http://loinc.org|33914-3
+2013-06-30	unknown	fact	lab_values	albumin normal	4.6645 g/dL	http://loinc.org|1751-7
+2013-06-30	unknown	fact	lab_values	bilirubin normal	0.22531 mg/dL	http://loinc.org|1975-2
+2013-06-30	unknown	fact	lab_values	alkaline phosphatase value reported	106.39 U/L	http://loinc.org|6768-6
+2013-06-30	unknown	fact	lab_values	ALT normal	39.484 U/L	http://loinc.org|1742-6
+2013-06-30	unknown	fact	lab_values	AST normal	21.752 U/L	http://loinc.org|1920-8
+2013-06-30	unknown	fact	lab_values	urine protein high	266.85 mg/dL	http://loinc.org|5804-0
+2013-06-30	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-06-30	unknown	fact	lab_values	WBC low	0.96962 10*3/uL	http://loinc.org|6690-2
+2013-06-30	unknown	fact	lab_values	RBC normal	4.1225 10*6/uL	http://loinc.org|789-8
+2013-06-30	unknown	fact	lab_values	Hb low	12.041 g/dL	http://loinc.org|718-7
+2013-06-30	unknown	fact	lab_values	HCT normal	40.72 %	http://loinc.org|4544-3
+2013-06-30	unknown	fact	lab_values	platelet count normal	315.03 10*3/uL	http://loinc.org|777-3
+2013-07-21	unknown	fact	lab_values	creatinine high	2.5971 mg/dL	http://loinc.org|38483-4
+2013-07-21	unknown	fact	lab_values	inadequate GFR	21.012 mL/min	http://loinc.org|33914-3
+2013-07-21	unknown	fact	lab_values	albumin normal	3.633 g/dL	http://loinc.org|1751-7
+2013-07-21	unknown	fact	lab_values	bilirubin normal	0.73477 mg/dL	http://loinc.org|1975-2
+2013-07-21	unknown	fact	lab_values	alkaline phosphatase value reported	106.07 U/L	http://loinc.org|6768-6
+2013-07-21	unknown	fact	lab_values	ALT normal	34.105 U/L	http://loinc.org|1742-6
+2013-07-21	unknown	fact	lab_values	AST normal	22.919 U/L	http://loinc.org|1920-8
+2013-07-21	unknown	fact	lab_values	urine protein high	301.73 mg/dL	http://loinc.org|5804-0
+2013-07-21	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-07-21	unknown	fact	lab_values	WBC low	1.0327 10*3/uL	http://loinc.org|6690-2
+2013-07-21	unknown	fact	lab_values	RBC low	3.9246 10*6/uL	http://loinc.org|789-8
+2013-07-21	unknown	fact	lab_values	Hb low	12.709 g/dL	http://loinc.org|718-7
+2013-07-21	unknown	fact	lab_values	HCT normal	39.995 %	http://loinc.org|4544-3
+2013-07-21	unknown	fact	lab_values	platelet count normal	255.79 10*3/uL	http://loinc.org|777-3
+2013-08-16	unknown	fact	lab_values	creatinine high	3.0559 mg/dL	http://loinc.org|38483-4
+2013-08-16	unknown	fact	lab_values	inadequate GFR	7.5823 mL/min	http://loinc.org|33914-3
+2013-08-16	unknown	fact	lab_values	albumin high	5.1394 g/dL	http://loinc.org|1751-7
+2013-08-16	unknown	fact	lab_values	bilirubin normal	0.79175 mg/dL	http://loinc.org|1975-2
+2013-08-16	unknown	fact	lab_values	alkaline phosphatase value reported	69.496 U/L	http://loinc.org|6768-6
+2013-08-16	unknown	fact	lab_values	ALT normal	23.569 U/L	http://loinc.org|1742-6
+2013-08-16	unknown	fact	lab_values	AST normal	30.919 U/L	http://loinc.org|1920-8
+2013-08-16	unknown	fact	lab_values	urine protein high	279.91 mg/dL	http://loinc.org|5804-0
+2013-08-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-08-16	unknown	fact	lab_values	WBC low	2.4317 10*3/uL	http://loinc.org|6690-2
+2013-08-16	unknown	fact	lab_values	RBC normal	4.5266 10*6/uL	http://loinc.org|789-8
+2013-08-16	unknown	fact	lab_values	Hb normal	16.383 g/dL	http://loinc.org|718-7
+2013-08-16	unknown	fact	lab_values	HCT normal	41.419 %	http://loinc.org|4544-3
+2013-08-16	unknown	fact	lab_values	platelet count normal	162.06 10*3/uL	http://loinc.org|777-3
+2013-09-12	unknown	fact	lab_values	creatinine high	3.1436 mg/dL	http://loinc.org|38483-4
+2013-09-12	unknown	fact	lab_values	inadequate GFR	10.612 mL/min	http://loinc.org|33914-3
+2013-09-12	unknown	fact	lab_values	albumin normal	4.2414 g/dL	http://loinc.org|1751-7
+2013-09-12	unknown	fact	lab_values	bilirubin normal	0.76782 mg/dL	http://loinc.org|1975-2
+2013-09-12	unknown	fact	lab_values	alkaline phosphatase value reported	68.222 U/L	http://loinc.org|6768-6
+2013-09-12	unknown	fact	lab_values	ALT normal	20.312 U/L	http://loinc.org|1742-6
+2013-09-12	unknown	fact	lab_values	AST normal	38.573 U/L	http://loinc.org|1920-8
+2013-09-12	unknown	fact	lab_values	urine protein high	368.59 mg/dL	http://loinc.org|5804-0
+2013-09-12	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-09-12	unknown	fact	lab_values	WBC low	1.4988 10*3/uL	http://loinc.org|6690-2
+2013-09-12	unknown	fact	lab_values	RBC normal	5.3217 10*6/uL	http://loinc.org|789-8
+2013-09-12	unknown	fact	lab_values	Hb normal	15.316 g/dL	http://loinc.org|718-7
+2013-09-12	unknown	fact	lab_values	HCT normal	40.814 %	http://loinc.org|4544-3
+2013-09-12	unknown	fact	lab_values	platelet count normal	378.19 10*3/uL	http://loinc.org|777-3
+2013-10-10	unknown	fact	lab_values	creatinine high	2.9186 mg/dL	http://loinc.org|38483-4
+2013-10-10	unknown	fact	lab_values	inadequate GFR	8.7993 mL/min	http://loinc.org|33914-3
+2013-10-10	unknown	fact	lab_values	albumin high	5.1325 g/dL	http://loinc.org|1751-7
+2013-10-10	unknown	fact	lab_values	bilirubin normal	0.33868 mg/dL	http://loinc.org|1975-2
+2013-10-10	unknown	fact	lab_values	alkaline phosphatase value reported	139.9 U/L	http://loinc.org|6768-6
+2013-10-10	unknown	fact	lab_values	ALT high	56.214 U/L	http://loinc.org|1742-6
+2013-10-10	unknown	fact	lab_values	AST normal	10.685 U/L	http://loinc.org|1920-8
+2013-10-10	unknown	fact	lab_values	urine protein high	344.38 mg/dL	http://loinc.org|5804-0
+2013-10-10	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-10-10	unknown	fact	lab_values	WBC normal	4.528 10*3/uL	http://loinc.org|6690-2
+2013-10-10	unknown	fact	lab_values	RBC normal	4.9815 10*6/uL	http://loinc.org|789-8
+2013-10-10	unknown	fact	lab_values	Hb low	12.071 g/dL	http://loinc.org|718-7
+2013-10-10	unknown	fact	lab_values	HCT normal	37.257 %	http://loinc.org|4544-3
+2013-10-10	unknown	fact	lab_values	platelet count normal	350.55 10*3/uL	http://loinc.org|777-3
+2013-11-02	unknown	fact	lab_values	creatinine high	2.7888 mg/dL	http://loinc.org|38483-4
+2013-11-02	unknown	fact	lab_values	inadequate GFR	13.342 mL/min	http://loinc.org|33914-3
+2013-11-02	unknown	fact	lab_values	albumin normal	4.5395 g/dL	http://loinc.org|1751-7
+2013-11-02	unknown	fact	lab_values	bilirubin normal	0.66123 mg/dL	http://loinc.org|1975-2
+2013-11-02	unknown	fact	lab_values	alkaline phosphatase value reported	40.074 U/L	http://loinc.org|6768-6
+2013-11-02	unknown	fact	lab_values	ALT normal	25.787 U/L	http://loinc.org|1742-6
+2013-11-02	unknown	fact	lab_values	AST normal	39.185 U/L	http://loinc.org|1920-8
+2013-11-02	unknown	fact	lab_values	urine protein high	399.99 mg/dL	http://loinc.org|5804-0
+2013-11-02	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-11-02	unknown	fact	lab_values	WBC low	3.5607 10*3/uL	http://loinc.org|6690-2
+2013-11-02	unknown	fact	lab_values	RBC normal	4.2485 10*6/uL	http://loinc.org|789-8
+2013-11-02	unknown	fact	lab_values	Hb low	13.293 g/dL	http://loinc.org|718-7
+2013-11-02	unknown	fact	lab_values	HCT normal	46.95 %	http://loinc.org|4544-3
+2013-11-02	unknown	fact	lab_values	platelet count normal	154.51 10*3/uL	http://loinc.org|777-3
+2013-11-24	unknown	fact	lab_values	creatinine high	3.3872 mg/dL	http://loinc.org|38483-4
+2013-11-24	unknown	fact	lab_values	inadequate GFR	26.624 mL/min	http://loinc.org|33914-3
+2013-11-24	unknown	fact	lab_values	albumin high	5.0877 g/dL	http://loinc.org|1751-7
+2013-11-24	unknown	fact	lab_values	bilirubin normal	1.1458 mg/dL	http://loinc.org|1975-2
+2013-11-24	unknown	fact	lab_values	alkaline phosphatase value reported	70.742 U/L	http://loinc.org|6768-6
+2013-11-24	unknown	fact	lab_values	ALT normal	28.039 U/L	http://loinc.org|1742-6
+2013-11-24	unknown	fact	lab_values	AST normal	36.444 U/L	http://loinc.org|1920-8
+2013-11-24	unknown	fact	lab_values	urine protein high	253.8 mg/dL	http://loinc.org|5804-0
+2013-11-24	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-11-24	unknown	fact	lab_values	WBC low	1.8414 10*3/uL	http://loinc.org|6690-2
+2013-11-24	unknown	fact	lab_values	RBC normal	4.6594 10*6/uL	http://loinc.org|789-8
+2013-11-24	unknown	fact	lab_values	Hb normal	15.26 g/dL	http://loinc.org|718-7
+2013-11-24	unknown	fact	lab_values	HCT normal	40.684 %	http://loinc.org|4544-3
+2013-11-24	unknown	fact	lab_values	platelet count normal	160.98 10*3/uL	http://loinc.org|777-3
+2013-12-16	unknown	fact	lab_values	creatinine high	2.5563 mg/dL	http://loinc.org|38483-4
+2013-12-16	unknown	fact	lab_values	inadequate GFR	19.988 mL/min	http://loinc.org|33914-3
+2013-12-16	unknown	fact	lab_values	albumin normal	4.7646 g/dL	http://loinc.org|1751-7
+2013-12-16	unknown	fact	lab_values	bilirubin normal	0.23911 mg/dL	http://loinc.org|1975-2
+2013-12-16	unknown	fact	lab_values	alkaline phosphatase value reported	112.45 U/L	http://loinc.org|6768-6
+2013-12-16	unknown	fact	lab_values	ALT normal	29.886 U/L	http://loinc.org|1742-6
+2013-12-16	unknown	fact	lab_values	AST value reported	7.6914 U/L	http://loinc.org|1920-8
+2013-12-16	unknown	fact	lab_values	urine protein high	351.84 mg/dL	http://loinc.org|5804-0
+2013-12-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2013-12-16	unknown	fact	lab_values	WBC normal	4.8867 10*3/uL	http://loinc.org|6690-2
+2013-12-16	unknown	fact	lab_values	RBC normal	4.4182 10*6/uL	http://loinc.org|789-8
+2013-12-16	unknown	fact	lab_values	Hb normal	16.417 g/dL	http://loinc.org|718-7
+2013-12-16	unknown	fact	lab_values	HCT normal	37.509 %	http://loinc.org|4544-3
+2013-12-16	unknown	fact	lab_values	platelet count normal	222.7 10*3/uL	http://loinc.org|777-3
+2014-01-12	unknown	fact	lab_values	creatinine high	3.348 mg/dL	http://loinc.org|38483-4
+2014-01-12	unknown	fact	lab_values	inadequate GFR	24.977 mL/min	http://loinc.org|33914-3
+2014-01-12	unknown	fact	lab_values	albumin normal	4.0789 g/dL	http://loinc.org|1751-7
+2014-01-12	unknown	fact	lab_values	bilirubin normal	0.56135 mg/dL	http://loinc.org|1975-2
+2014-01-12	unknown	fact	lab_values	alkaline phosphatase value reported	24.802 U/L	http://loinc.org|6768-6
+2014-01-12	unknown	fact	lab_values	ALT normal	28.992 U/L	http://loinc.org|1742-6
+2014-01-12	unknown	fact	lab_values	AST value reported	6.0611 U/L	http://loinc.org|1920-8
+2014-01-12	unknown	fact	lab_values	urine protein high	424.91 mg/dL	http://loinc.org|5804-0
+2014-01-12	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-01-12	unknown	fact	lab_values	WBC low	2.7217 10*3/uL	http://loinc.org|6690-2
+2014-01-12	unknown	fact	lab_values	RBC normal	4.2434 10*6/uL	http://loinc.org|789-8
+2014-01-12	unknown	fact	lab_values	Hb normal	14.197 g/dL	http://loinc.org|718-7
+2014-01-12	unknown	fact	lab_values	HCT normal	43.17 %	http://loinc.org|4544-3
+2014-01-12	unknown	fact	lab_values	platelet count normal	188.81 10*3/uL	http://loinc.org|777-3
+2014-02-06	unknown	fact	lab_values	creatinine high	3.329 mg/dL	http://loinc.org|38483-4
+2014-02-06	unknown	fact	lab_values	inadequate GFR	15.677 mL/min	http://loinc.org|33914-3
+2014-02-06	unknown	fact	lab_values	albumin normal	4.2843 g/dL	http://loinc.org|1751-7
+2014-02-06	unknown	fact	lab_values	bilirubin value reported	0.14512 mg/dL	http://loinc.org|1975-2
+2014-02-06	unknown	fact	lab_values	alkaline phosphatase value reported	104.89 U/L	http://loinc.org|6768-6
+2014-02-06	unknown	fact	lab_values	ALT high	52.252 U/L	http://loinc.org|1742-6
+2014-02-06	unknown	fact	lab_values	AST normal	18.754 U/L	http://loinc.org|1920-8
+2014-02-06	unknown	fact	lab_values	urine protein high	418.16 mg/dL	http://loinc.org|5804-0
+2014-02-06	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-02-06	unknown	fact	lab_values	WBC low	0.99731 10*3/uL	http://loinc.org|6690-2
+2014-02-06	unknown	fact	lab_values	RBC normal	4.4794 10*6/uL	http://loinc.org|789-8
+2014-02-06	unknown	fact	lab_values	Hb normal	14.52 g/dL	http://loinc.org|718-7
+2014-02-06	unknown	fact	lab_values	HCT normal	37.891 %	http://loinc.org|4544-3
+2014-02-06	unknown	fact	lab_values	platelet count normal	180.89 10*3/uL	http://loinc.org|777-3
+2014-03-04	unknown	fact	lab_values	creatinine high	3.4407 mg/dL	http://loinc.org|38483-4
+2014-03-04	unknown	fact	lab_values	inadequate GFR	4.5166 mL/min	http://loinc.org|33914-3
+2014-03-04	unknown	fact	lab_values	albumin normal	4.0783 g/dL	http://loinc.org|1751-7
+2014-03-04	unknown	fact	lab_values	bilirubin normal	0.70176 mg/dL	http://loinc.org|1975-2
+2014-03-04	unknown	fact	lab_values	alkaline phosphatase value reported	72.359 U/L	http://loinc.org|6768-6
+2014-03-04	unknown	fact	lab_values	ALT normal	38.26 U/L	http://loinc.org|1742-6
+2014-03-04	unknown	fact	lab_values	AST normal	25.902 U/L	http://loinc.org|1920-8
+2014-03-04	unknown	fact	lab_values	urine protein high	420.02 mg/dL	http://loinc.org|5804-0
+2014-03-04	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-03-04	unknown	fact	lab_values	WBC low	1.2572 10*3/uL	http://loinc.org|6690-2
+2014-03-04	unknown	fact	lab_values	RBC normal	4.0688 10*6/uL	http://loinc.org|789-8
+2014-03-04	unknown	fact	lab_values	Hb normal	13.749 g/dL	http://loinc.org|718-7
+2014-03-04	unknown	fact	lab_values	HCT normal	36.116 %	http://loinc.org|4544-3
+2014-03-04	unknown	fact	lab_values	platelet count normal	397.19 10*3/uL	http://loinc.org|777-3
+2014-03-19	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2014-03-29	unknown	fact	lab_values	creatinine high	3.1754 mg/dL	http://loinc.org|38483-4
+2014-03-29	unknown	fact	lab_values	inadequate GFR	13.862 mL/min	http://loinc.org|33914-3
+2014-03-29	unknown	fact	lab_values	albumin normal	4.9155 g/dL	http://loinc.org|1751-7
+2014-03-29	unknown	fact	lab_values	bilirubin normal	0.35339 mg/dL	http://loinc.org|1975-2
+2014-03-29	unknown	fact	lab_values	alkaline phosphatase value reported	69.919 U/L	http://loinc.org|6768-6
+2014-03-29	unknown	fact	lab_values	ALT normal	35.176 U/L	http://loinc.org|1742-6
+2014-03-29	unknown	fact	lab_values	AST normal	14.59 U/L	http://loinc.org|1920-8
+2014-03-29	unknown	fact	lab_values	urine protein high	270.5 mg/dL	http://loinc.org|5804-0
+2014-03-29	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-03-29	unknown	fact	lab_values	WBC low	3.247 10*3/uL	http://loinc.org|6690-2
+2014-03-29	unknown	fact	lab_values	RBC normal	4.5619 10*6/uL	http://loinc.org|789-8
+2014-03-29	unknown	fact	lab_values	Hb normal	17.316 g/dL	http://loinc.org|718-7
+2014-03-29	unknown	fact	lab_values	HCT normal	42.29 %	http://loinc.org|4544-3
+2014-03-29	unknown	fact	lab_values	platelet count normal	281.02 10*3/uL	http://loinc.org|777-3
+2014-04-23	unknown	fact	lab_values	creatinine high	3.4969 mg/dL	http://loinc.org|38483-4
+2014-04-23	unknown	fact	lab_values	inadequate GFR	20.325 mL/min	http://loinc.org|33914-3
+2014-04-23	unknown	fact	lab_values	albumin normal	3.78 g/dL	http://loinc.org|1751-7
+2014-04-23	unknown	fact	lab_values	bilirubin normal	0.62019 mg/dL	http://loinc.org|1975-2
+2014-04-23	unknown	fact	lab_values	alkaline phosphatase value reported	59.291 U/L	http://loinc.org|6768-6
+2014-04-23	unknown	fact	lab_values	ALT normal	35.788 U/L	http://loinc.org|1742-6
+2014-04-23	unknown	fact	lab_values	AST normal	11.068 U/L	http://loinc.org|1920-8
+2014-04-23	unknown	fact	lab_values	urine protein high	294.12 mg/dL	http://loinc.org|5804-0
+2014-04-23	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-04-23	unknown	fact	lab_values	WBC low	3.1988 10*3/uL	http://loinc.org|6690-2
+2014-04-23	unknown	fact	lab_values	RBC normal	4.3059 10*6/uL	http://loinc.org|789-8
+2014-04-23	unknown	fact	lab_values	Hb normal	17.256 g/dL	http://loinc.org|718-7
+2014-04-23	unknown	fact	lab_values	HCT normal	48.212 %	http://loinc.org|4544-3
+2014-04-23	unknown	fact	lab_values	platelet count normal	301.12 10*3/uL	http://loinc.org|777-3
+2014-05-16	unknown	fact	lab_values	creatinine high	2.8162 mg/dL	http://loinc.org|38483-4
+2014-05-16	unknown	fact	lab_values	inadequate GFR	7.968 mL/min	http://loinc.org|33914-3
+2014-05-16	unknown	fact	lab_values	albumin normal	3.5043 g/dL	http://loinc.org|1751-7
+2014-05-16	unknown	fact	lab_values	bilirubin normal	0.85111 mg/dL	http://loinc.org|1975-2
+2014-05-16	unknown	fact	lab_values	alkaline phosphatase value reported	39.754 U/L	http://loinc.org|6768-6
+2014-05-16	unknown	fact	lab_values	ALT normal	35.956 U/L	http://loinc.org|1742-6
+2014-05-16	unknown	fact	lab_values	AST normal	22.159 U/L	http://loinc.org|1920-8
+2014-05-16	unknown	fact	lab_values	urine protein high	345.47 mg/dL	http://loinc.org|5804-0
+2014-05-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-05-16	unknown	fact	lab_values	WBC low	0.85195 10*3/uL	http://loinc.org|6690-2
+2014-05-16	unknown	fact	lab_values	RBC normal	5.3614 10*6/uL	http://loinc.org|789-8
+2014-05-16	unknown	fact	lab_values	Hb normal	16.549 g/dL	http://loinc.org|718-7
+2014-05-16	unknown	fact	lab_values	HCT low	35.443 %	http://loinc.org|4544-3
+2014-05-16	unknown	fact	lab_values	platelet count normal	273.33 10*3/uL	http://loinc.org|777-3
+2014-06-08	unknown	fact	lab_values	creatinine high	3.0598 mg/dL	http://loinc.org|38483-4
+2014-06-08	unknown	fact	lab_values	inadequate GFR	13.768 mL/min	http://loinc.org|33914-3
+2014-06-08	unknown	fact	lab_values	albumin normal	3.8158 g/dL	http://loinc.org|1751-7
+2014-06-08	unknown	fact	lab_values	bilirubin normal	0.58789 mg/dL	http://loinc.org|1975-2
+2014-06-08	unknown	fact	lab_values	alkaline phosphatase value reported	133.59 U/L	http://loinc.org|6768-6
+2014-06-08	unknown	fact	lab_values	ALT normal	39.911 U/L	http://loinc.org|1742-6
+2014-06-08	unknown	fact	lab_values	AST normal	14.553 U/L	http://loinc.org|1920-8
+2014-06-08	unknown	fact	lab_values	urine protein high	356.34 mg/dL	http://loinc.org|5804-0
+2014-06-08	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-06-08	unknown	fact	lab_values	WBC low	3.4344 10*3/uL	http://loinc.org|6690-2
+2014-06-08	unknown	fact	lab_values	RBC normal	4.0002 10*6/uL	http://loinc.org|789-8
+2014-06-08	unknown	fact	lab_values	Hb normal	13.842 g/dL	http://loinc.org|718-7
+2014-06-08	unknown	fact	lab_values	HCT normal	40.673 %	http://loinc.org|4544-3
+2014-06-08	unknown	fact	lab_values	platelet count normal	297.3 10*3/uL	http://loinc.org|777-3
+2014-07-03	unknown	fact	lab_values	creatinine high	3.3 mg/dL	http://loinc.org|38483-4
+2014-07-03	unknown	fact	lab_values	inadequate GFR	13.901 mL/min	http://loinc.org|33914-3
+2014-07-03	unknown	fact	lab_values	albumin normal	3.852 g/dL	http://loinc.org|1751-7
+2014-07-03	unknown	fact	lab_values	bilirubin normal	0.20204 mg/dL	http://loinc.org|1975-2
+2014-07-03	unknown	fact	lab_values	alkaline phosphatase value reported	28.067 U/L	http://loinc.org|6768-6
+2014-07-03	unknown	fact	lab_values	ALT normal	32.841 U/L	http://loinc.org|1742-6
+2014-07-03	unknown	fact	lab_values	AST normal	14.299 U/L	http://loinc.org|1920-8
+2014-07-03	unknown	fact	lab_values	urine protein high	345.14 mg/dL	http://loinc.org|5804-0
+2014-07-03	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-07-03	unknown	fact	lab_values	WBC low	2.2991 10*3/uL	http://loinc.org|6690-2
+2014-07-03	unknown	fact	lab_values	RBC normal	5.1477 10*6/uL	http://loinc.org|789-8
+2014-07-03	unknown	fact	lab_values	Hb normal	15.546 g/dL	http://loinc.org|718-7
+2014-07-03	unknown	fact	lab_values	HCT normal	43.275 %	http://loinc.org|4544-3
+2014-07-03	unknown	fact	lab_values	platelet count normal	334.47 10*3/uL	http://loinc.org|777-3
+2014-07-25	unknown	fact	lab_values	creatinine high	3.4777 mg/dL	http://loinc.org|38483-4
+2014-07-25	unknown	fact	lab_values	inadequate GFR	22.72 mL/min	http://loinc.org|33914-3
+2014-07-25	unknown	fact	lab_values	albumin normal	4.1949 g/dL	http://loinc.org|1751-7
+2014-07-25	unknown	fact	lab_values	bilirubin normal	1.0712 mg/dL	http://loinc.org|1975-2
+2014-07-25	unknown	fact	lab_values	alkaline phosphatase value reported	88.068 U/L	http://loinc.org|6768-6
+2014-07-25	unknown	fact	lab_values	ALT normal	22.926 U/L	http://loinc.org|1742-6
+2014-07-25	unknown	fact	lab_values	AST normal	16.182 U/L	http://loinc.org|1920-8
+2014-07-25	unknown	fact	lab_values	urine protein high	267.93 mg/dL	http://loinc.org|5804-0
+2014-07-25	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-07-25	unknown	fact	lab_values	WBC low	1.6523 10*3/uL	http://loinc.org|6690-2
+2014-07-25	unknown	fact	lab_values	RBC normal	4.7694 10*6/uL	http://loinc.org|789-8
+2014-07-25	unknown	fact	lab_values	Hb normal	15.395 g/dL	http://loinc.org|718-7
+2014-07-25	unknown	fact	lab_values	HCT normal	47.843 %	http://loinc.org|4544-3
+2014-07-25	unknown	fact	lab_values	platelet count normal	202.5 10*3/uL	http://loinc.org|777-3
+2014-08-18	unknown	fact	lab_values	creatinine high	2.7252 mg/dL	http://loinc.org|38483-4
+2014-08-18	unknown	fact	lab_values	inadequate GFR	17.446 mL/min	http://loinc.org|33914-3
+2014-08-18	unknown	fact	lab_values	albumin normal	3.8668 g/dL	http://loinc.org|1751-7
+2014-08-18	unknown	fact	lab_values	bilirubin value reported	0.16992 mg/dL	http://loinc.org|1975-2
+2014-08-18	unknown	fact	lab_values	alkaline phosphatase value reported	62.848 U/L	http://loinc.org|6768-6
+2014-08-18	unknown	fact	lab_values	ALT high	43.145 U/L	http://loinc.org|1742-6
+2014-08-18	unknown	fact	lab_values	AST normal	10.954 U/L	http://loinc.org|1920-8
+2014-08-18	unknown	fact	lab_values	urine protein high	325.41 mg/dL	http://loinc.org|5804-0
+2014-08-18	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-08-18	unknown	fact	lab_values	WBC normal	4.1389 10*3/uL	http://loinc.org|6690-2
+2014-08-18	unknown	fact	lab_values	RBC normal	5.394 10*6/uL	http://loinc.org|789-8
+2014-08-18	unknown	fact	lab_values	Hb normal	14.211 g/dL	http://loinc.org|718-7
+2014-08-18	unknown	fact	lab_values	HCT normal	47.11 %	http://loinc.org|4544-3
+2014-08-18	unknown	fact	lab_values	platelet count normal	166.32 10*3/uL	http://loinc.org|777-3
+2014-09-09	unknown	fact	lab_values	creatinine high	2.7802 mg/dL	http://loinc.org|38483-4
+2014-09-09	unknown	fact	lab_values	inadequate GFR	6.8637 mL/min	http://loinc.org|33914-3
+2014-09-09	unknown	fact	lab_values	albumin normal	4.9004 g/dL	http://loinc.org|1751-7
+2014-09-09	unknown	fact	lab_values	bilirubin normal	0.61353 mg/dL	http://loinc.org|1975-2
+2014-09-09	unknown	fact	lab_values	alkaline phosphatase value reported	36.861 U/L	http://loinc.org|6768-6
+2014-09-09	unknown	fact	lab_values	ALT high	45.304 U/L	http://loinc.org|1742-6
+2014-09-09	unknown	fact	lab_values	AST normal	17.399 U/L	http://loinc.org|1920-8
+2014-09-09	unknown	fact	lab_values	urine protein high	270.1 mg/dL	http://loinc.org|5804-0
+2014-09-09	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-09-09	unknown	fact	lab_values	WBC low	2.2574 10*3/uL	http://loinc.org|6690-2
+2014-09-09	unknown	fact	lab_values	RBC normal	4.9876 10*6/uL	http://loinc.org|789-8
+2014-09-09	unknown	fact	lab_values	Hb normal	13.805 g/dL	http://loinc.org|718-7
+2014-09-09	unknown	fact	lab_values	HCT normal	46.312 %	http://loinc.org|4544-3
+2014-09-09	unknown	fact	lab_values	platelet count normal	335.98 10*3/uL	http://loinc.org|777-3
+2014-10-06	unknown	fact	lab_values	creatinine high	3.3258 mg/dL	http://loinc.org|38483-4
+2014-10-06	unknown	fact	lab_values	inadequate GFR	16.936 mL/min	http://loinc.org|33914-3
+2014-10-06	unknown	fact	lab_values	albumin normal	3.7098 g/dL	http://loinc.org|1751-7
+2014-10-06	unknown	fact	lab_values	bilirubin normal	0.53865 mg/dL	http://loinc.org|1975-2
+2014-10-06	unknown	fact	lab_values	alkaline phosphatase value reported	109.49 U/L	http://loinc.org|6768-6
+2014-10-06	unknown	fact	lab_values	ALT high	55.31 U/L	http://loinc.org|1742-6
+2014-10-06	unknown	fact	lab_values	AST normal	17.372 U/L	http://loinc.org|1920-8
+2014-10-06	unknown	fact	lab_values	urine protein high	261.77 mg/dL	http://loinc.org|5804-0
+2014-10-06	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-10-06	unknown	fact	lab_values	WBC low	3.9527 10*3/uL	http://loinc.org|6690-2
+2014-10-06	unknown	fact	lab_values	RBC normal	4.2455 10*6/uL	http://loinc.org|789-8
+2014-10-06	unknown	fact	lab_values	Hb low	12.498 g/dL	http://loinc.org|718-7
+2014-10-06	unknown	fact	lab_values	HCT normal	49.085 %	http://loinc.org|4544-3
+2014-10-06	unknown	fact	lab_values	platelet count normal	349.06 10*3/uL	http://loinc.org|777-3
+2014-10-27	unknown	fact	lab_values	creatinine high	3.2902 mg/dL	http://loinc.org|38483-4
+2014-10-27	unknown	fact	lab_values	inadequate GFR	7.204 mL/min	http://loinc.org|33914-3
+2014-10-27	unknown	fact	lab_values	albumin normal	4.3125 g/dL	http://loinc.org|1751-7
+2014-10-27	unknown	fact	lab_values	bilirubin normal	0.79943 mg/dL	http://loinc.org|1975-2
+2014-10-27	unknown	fact	lab_values	alkaline phosphatase value reported	92.223 U/L	http://loinc.org|6768-6
+2014-10-27	unknown	fact	lab_values	ALT normal	37.269 U/L	http://loinc.org|1742-6
+2014-10-27	unknown	fact	lab_values	AST normal	29.653 U/L	http://loinc.org|1920-8
+2014-10-27	unknown	fact	lab_values	urine protein high	357.67 mg/dL	http://loinc.org|5804-0
+2014-10-27	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-10-27	unknown	fact	lab_values	WBC low	1.6467 10*3/uL	http://loinc.org|6690-2
+2014-10-27	unknown	fact	lab_values	RBC low	3.9707 10*6/uL	http://loinc.org|789-8
+2014-10-27	unknown	fact	lab_values	Hb normal	16.876 g/dL	http://loinc.org|718-7
+2014-10-27	unknown	fact	lab_values	HCT low	35.271 %	http://loinc.org|4544-3
+2014-10-27	unknown	fact	lab_values	platelet count normal	180.79 10*3/uL	http://loinc.org|777-3
+2014-11-18	unknown	fact	lab_values	creatinine high	3.0088 mg/dL	http://loinc.org|38483-4
+2014-11-18	unknown	fact	lab_values	inadequate GFR	8.5908 mL/min	http://loinc.org|33914-3
+2014-11-18	unknown	fact	lab_values	albumin high	5.0969 g/dL	http://loinc.org|1751-7
+2014-11-18	unknown	fact	lab_values	bilirubin normal	0.60372 mg/dL	http://loinc.org|1975-2
+2014-11-18	unknown	fact	lab_values	alkaline phosphatase value reported	46.713 U/L	http://loinc.org|6768-6
+2014-11-18	unknown	fact	lab_values	ALT high	50.427 U/L	http://loinc.org|1742-6
+2014-11-18	unknown	fact	lab_values	AST normal	39.987 U/L	http://loinc.org|1920-8
+2014-11-18	unknown	fact	lab_values	urine protein high	314.74 mg/dL	http://loinc.org|5804-0
+2014-11-18	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-11-18	unknown	fact	lab_values	WBC low	2.6659 10*3/uL	http://loinc.org|6690-2
+2014-11-18	unknown	fact	lab_values	RBC normal	4.1483 10*6/uL	http://loinc.org|789-8
+2014-11-18	unknown	fact	lab_values	Hb normal	13.987 g/dL	http://loinc.org|718-7
+2014-11-18	unknown	fact	lab_values	HCT normal	43.523 %	http://loinc.org|4544-3
+2014-11-18	unknown	fact	lab_values	platelet count normal	359.01 10*3/uL	http://loinc.org|777-3
+2014-12-15	unknown	fact	lab_values	creatinine high	2.697 mg/dL	http://loinc.org|38483-4
+2014-12-15	unknown	fact	lab_values	inadequate GFR	11.742 mL/min	http://loinc.org|33914-3
+2014-12-15	unknown	fact	lab_values	albumin normal	4.1545 g/dL	http://loinc.org|1751-7
+2014-12-15	unknown	fact	lab_values	bilirubin normal	0.36022 mg/dL	http://loinc.org|1975-2
+2014-12-15	unknown	fact	lab_values	alkaline phosphatase value reported	20.138 U/L	http://loinc.org|6768-6
+2014-12-15	unknown	fact	lab_values	ALT high	57.602 U/L	http://loinc.org|1742-6
+2014-12-15	unknown	fact	lab_values	AST normal	16.527 U/L	http://loinc.org|1920-8
+2014-12-15	unknown	fact	lab_values	urine protein high	400.58 mg/dL	http://loinc.org|5804-0
+2014-12-15	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2014-12-15	unknown	fact	lab_values	WBC low	3.9658 10*3/uL	http://loinc.org|6690-2
+2014-12-15	unknown	fact	lab_values	RBC normal	4.4496 10*6/uL	http://loinc.org|789-8
+2014-12-15	unknown	fact	lab_values	Hb low	13.431 g/dL	http://loinc.org|718-7
+2014-12-15	unknown	fact	lab_values	HCT normal	45.987 %	http://loinc.org|4544-3
+2014-12-15	unknown	fact	lab_values	platelet count normal	259.92 10*3/uL	http://loinc.org|777-3
+2015-01-07	unknown	fact	lab_values	creatinine high	2.9101 mg/dL	http://loinc.org|38483-4
+2015-01-07	unknown	fact	lab_values	inadequate GFR	24.474 mL/min	http://loinc.org|33914-3
+2015-01-07	unknown	fact	lab_values	albumin high	5.4086 g/dL	http://loinc.org|1751-7
+2015-01-07	unknown	fact	lab_values	bilirubin normal	0.79758 mg/dL	http://loinc.org|1975-2
+2015-01-07	unknown	fact	lab_values	alkaline phosphatase value reported	94.326 U/L	http://loinc.org|6768-6
+2015-01-07	unknown	fact	lab_values	ALT high	44.777 U/L	http://loinc.org|1742-6
+2015-01-07	unknown	fact	lab_values	AST normal	27.15 U/L	http://loinc.org|1920-8
+2015-01-07	unknown	fact	lab_values	urine protein high	425.08 mg/dL	http://loinc.org|5804-0
+2015-01-07	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-01-07	unknown	fact	lab_values	WBC low	3.9652 10*3/uL	http://loinc.org|6690-2
+2015-01-07	unknown	fact	lab_values	RBC normal	4.5341 10*6/uL	http://loinc.org|789-8
+2015-01-07	unknown	fact	lab_values	Hb normal	13.911 g/dL	http://loinc.org|718-7
+2015-01-07	unknown	fact	lab_values	HCT normal	48.645 %	http://loinc.org|4544-3
+2015-01-07	unknown	fact	lab_values	platelet count normal	271.02 10*3/uL	http://loinc.org|777-3
+2015-02-02	unknown	fact	lab_values	creatinine high	2.5242 mg/dL	http://loinc.org|38483-4
+2015-02-02	unknown	fact	lab_values	inadequate GFR	23.42 mL/min	http://loinc.org|33914-3
+2015-02-02	unknown	fact	lab_values	albumin normal	4.8413 g/dL	http://loinc.org|1751-7
+2015-02-02	unknown	fact	lab_values	bilirubin normal	0.396 mg/dL	http://loinc.org|1975-2
+2015-02-02	unknown	fact	lab_values	alkaline phosphatase value reported	119.45 U/L	http://loinc.org|6768-6
+2015-02-02	unknown	fact	lab_values	ALT high	43.459 U/L	http://loinc.org|1742-6
+2015-02-02	unknown	fact	lab_values	AST normal	24.41 U/L	http://loinc.org|1920-8
+2015-02-02	unknown	fact	lab_values	urine protein high	340.38 mg/dL	http://loinc.org|5804-0
+2015-02-02	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-02-02	unknown	fact	lab_values	WBC low	1.1154 10*3/uL	http://loinc.org|6690-2
+2015-02-02	unknown	fact	lab_values	RBC normal	4.7358 10*6/uL	http://loinc.org|789-8
+2015-02-02	unknown	fact	lab_values	Hb low	13.214 g/dL	http://loinc.org|718-7
+2015-02-02	unknown	fact	lab_values	HCT normal	46.463 %	http://loinc.org|4544-3
+2015-02-02	unknown	fact	lab_values	platelet count normal	188.46 10*3/uL	http://loinc.org|777-3
+2015-02-27	unknown	fact	lab_values	creatinine high	2.7058 mg/dL	http://loinc.org|38483-4
+2015-02-27	unknown	fact	lab_values	inadequate GFR	25.796 mL/min	http://loinc.org|33914-3
+2015-02-27	unknown	fact	lab_values	albumin high	5.174 g/dL	http://loinc.org|1751-7
+2015-02-27	unknown	fact	lab_values	bilirubin normal	0.20771 mg/dL	http://loinc.org|1975-2
+2015-02-27	unknown	fact	lab_values	alkaline phosphatase value reported	43.83 U/L	http://loinc.org|6768-6
+2015-02-27	unknown	fact	lab_values	ALT normal	21.247 U/L	http://loinc.org|1742-6
+2015-02-27	unknown	fact	lab_values	AST normal	12.161 U/L	http://loinc.org|1920-8
+2015-02-27	unknown	fact	lab_values	urine protein high	366.33 mg/dL	http://loinc.org|5804-0
+2015-02-27	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-02-27	unknown	fact	lab_values	WBC low	1.6586 10*3/uL	http://loinc.org|6690-2
+2015-02-27	unknown	fact	lab_values	RBC normal	5.1377 10*6/uL	http://loinc.org|789-8
+2015-02-27	unknown	fact	lab_values	Hb low	13.454 g/dL	http://loinc.org|718-7
+2015-02-27	unknown	fact	lab_values	HCT normal	44.39 %	http://loinc.org|4544-3
+2015-02-27	unknown	fact	lab_values	platelet count normal	445.17 10*3/uL	http://loinc.org|777-3
+2015-03-25	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2015-03-25	unknown	fact	lab_values	WBC normal	6.8434 10*3/uL	http://loinc.org|6690-2
+2015-03-25	unknown	fact	lab_values	RBC normal	4.9044 10*6/uL	http://loinc.org|789-8
+2015-03-25	unknown	fact	lab_values	Hb low	12.167 g/dL	http://loinc.org|718-7
+2015-03-25	unknown	fact	lab_values	HCT normal	48.986 %	http://loinc.org|4544-3
+2015-03-25	unknown	fact	lab_values	platelet count normal	200.18 10*3/uL	http://loinc.org|777-3
+2015-03-22	unknown	fact	lab_values	creatinine high	3.0045 mg/dL	http://loinc.org|38483-4
+2015-03-22	unknown	fact	lab_values	inadequate GFR	24.276 mL/min	http://loinc.org|33914-3
+2015-03-22	unknown	fact	lab_values	albumin normal	4.3549 g/dL	http://loinc.org|1751-7
+2015-03-22	unknown	fact	lab_values	bilirubin normal	0.45489 mg/dL	http://loinc.org|1975-2
+2015-03-22	unknown	fact	lab_values	alkaline phosphatase value reported	91.696 U/L	http://loinc.org|6768-6
+2015-03-22	unknown	fact	lab_values	ALT high	44.218 U/L	http://loinc.org|1742-6
+2015-03-22	unknown	fact	lab_values	AST normal	39.873 U/L	http://loinc.org|1920-8
+2015-03-22	unknown	fact	lab_values	urine protein high	290.96 mg/dL	http://loinc.org|5804-0
+2015-03-22	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-03-22	unknown	fact	lab_values	WBC low	3.1539 10*3/uL	http://loinc.org|6690-2
+2015-03-22	unknown	fact	lab_values	RBC normal	5.1973 10*6/uL	http://loinc.org|789-8
+2015-03-22	unknown	fact	lab_values	Hb normal	13.867 g/dL	http://loinc.org|718-7
+2015-03-22	unknown	fact	lab_values	HCT normal	44.862 %	http://loinc.org|4544-3
+2015-03-22	unknown	fact	lab_values	platelet count normal	397.43 10*3/uL	http://loinc.org|777-3
+2015-04-16	unknown	fact	lab_values	creatinine high	2.9025 mg/dL	http://loinc.org|38483-4
+2015-04-16	unknown	fact	lab_values	inadequate GFR	20.812 mL/min	http://loinc.org|33914-3
+2015-04-16	unknown	fact	lab_values	albumin normal	3.5949 g/dL	http://loinc.org|1751-7
+2015-04-16	unknown	fact	lab_values	bilirubin normal	0.62863 mg/dL	http://loinc.org|1975-2
+2015-04-16	unknown	fact	lab_values	alkaline phosphatase value reported	109.96 U/L	http://loinc.org|6768-6
+2015-04-16	unknown	fact	lab_values	ALT normal	35.454 U/L	http://loinc.org|1742-6
+2015-04-16	unknown	fact	lab_values	AST value reported	8.4688 U/L	http://loinc.org|1920-8
+2015-04-16	unknown	fact	lab_values	urine protein high	419.79 mg/dL	http://loinc.org|5804-0
+2015-04-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-04-16	unknown	fact	lab_values	WBC low	2.6497 10*3/uL	http://loinc.org|6690-2
+2015-04-16	unknown	fact	lab_values	RBC normal	5.0705 10*6/uL	http://loinc.org|789-8
+2015-04-16	unknown	fact	lab_values	Hb normal	14.008 g/dL	http://loinc.org|718-7
+2015-04-16	unknown	fact	lab_values	HCT normal	44.376 %	http://loinc.org|4544-3
+2015-04-16	unknown	fact	lab_values	platelet count normal	362.94 10*3/uL	http://loinc.org|777-3
+2015-05-13	unknown	fact	lab_values	creatinine high	2.7168 mg/dL	http://loinc.org|38483-4
+2015-05-13	unknown	fact	lab_values	inadequate GFR	5.3857 mL/min	http://loinc.org|33914-3
+2015-05-13	unknown	fact	lab_values	albumin normal	4.6831 g/dL	http://loinc.org|1751-7
+2015-05-13	unknown	fact	lab_values	bilirubin normal	0.41975 mg/dL	http://loinc.org|1975-2
+2015-05-13	unknown	fact	lab_values	alkaline phosphatase value reported	129.84 U/L	http://loinc.org|6768-6
+2015-05-13	unknown	fact	lab_values	ALT high	57.037 U/L	http://loinc.org|1742-6
+2015-05-13	unknown	fact	lab_values	AST normal	32.923 U/L	http://loinc.org|1920-8
+2015-05-13	unknown	fact	lab_values	urine protein high	379.69 mg/dL	http://loinc.org|5804-0
+2015-05-13	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-05-13	unknown	fact	lab_values	WBC low	1.3257 10*3/uL	http://loinc.org|6690-2
+2015-05-13	unknown	fact	lab_values	RBC normal	5.064 10*6/uL	http://loinc.org|789-8
+2015-05-13	unknown	fact	lab_values	Hb normal	16.102 g/dL	http://loinc.org|718-7
+2015-05-13	unknown	fact	lab_values	HCT normal	36.433 %	http://loinc.org|4544-3
+2015-05-13	unknown	fact	lab_values	platelet count normal	396.81 10*3/uL	http://loinc.org|777-3
+2015-06-07	unknown	fact	lab_values	creatinine high	2.7759 mg/dL	http://loinc.org|38483-4
+2015-06-07	unknown	fact	lab_values	inadequate GFR	5.1111 mL/min	http://loinc.org|33914-3
+2015-06-07	unknown	fact	lab_values	albumin normal	4.3823 g/dL	http://loinc.org|1751-7
+2015-06-07	unknown	fact	lab_values	bilirubin value reported	0.17676 mg/dL	http://loinc.org|1975-2
+2015-06-07	unknown	fact	lab_values	alkaline phosphatase value reported	30.622 U/L	http://loinc.org|6768-6
+2015-06-07	unknown	fact	lab_values	ALT high	44.646 U/L	http://loinc.org|1742-6
+2015-06-07	unknown	fact	lab_values	AST normal	29.892 U/L	http://loinc.org|1920-8
+2015-06-07	unknown	fact	lab_values	urine protein high	388.99 mg/dL	http://loinc.org|5804-0
+2015-06-07	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-06-07	unknown	fact	lab_values	WBC low	2.3616 10*3/uL	http://loinc.org|6690-2
+2015-06-07	unknown	fact	lab_values	RBC normal	4.319 10*6/uL	http://loinc.org|789-8
+2015-06-07	unknown	fact	lab_values	Hb normal	16.713 g/dL	http://loinc.org|718-7
+2015-06-07	unknown	fact	lab_values	HCT normal	39.085 %	http://loinc.org|4544-3
+2015-06-07	unknown	fact	lab_values	platelet count normal	293.85 10*3/uL	http://loinc.org|777-3
+2015-07-04	unknown	fact	lab_values	creatinine high	3.0617 mg/dL	http://loinc.org|38483-4
+2015-07-04	unknown	fact	lab_values	inadequate GFR	18.032 mL/min	http://loinc.org|33914-3
+2015-07-04	unknown	fact	lab_values	albumin normal	4.5713 g/dL	http://loinc.org|1751-7
+2015-07-04	unknown	fact	lab_values	bilirubin normal	1.143 mg/dL	http://loinc.org|1975-2
+2015-07-04	unknown	fact	lab_values	alkaline phosphatase value reported	110.71 U/L	http://loinc.org|6768-6
+2015-07-04	unknown	fact	lab_values	ALT normal	22.021 U/L	http://loinc.org|1742-6
+2015-07-04	unknown	fact	lab_values	AST normal	21.732 U/L	http://loinc.org|1920-8
+2015-07-04	unknown	fact	lab_values	urine protein high	334.47 mg/dL	http://loinc.org|5804-0
+2015-07-04	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-07-04	unknown	fact	lab_values	WBC low	1.1939 10*3/uL	http://loinc.org|6690-2
+2015-07-04	unknown	fact	lab_values	RBC normal	4.2508 10*6/uL	http://loinc.org|789-8
+2015-07-04	unknown	fact	lab_values	Hb normal	13.954 g/dL	http://loinc.org|718-7
+2015-07-04	unknown	fact	lab_values	HCT normal	40.24 %	http://loinc.org|4544-3
+2015-07-04	unknown	fact	lab_values	platelet count normal	349.15 10*3/uL	http://loinc.org|777-3
+2015-07-29	unknown	fact	lab_values	creatinine high	3.4909 mg/dL	http://loinc.org|38483-4
+2015-07-29	unknown	fact	lab_values	inadequate GFR	15.307 mL/min	http://loinc.org|33914-3
+2015-07-29	unknown	fact	lab_values	albumin high	5.0913 g/dL	http://loinc.org|1751-7
+2015-07-29	unknown	fact	lab_values	bilirubin normal	1.0319 mg/dL	http://loinc.org|1975-2
+2015-07-29	unknown	fact	lab_values	alkaline phosphatase value reported	109.36 U/L	http://loinc.org|6768-6
+2015-07-29	unknown	fact	lab_values	ALT normal	29.388 U/L	http://loinc.org|1742-6
+2015-07-29	unknown	fact	lab_values	AST normal	38.009 U/L	http://loinc.org|1920-8
+2015-07-29	unknown	fact	lab_values	urine protein high	361.43 mg/dL	http://loinc.org|5804-0
+2015-07-29	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-07-29	unknown	fact	lab_values	WBC low	1.8216 10*3/uL	http://loinc.org|6690-2
+2015-07-29	unknown	fact	lab_values	RBC normal	4.0706 10*6/uL	http://loinc.org|789-8
+2015-07-29	unknown	fact	lab_values	Hb low	12.254 g/dL	http://loinc.org|718-7
+2015-07-29	unknown	fact	lab_values	HCT normal	36.246 %	http://loinc.org|4544-3
+2015-07-29	unknown	fact	lab_values	platelet count normal	397.05 10*3/uL	http://loinc.org|777-3
+2015-08-20	unknown	fact	lab_values	creatinine high	3.4146 mg/dL	http://loinc.org|38483-4
+2015-08-20	unknown	fact	lab_values	inadequate GFR	11.283 mL/min	http://loinc.org|33914-3
+2015-08-20	unknown	fact	lab_values	albumin normal	3.5668 g/dL	http://loinc.org|1751-7
+2015-08-20	unknown	fact	lab_values	bilirubin value reported	0.17518 mg/dL	http://loinc.org|1975-2
+2015-08-20	unknown	fact	lab_values	alkaline phosphatase value reported	122.83 U/L	http://loinc.org|6768-6
+2015-08-20	unknown	fact	lab_values	ALT normal	20.704 U/L	http://loinc.org|1742-6
+2015-08-20	unknown	fact	lab_values	AST normal	26.353 U/L	http://loinc.org|1920-8
+2015-08-20	unknown	fact	lab_values	urine protein high	364.01 mg/dL	http://loinc.org|5804-0
+2015-08-20	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-08-20	unknown	fact	lab_values	WBC low	1.6154 10*3/uL	http://loinc.org|6690-2
+2015-08-20	unknown	fact	lab_values	RBC normal	4.7794 10*6/uL	http://loinc.org|789-8
+2015-08-20	unknown	fact	lab_values	Hb normal	16.628 g/dL	http://loinc.org|718-7
+2015-08-20	unknown	fact	lab_values	HCT normal	44.787 %	http://loinc.org|4544-3
+2015-08-20	unknown	fact	lab_values	platelet count normal	429.64 10*3/uL	http://loinc.org|777-3
+2015-09-15	unknown	fact	lab_values	creatinine high	2.6868 mg/dL	http://loinc.org|38483-4
+2015-09-15	unknown	fact	lab_values	inadequate GFR	15.075 mL/min	http://loinc.org|33914-3
+2015-09-15	unknown	fact	lab_values	albumin normal	4.2203 g/dL	http://loinc.org|1751-7
+2015-09-15	unknown	fact	lab_values	bilirubin normal	0.93975 mg/dL	http://loinc.org|1975-2
+2015-09-15	unknown	fact	lab_values	alkaline phosphatase value reported	77.184 U/L	http://loinc.org|6768-6
+2015-09-15	unknown	fact	lab_values	ALT normal	34.932 U/L	http://loinc.org|1742-6
+2015-09-15	unknown	fact	lab_values	AST normal	33.612 U/L	http://loinc.org|1920-8
+2015-09-15	unknown	fact	lab_values	urine protein high	421.87 mg/dL	http://loinc.org|5804-0
+2015-09-15	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-09-15	unknown	fact	lab_values	WBC low	1.5554 10*3/uL	http://loinc.org|6690-2
+2015-09-15	unknown	fact	lab_values	RBC normal	4.0098 10*6/uL	http://loinc.org|789-8
+2015-09-15	unknown	fact	lab_values	Hb normal	13.602 g/dL	http://loinc.org|718-7
+2015-09-15	unknown	fact	lab_values	HCT normal	48.623 %	http://loinc.org|4544-3
+2015-09-15	unknown	fact	lab_values	platelet count normal	328.07 10*3/uL	http://loinc.org|777-3
+2015-10-12	unknown	fact	lab_values	creatinine high	2.7552 mg/dL	http://loinc.org|38483-4
+2015-10-12	unknown	fact	lab_values	inadequate GFR	10.144 mL/min	http://loinc.org|33914-3
+2015-10-12	unknown	fact	lab_values	albumin normal	4.8226 g/dL	http://loinc.org|1751-7
+2015-10-12	unknown	fact	lab_values	bilirubin normal	0.74027 mg/dL	http://loinc.org|1975-2
+2015-10-12	unknown	fact	lab_values	alkaline phosphatase value reported	65.042 U/L	http://loinc.org|6768-6
+2015-10-12	unknown	fact	lab_values	ALT high	46.984 U/L	http://loinc.org|1742-6
+2015-10-12	unknown	fact	lab_values	AST normal	11.897 U/L	http://loinc.org|1920-8
+2015-10-12	unknown	fact	lab_values	urine protein high	343.75 mg/dL	http://loinc.org|5804-0
+2015-10-12	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-10-12	unknown	fact	lab_values	WBC low	0.79477 10*3/uL	http://loinc.org|6690-2
+2015-10-12	unknown	fact	lab_values	RBC normal	4.5729 10*6/uL	http://loinc.org|789-8
+2015-10-12	unknown	fact	lab_values	Hb normal	16.646 g/dL	http://loinc.org|718-7
+2015-10-12	unknown	fact	lab_values	HCT normal	39.151 %	http://loinc.org|4544-3
+2015-10-12	unknown	fact	lab_values	platelet count normal	365.96 10*3/uL	http://loinc.org|777-3
+2015-11-07	unknown	fact	lab_values	creatinine high	3.1059 mg/dL	http://loinc.org|38483-4
+2015-11-07	unknown	fact	lab_values	inadequate GFR	26.668 mL/min	http://loinc.org|33914-3
+2015-11-07	unknown	fact	lab_values	albumin normal	4.3553 g/dL	http://loinc.org|1751-7
+2015-11-07	unknown	fact	lab_values	bilirubin normal	0.74847 mg/dL	http://loinc.org|1975-2
+2015-11-07	unknown	fact	lab_values	alkaline phosphatase value reported	119.57 U/L	http://loinc.org|6768-6
+2015-11-07	unknown	fact	lab_values	ALT normal	37.296 U/L	http://loinc.org|1742-6
+2015-11-07	unknown	fact	lab_values	AST normal	16.295 U/L	http://loinc.org|1920-8
+2015-11-07	unknown	fact	lab_values	urine protein high	319.52 mg/dL	http://loinc.org|5804-0
+2015-11-07	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-11-07	unknown	fact	lab_values	WBC low	0.97143 10*3/uL	http://loinc.org|6690-2
+2015-11-07	unknown	fact	lab_values	RBC normal	5.3418 10*6/uL	http://loinc.org|789-8
+2015-11-07	unknown	fact	lab_values	Hb normal	16.691 g/dL	http://loinc.org|718-7
+2015-11-07	unknown	fact	lab_values	HCT normal	44.949 %	http://loinc.org|4544-3
+2015-11-07	unknown	fact	lab_values	platelet count normal	416.22 10*3/uL	http://loinc.org|777-3
+2015-12-02	unknown	fact	lab_values	creatinine high	3.458 mg/dL	http://loinc.org|38483-4
+2015-12-02	unknown	fact	lab_values	inadequate GFR	16.052 mL/min	http://loinc.org|33914-3
+2015-12-02	unknown	fact	lab_values	albumin high	5.3768 g/dL	http://loinc.org|1751-7
+2015-12-02	unknown	fact	lab_values	bilirubin normal	1.1664 mg/dL	http://loinc.org|1975-2
+2015-12-02	unknown	fact	lab_values	alkaline phosphatase value reported	23.217 U/L	http://loinc.org|6768-6
+2015-12-02	unknown	fact	lab_values	ALT high	45.976 U/L	http://loinc.org|1742-6
+2015-12-02	unknown	fact	lab_values	AST normal	39.345 U/L	http://loinc.org|1920-8
+2015-12-02	unknown	fact	lab_values	urine protein high	285.39 mg/dL	http://loinc.org|5804-0
+2015-12-02	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-12-02	unknown	fact	lab_values	WBC low	3.8199 10*3/uL	http://loinc.org|6690-2
+2015-12-02	unknown	fact	lab_values	RBC low	3.9493 10*6/uL	http://loinc.org|789-8
+2015-12-02	unknown	fact	lab_values	Hb normal	16.373 g/dL	http://loinc.org|718-7
+2015-12-02	unknown	fact	lab_values	HCT normal	47.848 %	http://loinc.org|4544-3
+2015-12-02	unknown	fact	lab_values	platelet count normal	236.34 10*3/uL	http://loinc.org|777-3
+2015-12-24	unknown	fact	lab_values	creatinine high	2.6169 mg/dL	http://loinc.org|38483-4
+2015-12-24	unknown	fact	lab_values	inadequate GFR	20.789 mL/min	http://loinc.org|33914-3
+2015-12-24	unknown	fact	lab_values	albumin normal	3.9552 g/dL	http://loinc.org|1751-7
+2015-12-24	unknown	fact	lab_values	bilirubin normal	1.1644 mg/dL	http://loinc.org|1975-2
+2015-12-24	unknown	fact	lab_values	alkaline phosphatase value reported	76.164 U/L	http://loinc.org|6768-6
+2015-12-24	unknown	fact	lab_values	ALT high	52.716 U/L	http://loinc.org|1742-6
+2015-12-24	unknown	fact	lab_values	AST normal	28.342 U/L	http://loinc.org|1920-8
+2015-12-24	unknown	fact	lab_values	urine protein high	437.82 mg/dL	http://loinc.org|5804-0
+2015-12-24	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2015-12-24	unknown	fact	lab_values	WBC normal	4.8872 10*3/uL	http://loinc.org|6690-2
+2015-12-24	unknown	fact	lab_values	RBC low	3.9016 10*6/uL	http://loinc.org|789-8
+2015-12-24	unknown	fact	lab_values	Hb low	12.844 g/dL	http://loinc.org|718-7
+2015-12-24	unknown	fact	lab_values	HCT normal	44.105 %	http://loinc.org|4544-3
+2015-12-24	unknown	fact	lab_values	platelet count normal	266.59 10*3/uL	http://loinc.org|777-3
+2016-01-21	unknown	fact	lab_values	creatinine high	2.6731 mg/dL	http://loinc.org|38483-4
+2016-01-21	unknown	fact	lab_values	inadequate GFR	23.317 mL/min	http://loinc.org|33914-3
+2016-01-21	unknown	fact	lab_values	albumin normal	4.4763 g/dL	http://loinc.org|1751-7
+2016-01-21	unknown	fact	lab_values	bilirubin normal	0.679 mg/dL	http://loinc.org|1975-2
+2016-01-21	unknown	fact	lab_values	alkaline phosphatase value reported	127.05 U/L	http://loinc.org|6768-6
+2016-01-21	unknown	fact	lab_values	ALT normal	30.466 U/L	http://loinc.org|1742-6
+2016-01-21	unknown	fact	lab_values	AST normal	32.012 U/L	http://loinc.org|1920-8
+2016-01-21	unknown	fact	lab_values	urine protein high	429.85 mg/dL	http://loinc.org|5804-0
+2016-01-21	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-01-21	unknown	fact	lab_values	WBC low	1.3851 10*3/uL	http://loinc.org|6690-2
+2016-01-21	unknown	fact	lab_values	RBC normal	5.1918 10*6/uL	http://loinc.org|789-8
+2016-01-21	unknown	fact	lab_values	Hb low	12.46 g/dL	http://loinc.org|718-7
+2016-01-21	unknown	fact	lab_values	HCT normal	44.527 %	http://loinc.org|4544-3
+2016-01-21	unknown	fact	lab_values	platelet count normal	244.98 10*3/uL	http://loinc.org|777-3
+2016-02-18	unknown	fact	lab_values	creatinine high	2.778 mg/dL	http://loinc.org|38483-4
+2016-02-18	unknown	fact	lab_values	inadequate GFR	12.204 mL/min	http://loinc.org|33914-3
+2016-02-18	unknown	fact	lab_values	albumin high	5.1353 g/dL	http://loinc.org|1751-7
+2016-02-18	unknown	fact	lab_values	bilirubin normal	0.2824 mg/dL	http://loinc.org|1975-2
+2016-02-18	unknown	fact	lab_values	alkaline phosphatase value reported	137.63 U/L	http://loinc.org|6768-6
+2016-02-18	unknown	fact	lab_values	ALT high	42.122 U/L	http://loinc.org|1742-6
+2016-02-18	unknown	fact	lab_values	AST normal	22.681 U/L	http://loinc.org|1920-8
+2016-02-18	unknown	fact	lab_values	urine protein high	251.77 mg/dL	http://loinc.org|5804-0
+2016-02-18	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-02-18	unknown	fact	lab_values	WBC normal	4.6697 10*3/uL	http://loinc.org|6690-2
+2016-02-18	unknown	fact	lab_values	RBC normal	4.6218 10*6/uL	http://loinc.org|789-8
+2016-02-18	unknown	fact	lab_values	Hb low	12.972 g/dL	http://loinc.org|718-7
+2016-02-18	unknown	fact	lab_values	HCT normal	36.953 %	http://loinc.org|4544-3
+2016-02-18	unknown	fact	lab_values	platelet count normal	277.94 10*3/uL	http://loinc.org|777-3
+2016-03-14	unknown	fact	lab_values	creatinine high	3.0797 mg/dL	http://loinc.org|38483-4
+2016-03-14	unknown	fact	lab_values	inadequate GFR	22.662 mL/min	http://loinc.org|33914-3
+2016-03-14	unknown	fact	lab_values	albumin normal	4.639 g/dL	http://loinc.org|1751-7
+2016-03-14	unknown	fact	lab_values	bilirubin normal	0.65477 mg/dL	http://loinc.org|1975-2
+2016-03-14	unknown	fact	lab_values	alkaline phosphatase value reported	86.167 U/L	http://loinc.org|6768-6
+2016-03-14	unknown	fact	lab_values	ALT high	50.733 U/L	http://loinc.org|1742-6
+2016-03-14	unknown	fact	lab_values	AST normal	28.361 U/L	http://loinc.org|1920-8
+2016-03-14	unknown	fact	lab_values	urine protein high	297.1 mg/dL	http://loinc.org|5804-0
+2016-03-14	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-03-14	unknown	fact	lab_values	WBC low	3.7444 10*3/uL	http://loinc.org|6690-2
+2016-03-14	unknown	fact	lab_values	RBC normal	4.5526 10*6/uL	http://loinc.org|789-8
+2016-03-14	unknown	fact	lab_values	Hb normal	17.159 g/dL	http://loinc.org|718-7
+2016-03-14	unknown	fact	lab_values	HCT normal	45.595 %	http://loinc.org|4544-3
+2016-03-14	unknown	fact	lab_values	platelet count normal	210.33 10*3/uL	http://loinc.org|777-3
+2016-03-30	unknown	fact	clinical_conditions	BMI high	28.06 kg/m2	http://loinc.org|39156-5
+2016-04-04	unknown	fact	lab_values	creatinine high	3.0637 mg/dL	http://loinc.org|38483-4
+2016-04-04	unknown	fact	lab_values	inadequate GFR	22.586 mL/min	http://loinc.org|33914-3
+2016-04-04	unknown	fact	lab_values	albumin high	5.0851 g/dL	http://loinc.org|1751-7
+2016-04-04	unknown	fact	lab_values	bilirubin normal	1.0392 mg/dL	http://loinc.org|1975-2
+2016-04-04	unknown	fact	lab_values	alkaline phosphatase value reported	125.52 U/L	http://loinc.org|6768-6
+2016-04-04	unknown	fact	lab_values	ALT high	45.658 U/L	http://loinc.org|1742-6
+2016-04-04	unknown	fact	lab_values	AST normal	36.497 U/L	http://loinc.org|1920-8
+2016-04-04	unknown	fact	lab_values	urine protein high	307.64 mg/dL	http://loinc.org|5804-0
+2016-04-04	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-04-04	unknown	fact	lab_values	WBC normal	4.1807 10*3/uL	http://loinc.org|6690-2
+2016-04-04	unknown	fact	lab_values	RBC normal	5.4806 10*6/uL	http://loinc.org|789-8
+2016-04-04	unknown	fact	lab_values	Hb normal	14.928 g/dL	http://loinc.org|718-7
+2016-04-04	unknown	fact	lab_values	HCT normal	36.761 %	http://loinc.org|4544-3
+2016-04-04	unknown	fact	lab_values	platelet count normal	166.76 10*3/uL	http://loinc.org|777-3
+2016-04-28	unknown	fact	lab_values	creatinine high	2.6726 mg/dL	http://loinc.org|38483-4
+2016-04-28	unknown	fact	lab_values	inadequate GFR	16.318 mL/min	http://loinc.org|33914-3
+2016-04-28	unknown	fact	lab_values	albumin normal	4.9054 g/dL	http://loinc.org|1751-7
+2016-04-28	unknown	fact	lab_values	bilirubin normal	0.41209 mg/dL	http://loinc.org|1975-2
+2016-04-28	unknown	fact	lab_values	alkaline phosphatase value reported	106.31 U/L	http://loinc.org|6768-6
+2016-04-28	unknown	fact	lab_values	ALT normal	27.926 U/L	http://loinc.org|1742-6
+2016-04-28	unknown	fact	lab_values	AST normal	18.298 U/L	http://loinc.org|1920-8
+2016-04-28	unknown	fact	lab_values	urine protein high	367.69 mg/dL	http://loinc.org|5804-0
+2016-04-28	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-04-28	unknown	fact	lab_values	WBC low	0.52514 10*3/uL	http://loinc.org|6690-2
+2016-04-28	unknown	fact	lab_values	RBC normal	5.018 10*6/uL	http://loinc.org|789-8
+2016-04-28	unknown	fact	lab_values	Hb normal	16.442 g/dL	http://loinc.org|718-7
+2016-04-28	unknown	fact	lab_values	HCT normal	37.007 %	http://loinc.org|4544-3
+2016-04-28	unknown	fact	lab_values	platelet count normal	373.99 10*3/uL	http://loinc.org|777-3
+2016-05-24	unknown	fact	lab_values	creatinine high	3.0352 mg/dL	http://loinc.org|38483-4
+2016-05-24	unknown	fact	lab_values	inadequate GFR	15.137 mL/min	http://loinc.org|33914-3
+2016-05-24	unknown	fact	lab_values	albumin high	5.1506 g/dL	http://loinc.org|1751-7
+2016-05-24	unknown	fact	lab_values	bilirubin value reported	0.15176 mg/dL	http://loinc.org|1975-2
+2016-05-24	unknown	fact	lab_values	alkaline phosphatase value reported	116.81 U/L	http://loinc.org|6768-6
+2016-05-24	unknown	fact	lab_values	ALT normal	20.144 U/L	http://loinc.org|1742-6
+2016-05-24	unknown	fact	lab_values	AST normal	15.295 U/L	http://loinc.org|1920-8
+2016-05-24	unknown	fact	lab_values	urine protein high	395.95 mg/dL	http://loinc.org|5804-0
+2016-05-24	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-05-24	unknown	fact	lab_values	WBC low	3.9459 10*3/uL	http://loinc.org|6690-2
+2016-05-24	unknown	fact	lab_values	RBC normal	4.3154 10*6/uL	http://loinc.org|789-8
+2016-05-24	unknown	fact	lab_values	Hb normal	17.48 g/dL	http://loinc.org|718-7
+2016-05-24	unknown	fact	lab_values	HCT normal	43.768 %	http://loinc.org|4544-3
+2016-05-24	unknown	fact	lab_values	platelet count normal	299.51 10*3/uL	http://loinc.org|777-3
+2016-06-16	unknown	fact	lab_values	creatinine high	2.7958 mg/dL	http://loinc.org|38483-4
+2016-06-16	unknown	fact	lab_values	inadequate GFR	10.007 mL/min	http://loinc.org|33914-3
+2016-06-16	unknown	fact	lab_values	albumin high	5.1764 g/dL	http://loinc.org|1751-7
+2016-06-16	unknown	fact	lab_values	bilirubin normal	0.4162 mg/dL	http://loinc.org|1975-2
+2016-06-16	unknown	fact	lab_values	alkaline phosphatase value reported	36.275 U/L	http://loinc.org|6768-6
+2016-06-16	unknown	fact	lab_values	ALT normal	21.151 U/L	http://loinc.org|1742-6
+2016-06-16	unknown	fact	lab_values	AST normal	34.546 U/L	http://loinc.org|1920-8
+2016-06-16	unknown	fact	lab_values	urine protein high	298 mg/dL	http://loinc.org|5804-0
+2016-06-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-06-16	unknown	fact	lab_values	WBC low	0.83552 10*3/uL	http://loinc.org|6690-2
+2016-06-16	unknown	fact	lab_values	RBC low	3.9395 10*6/uL	http://loinc.org|789-8
+2016-06-16	unknown	fact	lab_values	Hb normal	16.247 g/dL	http://loinc.org|718-7
+2016-06-16	unknown	fact	lab_values	HCT normal	39.696 %	http://loinc.org|4544-3
+2016-06-16	unknown	fact	lab_values	platelet count normal	171.57 10*3/uL	http://loinc.org|777-3
+2016-07-08	unknown	fact	lab_values	creatinine high	2.7426 mg/dL	http://loinc.org|38483-4
+2016-07-08	unknown	fact	lab_values	inadequate GFR	8.7756 mL/min	http://loinc.org|33914-3
+2016-07-08	unknown	fact	lab_values	albumin normal	4.4592 g/dL	http://loinc.org|1751-7
+2016-07-08	unknown	fact	lab_values	bilirubin normal	0.24969 mg/dL	http://loinc.org|1975-2
+2016-07-08	unknown	fact	lab_values	alkaline phosphatase value reported	116.74 U/L	http://loinc.org|6768-6
+2016-07-08	unknown	fact	lab_values	ALT high	56.153 U/L	http://loinc.org|1742-6
+2016-07-08	unknown	fact	lab_values	AST normal	32.215 U/L	http://loinc.org|1920-8
+2016-07-08	unknown	fact	lab_values	urine protein high	387.83 mg/dL	http://loinc.org|5804-0
+2016-07-08	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-07-08	unknown	fact	lab_values	WBC low	1.1733 10*3/uL	http://loinc.org|6690-2
+2016-07-08	unknown	fact	lab_values	RBC normal	5.2151 10*6/uL	http://loinc.org|789-8
+2016-07-08	unknown	fact	lab_values	Hb low	13.07 g/dL	http://loinc.org|718-7
+2016-07-08	unknown	fact	lab_values	HCT normal	44.249 %	http://loinc.org|4544-3
+2016-07-08	unknown	fact	lab_values	platelet count normal	374.7 10*3/uL	http://loinc.org|777-3
+2016-08-04	unknown	fact	lab_values	creatinine high	3.1533 mg/dL	http://loinc.org|38483-4
+2016-08-04	unknown	fact	lab_values	inadequate GFR	27.738 mL/min	http://loinc.org|33914-3
+2016-08-04	unknown	fact	lab_values	albumin normal	4.5905 g/dL	http://loinc.org|1751-7
+2016-08-04	unknown	fact	lab_values	bilirubin normal	0.32084 mg/dL	http://loinc.org|1975-2
+2016-08-04	unknown	fact	lab_values	alkaline phosphatase value reported	100.23 U/L	http://loinc.org|6768-6
+2016-08-04	unknown	fact	lab_values	ALT normal	33.502 U/L	http://loinc.org|1742-6
+2016-08-04	unknown	fact	lab_values	AST normal	34.562 U/L	http://loinc.org|1920-8
+2016-08-04	unknown	fact	lab_values	urine protein high	380.12 mg/dL	http://loinc.org|5804-0
+2016-08-04	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-08-04	unknown	fact	lab_values	WBC low	3.5545 10*3/uL	http://loinc.org|6690-2
+2016-08-04	unknown	fact	lab_values	RBC normal	4.5119 10*6/uL	http://loinc.org|789-8
+2016-08-04	unknown	fact	lab_values	Hb low	13.129 g/dL	http://loinc.org|718-7
+2016-08-04	unknown	fact	lab_values	HCT normal	38.518 %	http://loinc.org|4544-3
+2016-08-04	unknown	fact	lab_values	platelet count normal	310.57 10*3/uL	http://loinc.org|777-3
+2016-08-30	unknown	fact	lab_values	creatinine high	2.6979 mg/dL	http://loinc.org|38483-4
+2016-08-30	unknown	fact	lab_values	inadequate GFR	6.5936 mL/min	http://loinc.org|33914-3
+2016-08-30	unknown	fact	lab_values	albumin high	5.3566 g/dL	http://loinc.org|1751-7
+2016-08-30	unknown	fact	lab_values	bilirubin normal	0.91497 mg/dL	http://loinc.org|1975-2
+2016-08-30	unknown	fact	lab_values	alkaline phosphatase value reported	53.62 U/L	http://loinc.org|6768-6
+2016-08-30	unknown	fact	lab_values	ALT normal	27.514 U/L	http://loinc.org|1742-6
+2016-08-30	unknown	fact	lab_values	AST value reported	8.2599 U/L	http://loinc.org|1920-8
+2016-08-30	unknown	fact	lab_values	urine protein high	340.9 mg/dL	http://loinc.org|5804-0
+2016-08-30	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-08-30	unknown	fact	lab_values	WBC low	3.3216 10*3/uL	http://loinc.org|6690-2
+2016-08-30	unknown	fact	lab_values	RBC normal	4.8883 10*6/uL	http://loinc.org|789-8
+2016-08-30	unknown	fact	lab_values	Hb normal	13.549 g/dL	http://loinc.org|718-7
+2016-08-30	unknown	fact	lab_values	HCT normal	41.139 %	http://loinc.org|4544-3
+2016-08-30	unknown	fact	lab_values	platelet count normal	273.73 10*3/uL	http://loinc.org|777-3
+2016-09-24	unknown	fact	lab_values	creatinine high	2.6361 mg/dL	http://loinc.org|38483-4
+2016-09-24	unknown	fact	lab_values	inadequate GFR	14.101 mL/min	http://loinc.org|33914-3
+2016-09-24	unknown	fact	lab_values	albumin normal	3.7324 g/dL	http://loinc.org|1751-7
+2016-09-24	unknown	fact	lab_values	bilirubin normal	0.20413 mg/dL	http://loinc.org|1975-2
+2016-09-24	unknown	fact	lab_values	alkaline phosphatase value reported	58.424 U/L	http://loinc.org|6768-6
+2016-09-24	unknown	fact	lab_values	ALT high	57.189 U/L	http://loinc.org|1742-6
+2016-09-24	unknown	fact	lab_values	AST normal	18.367 U/L	http://loinc.org|1920-8
+2016-09-24	unknown	fact	lab_values	urine protein high	345.5 mg/dL	http://loinc.org|5804-0
+2016-09-24	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-09-24	unknown	fact	lab_values	WBC normal	4.0714 10*3/uL	http://loinc.org|6690-2
+2016-09-24	unknown	fact	lab_values	RBC normal	4.53 10*6/uL	http://loinc.org|789-8
+2016-09-24	unknown	fact	lab_values	Hb normal	16.043 g/dL	http://loinc.org|718-7
+2016-09-24	unknown	fact	lab_values	HCT normal	40.606 %	http://loinc.org|4544-3
+2016-09-24	unknown	fact	lab_values	platelet count normal	258.79 10*3/uL	http://loinc.org|777-3
+2016-10-16	unknown	fact	lab_values	creatinine high	2.5295 mg/dL	http://loinc.org|38483-4
+2016-10-16	unknown	fact	lab_values	inadequate GFR	19.87 mL/min	http://loinc.org|33914-3
+2016-10-16	unknown	fact	lab_values	albumin normal	4.257 g/dL	http://loinc.org|1751-7
+2016-10-16	unknown	fact	lab_values	bilirubin normal	0.94358 mg/dL	http://loinc.org|1975-2
+2016-10-16	unknown	fact	lab_values	alkaline phosphatase value reported	61.524 U/L	http://loinc.org|6768-6
+2016-10-16	unknown	fact	lab_values	ALT high	41.133 U/L	http://loinc.org|1742-6
+2016-10-16	unknown	fact	lab_values	AST normal	15.091 U/L	http://loinc.org|1920-8
+2016-10-16	unknown	fact	lab_values	urine protein high	293.27 mg/dL	http://loinc.org|5804-0
+2016-10-16	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-10-16	unknown	fact	lab_values	WBC normal	4.8541 10*3/uL	http://loinc.org|6690-2
+2016-10-16	unknown	fact	lab_values	RBC normal	4.4309 10*6/uL	http://loinc.org|789-8
+2016-10-16	unknown	fact	lab_values	Hb normal	15.296 g/dL	http://loinc.org|718-7
+2016-10-16	unknown	fact	lab_values	HCT normal	38.376 %	http://loinc.org|4544-3
+2016-10-16	unknown	fact	lab_values	platelet count normal	176.37 10*3/uL	http://loinc.org|777-3
+2016-11-08	unknown	fact	lab_values	creatinine high	3.2557 mg/dL	http://loinc.org|38483-4
+2016-11-08	unknown	fact	lab_values	inadequate GFR	5.1808 mL/min	http://loinc.org|33914-3
+2016-11-08	unknown	fact	lab_values	albumin normal	4.5253 g/dL	http://loinc.org|1751-7
+2016-11-08	unknown	fact	lab_values	bilirubin normal	1.0129 mg/dL	http://loinc.org|1975-2
+2016-11-08	unknown	fact	lab_values	alkaline phosphatase value reported	128.73 U/L	http://loinc.org|6768-6
+2016-11-08	unknown	fact	lab_values	ALT normal	27.824 U/L	http://loinc.org|1742-6
+2016-11-08	unknown	fact	lab_values	AST normal	25.325 U/L	http://loinc.org|1920-8
+2016-11-08	unknown	fact	lab_values	urine protein high	313.4 mg/dL	http://loinc.org|5804-0
+2016-11-08	unknown	fact	lab_values	urine protein high	Urine protein test = +++ (finding)	http://loinc.org|20454-5
+2016-11-08	unknown	fact	lab_values	WBC low	2.4188 10*3/uL	http://loinc.org|6690-2
+2016-11-08	unknown	fact	lab_values	RBC normal	4.4812 10*6/uL	http://loinc.org|789-8
+2016-11-08	unknown	fact	lab_values	Hb low	13.197 g/dL	http://loinc.org|718-7
+2016-11-08	unknown	fact	lab_values	HCT normal	37.382 %	http://loinc.org|4544-3
+2016-11-08	unknown	fact	lab_values	platelet count normal	361.02 10*3/uL	http://loinc.org|777-3
+2016-11-30	unknown	fact	performance	deceased	Small cell carcinoma of lung (disorder)	http://loinc.org|69453-9
+2016-11-02	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-03	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-04	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-05	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-06	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-07	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-08	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-09	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-10	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-11	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-12	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-13	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-14	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-15	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-16	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-17	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-18	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-19	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-20	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-21	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-22	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-23	unknown	fact	therapies	hospice care		http://snomed.info/sct|385763009
+2016-11-30	unknown	fact	performance	deceased		http://loinc.org|69409-1
+2011-11-26	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2011-11-26	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2011-12-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2011-12-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-01-18	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-01-18	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-02-12	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-02-12	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-03-05	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-03-05	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-04-01	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-04-01	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-04-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-04-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-05-19	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-05-19	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-06-11	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-06-11	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-07-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-07-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-07-26	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-07-26	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-08-19	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-08-19	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-09-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-09-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-10-09	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-10-09	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-10-31	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-10-31	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-11-22	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-11-22	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2012-12-15	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2012-12-15	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-01-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-01-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-02-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-02-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-02-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-02-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-03-26	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-03-26	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-04-20	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-04-20	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-05-14	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-05-14	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-06-08	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-06-08	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-06-30	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-06-30	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-07-21	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-07-21	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-08-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-08-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-09-12	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-09-12	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-10-10	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-10-10	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-11-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-11-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-11-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-11-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2013-12-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2013-12-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-01-12	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-01-12	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-02-06	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-02-06	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-03-04	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-03-04	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-03-29	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-03-29	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-04-23	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-04-23	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-05-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-05-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-06-08	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-06-08	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-07-03	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-07-03	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-07-25	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-07-25	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-08-18	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-08-18	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-09-09	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-09-09	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-10-06	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-10-06	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-10-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-10-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-11-18	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-11-18	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2014-12-15	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2014-12-15	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-01-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-01-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-02-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-02-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-02-27	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-02-27	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-03-22	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-03-22	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-04-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-04-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-05-14	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-05-14	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-06-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-06-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-07-04	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-07-04	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-07-30	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-07-30	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-08-20	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-08-20	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-09-15	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-09-15	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-10-12	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-10-12	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-11-07	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-11-07	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-12-02	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-12-02	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2015-12-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2015-12-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-01-21	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-01-21	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-02-18	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-02-18	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-03-14	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-03-14	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-04-04	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-04-04	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-04-28	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-04-28	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-05-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-05-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-06-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-06-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-07-09	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-07-09	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-08-04	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-08-04	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-08-30	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-08-30	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-09-24	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-09-24	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-10-16	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-10-16	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2016-11-08	unknown	fact	drugs	cisplatin		http://www.nlm.nih.gov/research/umls/rxnorm|1736854
+2016-11-08	unknown	fact	drugs	etoposide		http://www.nlm.nih.gov/research/umls/rxnorm|1734340
+2011-11-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2011-11-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2011-12-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2011-12-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-01-18	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-01-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-02-12	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-02-12	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-03-05	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-03-05	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-04-01	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-04-01	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-04-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-04-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-05-19	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-05-19	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-06-11	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-06-11	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-07-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-07-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-07-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-07-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-08-19	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-08-19	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-09-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-09-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-10-09	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-10-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-10-31	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-10-31	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-11-22	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-11-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2012-12-15	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2012-12-15	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-01-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-01-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-02-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-02-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-02-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-02-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-03-26	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-03-26	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-04-20	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-04-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-05-14	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-05-14	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-06-08	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-06-08	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-06-30	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-06-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-07-21	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-07-21	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-08-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-08-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-09-12	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-09-12	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-10-10	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-10-10	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-11-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-11-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-11-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-11-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2013-12-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2013-12-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-01-12	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-01-12	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-02-06	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-02-06	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-03-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-03-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-03-29	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-03-29	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-04-23	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-04-23	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-05-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-05-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-06-08	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-06-08	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-07-03	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-07-03	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-07-25	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-07-25	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-08-18	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-08-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-09-09	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-09-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-10-06	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-10-06	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-10-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-10-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-11-18	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-11-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2014-12-15	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2014-12-15	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-01-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-01-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-02-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-02-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-02-27	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-02-27	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-03-22	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-03-22	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-04-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-04-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-05-14	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-05-14	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-06-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-06-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-07-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-07-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-07-30	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-07-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-08-20	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-08-20	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-09-15	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-09-15	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-10-12	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-10-12	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-11-07	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-11-07	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-12-02	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-12-02	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2015-12-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2015-12-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-01-21	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-01-21	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-02-18	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-02-18	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-03-14	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-03-14	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-04-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-04-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-04-28	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-04-28	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-05-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-05-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-06-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-06-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-07-09	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-07-09	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-08-04	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-08-04	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-08-30	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-08-30	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-09-24	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-09-24	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-10-16	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-10-16	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2016-11-08	unknown	fact	therapies	chemotherapy		http://snomed.info/sct|703423002
+2016-11-08	unknown	fact	therapies	radiation therapy		http://snomed.info/sct|703423002
+2011-11-25	unknown	fact	lab_values	RBC value reported	45.322 fL	http://loinc.org|21000-5
+2013-07-24	unknown	fact	lab_values	Hb value reported	22.835 ng/mL	http://loinc.org|57905-2
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2012-05-19	unknown	fact	therapies	chemotherapy		
+2012-05-19	unknown	fact	therapies	radiation therapy		
+2016-07-08	unknown	fact	therapies	chemotherapy		
+2016-07-08	unknown	fact	therapies	radiation therapy		
+2013-03-25	unknown	fact	therapies	chemotherapy		
+2013-03-25	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2016-08-30	unknown	fact	therapies	chemotherapy		
+2016-08-30	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2014-08-18	unknown	fact	therapies	chemotherapy		
+2014-08-18	unknown	fact	therapies	radiation therapy		
+2013-01-06	unknown	fact	therapies	chemotherapy		
+2013-01-06	unknown	fact	therapies	radiation therapy		
+2014-10-05	unknown	fact	therapies	chemotherapy		
+2014-10-05	unknown	fact	therapies	radiation therapy		
+2013-06-07	unknown	fact	therapies	chemotherapy		
+2013-06-07	unknown	fact	therapies	radiation therapy		
+2014-01-12	unknown	fact	therapies	chemotherapy		
+2014-01-12	unknown	fact	therapies	radiation therapy		
+2014-09-09	unknown	fact	therapies	chemotherapy		
+2014-09-09	unknown	fact	therapies	radiation therapy		
+2015-07-04	unknown	fact	therapies	chemotherapy		
+2015-07-04	unknown	fact	therapies	radiation therapy		
+2016-04-04	unknown	fact	therapies	chemotherapy		
+2016-04-04	unknown	fact	therapies	radiation therapy		
+2014-07-25	unknown	fact	therapies	chemotherapy		
+2014-07-25	unknown	fact	therapies	radiation therapy		
+2013-06-30	unknown	fact	therapies	chemotherapy		
+2013-06-30	unknown	fact	therapies	radiation therapy		
+2015-09-15	unknown	fact	therapies	chemotherapy		
+2015-09-15	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2016-05-24	unknown	fact	therapies	chemotherapy		
+2016-05-24	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2015-07-29	unknown	fact	therapies	chemotherapy		
+2015-07-29	unknown	fact	therapies	radiation therapy		
+2015-12-02	unknown	fact	therapies	chemotherapy		
+2015-12-02	unknown	fact	therapies	radiation therapy		
+2016-04-28	unknown	fact	therapies	chemotherapy		
+2016-04-28	unknown	fact	therapies	radiation therapy		
+2013-07-21	unknown	fact	therapies	chemotherapy		
+2013-07-21	unknown	fact	therapies	radiation therapy		
+2016-11-09	unknown	fact	therapies	hospice care		
+2015-08-20	unknown	fact	therapies	chemotherapy		
+2015-08-20	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2016-01-21	unknown	fact	therapies	chemotherapy		
+2016-01-21	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	hospice care		
+2012-06-11	unknown	fact	therapies	chemotherapy		
+2012-06-11	unknown	fact	therapies	radiation therapy		
+2014-11-18	unknown	fact	therapies	chemotherapy		
+2014-11-18	unknown	fact	therapies	radiation therapy		
+2014-05-15	unknown	fact	therapies	chemotherapy		
+2014-05-15	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2014-03-04	unknown	fact	therapies	chemotherapy		
+2014-03-04	unknown	fact	therapies	radiation therapy		
+2015-12-24	unknown	fact	therapies	chemotherapy		
+2015-12-24	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	Small Cell Lung Cancer	fact	ajcc_m	M0		
+unknown	Small Cell Lung Cancer	fact	ajcc_n	N0		
+unknown	Small Cell Lung Cancer	fact	broad_disease_stage	early stage		
+unknown	Small Cell Lung Cancer	fact	cancers	Small Cell Lung Cancer		
+unknown	Small Cell Lung Cancer	fact	histologic_invasiveness	invasive		
+unknown	Small Cell Lung Cancer	fact	histologies	small cell		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	limited stage		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	no distant metastases		
+unknown	Small Cell Lung Cancer	fact	solid_tumor_extent	regional lymph node(s) negative		
+unknown	Small Cell Lung Cancer	fact	stages	Stage I		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2012-12-15	unknown	fact	therapies	chemotherapy		
+2012-12-15	unknown	fact	therapies	radiation therapy		
+unknown	Small Cell Lung Cancer	fact	cancers	Small Cell Lung Cancer		
+unknown	Small Cell Lung Cancer	fact	clinical_conditions	anemia		
+unknown	Small Cell Lung Cancer	fact	histologies	small cell		
+2016-06-16	unknown	fact	therapies	chemotherapy		
+2016-06-16	unknown	fact	therapies	radiation therapy		
+2016-08-04	unknown	fact	therapies	chemotherapy		
+2016-08-04	unknown	fact	therapies	radiation therapy		
+2013-12-16	unknown	fact	therapies	chemotherapy		
+2013-12-16	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2012-11-22	unknown	fact	therapies	chemotherapy		
+2012-11-22	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2012-10-09	unknown	fact	therapies	chemotherapy		
+2012-10-09	unknown	fact	therapies	radiation therapy		
+2012-03-31	unknown	fact	therapies	chemotherapy		
+2012-03-31	unknown	fact	therapies	radiation therapy		
+2015-02-26	unknown	fact	therapies	chemotherapy		
+2015-02-26	unknown	fact	therapies	radiation therapy		
+2016-09-24	unknown	fact	therapies	chemotherapy		
+2016-09-24	unknown	fact	therapies	radiation therapy		
+2015-01-07	unknown	fact	therapies	chemotherapy		
+2015-01-07	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2015-03-22	unknown	fact	therapies	chemotherapy		
+2015-03-22	unknown	fact	therapies	radiation therapy		
+2015-10-12	unknown	fact	therapies	chemotherapy		
+2015-10-12	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2014-10-27	unknown	fact	therapies	chemotherapy		
+2014-10-27	unknown	fact	therapies	radiation therapy		
+2012-07-02	unknown	fact	therapies	chemotherapy		
+2012-07-02	unknown	fact	therapies	radiation therapy		
+2014-03-29	unknown	fact	therapies	chemotherapy		
+2014-03-29	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2013-04-20	unknown	fact	therapies	chemotherapy		
+2013-04-20	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	organ_function	hypertension		
+unknown	unknown	fact	therapies	hospice care		
+2012-09-16	unknown	fact	therapies	chemotherapy		
+2012-09-16	unknown	fact	therapies	radiation therapy		
+2012-08-19	unknown	fact	therapies	chemotherapy		
+2012-08-19	unknown	fact	therapies	radiation therapy		
+2016-11-05	unknown	fact	therapies	hospice care		
+2013-02-26	unknown	fact	therapies	chemotherapy		
+2013-02-26	unknown	fact	therapies	radiation therapy		
+2012-01-17	unknown	fact	therapies	chemotherapy		
+2012-01-17	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2014-12-15	unknown	fact	therapies	chemotherapy		
+2014-12-15	unknown	fact	therapies	radiation therapy		
+2015-05-13	unknown	fact	therapies	chemotherapy		
+2015-05-13	unknown	fact	therapies	radiation therapy		
+2016-11-07	unknown	fact	therapies	chemotherapy		
+2016-11-07	unknown	fact	therapies	radiation therapy		
+2016-11-07	unknown	fact	therapies	hospice care		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+unknown	unknown	fact	therapies	chemotherapy		
+unknown	unknown	fact	therapies	radiation therapy		
+2011-11-26	unknown	planned	drugs	cisplatin		
+2011-11-26	unknown	planned	drugs	etoposide		
+2012-01-17	unknown	planned	drugs	cisplatin		
+2012-01-17	unknown	planned	drugs	etoposide		
+2012-03-31	unknown	planned	drugs	cisplatin		
+2012-03-31	unknown	planned	drugs	etoposide		
+2012-05-19	unknown	planned	drugs	cisplatin		
+2012-05-19	unknown	planned	drugs	etoposide		
+2012-06-11	unknown	planned	drugs	cisplatin		
+2012-06-11	unknown	planned	drugs	etoposide		
+2012-07-02	unknown	planned	drugs	cisplatin		
+2012-07-02	unknown	planned	drugs	etoposide		
+2012-08-19	unknown	planned	drugs	cisplatin		
+2012-08-19	unknown	planned	drugs	etoposide		
+2012-09-16	unknown	planned	drugs	cisplatin		
+2012-09-16	unknown	planned	drugs	etoposide		
+2012-10-09	unknown	planned	drugs	cisplatin		
+2012-10-09	unknown	planned	drugs	etoposide		
+2012-11-22	unknown	planned	drugs	cisplatin		
+2012-11-22	unknown	planned	drugs	etoposide		
+2012-12-15	unknown	planned	drugs	cisplatin		
+2012-12-15	unknown	planned	drugs	etoposide		
+2013-01-06	unknown	planned	drugs	cisplatin		
+2013-01-06	unknown	planned	drugs	etoposide		
+2013-02-26	unknown	planned	drugs	cisplatin		
+2013-02-26	unknown	planned	therapies	chemotherapy		
+2013-02-26	unknown	planned	drugs	etoposide		
+2013-02-26	unknown	planned	therapies	chemotherapy		
+2013-03-25	unknown	planned	drugs	cisplatin		
+2013-03-25	unknown	planned	drugs	etoposide		
+2013-04-20	unknown	planned	drugs	cisplatin		
+2013-04-20	unknown	planned	drugs	etoposide		
+2013-06-07	unknown	planned	drugs	cisplatin		
+2013-06-07	unknown	planned	drugs	etoposide		
+2013-06-30	unknown	planned	drugs	cisplatin		
+2013-06-30	unknown	planned	drugs	etoposide		
+2013-12-16	unknown	planned	drugs	cisplatin		
+2013-12-16	unknown	planned	drugs	etoposide		
+2014-01-12	unknown	planned	drugs	cisplatin		
+2014-01-12	unknown	planned	drugs	etoposide		
+2014-03-04	unknown	planned	drugs	cisplatin		
+2014-03-04	unknown	planned	drugs	etoposide		
+2014-03-29	unknown	planned	drugs	cisplatin		
+2014-03-29	unknown	planned	drugs	etoposide		
+2014-05-15	unknown	planned	drugs	cisplatin		
+2014-05-15	unknown	planned	drugs	etoposide		
+2014-07-25	unknown	planned	drugs	cisplatin		
+2014-07-25	unknown	planned	drugs	etoposide		
+2014-09-09	unknown	planned	drugs	cisplatin		
+2014-09-09	unknown	planned	drugs	etoposide		
+2014-10-05	unknown	planned	drugs	cisplatin		
+2014-10-05	unknown	planned	drugs	etoposide		
+2014-10-27	unknown	planned	drugs	cisplatin		
+2014-10-27	unknown	planned	drugs	etoposide		
+2014-11-18	unknown	planned	drugs	cisplatin		
+2014-11-18	unknown	planned	drugs	etoposide		
+2014-12-15	unknown	planned	drugs	cisplatin		
+2014-12-15	unknown	planned	drugs	etoposide		
+2015-01-07	unknown	planned	drugs	cisplatin		
+2015-01-07	unknown	planned	drugs	etoposide		
+2015-02-26	unknown	planned	drugs	cisplatin		
+2015-02-26	unknown	planned	drugs	etoposide		
+2015-03-22	unknown	planned	drugs	cisplatin		
+2015-03-22	unknown	planned	drugs	etoposide		
+2015-07-04	unknown	planned	drugs	cisplatin		
+2015-07-04	unknown	planned	drugs	etoposide		
+2015-07-29	unknown	planned	drugs	cisplatin		
+2015-07-29	unknown	planned	drugs	etoposide		
+2015-08-20	unknown	planned	drugs	cisplatin		
+2015-08-20	unknown	planned	drugs	etoposide		
+2015-09-15	unknown	planned	drugs	cisplatin		
+2015-09-15	unknown	planned	drugs	etoposide		
+2015-12-24	unknown	planned	drugs	cisplatin		
+2015-12-24	unknown	planned	drugs	etoposide		
+2016-01-21	unknown	planned	drugs	cisplatin		
+2016-01-21	unknown	planned	drugs	etoposide		
+2016-04-04	unknown	planned	drugs	cisplatin		
+2016-04-04	unknown	planned	drugs	etoposide		
+2016-04-28	unknown	planned	drugs	cisplatin		
+2016-04-28	unknown	planned	drugs	etoposide		
+2016-05-24	unknown	planned	drugs	cisplatin		
+2016-05-24	unknown	planned	drugs	etoposide		
+2016-06-16	unknown	planned	drugs	cisplatin		
+2016-06-16	unknown	planned	drugs	etoposide		
+2016-07-08	unknown	planned	drugs	cisplatin		
+2016-07-08	unknown	planned	drugs	etoposide		
+2016-08-04	unknown	planned	drugs	cisplatin		
+2016-08-04	unknown	planned	drugs	etoposide		
+2016-08-30	unknown	planned	drugs	cisplatin		
+2016-08-30	unknown	planned	drugs	etoposide		
+2016-09-24	unknown	planned	drugs	cisplatin		
+2016-09-24	unknown	planned	drugs	etoposide		
+2016-11-07	unknown	planned	drugs	cisplatin		
+2016-11-07	unknown	planned	drugs	etoposide		
+unknown	Small Cell Lung Cancer	planned	unclassified	The patient was placed on a careplan: - terminal care		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		
+unknown	unknown	planned	drugs	cisplatin		
+unknown	unknown	planned	drugs	etoposide		

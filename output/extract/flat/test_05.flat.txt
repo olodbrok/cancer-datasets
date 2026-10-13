@@ -1,0 +1,54 @@
+age	50 <= age < 60
+ajcc_m	cM1
+ajcc_m	pM1
+ajcc_t	ypT2
+biomarkers	ER negative
+biomarkers	HER2 status negative
+biomarkers	PD-L1 CPS >= 1 and < 5
+biomarkers	PR negative
+broad_disease_stage	advanced stage
+cancers	Breast Cancer
+disease_status	recurrent disease
+drug_classes	anthracyclines
+drug_classes	taxanes
+drugs	capecitabine
+gender	female
+histologic_invasiveness	invasive
+histologies	carcinoma
+lab_values	alkaline phosphatase value reported
+lab_values	ALT value reported
+lab_values	AST value reported
+lab_values	bilirubin value reported
+lab_values	creatinine value reported
+lab_values	Hb value reported
+lab_values	platelet count value reported
+lab_values	WBC value reported
+metastatic_sites	bone metastases
+metastatic_sites	liver metastases
+metastatic_sites	lung metastases
+metastatic_sites	no brain metastases
+organ_function	hypertension
+performance	ECOG 1
+regimens	ddAC-T
+residual_disease	no residual disease
+residual_disease	residual disease
+solid_tumor_extent	distant lymph node(s) positive
+solid_tumor_extent	distant metastases
+solid_tumor_extent	locally advanced
+solid_tumor_extent	regional lymph node(s) positive
+stages	Stage IIIB
+stages	Stage IV
+therapeutic_response	progressive disease
+therapies	biopsy
+therapies	cancer surgery
+therapies	chemotherapy
+therapies	lymphadenectomy
+therapies	radiation therapy
+treatment_setting	adjuvant setting
+treatment_setting	neoadjuvant setting
+proposed_therapies:
+proposed_therapies/lines_of_therapy	second line [proposal_id=proposal-ffc1ff1207761c4cb337; status=planned; validation=supported; source_mentions=['sacituzumab govitecan']; line_number=2; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-ffc1ff1207761c4cb337; status=planned; validation=supported; source_mentions=['sacituzumab govitecan']; line_number=2; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/drugs	sacituzumab govitecan [proposal_id=proposal-ffc1ff1207761c4cb337; status=planned; validation=supported; source_mentions=['sacituzumab govitecan']; line_number=2; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/therapies	radiation therapy [proposal_id=proposal-d53c2a1f7039710f7990; status=possible option; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/unclassified	zoledronic acid [proposal_id=proposal-50eb7172a0a6c78117d2; status=planned; validation=supported; source_mentions=['zoledronic acid']; relationship=unspecified; date=unknown; cancer=cancer:breast_cancer]

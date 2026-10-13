@@ -1,0 +1,30 @@
+age	50 <= age < 60
+ajcc_m	cM0
+biomarkers	ER positive
+biomarkers	HER2 expression low
+biomarkers	HER2 status negative
+biomarkers	HR positive
+biomarkers	Ki-67 expression high
+biomarkers	No HER2 amplification detected
+biomarkers	PR positive
+broad_disease_stage	advanced stage
+cancers	Breast Cancer
+disease_status	newly diagnosed disease
+gender	female
+histologic_invasiveness	invasive
+histologies	carcinoma
+lab_values	CA 15-3 value reported
+lines_of_therapy	untreated
+organ_function	adequate bone marrow function
+organ_function	adequate hematologic function
+organ_function	adequate organ function
+performance	ECOG 1
+solid_tumor_extent	locally advanced
+solid_tumor_extent	no distant metastases
+solid_tumor_extent	regional lymph node(s) positive
+stages	Stage IIIB
+therapies	biopsy
+proposed_therapies:
+proposed_therapies/therapies	clinical trial [proposal_id=proposal-99def206ca33c8dbd3f0; status=under consideration; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/therapies	systemic therapy [proposal_id=proposal-db41d40e79e602dfbb5b; status=planned; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]
+proposed_therapies/treatment_setting	neoadjuvant setting [proposal_id=proposal-db41d40e79e602dfbb5b; status=planned; validation=supported; relationship=single; relationship_validation=supported; concept_validation=supported; date=unknown; cancer=cancer:breast_cancer]

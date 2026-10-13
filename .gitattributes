@@ -1,0 +1,2 @@
+# Minimal TSV files retain empty trailing columns.
+output/** -whitespace

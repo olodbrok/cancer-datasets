@@ -1,0 +1,1699 @@
+{
+  "schema_version": "onco-source-evidence/1",
+  "patient_id": "test_09",
+  "bundle_path": "/home/ec2-user/Data/test/test_09.txt",
+  "input_type": "plain_text",
+  "run_time": "2026-10-13T06:44:00Z",
+  "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7",
+  "facts": [
+    {
+      "polarity": "positive",
+      "group": "age",
+      "term": "70 <= age < 80",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "72-year-old",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 72.0,
+        "comparator": null,
+        "unit": {
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "display": "years"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "72-year-old",
+        "reason": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 72-year-old",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "age",
+        "node": "age",
+        "axis": "value_bucket",
+        "state": "70_age_80"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-95aa8e090ac735ac"
+    },
+    {
+      "polarity": "positive",
+      "group": "gender",
+      "term": "male",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "male",
+      "rationale": "Explicit patient demographic mapped deterministically to reviewed terminology.",
+      "confidence": 1.0,
+      "cancer_context_ref": null,
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "This is a 72-year-old male",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gender",
+        "node": "male",
+        "axis": "terms",
+        "state": "male"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f722200c772d938e"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_m",
+      "term": "cM0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_m",
+        "node": "cm0",
+        "axis": "terms",
+        "state": "cm0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9bdb1034d969a39c"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_n",
+      "term": "cN0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_n",
+        "node": "cn0",
+        "axis": "terms",
+        "state": "cn0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-f55fa022ddd3280a"
+    },
+    {
+      "polarity": "positive",
+      "group": "ajcc_t",
+      "term": "cT3b",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "ajcc_t",
+        "node": "ct3b",
+        "axis": "terms",
+        "state": "ct3b"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-24eabdfc5249a9ab"
+    },
+    {
+      "polarity": "positive",
+      "group": "broad_disease_stage",
+      "term": "advanced stage",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "The prostate cancer is explicitly described as locally advanced, supporting the advanced broad-stage assessment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "broad_disease_stage",
+        "node": "broad_disease_stage",
+        "axis": "broad_stage",
+        "state": "advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-31e96ad031b7ff6a"
+    },
+    {
+      "polarity": "positive",
+      "group": "cancers",
+      "term": "Prostate Cancer",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "cancers",
+        "node": "prostate_cancer",
+        "axis": "terms",
+        "state": "prostate_cancer"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-21070025e3999204"
+    },
+    {
+      "polarity": "positive",
+      "group": "gleason",
+      "term": "total Gleason score >=8",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Gleason score of 4+5=9 (Grade Group 5)",
+      "rationale": "The documented total Gleason score is 9 (4+5), which is at least 8.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "Gleason score of 4+5=9 (Grade Group 5)",
+        "reason": "The documented total Gleason score is 9 (4+5), which is at least 8.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Gleason score of 4+5=9 (Grade Group 5)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "gleason",
+        "node": "total_gleason_score",
+        "axis": "value_bucket",
+        "state": "ge_8"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-18577d832ee8ceba"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologic_invasiveness",
+      "term": "invasive",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Multiparametric MRI of the prostate demonstrated a large tumor involving both lobes with extracapsular extension and seminal vesicle invasion. Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "rationale": "Biopsy-confirmed prostate adenocarcinoma with documented extracapsular extension and seminal vesicle invasion establishes invasive disease rather than in situ disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "Multiparametric MRI of the prostate demonstrated a large tumor involving both lobes with extracapsular extension and seminal vesicle invasion. Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+        "reason": "Biopsy-confirmed prostate adenocarcinoma with documented extracapsular extension and seminal vesicle invasion establishes invasive disease rather than in situ disease.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Multiparametric MRI of the prostate demonstrated a large tumor involving\nboth lobes with extracapsular extension and seminal vesicle invasion.\nTransrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologic_invasiveness",
+        "node": "histologic_invasiveness",
+        "axis": "results",
+        "state": "invasive"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-0ea7531ef6ea6b33"
+    },
+    {
+      "polarity": "positive",
+      "group": "histologies",
+      "term": "adenocarcinoma",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "histologies",
+        "node": "adenocarcinoma",
+        "axis": "terms",
+        "state": "adenocarcinoma"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-e84d1df274219cef"
+    },
+    {
+      "polarity": "positive",
+      "group": "lab_values",
+      "term": "PSA value reported",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Initial laboratory evaluation revealed a PSA level of 48 ng/mL.",
+      "rationale": "A PSA value of 48 ng/mL is explicitly reported.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": null,
+        "value": 48.0,
+        "comparator": null,
+        "unit": {
+          "system": null,
+          "code": "ng/mL",
+          "display": "ng/mL"
+        },
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Initial laboratory evaluation revealed a PSA level of 48 ng/mL.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lab_values",
+        "node": "psa",
+        "axis": "observation",
+        "state": "reported"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-5c1023bac19242e6"
+    },
+    {
+      "polarity": "positive",
+      "group": "lines_of_therapy",
+      "term": "untreated",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "The patient has not received any prior oncologic treatment.",
+      "rationale": "The patient is explicitly stated to have received no prior oncologic treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "The patient has not received any prior oncologic\ntreatment.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "lines_of_therapy",
+        "node": "untreated",
+        "axis": "terms",
+        "state": "untreated"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-678c1d88fe3a13c1"
+    },
+    {
+      "polarity": "positive",
+      "group": "organ_function",
+      "term": "adequate renal function",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Routine laboratory values, including renal function and testosterone levels, are within normal limits.",
+      "rationale": "Renal function is explicitly stated to be within normal limits, supporting adequate renal function.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Routine laboratory values, including renal function and testosterone\nlevels, are within normal limits.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "organ_function",
+        "node": "renal_function",
+        "axis": "results",
+        "state": "adequate"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-ee6412180b04f90b"
+    },
+    {
+      "polarity": "positive",
+      "group": "performance",
+      "term": "ECOG 0",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "His ECOG performance status is 0.",
+      "rationale": "Explicit score.ecog == 0 satisfies the reviewed interval.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": {
+        "type": "Quantity",
+        "value": 0.0,
+        "comparator": null,
+        "unit": null,
+        "codings": [],
+        "text": null,
+        "reference_ranges": []
+      },
+      "derivation": {
+        "action": "deterministic_validation",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "His ECOG performance status is 0.",
+        "reason": "Explicit score.ecog == 0 satisfies the reviewed interval.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "His ECOG performance status is 0.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "performance",
+        "node": "ecog",
+        "axis": "terms",
+        "state": "0"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-250d152c380d72a8"
+    },
+    {
+      "polarity": "positive",
+      "group": "recurrence_risk",
+      "term": "high risk of recurrence",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "The documented high-risk prostate cancer classification, supported by PSA 48 ng/mL, Gleason 9 and cT3b disease, indicates a high risk of recurrence after definitive treatment.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "reason": "The documented high-risk prostate cancer classification, supported by PSA 48 ng/mL, Gleason 9 and cT3b disease, indicates a high risk of recurrence after definitive treatment.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "recurrence_risk",
+        "node": "recurrence_only_risk",
+        "axis": "risk_level",
+        "state": "high"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-2fa2a3ed19115f14"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "no distant metastases",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "PSMA PET-CT showed no evidence of distant metastatic disease or definitive nodal involvement.",
+      "rationale": "PSMA PET-CT explicitly showed no evidence of distant metastatic disease.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "PSMA PET-CT showed no\nevidence of distant metastatic disease or definitive nodal involvement.",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "distant_metastases",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-96d30d5eae4ea446"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "regional lymph node(s) negative",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "The documented clinical stage cN0 means no clinically identified regional lymph node involvement; it does not imply pathologic node-negative status.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": {
+        "action": "semantic_verification",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "reason": "The documented clinical stage cN0 means no clinically identified regional lymph node involvement; it does not imply pathologic node-negative status.",
+        "source_fact_ids": [],
+        "catalog_sha256": "d2cb2d8f80955be4907cfe3e7f9d88ea3fbac926ec9e9ae37b9831a3745b92b7"
+      },
+      "establishment": "derived",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "regional_lymph_nodes",
+        "axis": "results",
+        "state": "negative"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "semantic_verification"
+      },
+      "fact_id": "fact-c256396d49370a68"
+    },
+    {
+      "polarity": "positive",
+      "group": "solid_tumor_extent",
+      "term": "locally advanced",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "solid_tumor_extent",
+        "node": "locally_advanced",
+        "axis": "terms",
+        "state": "locally_advanced"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-ca555e78038d8bed"
+    },
+    {
+      "polarity": "positive",
+      "group": "therapies",
+      "term": "biopsy",
+      "date": null,
+      "source": "document",
+      "source_key": null,
+      "resource_type": null,
+      "resource_id": null,
+      "evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "rationale": "Exact source term or reviewed catalog alias in genuine evidence.",
+      "confidence": 1.0,
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "source_concept": null,
+      "source_value": null,
+      "derivation": null,
+      "establishment": "direct",
+      "validation": "supported",
+      "treatment_status": null,
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+      "treatment_period": null,
+      "assessment_ref": null,
+      "specimen_ref": null,
+      "course_ref": null,
+      "occurrence_ref": null,
+      "concept_ref": {
+        "category": "therapies",
+        "node": "biopsy",
+        "axis": "terms",
+        "state": "biopsy"
+      },
+      "line_number": null,
+      "qualifiers": {
+        "validation_method": "deterministic_validation"
+      },
+      "fact_id": "fact-9e14964829540a2c"
+    }
+  ],
+  "cancer_contexts": [
+    {
+      "context_ref": "cancer:prostate_cancer",
+      "cancer_term": "Prostate Cancer",
+      "episode_key": null,
+      "diagnosis_date": null,
+      "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text"
+    }
+  ],
+  "future_treatment_mentions": [
+    {
+      "status": "under consideration",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "radiation therapy",
+        "endocrine therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "including consideration of radiotherapy combined with long-term androgen deprivation therapy",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_09",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:under consideration": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Consideration of radiotherapy combined with long-term androgen deprivation therapy” explicitly identifies a combination under consideration, not treatment received."
+        },
+        "modality_labels:radiation therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Radiotherapy” is radiation therapy and is named in the option under consideration."
+        },
+        "modality_labels:endocrine therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The quoted androgen deprivation therapy is a form of endocrine therapy."
+        },
+        "concepts:therapies/radiation therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Radiotherapy” directly identifies radiation therapy as a component of the considered combination."
+        },
+        "concepts:therapies/endocrine therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The quoted long-term androgen deprivation therapy is a form of endocrine therapy in the considered combination."
+        },
+        "relationship:combination": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        }
+      },
+      "proposed_labels": {
+        "status": "under consideration",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "radiation therapy",
+          "endocrine therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "radiation therapy",
+            "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "radiation_therapy",
+              "axis": "terms",
+              "state": "radiation_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "endocrine therapy",
+            "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "endocrine_therapy",
+              "axis": "terms",
+              "state": "endocrine_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "combination",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "radiation therapy",
+          "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "radiation_therapy",
+            "axis": "terms",
+            "state": "radiation_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "“Radiotherapy” directly identifies radiation therapy as a component of the considered combination.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "endocrine therapy",
+          "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "endocrine_therapy",
+            "axis": "terms",
+            "state": "endocrine_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "The quoted long-term androgen deprivation therapy is a form of endocrine therapy in the considered combination.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "combination",
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "possible option",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [
+        "radiation therapy",
+        "endocrine therapy",
+        "systemic therapy"
+      ],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "including consideration of radiotherapy combined with long-term androgen deprivation therapy and potential systemic treatment intensification.",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_09",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:possible option": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Potential systemic treatment intensification” makes the additional treatment a possible option alongside the radiotherapy–androgen deprivation combination, without establishing receipt."
+        },
+        "modality_labels:radiation therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The possible intensified option explicitly includes radiotherapy."
+        },
+        "modality_labels:endocrine therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The possible intensified option includes androgen deprivation therapy, a form of endocrine therapy."
+        },
+        "modality_labels:systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "concepts:therapies/radiation therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "“Radiotherapy” identifies radiation therapy within the quoted possible option."
+        },
+        "concepts:therapies/endocrine therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "The quoted androgen deprivation therapy supports the endocrine therapy concept within the possible option."
+        },
+        "concepts:therapies/systemic therapy": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "action": "deterministic_validation"
+        },
+        "relationship:combination": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The quoted proposal explicitly states this treatment relationship.",
+          "action": "deterministic_validation"
+        }
+      },
+      "proposed_labels": {
+        "status": "possible option",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "radiation therapy",
+          "endocrine therapy",
+          "systemic therapy"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "radiation therapy",
+            "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy and potential systemic\ntreatment intensification",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "radiation_therapy",
+              "axis": "terms",
+              "state": "radiation_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          },
+          {
+            "group": "therapies",
+            "term": "endocrine therapy",
+            "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy and potential systemic\ntreatment intensification",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "endocrine_therapy",
+              "axis": "terms",
+              "state": "endocrine_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          },
+          {
+            "group": "therapies",
+            "term": "systemic therapy",
+            "evidence": "potential systemic\ntreatment intensification",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "systemic_therapy",
+              "axis": "terms",
+              "state": "systemic_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "direct"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "combination",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "radiation therapy",
+          "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy and potential systemic\ntreatment intensification",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "radiation_therapy",
+            "axis": "terms",
+            "state": "radiation_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "“Radiotherapy” identifies radiation therapy within the quoted possible option.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "endocrine therapy",
+          "evidence": "consideration of radiotherapy combined\nwith long-term androgen deprivation therapy and potential systemic\ntreatment intensification",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "endocrine_therapy",
+            "axis": "terms",
+            "state": "endocrine_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "The quoted androgen deprivation therapy supports the endocrine therapy concept within the possible option.",
+          "derivation": null
+        },
+        {
+          "group": "therapies",
+          "term": "systemic therapy",
+          "evidence": "potential systemic\ntreatment intensification",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "systemic_therapy",
+            "axis": "terms",
+            "state": "systemic_therapy"
+          },
+          "validation": "supported",
+          "establishment": "direct",
+          "rationale": "Future option or qualifier stated explicitly or by a reviewed alias.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "combination",
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    },
+    {
+      "status": "planned",
+      "line_of_therapy": "unknown",
+      "line_number": null,
+      "modality_labels": [],
+      "drug_or_regimen_mentions": [],
+      "intent_labels": [],
+      "evidence": "we are referring him for multidisciplinary evaluation and initiation of definitive therapy",
+      "confidence": "certain",
+      "date": null,
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_09",
+      "fhir_path": "PlainTextDocument.text",
+      "cancer_context_ref": "cancer:prostate_cancer",
+      "validation": "supported",
+      "establishment": "derived",
+      "qualifier_verdicts": {
+        "status:planned": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "Referral for “initiation of definitive therapy” supports a plan to begin therapy, while the specific radiotherapy combination remains under consideration."
+        },
+        "concepts:therapies/cancer-directed therapy": {
+          "validation": "supported",
+          "establishment": "derived",
+          "reason": "In the context of documented locally advanced prostate cancer, “initiation of definitive therapy” refers to cancer-directed treatment without specifying a modality."
+        },
+        "relationship:single": {
+          "validation": "supported",
+          "establishment": "direct",
+          "reason": "The selected broad proposal contains one nonspecific therapy concept. “Single” describes that concept grouping, not a claim that definitive treatment must use only one modality."
+        }
+      },
+      "proposed_labels": {
+        "status": "planned",
+        "line_of_therapy": "unknown",
+        "modality_labels": [
+          "unknown"
+        ],
+        "drug_or_regimen_mentions": [],
+        "intent_labels": [
+          "unknown"
+        ],
+        "concepts": [
+          {
+            "group": "therapies",
+            "term": "cancer-directed therapy",
+            "evidence": "we are referring him for multidisciplinary evaluation and initiation\nof definitive therapy",
+            "concept_ref": {
+              "category": "therapies",
+              "node": "cancer_directed_therapy",
+              "axis": "terms",
+              "state": "cancer_directed_therapy"
+            },
+            "validation": "unresolved",
+            "establishment": "derived"
+          }
+        ],
+        "alternatives": [],
+        "relationship": "single",
+        "steps": []
+      },
+      "concepts": [
+        {
+          "group": "therapies",
+          "term": "cancer-directed therapy",
+          "evidence": "we are referring him for multidisciplinary evaluation and initiation\nof definitive therapy",
+          "concept_ref": {
+            "category": "therapies",
+            "node": "cancer_directed_therapy",
+            "axis": "terms",
+            "state": "cancer_directed_therapy"
+          },
+          "validation": "supported",
+          "establishment": "derived",
+          "rationale": "In the context of documented locally advanced prostate cancer, “initiation of definitive therapy” refers to cancer-directed treatment without specifying a modality.",
+          "derivation": null
+        }
+      ],
+      "alternatives": [],
+      "steps": [],
+      "relationship": "single",
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null,
+      "date_evidence": null
+    }
+  ],
+  "therapy_course_mentions": [],
+  "treatment_counts": [],
+  "sources": [
+    {
+      "resource_type": "PlainTextDocument",
+      "resource_id": "test_09",
+      "fhir_path": "PlainTextDocument.text",
+      "date": null,
+      "source_order": 0,
+      "encounter_refs": [],
+      "reason_refs": [],
+      "quote_positions": {
+        "72-year-old": [
+          10
+        ],
+        "This is a 72-year-old": [
+          0
+        ],
+        "male": [
+          22
+        ],
+        "This is a 72-year-old male": [
+          0
+        ],
+        "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)": [
+          808
+        ],
+        "Gleason score of 4+5=9 (Grade Group 5)": [
+          439
+        ],
+        "Multiparametric MRI of the prostate demonstrated a large tumor involving both lobes with extracapsular extension and seminal vesicle invasion. Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores": [
+          215
+        ],
+        "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores": [
+          358
+        ],
+        "Initial laboratory evaluation revealed a PSA level of 48 ng/mL.": [
+          151
+        ],
+        "The patient has not received any prior oncologic treatment.": [
+          737
+        ],
+        "Routine laboratory values, including renal function and testosterone levels, are within normal limits.": [
+          573
+        ],
+        "His ECOG performance status is 0.": [
+          117
+        ],
+        "PSMA PET-CT showed no evidence of distant metastatic disease or definitive nodal involvement.": [
+          479
+        ],
+        "including consideration of radiotherapy combined with long-term androgen deprivation therapy": [
+          960
+        ],
+        "consideration of radiotherapy combined with long-term androgen deprivation therapy": [
+          970
+        ],
+        "including consideration of radiotherapy combined with long-term androgen deprivation therapy and potential systemic treatment intensification.": [
+          960
+        ],
+        "consideration of radiotherapy combined with long-term androgen deprivation therapy and potential systemic treatment intensification": [
+          970
+        ],
+        "potential systemic treatment intensification": [
+          1057
+        ],
+        "we are referring him for multidisciplinary evaluation and initiation of definitive therapy": [
+          868
+        ]
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+      "documentation_date": null
+    }
+  ],
+  "cancer_related_unmatched_terms": [],
+  "warnings": [],
+  "errors": [],
+  "debug_artifacts": {
+    "run_config": {
+      "document_model_name": "gpt-6-sol",
+      "document_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_model_name": "gpt-6-luna",
+      "screen_cancer_text_model_reasoning_effort": "xhigh",
+      "screen_cancer_text_batch_max_items": 20,
+      "screen_cancer_text_batch_max_chars": 12000,
+      "structured_model_name": "gpt-6-sol",
+      "structured_model_reasoning_effort": "xhigh",
+      "allow_interpretation": true,
+      "enable_document_llm": true,
+      "enable_semantic_verification": true,
+      "enable_cancer_text_screening": true,
+      "enable_cancer_text_screening_regex": true,
+      "enable_cancer_text_screening_llm": true,
+      "enable_structured_llm": true,
+      "document_llm_workers": 4,
+      "document_batch_max_items": 1,
+      "document_batch_max_chars": 12000,
+      "document_max_chars": 0,
+      "document_chunk_chars": 12000,
+      "document_chunk_overlap_chars": 1000,
+      "llm_timeout_seconds": 240.0,
+      "llm_connect_timeout_seconds": 5.0,
+      "llm_max_retries": 2,
+      "enable_prompt_cache": true,
+      "prompt_cache_key_prefix": "oncoparser"
+    },
+    "structured_occurrences": [],
+    "structured_rule_matches": [],
+    "structured_runtime_matches": [],
+    "structured_no_rule": [],
+    "structured_runtime_skips": [],
+    "document_terms": [
+      {
+        "polarity": "positive",
+        "group": "age",
+        "term": "70 <= age < 80",
+        "evidence": "72-year-old",
+        "confidence": "certain",
+        "source_value": {
+          "type": "Quantity",
+          "value": 72.0,
+          "unit": {
+            "system": "http://unitsofmeasure.org",
+            "code": "a",
+            "display": "years"
+          },
+          "codings": [],
+          "reference_ranges": []
+        },
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "This is a 72-year-old"
+      },
+      {
+        "polarity": "positive",
+        "group": "gender",
+        "term": "male",
+        "evidence": "male",
+        "confidence": "certain",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "This is a 72-year-old male"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_m",
+        "term": "cM0",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_n",
+        "term": "cN0",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "ajcc_t",
+        "term": "cT3b",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "broad_disease_stage",
+        "term": "advanced stage",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "cancers",
+        "term": "Prostate Cancer",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "gleason",
+        "term": "total Gleason score >=8",
+        "evidence": "Gleason score of 4+5=9 (Grade Group 5)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Gleason score of 4+5=9 (Grade Group 5)"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologic_invasiveness",
+        "term": "invasive",
+        "evidence": "Multiparametric MRI of the prostate demonstrated a large tumor involving both lobes with extracapsular extension and seminal vesicle invasion. Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Multiparametric MRI of the prostate demonstrated a large tumor involving\nboth lobes with extracapsular extension and seminal vesicle invasion.\nTransrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores"
+      },
+      {
+        "polarity": "positive",
+        "group": "histologies",
+        "term": "adenocarcinoma",
+        "evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores"
+      },
+      {
+        "polarity": "positive",
+        "group": "lab_values",
+        "term": "PSA value reported",
+        "evidence": "Initial laboratory evaluation revealed a PSA level of 48 ng/mL.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "source_value": {
+          "value": 48.0,
+          "unit": {
+            "code": "ng/mL",
+            "display": "ng/mL"
+          }
+        },
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Initial laboratory evaluation revealed a PSA level of 48 ng/mL."
+      },
+      {
+        "polarity": "positive",
+        "group": "lines_of_therapy",
+        "term": "untreated",
+        "evidence": "The patient has not received any prior oncologic treatment.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "The patient has not received any prior oncologic\ntreatment."
+      },
+      {
+        "polarity": "positive",
+        "group": "organ_function",
+        "term": "adequate renal function",
+        "evidence": "Routine laboratory values, including renal function and testosterone levels, are within normal limits.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Routine laboratory values, including renal function and testosterone\nlevels, are within normal limits."
+      },
+      {
+        "polarity": "positive",
+        "group": "performance",
+        "term": "ECOG 0",
+        "evidence": "His ECOG performance status is 0.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "His ECOG performance status is 0."
+      },
+      {
+        "polarity": "positive",
+        "group": "recurrence_risk",
+        "term": "high risk of recurrence",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "no distant metastases",
+        "evidence": "PSMA PET-CT showed no evidence of distant metastatic disease or definitive nodal involvement.",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "PSMA PET-CT showed no\nevidence of distant metastatic disease or definitive nodal involvement."
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "regional lymph node(s) negative",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "derived",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "solid_tumor_extent",
+        "term": "locally advanced",
+        "evidence": "high-risk, locally advanced prostate cancer (cT3b cN0 cM0)",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "high-risk, locally advanced prostate cancer (cT3b cN0\ncM0)"
+      },
+      {
+        "polarity": "positive",
+        "group": "therapies",
+        "term": "biopsy",
+        "evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores",
+        "confidence": "certain",
+        "cancer_context_ref": "cancer:prostate_cancer",
+        "establishment": "direct",
+        "validation": "supported",
+        "source_ref": "PlainTextDocument/test_09:PlainTextDocument.text",
+        "date_evidence": "Transrectal biopsy confirmed adenocarcinoma involving 10 out of 12 cores"
+      }
+    ],
+    "text_screen": [
+      {
+        "resource_type": "PlainTextDocument",
+        "resource_id": "test_09",
+        "fhir_path": "PlainTextDocument.text",
+        "date": null,
+        "chunk_index": 1,
+        "chunk_count": 1,
+        "passed": true,
+        "passed_by": [
+          "regex"
+        ],
+        "results": [
+          {
+            "gate": "regex",
+            "passed": true,
+            "confidence": "certain",
+            "evidence": "tumor",
+            "reason": "cancer diagnosis trigger",
+            "matches": [
+              {
+                "id": "cancer_terms",
+                "pattern": "\\b(cancer|carcinoma|adenocarcinoma|sarcoma|melanoma|lymphoma|leukemia|neoplasm|malignan(?:t|cy)|tumou?r)\\b",
+                "evidence": "tumor",
+                "start": 272,
+                "end": 277,
+                "reason": "cancer diagnosis trigger"
+              },
+              {
+                "id": "mass_lesion_nodule",
+                "pattern": "\\b(mass|lesion|nodule|tumou?r)\\b",
+                "evidence": "tumor",
+                "start": 272,
+                "end": 277,
+                "reason": "possible tumor finding trigger"
+              },
+              {
+                "id": "metastasis_progression_recurrence",
+                "pattern": "\\b(metast(?:asis|ases|atic)|progression|progressive disease|recurrence|recurrent disease|relapse|residual disease)\\b",
+                "evidence": "metastatic",
+                "start": 521,
+                "end": 531,
+                "reason": "disease status trigger"
+              },
+              {
+                "id": "biopsy_pathology",
+                "pattern": "\\b(biopsy|pathology|histology|histologic|histopathology|cytology|specimen|margin|R0|R1|R2|positive margin|negative margin)\\b",
+                "evidence": "biopsy",
+                "start": 370,
+                "end": 376,
+                "reason": "pathology trigger"
+              },
+              {
+                "id": "radiation",
+                "pattern": "\\b(radiation|radiotherapy|irradiation|IMRT|SBRT|brachytherapy|proton therapy)\\b",
+                "evidence": "radiotherapy",
+                "start": 987,
+                "end": 999,
+                "reason": "radiation therapy trigger"
+              },
+              {
+                "id": "biomarkers_genes",
+                "pattern": "\\b(HRD|HRP|dMMR|pMMR|MSS|FGFR[123]|FLT3|H3|PDGFRA|PDGFRB|KIT|NPM1|ESR1|PIK3CA|AKT1|PTEN|IDH[12]|EZH2|CLDN18(?:\\.2)?|FOLR1|HLA[- ]?A|NRG1|PML[- ]?RARA|rearrangement|overexpression|ultralow|PD-?L1|HER2|ERBB2|EGFR|ALK|BRAF|KRAS|NRAS|ROS1|RET|NTRK|MET|BRCA1?|BRCA2|MSI|MMR|TMB|AFP|PSA|CEA|CA[- ]?125|CA[- ]?19[- ]?9|mutation|amplification|fusion|expression|positive|negative|detected|not detected)\\b",
+                "evidence": "PSA",
+                "start": 192,
+                "end": 195,
+                "reason": "biomarker trigger"
+              },
+              {
+                "id": "performance_status",
+                "pattern": "\\b(ECOG|Karnofsky|performance status|KPS)\\b",
+                "evidence": "ECOG",
+                "start": 121,
+                "end": 125,
+                "reason": "performance status trigger"
+              },
+              {
+                "id": "care_intent",
+                "pattern": "\\b(hospice|palliative|curative|definitive|terminal care|candidate for|planned|plan to|considering|under consideration|intended|prior therapy|previously treated|history of treatment)\\b",
+                "evidence": "definitive",
+                "start": 543,
+                "end": 553,
+                "reason": "intent or care planning trigger"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "llm_usage": {
+    "total": {
+      "calls": 3,
+      "input_tokens": 75038,
+      "cached_input_tokens": 55648,
+      "uncached_input_tokens": 19390,
+      "output_tokens": 13926,
+      "total_tokens": 88964,
+      "time_elapsed": 134.6,
+      "estimated_cost_usd": 0.1986971,
+      "cost_estimate_available": true,
+      "clock_time_elapsed": 135.0
+    }
+  },
+  "allow_interpretation": true
+}

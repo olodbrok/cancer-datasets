@@ -1,0 +1,58 @@
+patient_id:	test_11
+bundle_path:	/home/ec2-user/Data/test/test_11.txt
+input_type:	plain_text
+run_time:	2026-10-13T04:54:02Z
+matched_terms:
+date	cancer	status	category	term	value	source_key
+unknown	unknown	fact	age	50 <= age < 60		
+unknown	unknown	fact	gender	female		
+2023	Colon Cancer	fact	ajcc_m	cM0		
+unknown	Colon Cancer	fact	ajcc_m	pM1		
+2023	Colon Cancer	fact	ajcc_n	pN2a		
+2023	Colon Cancer	fact	ajcc_t	pT3		
+2021	Breast Cancer	fact	biomarkers	HR positive		
+2021	Breast Cancer	fact	biomarkers	HER2 status negative		
+2021	Breast Cancer	fact	broad_disease_stage	early stage		
+unknown	Colon Cancer	fact	broad_disease_stage	advanced stage		
+2021	Breast Cancer	fact	cancers	Breast Cancer		
+2023	Colon Cancer	fact	cancers	Colon Cancer		
+2023	Colon Cancer	fact	clinical_conditions	anemia		
+2021	Breast Cancer	fact	disease_status	newly diagnosed disease		
+2023	Colon Cancer	fact	disease_status	newly diagnosed disease		
+unknown	Colon Cancer	fact	disease_status	recurrent disease		
+2021	Breast Cancer	fact	histologic_invasiveness	invasive		
+2023	Colon Cancer	fact	histologic_invasiveness	invasive		
+2021	Breast Cancer	fact	histologies	carcinoma		
+2023	Colon Cancer	fact	histologies	adenocarcinoma		
+unknown	Colon Cancer	fact	histologies	adenocarcinoma		
+unknown	Breast Cancer	fact	lines_of_therapy	first line		
+unknown	Colon Cancer	fact	lines_of_therapy	first line		
+unknown	Colon Cancer	fact	lines_of_therapy	second line		
+unknown	Colon Cancer	fact	metastatic_sites	liver metastases		
+unknown	Colon Cancer	fact	metastatic_sites	lung metastases		
+unknown	Colon Cancer	fact	performance	ECOG 1	1.0	
+unknown	Breast Cancer	fact	residual_disease	no residual disease		
+2023	Colon Cancer	fact	solid_tumor_extent	localized		
+2023	Colon Cancer	fact	solid_tumor_extent	no distant metastases		
+2023	Colon Cancer	fact	solid_tumor_extent	regional lymph node(s) positive		
+unknown	Colon Cancer	fact	solid_tumor_extent	distant metastases		
+2021	Breast Cancer	fact	stages	Stage IIA		
+2023	Colon Cancer	fact	stages	Stage IIIB		
+unknown	Colon Cancer	fact	stages	Stage IV		
+unknown	Colon Cancer	fact	therapeutic_response	progressive disease		
+unknown	Breast Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Colon Cancer	fact	treatment_setting	adjuvant setting		
+unknown	Breast Cancer	fact	drugs	docetaxel		
+unknown	Breast Cancer	fact	drugs	cyclophosphamide		
+unknown	Colon Cancer	fact	drugs	bevacizumab		
+unknown	Colon Cancer	fact	regimens	FOLFOX		
+unknown	Colon Cancer	fact	regimens	FOLFIRI		
+unknown	Breast Cancer	fact	therapies	cancer surgery		
+unknown	Breast Cancer	fact	therapies	biopsy		
+unknown	Breast Cancer	fact	therapies	systemic therapy		
+unknown	Breast Cancer	fact	therapies	endocrine therapy		
+2023	Colon Cancer	fact	therapies	biopsy		
+2023	Colon Cancer	fact	therapies	cancer surgery		
+unknown	Colon Cancer	fact	therapies	chemotherapy		
+unknown	Colon Cancer	fact	therapies	biopsy		
+unknown	Colon Cancer	fact	therapies	systemic therapy		
